@@ -1,0 +1,29 @@
+{%- extends "base.html" %}
+
+{%- block extrahead %}
+{%- include 'blocks/extrahead.html' %}
+{%- endblock %}
+
+{%- block tabs %}
+{%- include 'blocks/tabs.html' %}
+{%- endblock %}
+
+{%- block content %}
+{%- include 'blocks/content_pre.html' %}
+{{ super() }}
+{%- include 'blocks/content_post.html' %}
+<div id="__content" style="display: none;" section="{{ page.meta.section | default("modern") }}"></div>
+{%- endblock %}
+
+{%- block footer %}
+{{ super() }}
+{#- loading scripts from this section helps when navigation.instant is used -#}
+{%- include 'blocks/micromodal.html' %}
+{%- include 'blocks/scripts.html' %}
+{%- endblock %}
+
+{%- block scripts %}
+{{ super() }}
+<script type="module" src="{{ 'assets/javascripts/micromodal.min.js' | url }}"></script>
+{%- include 'blocks/micromodal.html' %}
+{% endblock %}

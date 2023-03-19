@@ -1,0 +1,141 @@
+INHERIT: data/data.yml
+
+site_name: GNT4 Online
+site_url: https://gnt4.online
+site_author: nicholasmoser
+site_description: GNT4 Mods
+
+copyright: Maintained by nicholasmoser
+
+repo_name: gnt4mods
+repo_url: https://github.com/nicholasmoser/gnt4mods
+edit_uri: edit/main/docs/
+
+extra:
+  micromodal:
+    awaitCloseAnimation: 'true'
+    disableScroll: 'true'
+  proxy:
+    proto: https
+    host: cors-proxy.nicholasmoser.workers.dev
+    path: '/?'
+    # not secure, this gets added to the page source code
+    auth_header: !ENV [AUTH_HEADER, '']
+    auth_token: !ENV [AUTH_TOKEN, '']
+  site_domain: gnt4.online
+  social:
+    - name: Discord
+      link: https://discord.gg/ssb64
+      icon: fontawesome/brands/discord
+    - name: Facebook Group
+      link: https://www.facebook.com/groups/Smash64Community
+      icon: fontawesome/brands/facebook
+    - name: GitHub
+      link: https://github.com/smash64-dev
+      icon: fontawesome/brands/github
+    - name: Twitch
+      link: https://www.twitch.tv/ssb64
+      icon: fontawesome/brands/twitch
+    - name: YouTube
+      link: https://www.youtube.com/channel/UCSjJPpw8N-lQQ1auTg4G1yw
+      icon: fontawesome/brands/youtube
+
+extra_css:
+  - assets/stylesheets/theme.css
+  - assets/stylesheets/svg.css
+  - assets/stylesheets/extra.css
+  - assets/stylesheets/modal.css
+  - assets/stylesheets/patcher.css
+
+extra_javascript:
+  - assets/javascripts/extra.js
+  - assets/javascripts/micromodal.min.js
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - footnotes
+  - md_in_html
+  - meta
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
+  - pymdownx.extra
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - awesome-pages
+  - git-revision-date-localized:
+      exclude:
+        - index.md
+  - macros:
+      on_error_fail: true
+      module_name: macros
+  - minify:
+      # minify_html currently breaks kaillera generation
+      minify_html: false
+      minify_css: true
+      css_files:
+        - assets/stylesheets/extra.css
+        - assets/stylesheets/modal.css
+        - assets/stylesheets/patcher.css
+        - assets/stylesheets/theme.css
+      minify_js: true
+      js_files:
+        - assets/javascripts/extra.js
+  - redirects:
+      redirect_maps:
+        getting-started: 'getting-started/download.md'
+        controllers: 'controllers/original.md'
+        emulators: 'emulators/project64kse/index.md'
+        plugins: 'plugins/graphics.md'
+        netplay: 'netplay/kaillera/index.md'
+        extras: 'extras/patching.md'
+
+theme:
+  name: material
+  locale: en
+  custom_dir: overrides
+
+  features:
+    - navigation.indexes
+    #- navigation.instant # too much of a hassle atm
+    - navigation.tabs
+    - navigation.top
+
+  static_templates:
+    - 404.html
+    - sitemap.xml
+
+  favicon: assets/images/logo.svg
+  icon:
+    repo: fontawesome/brands/github
+  logo: assets/images/logo.svg
+
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
