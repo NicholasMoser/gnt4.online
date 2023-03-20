@@ -12,8 +12,8 @@ patcher_errors:
 patches:
   1.6.0-beta9:
     name: SCON4 1.6.0-beta9
-    file: https://github.com/NicholasMoser/gnt4mods/releases/download/1.1/patch.zip
-    site: https://github.com/NicholasMoser/gnt4mods/releases/tag/1.1
+    file: https://github.com/NicholasMoser/gnt4mods/releases/download/1.6.0-beta9/patch.zip
+    site: https://github.com/NicholasMoser/gnt4mods/releases/tag/1.6.0-beta9
     size: 0x57058000
     patches:
       - name: 'SCON4 1.6.0-beta9'
