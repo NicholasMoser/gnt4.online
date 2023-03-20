@@ -10,6 +10,15 @@ latest: v1.3.1
 patcher_errors:
   mismatch: Mismatch. Use the vanilla ROM.
 patches:
+  v1.5.0:
+    name: SCON4 Test
+    file: https://github.com/NicholasMoser/gnt4mods/releases/download/1.0/patch.zip
+    site: https://github.com/NicholasMoser/gnt4mods/releases/tag/1.0
+    size: 0x57057FF0
+    patches:
+      - name: 'SCON4 Test'
+        file: patch.xdelta
+        crc: 0x55ee8b1a
   v1.3.1:
     name: Smash Remix 1.3.1
     file: https://github.com/JSsixtyfour/smashremix/releases/download/1.3.1/smashremix1.3.1.zip
