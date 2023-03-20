@@ -199,7 +199,7 @@ function updateChecksums(file, startOffset, force) {
 
   var selectedPatch = Elements.File.Patch.selectedIndex;
   var expectedSize = Elements.File.Patch.options[selectedPatch].getAttribute("data-rom-size") || file.fileSize;
-  var expectedFormat = Elements.File.Patch.options[selectedPatch].getAttribute("data-rom-format") || 'z64';
+  var expectedFormat = Elements.File.Patch.options[selectedPatch].getAttribute("data-rom-format") || 'iso';
 
   // check the expected file size
   if (file === romFile && file.fileSize != expectedSize && !force) {

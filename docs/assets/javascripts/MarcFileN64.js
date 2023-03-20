@@ -66,9 +66,8 @@ MarcFile.prototype.romFormat = function () {
   this.offset = last_offset;
 
   var format = ({
-    '80371240': 'z64',
-    '37804012': 'v64',
-    '40123780': 'n64',
+    '47344E4A': 'iso',
+    '4349534F': 'ciso',
   })[magic] ?? 'unknown';
 
   if (!this.originalFormat)
