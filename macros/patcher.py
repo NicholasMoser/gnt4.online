@@ -13,7 +13,7 @@ class Patcher:
         self.meta_class = 'rom-info-meta'
 
     def body(self):
-        accepted = '.n64,.v64,.z64,.zip'
+        accepted = '.iso,.ciso,.zip'
         return (
             f'<div class="{self.app_class}" markdown="1">\n'
             '|   |   |\n'

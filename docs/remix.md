@@ -6,7 +6,7 @@ hide:
   - prev
   - search
   - tabs
-latest: v1.3.1
+latest: v1.5.0
 patcher_errors:
   mismatch: Mismatch. Use the vanilla ROM.
 patches:
