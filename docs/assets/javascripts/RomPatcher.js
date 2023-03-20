@@ -327,6 +327,7 @@ function applyPatch(p, r, validateChecksums) {
         p.apply(r, validateChecksums);
         preparePatchedRom(r, p.apply(r, validateChecksums), headerSize);
       } catch (e) {
+        console.log(e.stack);
         setMessage('status', 'ROM patching failed', 'error');
       }
     }

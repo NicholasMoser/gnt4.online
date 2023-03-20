@@ -66,8 +66,8 @@ MarcFile.prototype.romFormat = function () {
   this.offset = last_offset;
 
   var format = ({
-    '47344E4A': 'iso',
-    '4349534F': 'ciso',
+    '47344e4a': 'iso',
+    '4349534f': 'ciso',
   })[magic] ?? 'unknown';
 
   if (!this.originalFormat)

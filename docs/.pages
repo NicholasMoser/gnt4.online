@@ -3,8 +3,7 @@ nav:
   - Smash64 Online:
     - index.md
     - ROM Patches:
-      - Smash Remix: remix.md
-      - 19XX: 19XX.md
+      - Super Clash of Ninja 4: scon4.md
     - Kaillera Tools:
       - Server Status: server-status.md
       - P2P Checker: p2p-check.md
