@@ -17,7 +17,7 @@ extra:
     disableScroll: 'true'
   proxy:
     proto: https
-    host: cors-proxy.nicholasmoser.workers.dev
+    host: cors-proxy.smash64.workers.dev
     path: '/?'
     # not secure, this gets added to the page source code
     auth_header: !ENV [AUTH_HEADER, '']
