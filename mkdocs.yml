@@ -1,14 +1,14 @@
 INHERIT: data/data.yml
 
-site_name: GNT4 Online
+site_name: GNT4 Mods
 site_url: https://gnt4.online
-site_author: nicholasmoser
+site_author: Nicholas Moser
 site_description: GNT4 Mods
 
-copyright: Maintained by nicholasmoser
+copyright: Maintained by Nicholas Moser
 
-repo_name: gnt4mods
-repo_url: https://github.com/nicholasmoser/gnt4mods
+repo_name: gnt4.online
+repo_url: https://github.com/nicholasmoser/gnt4.online
 edit_uri: edit/main/docs/
 
 extra:
@@ -25,19 +25,16 @@ extra:
   site_domain: gnt4.online
   social:
     - name: Discord
-      link: https://discord.gg/ssb64
+      link: https://discord.com/invite/supercon4
       icon: fontawesome/brands/discord
-    - name: Facebook Group
-      link: https://www.facebook.com/groups/Smash64Community
-      icon: fontawesome/brands/facebook
     - name: GitHub
-      link: https://github.com/smash64-dev
+      link: https://github.com/NicholasMoser/Naruto-GNT-Modding
       icon: fontawesome/brands/github
     - name: Twitch
-      link: https://www.twitch.tv/ssb64
+      link: https://www.twitch.tv/supercon4
       icon: fontawesome/brands/twitch
     - name: YouTube
-      link: https://www.youtube.com/channel/UCSjJPpw8N-lQQ1auTg4G1yw
+      link: https://www.youtube.com/@narutosuperclashofninja4
       icon: fontawesome/brands/youtube
 
 extra_css:
