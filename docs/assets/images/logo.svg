@@ -7,71 +7,135 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   inkscape:export-ydpi="152.46001"
-   inkscape:export-xdpi="152.46001"
-   inkscape:export-filename="/home/cennis91/Pictures/smash64-warning.png"
-   inkscape:version="1.0beta2 (unknown)"
-   sodipodi:docname="smash64-warning.svg"
-   id="svg8"
+   id="rinnegan"
+   width="300"
+   height="300"
    version="1.1"
-   viewBox="0 0 48.980572 48.984493"
-   height="48.984493mm"
-   width="48.980572mm">
-  <defs
-     id="defs2" />
-  <sodipodi:namedview
-     inkscape:window-maximized="1"
-     inkscape:window-y="27"
-     inkscape:window-x="0"
-     inkscape:window-height="983"
-     inkscape:window-width="1920"
-     inkscape:snap-text-baseline="false"
-     showgrid="false"
-     inkscape:document-rotation="0"
-     inkscape:current-layer="layer1"
-     inkscape:document-units="mm"
-     inkscape:cy="141.3431"
-     inkscape:cx="77.417516"
-     inkscape:zoom="0.98994949"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     borderopacity="1.0"
-     bordercolor="#666666"
-     pagecolor="#ffffff"
-     id="base" />
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="Rinnegan.svg">
   <metadata
-     id="metadata5">
+     id="metadata14">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <g
-     transform="translate(-0.01627339,0.00903947)"
-     id="layer1"
-     inkscape:groupmode="layer"
-     inkscape:label="Layer 1">
-    <path
-       inkscape:connector-curvature="0"
-       id="path14"
-       d="M 22.617027,46.837154 C 17.492756,46.443784 12.742053,44.266104 8.9017,40.550169 5.5846076,37.340546 3.4682105,33.467248 2.4634539,28.767303 2.0244169,26.713625 2.0319944,22.147373 2.4778831,20.072157 5.6375443,5.3667561 21.535139,-2.2590389 34.81725,4.559532 c 5.180553,2.6595151 9.205657,7.417549 11.049592,13.061607 1.253273,3.836102 1.392752,8.498897 0.372441,12.450437 -2.733444,10.58628 -12.628959,17.609488 -23.622256,16.765578 z"
-       style="fill:#f7ad00;fill-opacity:1;stroke:#f60000;stroke-width:4.1403;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
-    <g
-       style="font-style:normal;font-weight:normal;font-size:36px;line-height:1;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;baseline-shift:baseline;white-space:pre;shape-inside:url(#rect841);fill:#000000;fill-opacity:1;stroke:none"
-       id="text839"
-       transform="matrix(1,0,0,1.0945315,-10.497348,-10.959733)"
-       aria-label="!">
-      <path
-         sodipodi:nodetypes="ccccccccccccccccc"
-         inkscape:connector-curvature="0"
-         id="path845"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';baseline-shift:baseline"
-         d="m 32.369011,19.259766 5.798958,-0.70051 v 3.887186 l -0.529167,6.885589 -0.896485,7.347656 h -4.005989 l -0.896484,-7.347656 v -7.967062 z m 0,20.469792 1.148972,-0.330848 h 4.120819 l 0.529167,1.232978 v 4.872218 h -6.328125 v -5.087712 z" />
-    </g>
-  </g>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="657"
+     id="namedview12"
+     showgrid="false"
+     inkscape:zoom="2.2076464"
+     inkscape:cx="242.59351"
+     inkscape:cy="154.42369"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="rinnegan" />
+  <defs
+     id="defs3213">
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       r="0.69999999"
+       cy="0.80000001"
+       fy="1"
+       id="gr"
+       cx="0.5"
+       fx="0.5"
+       gradientTransform="matrix(1.0192207,0,0,1.0192207,-62.432286,3.5298889)">
+      <stop
+         style="stop-color:#98a6a9;stop-opacity:1;"
+         offset="0"
+         id="st1" />
+      <stop
+         style="stop-color:#8b7496;stop-opacity:1;"
+         offset="1"
+         id="st2" />
+    </radialGradient>
+    <radialGradient
+       fx="150"
+       cx="150"
+       gradientUnits="userSpaceOnUse"
+       r="210"
+       cy="240"
+       fy="300"
+       id="gr-4"
+       gradientTransform="matrix(1.0344828,0,0,1.0344828,-5.1724077,-5.1724114)">
+      <stop
+         style="stop-color:#98a6a9;stop-opacity:1;"
+         offset="0"
+         id="st1-4" />
+      <stop
+         style="stop-color:#8b7496;stop-opacity:1;"
+         offset="1"
+         id="st2-7" />
+    </radialGradient>
+  </defs>
+  <circle
+     style="fill:url(#gr-4);stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
+     cx="150"
+     cy="150"
+     r="150"
+     id="iris-9" />
+  <circle
+     style="fill:url(#gr);stroke:#000000;stroke-width:10.19220638"
+     cx="90.450821"
+     cy="156.41299"
+     id="iris"
+     r="0" />
+  <circle
+     style="fill:none;stroke:#000000;stroke-width:4.73349857"
+     cx="151.15869"
+     cy="148.84169"
+     id="circle1"
+     r="23.667494" />
+  <circle
+     style="fill:none;stroke:#000000;stroke-width:4.73349905"
+     cx="151.15869"
+     cy="148.84169"
+     id="circle2"
+     r="44.376549" />
+  <circle
+     style="fill:none;stroke:#000000;stroke-width:4.73349857"
+     cx="151.15869"
+     cy="148.84169"
+     id="circle3"
+     r="65.085602" />
+  <circle
+     style="fill:#000000"
+     cx="151.15869"
+     cy="148.84169"
+     id="center"
+     r="5.3251858" />
+  <circle
+     style="fill:none;stroke:#000000;stroke-width:4.73428011;stroke-miterlimit:4;stroke-dasharray:none"
+     cx="149.70557"
+     cy="150.2948"
+     id="circle3-0"
+     r="105.05045" />
+  <circle
+     style="fill:none;stroke:#000000;stroke-width:4.73383665;stroke-miterlimit:4;stroke-dasharray:none"
+     cx="150.43219"
+     cy="149.56818"
+     id="circle3-9"
+     r="85.068031" />
+  <circle
+     style="fill:none;stroke:#000000;stroke-width:4.73428011;stroke-miterlimit:4;stroke-dasharray:none"
+     cx="150.00887"
+     cy="149.99113"
+     id="circle3-0-9"
+     r="126.06354" />
 </svg>

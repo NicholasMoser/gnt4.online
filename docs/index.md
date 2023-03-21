@@ -152,6 +152,17 @@ This is an issue with N-Rage on newer version of Windows. See the [Xbox Setup In
 
 If you are still having problems with netplay, ask in `#help` in the [Smash 64 Discord](https://discord.gg/ssb64).
 
+## Licenses
+
+- [Original smash64-online](https://github.com/smash64-dev/smash64-online) website code licensed
+under the [MIT License](https://opensource.org/license/mit/).
+- [Rinnegan SVG Icon](https://commons.wikimedia.org/wiki/File:Rinnegan.svg) licensed under the
+[Creative Commons](https://en.wikipedia.org/wiki/Creative_Commons) Attribution-Share Alike
+[3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en),
+[2.5 Generic](https://creativecommons.org/licenses/by-sa/2.5/deed.en),
+[2.0 Generic](https://creativecommons.org/licenses/by-sa/2.0/deed.en) and
+[1.0 Generic](https://creativecommons.org/licenses/by-sa/1.0/deed.en) license.
+
 ## Additional Guides
 
 - [Radiant Netplay Guide](https://docs.google.com/document/d/1jUqmsLqonkoCR_z7VBxyj6uCtpTnU6bL6oVfGEpKyZ8/view)
