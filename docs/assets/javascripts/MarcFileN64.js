@@ -38,13 +38,20 @@ MarcFile.prototype.readHexString = function (len) {
 MarcFile.prototype.romFormat = function () {
   const last_offset = this.offset;
   this.offset = 0;
-  const magic = this.readHexString(4);
+  var magic1 = this.readHexString(4);
+  if (magic1 == '4349534f') {
+    var format = 'ciso';
+  } else {
+    this.offset = 0x200;
+    var magic2 = this.readHexString(4);
+    if (magic2 == '4e4b4954') {
+      var format = 'nkit';
+    } else {
+      var format = 'iso'; // likely an ISO
+    }
+  }
   this.offset = last_offset;
-
-  var format = ({
-    '47344e4a': 'iso',
-    '4349534f': 'ciso',
-  })[magic] ?? 'unknown';
+  console.log(format);
 
   if (!this.originalFormat)
     this.originalFormat = format;

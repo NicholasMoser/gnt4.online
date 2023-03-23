@@ -181,20 +181,6 @@ function updateChecksums(file, startOffset, force) {
   var expectedSize = Elements.File.Patch.options[selectedPatch].getAttribute("data-rom-size") || file.fileSize;
   var expectedFormat = Elements.File.Patch.options[selectedPatch].getAttribute("data-rom-format") || 'iso';
 
-  // check the expected file size
-  if (file === romFile && file.fileSize != expectedSize && !force) {
-    [Elements.Info, Elements.Message].forEach((group) => setElementGroup(group, '', [], false));
-    var forceCheckAction = setSpecialAction(
-      `Wrong file size. Force check file`,
-      `Click to force check the ROM file`,
-      `updateChecksums(romFile, ${startOffset} ,true);`
-    );
-    setMessage(Elements.Info.Header.Format.id, forceCheckAction, 'invalid');
-    Elements.Info.Header.Format.setAttribute('data-value', 'invalid');
-    setMessage('status');
-    return;
-  }
-
   // check the detected rom format
   var romFormat = file.originalRomFormat();
   Elements.Info.Header.Format.innerHTML = romFormat;
