@@ -13,7 +13,6 @@ self.onmessage = event => { // listen for messages from the main thread
 	self.postMessage(
 		{
 			crc32:crc32(sourceFile, event.data.startOffset),
-			md5:md5(sourceFile, event.data.startOffset),
 			u8array:event.data.u8array
 		},
 		[

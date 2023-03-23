@@ -19,30 +19,6 @@ MarcFile.prototype.convertFormat = function (toFormat) {
   return this.romFormat === toFormat;
 }
 
-MarcFile.prototype.crc1 = function () {
-  const last_offset = this.offset;
-  this.offset = 0x10;
-  const crc1 = this.readHexString(4);
-  this.offset = last_offset;
-  return crc1;
-}
-
-MarcFile.prototype.crc2 = function () {
-  const last_offset = this.offset;
-  this.offset = 0x14;
-  const crc1 = this.readHexString(4);
-  this.offset = last_offset;
-  return crc1;
-}
-
-MarcFile.prototype.internalName = function () {
-  const last_offset = this.offset;
-  this.offset = 0x20;
-  const crc1 = this.readString(20);
-  this.offset = last_offset;
-  return crc1;
-}
-
 MarcFile.prototype.originalRomFormat = function () {
   if (this.originalFormat)
     return this.originalFormat

@@ -15,26 +15,6 @@ function el(e) { return document.getElementById(e); }
 function _(str) { return str; } // disable localization for now
 
 
-// misc functions
-function _sha1sum_promise(hash) {
-  var bytes = new Uint8Array(hash);
-  var hexString = '';
-  for (var i = 0; i < bytes.length; i++) {
-    hexString += padZeroes(bytes[i], 1);
-  }
-  Elements.Info.Checksum.SHA1.setAttribute('data-value', hexString);
-  validateSource();
-}
-
-function sha1sum(marcFile) {
-  window.crypto.subtle.digest('SHA-1', marcFile._u8array.buffer)
-    .then(_sha1sum_promise)
-    .catch(function (error) {
-      Elements.Info.Checksum.SHA1.setAttribute('data-value', `Error: ${error}`);
-    });
-}
-
-
 // patch functions
 function fetchPatch(customPatchIndex, compressedFileIndex) {
   var customPatch = CUSTOM_PATCHER[customPatchIndex];
@@ -238,39 +218,17 @@ function updateChecksums(file, startOffset, force) {
     Elements.Info.Header.Format.setAttribute('data-value', 'valid');
   }
 
-  if (romFormat !== 'unknown') {
-    file.convertFormat(expectedFormat);
-    Elements.Info.Header.CRCs.innerHTML = `0x${file.crc1()}, 0x${file.crc2()}`;
-    setMessageCopyable(Elements.Info.Header.CRCs.id, true);
-  } else {
-    Elements.Info.Header.CRCs.innerHTML = 'unknown';
-  }
-
   setElementGroup(Elements.Info.Checksum, 'Calculating...', []);
   setElementGroup(Elements.Message.Checksum, '', []);
 
   if (CAN_USE_WEB_WORKERS) {
     webWorkerCrc.postMessage({ u8array: file._u8array, startOffset: startOffset }, [file._u8array.buffer]);
 
-    if (window.crypto && window.crypto.subtle && window.crypto.subtle.digest) {
-      Elements.Info.Checksum.SHA1.innerHTML = 'Calculating...';
-    } else {
-      Elements.Info.Checksum.SHA1.innerHTML = 'Not supported by browser';
-      Elements.Info.Checksum.SHA1.setAttribute('data-value', Elements.Info.Checksum.SHA1.innerHTML);
-    }
   } else {
     window.setTimeout(function () {
       Elements.Info.Checksum.CRC32.setAttribute('data-value', padZeroes(crc32(file, startOffset), 4));
-      Elements.Info.Checksum.MD5.setAttribute('data-value', padZeroes(md5(file, startOffset), 16));
       validateSource();
     }, 30);
-
-    if (window.crypto && window.crypto.subtle && window.crypto.subtle.digest) {
-      sha1sum(file);
-    } else {
-      Elements.Info.Checksum.SHA1.innerHTML = 'Not supported by browser';
-      Elements.Info.Checksum.SHA1.setAttribute('data-value', Elements.Info.Checksum.SHA1.innerHTML);
-    }
   }
 }
 
@@ -550,24 +508,18 @@ function getModalElements(root) {
     },
     Info: {
       Header: {
-        CRCs: root.querySelector('#crcs'),
         Format: root.querySelector('#format'),
       },
       Checksum: {
         CRC32: root.querySelector('#crc32'),
-        MD5: root.querySelector('#md5'),
-        SHA1: root.querySelector('#sha1'),
       }
     },
     Message: {
       Header: {
-        CRCs: root.querySelector('#message-crcs'),
         Format: root.querySelector('#message-format'),
       },
       Checksum: {
         CRC32: root.querySelector('#message-crc32'),
-        MD5: root.querySelector('#message-md5'),
-        SHA1: root.querySelector('#message-sha1'),
       }
     },
     Zip: {
@@ -627,14 +579,9 @@ function loadWorkers(basePath) {
 
     webWorkerCrc.onmessage = event => {
       Elements.Info.Checksum.CRC32.setAttribute('data-value', padZeroes(event.data.crc32, 4));
-      Elements.Info.Checksum.MD5.setAttribute('data-value', padZeroes(event.data.md5, 16));
 
       romFile._u8array = event.data.u8array;
       romFile._dataView = new DataView(event.data.u8array.buffer);
-
-      if (window.crypto && window.crypto.subtle && window.crypto.subtle.digest) {
-        sha1sum(romFile);
-      }
 
       validateSource();
     };

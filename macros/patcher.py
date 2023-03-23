@@ -28,11 +28,8 @@ class Patcher:
             '|\n'
             '|   |   |\n'
             f"{self.romInfo('format', 'ROM Format')}"
-            f"{self.romInfo('crcs', 'ROM CRCs')}"
             '|   |   |\n'
             f"{self.romInfo('crc32', 'CRC32')}"
-            f"{self.romInfo('md5', 'MD5')}"
-            f"{self.romInfo('sha1', 'SHA1')}"
             '|   |   |\n'
             '|Patch File|'
             '<select class="md-dropdown" id="input-file-patch"></select>'

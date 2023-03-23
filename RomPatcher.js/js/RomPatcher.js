@@ -71,13 +71,8 @@ try{
 	webWorkerCrc.onmessage = event => { // listen for events from the worker
 		//console.log('received_crc');
 		el('crc32').innerHTML=padZeroes(event.data.crc32, 4);
-		el('md5').innerHTML=padZeroes(event.data.md5, 16);
 		romFile._u8array=event.data.u8array;
 		romFile._dataView=new DataView(event.data.u8array.buffer);
-
-		if(window.crypto&&window.crypto.subtle&&window.crypto.subtle.digest){
-			sha1(romFile);
-		}
 
 		validateSource();
 		setTabApplyEnabled(true);
@@ -509,34 +504,21 @@ function hasHeader(romFile){
 function updateChecksums(file, startOffset, force){
 	if(file===romFile && file.fileSize>33554432 && !force){
 		el('crc32').innerHTML='File is too big. <span onclick=\"updateChecksums(romFile,'+startOffset+',true)\">Force calculate checksum</span>';
-		el('md5').innerHTML='';
-		el('sha1').innerHTML='';
 		setTabApplyEnabled(true);
 		return false;
 	}
 	el('crc32').innerHTML='Calculating...';
-	el('md5').innerHTML='Calculating...';
 
 	if(CAN_USE_WEB_WORKERS){
 		setTabApplyEnabled(false);
 		webWorkerCrc.postMessage({u8array:file._u8array, startOffset:startOffset}, [file._u8array.buffer]);
-
-		if(window.crypto&&window.crypto.subtle&&window.crypto.subtle.digest){
-			el('sha1').innerHTML='Calculating...';
-		}
 	}else{
 		window.setTimeout(function(){
 			el('crc32').innerHTML=padZeroes(crc32(file, startOffset), 4);
-			el('md5').innerHTML=padZeroes(md5(file, startOffset), 16);
 
 			validateSource();
 			setTabApplyEnabled(true);
 		}, 30);
-
-		if(window.crypto&&window.crypto.subtle&&window.crypto.subtle.digest){
-			el('sha1').innerHTML='Calculating...';
-			sha1(file);
-		}
 	}
 }
 
