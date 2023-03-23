@@ -7,13 +7,6 @@ hide:
   - tabs
 ---
 
-<style>
-  .azimer-buffer-size {
-    padding-left: 25px;
-    padding-right: 25px;
-  }
-</style>
-
 # Getting Started
 
 ## Download Emulator

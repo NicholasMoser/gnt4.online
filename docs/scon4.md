@@ -6,26 +6,17 @@ hide:
   - prev
   - search
   - tabs
-latest: 1.6.0-beta9
+latest: 1.6.0-beta10
 patcher_errors:
   mismatch: Mismatch. Use the vanilla ROM.
 patches:
-  1.6.0-beta9:
-    name: SCON4 1.6.0-beta9
-    file: https://github.com/NicholasMoser/gnt4mods/releases/download/1.6.0-beta9/patch.zip
-    site: https://github.com/NicholasMoser/gnt4mods/releases/tag/1.6.0-beta9
+  1.6.0-beta10:
+    name: SCON4 1.6.0-beta10
+    file: https://github.com/SCON-Development/SCON4-BETA/releases/download/1.6.0-beta10/patch.xdelta
+    site: https://github.com/SCON-Development/SCON4-BETA/releases/tag/1.6.0-beta10
     size: 0x57058000
     patches:
-      - name: 'SCON4 1.6.0-beta9'
-        file: patch.xdelta
-        crc: 0x55ee8b1a
-  1.6.0-beta8:
-    name: SCON4 1.6.0-beta8
-    file: https://github.com/NicholasMoser/gnt4mods/releases/download/1.2/patch.zip
-    site: https://github.com/NicholasMoser/gnt4mods/releases/tag/1.2
-    size: 0x57058000
-    patches:
-      - name: 'SCON4 1.6.0-beta8'
+      - name: 'SCON4 1.6.0-beta10'
         file: patch.xdelta
         crc: 0x55ee8b1a
 ---
