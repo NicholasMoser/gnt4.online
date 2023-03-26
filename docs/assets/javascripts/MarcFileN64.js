@@ -37,20 +37,25 @@ MarcFile.prototype.readHexString = function (len) {
 
 MarcFile.prototype.romFormat = function () {
   const last_offset = this.offset;
+  const gameId = '47344e4a'; // G4NJ
+  const cisoMagic = '4349534f'; // CISO
+  const nkitMagic = '4e4b4954'; // NKIT
   this.offset = 0;
   var magic1 = this.readHexString(4);
-  if (magic1 == '4349534f') {
-    var format = 'ciso';
-  } else {
-    this.offset = 0x200;
-    var magic2 = this.readHexString(4);
-    if (magic2 == '4e4b4954') {
-      var format = 'nkit';
-    } else {
-      var format = 'iso'; // likely an ISO
-    }
-  }
+  this.offset = 0x200;
+  var magic2 = this.readHexString(4);
+  this.offset = 0x8000;
+  var magic3 = this.readHexString(4);
   this.offset = last_offset;
+  if (magic1 == cisoMagic && magic3 == gameId) {
+    var format = 'ciso'; // CISO files start with CISO and have G4NJDA at 0x8000
+  } else if (magic2 == nkitMagic && magic1 == gameId) {
+      var format = 'nkit'; // NKIT files have NKIT at 0x200 and start with G4NJDA
+  } else if (magic1 == gameId) {
+    var format = 'iso'; // At this point if it starts with G4NJDA it is likely a GNT4 ISO
+  } else {
+    var format = 'unknown';
+  }
 
   if (!this.originalFormat)
     this.originalFormat = format;
