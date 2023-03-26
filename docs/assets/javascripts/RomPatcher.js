@@ -84,6 +84,7 @@ function fetchPatch(customPatchIndex, compressedFileIndex) {
 }
 
 function parseCustomPatch(customPatch) {
+  console.log("parseCustomPatch");
   setMessage('status');
   mismatch = (typeof PATCHER_ERRORS.mismatch === "undefined") ? "ROM does not match" : PATCHER_ERRORS.mismatch
 
@@ -132,6 +133,7 @@ function parseCustomPatch(customPatch) {
 }
 
 function _readPatchFile() {
+  console.log("_readPatchFile");
   setMessage('status');
   patchFile.littleEndian = false;
 
@@ -165,6 +167,7 @@ function _readPatchFile() {
 
 // rom functions
 function _parseROM() {
+  console.log("_parseROM");
   header = romFile.readString(4);
   if (header.startsWith(ZIP_MAGIC)) {
     ZIPManager.parseFile(romFile);
@@ -174,6 +177,7 @@ function _parseROM() {
 }
 
 function updateChecksums(file, startOffset, force) {
+  console.log("updateChecksums");
   setMessage('status', 'Verifying ROM...', 'loading');
   setTabApplyEnabled(false);
 
@@ -219,6 +223,7 @@ function updateChecksums(file, startOffset, force) {
 }
 
 function validateSource() {
+  console.log("validateSource");
   if (patch && romFile && romFile._u8array && romFile._u8array.length > 0 && typeof patch.validateSource !== 'undefined') {
     validate = patch.validateSource(romFile, false);
 
@@ -251,6 +256,7 @@ function validateSource() {
 
 // output functions
 function applyPatch(p, r, validateChecksums) {
+  console.log("applyPatch");
   if (p && r) {
     setMessage('status', 'Patching ROM...', 'loading');
     setTabApplyEnabled(false);
@@ -280,6 +286,7 @@ function applyPatch(p, r, validateChecksums) {
 }
 
 function convertRom(originalRom, toFormat) {
+  console.log("convertRom");
   var convertedRom = originalRom;
   convertedRom.convertFormat(toFormat);
 
@@ -289,6 +296,7 @@ function convertRom(originalRom, toFormat) {
 }
 
 function preparePatchedRom(originalRom, patchedRom, headerSize) {
+  console.log("preparePatchedRom");
   patchedRom.fileName = `${patchFile.outputName}.${patchedRom.romFormat()}`.replace(/ /g, '_');
   patchedRom.fileType = originalRom.fileType;
   patchedRom.save();
@@ -300,6 +308,7 @@ function preparePatchedRom(originalRom, patchedRom, headerSize) {
 
 // gui functions
 function openModal(id) {
+  console.log("openModal");
   if (Elements.File.Input.value) {
     if (!romFile) {
       romFile = new MarcFile(Elements.File.Input, _parseROM);
@@ -343,6 +352,7 @@ function setElementGroup(group, content, classes, copyable = null, data_attr = t
 }
 
 function setMessage(tab, key, className) {
+  console.log("setMessage -> " + key);
   tab = tab == 'apply' ? 'status' : tab;
   tab = tab.startsWith('message-') ? tab : 'message-' + tab;
 
@@ -435,6 +445,7 @@ function onCloseModal(modal) {
 }
 
 function onSelectPatchFile() {
+  console.log("onSelectPatchFile");
   var selectedCustomPatchIndex, selectedCustomPatchCompressedIndex, selectedPatch;
 
   if (/^\d+,\d+$/.test(this.value)) {
@@ -458,9 +469,11 @@ function onSelectPatchFile() {
 }
 
 function onSelectRomFile() {
+  console.log("onSelectRomFile");
   setTabApplyEnabled(false);
   Elements.Zip.Dialog.style.display = 'none';
   [Elements.Info, Elements.Message].forEach((group) => setElementGroup(group, '', [], false));
+  Elements.Info.Header.Format.innerHTML = 'Loading...';
   try {
     romFile = new MarcFile(this, _parseROM);
   } catch (e) {
@@ -471,6 +484,7 @@ function onSelectRomFile() {
 }
 
 function onSelectZipFile() {
+  console.log("onSelectZipFile");
   [Elements.Info, Elements.Message].forEach((group) => setElementGroup(group, '', [], false));
   var selected = Elements.Zip.List[Elements.Zip.List.selectedIndex];
   romFile = selected.sourceFile;
@@ -581,6 +595,7 @@ function loadWorkers(basePath) {
 }
 
 function loadPatcher(patchInfo) {
+  console.log("loadPatcher");
   CUSTOM_PATCHER = [ loadPageData('#__patcher', patchInfo.getAttribute('data-patch-id')) ];
   CUSTOM_PROXY = loadPageData('#__proxy');
   PATCHER_ERRORS = loadPageData('#__patcher_errors') ?? {};
