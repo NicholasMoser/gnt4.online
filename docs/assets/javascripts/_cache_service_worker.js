@@ -13,7 +13,7 @@
 	navigator.serviceWorker.register('/repo/_cache_service_worker.js', {scope: '/repo/'})
 */
 
-var PRECACHE_ID='smash64-online-patcher';
+var PRECACHE_ID='gnt4-online-patcher';
 var PRECACHE_VERSION='v261c';
 var PRECACHE_URLS=[
 	`/assets/javascripts/crc.js`,

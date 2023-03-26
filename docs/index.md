@@ -32,8 +32,12 @@ Open `Dolphin.exe` and double click in the center to select your ISO directory
 
 ## Licenses
 
-- [Original smash64-online](https://github.com/smash64-dev/smash64-online) website code licensed
-under the [MIT License](https://opensource.org/license/mit/).
+- [smash64-online](https://github.com/smash64-dev/smash64-online) code licensed under the [MIT License](https://github.com/smash64-dev/smash64-online/blob/main/LICENSE).
+- [RomPatcher.js](https://github.com/marcrobledo/RomPatcher.js/) code licensed under the [MIT License](https://github.com/marcrobledo/RomPatcher.js/blob/master/LICENSE).
+- [Google service worker](https://github.com/GoogleChrome/samples/blob/gh-pages/service-worker/basic/service-worker.js) code licensed under the
+[Apache License v2](https://github.com/GoogleChrome/samples/blob/gh-pages/LICENSE).
+- [Serverless CORS Proxy](https://github.com/smash64-dev/serverless-tools/tree/main/cors-proxy) code licensed under the
+[MIT License](https://github.com/smash64-dev/serverless-tools/blob/main/LICENSE).
 - [Konoha SVG Icon](https://commons.wikimedia.org/wiki/File:Simbolo_konoha.svg) licensed under the
 [Creative Commons](https://en.wikipedia.org/wiki/Creative_Commons) Attribution-Share Alike
 [3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/deed.en),
