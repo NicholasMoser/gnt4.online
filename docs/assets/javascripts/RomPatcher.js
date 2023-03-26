@@ -263,7 +263,8 @@ function applyPatch(p, r, validateChecksums) {
 
     // FIXME: this fails when patching multiple ROMs without refreshing
     // ArrayBuffer is getting detached
-    if (false && CAN_USE_WEB_WORKERS) {
+    if (CAN_USE_WEB_WORKERS) {
+      console.log('applyPatch -> using web workers');
       webWorkerApply.postMessage({
         romFileU8Array: r._u8array,
         patchFileU8Array: patchFile._u8array,
@@ -274,6 +275,7 @@ function applyPatch(p, r, validateChecksums) {
       ]);
     } else {
       try {
+        console.log('applyPatch -> not using web workers');
         p.apply(r, validateChecksums);
         preparePatchedRom(r, p.apply(r, validateChecksums), headerSize);
       } catch (e) {
