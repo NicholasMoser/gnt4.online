@@ -51,7 +51,6 @@ MarcFile.prototype.romFormat = function () {
     }
   }
   this.offset = last_offset;
-  console.log(format);
 
   if (!this.originalFormat)
     this.originalFormat = format;

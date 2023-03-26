@@ -12,7 +12,6 @@ function MarcFile(source, onLoad){
 		if(typeof window.FileReader!=='function')
 			throw new Error('Incompatible Browser');
 		this.fileName=source.name;
-		console.log("asd " + this.fileName);
 		this.fileType=source.type;
 		this.fileSize=source.size;
 
@@ -33,7 +32,6 @@ function MarcFile(source, onLoad){
 	}else if(typeof source==='object' && typeof source.fileName==='string' && typeof source.littleEndian==='boolean'){ /* source is MarcFile */
 		
 	this.fileName=source.fileName;
-	console.log("asd2 " + this.fileName);
 		this.fileType=source.fileType;
 		this.fileSize=source.fileSize;
 
@@ -110,7 +108,6 @@ MarcFile.prototype.slice=function(offset, len){
 		this.copyToFile(newFile, offset, len, 0);
 	}
 	newFile.fileName=this.fileName;
-	console.log("asd3 " + this.fileName);
 	newFile.fileType=this.fileType;
 	newFile.littleEndian=this.littleEndian;
 	return newFile;
@@ -145,7 +142,6 @@ MarcFile.prototype.save=function(){
 			return false;
 		}
 	}
-	console.log("saveAs " + this.fileName);
 	saveAs(blob,this.fileName);
 }
 
