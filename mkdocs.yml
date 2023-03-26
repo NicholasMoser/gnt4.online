@@ -1,5 +1,3 @@
-INHERIT: data/data.yml
-
 site_name: GNT4 Mods
 site_url: https://gnt4.online
 site_author: Nicholas Moser
@@ -81,8 +79,7 @@ plugins:
       on_error_fail: true
       module_name: macros
   - minify:
-      # minify_html currently breaks kaillera generation
-      minify_html: false
+      minify_html: true
       minify_css: true
       css_files:
         - assets/stylesheets/extra.css
@@ -92,15 +89,6 @@ plugins:
       minify_js: true
       js_files:
         - assets/javascripts/extra.js
-  - redirects:
-      redirect_maps:
-        getting-started: 'getting-started/download.md'
-        controllers: 'controllers/original.md'
-        emulators: 'emulators/project64kse/index.md'
-        plugins: 'plugins/graphics.md'
-        netplay: 'netplay/kaillera/index.md'
-        extras: 'extras/patching.md'
-
 theme:
   name: material
   locale: en

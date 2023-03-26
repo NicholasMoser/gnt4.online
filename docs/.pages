@@ -1,24 +1,8 @@
 nav:
   # this will be removed after the rest of the site has content
-  - Smash64 Online:
+  - GNT4 Mods:
     - index.md
     - ROM Patches:
       - Super Clash of Ninja 4: scon4.md
-    - Kaillera Tools:
-      - Server Status: server-status.md
-      - P2P Checker: p2p-check.md
-    - Controller Setup:
-      - GameCube: gamecube.md
-      - Xbox: xbox.md
     - Discords:
-      - North America: https://discord.gg/ssb64
-      - Europe: https://discord.gg/YvbVHD7
-      - Australia: https://discord.gg/ssb64australia
-      - Latin America: https://discord.gg/rdVGwUv
-  - getting-started
-  - controllers
-  - emulators
-  - plugins
-  - netplay
-  - extras
-  - about
+      - Super Clash of Ninja 4: https://discord.com/invite/supercon4
