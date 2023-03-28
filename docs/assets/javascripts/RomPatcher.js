@@ -294,6 +294,7 @@ function convertRom(originalRom, toFormat) {
 
   // don't assume the filename extension is the correct format
   convertedRom.fileName = convertedRom.fileName.replace(/\.[^/.]+$/, `.${toFormat}`);
+  convertedRom.fileName = convertedRom.fileName.replace(/.nkit/, "");
   convertedRom.save();
 }
 
