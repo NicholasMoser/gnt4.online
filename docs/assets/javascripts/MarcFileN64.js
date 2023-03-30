@@ -63,8 +63,26 @@ MarcFile.prototype.setOutputName = function (fileName) {
   this.outputName = fileName;
 }
 
+MarcFile.prototype.patchGoodDump = function () {
+  console.log("patchGoodDump -> start");
+  var newBytes = new Uint8Array(0x57058000);
+
+  // Copy bytes over
+  for (var i = 0; i < this.fileSize; i++) {
+    newBytes[i] = this._u8array[i];
+  }
+
+  // First write this weird four byte word to bi2.bin
+  newBytes[0x500] = 0x00;
+  newBytes[0x501] = 0x52;
+  newBytes[0x502] = 0x02;
+  newBytes[0x503] = 0x02;
+
+  console.log("patchGoodDump -> end");
+}
+
 MarcFile.prototype.patchNkit = function () {
-  console.log("patchNkit");
+  console.log("patchNkit -> start");
   var newBytes = new Uint8Array(0x57058000);
 
   // Copy sys bytes
@@ -88,6 +106,7 @@ MarcFile.prototype.patchNkit = function () {
   }
 
   this._u8array = newBytes;
+  console.log("patchNkit -> end");
 }
 
 MarcFile.prototype.patchCiso = function () {
@@ -113,7 +132,7 @@ MarcFile.prototype.patchCiso = function () {
   for (var i = 0x500000; (offset + i) < 0x57058000; i++) {
     newBytes[i + offset] = this._u8array[i];
   }
-  
+
   // Zero out padding bytes from 0x4553001C - 0x45532B7F (0x2B63 bytes).
   for (var i = 0x4553001C; i < 0x45532B80; i++) {
     newBytes[i] = 0;
