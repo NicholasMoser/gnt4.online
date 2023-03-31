@@ -10,7 +10,7 @@ latest: 1.6.0-beta11
 patcher_errors:
   mismatch: Mismatch. Use the vanilla ROM.
 patches:
-  1.6.0-beta11:
+  v1.6.0-beta11:
     name: SCON4 1.6.0-beta11
     file: https://github.com/SCON-Development/SCON4-BETA/releases/download/1.6.0-beta11/patch.xdelta
     site: https://github.com/SCON-Development/SCON4-BETA/releases/tag/1.6.0-beta11
@@ -19,7 +19,7 @@ patches:
       - name: 'SCON4 1.6.0-beta11'
         file: patch.xdelta
         crc: 0x55ee8b1a
-  1.5:
+  v1.5:
     name: SCON4 1.5
     file: https://github.com/NicholasMoser/SCON4-Releases/releases/download/1.5/uncompressed_patch.xdelta
     site: https://github.com/NicholasMoser/SCON4-Releases/releases/tag/1.5
@@ -28,7 +28,7 @@ patches:
       - name: 'SCON4 1.5'
         file: uncompressed_patch.xdelta
         crc: 0x55ee8b1a
-  1.4.321:
+  v1.4.321:
     name: SCON4 1.4.321
     file: https://github.com/NicholasMoser/SCON4-Releases/releases/download/1.4.321/uncompressed_patch.xdelta
     site: https://github.com/NicholasMoser/SCON4-Releases/releases/tag/1.4.321
@@ -37,7 +37,7 @@ patches:
       - name: 'SCON4 1.4.321'
         file: uncompressed_patch.xdelta
         crc: 0x55ee8b1a
-  1.4.32:
+  v1.4.32:
     name: SCON4 1.4.32
     file: https://github.com/NicholasMoser/SCON4-Releases/releases/download/1.4.32/uncompressed_patch.xdelta
     site: https://github.com/NicholasMoser/SCON4-Releases/releases/tag/1.4.32
@@ -46,7 +46,7 @@ patches:
       - name: 'SCON4 1.4.32'
         file: uncompressed_patch.xdelta
         crc: 0x55ee8b1a
-  1.4.31:
+  v1.4.31:
     name: SCON4 1.4.31
     file: https://github.com/NicholasMoser/SCON4-Releases/releases/download/1.4.31/uncompressed_patch.xdelta
     site: https://github.com/NicholasMoser/SCON4-Releases/releases/tag/1.4.31
@@ -55,7 +55,7 @@ patches:
       - name: 'SCON4 1.4.31'
         file: uncompressed_patch.xdelta
         crc: 0x55ee8b1a
-  1.4.3:
+  v1.4.3:
     name: SCON4 1.4.3
     file: https://github.com/NicholasMoser/SCON4-Releases/releases/download/1.4.30/uncompressed_patch.xdelta
     site: https://github.com/NicholasMoser/SCON4-Releases/releases/tag/1.4.30
@@ -64,7 +64,7 @@ patches:
       - name: 'SCON4 1.4.3'
         file: uncompressed_patch.xdelta
         crc: 0x55ee8b1a
-  1.4.21:
+  v1.4.21:
     name: SCON4 1.4.21
     file: https://github.com/NicholasMoser/SCON4-Releases/releases/download/1.4.21/uncompressed_patch.xdelta
     site: https://github.com/NicholasMoser/SCON4-Releases/releases/tag/1.4.21
@@ -73,7 +73,7 @@ patches:
       - name: 'SCON4 1.4.21'
         file: uncompressed_patch.xdelta
         crc: 0x55ee8b1a
-  1.4.2:
+  v1.4.2:
     name: SCON4 1.4.2
     file: https://github.com/NicholasMoser/SCON4-Releases/releases/download/1.4.2/uncompressed_patch.xdelta
     site: https://github.com/NicholasMoser/SCON4-Releases/releases/tag/1.4.2
@@ -82,7 +82,7 @@ patches:
       - name: 'SCON4 1.4.2'
         file: uncompressed_patch.xdelta
         crc: 0x55ee8b1a
-  1.4.1:
+  v1.4.1:
     name: SCON4 1.4.1
     file: https://github.com/NicholasMoser/SCON4-Releases/releases/download/1.4.1/uncompressed_patch.xdelta
     site: https://github.com/NicholasMoser/SCON4-Releases/releases/tag/1.4.1
@@ -91,7 +91,7 @@ patches:
       - name: 'SCON4 1.4.1'
         file: uncompressed_patch.xdelta
         crc: 0x55ee8b1a
-  1.4:
+  v1.4:
     name: SCON4 1.4
     file: https://github.com/NicholasMoser/SCON4-Releases/releases/download/1.4/uncompressed_patch.xdelta
     site: https://github.com/NicholasMoser/SCON4-Releases/releases/tag/1.4
@@ -100,7 +100,7 @@ patches:
       - name: 'SCON4 1.4'
         file: uncompressed_patch.xdelta
         crc: 0x55ee8b1a
-  1.2.05:
+  v1.2.05:
     name: SCON4 1.2.05
     file: https://github.com/NicholasMoser/SCON4-Releases/releases/download/v1.2.05/uncompressed_patch.xdelta
     site: https://github.com/NicholasMoser/SCON4-Releases/releases/tag/v1.2.05
@@ -109,7 +109,7 @@ patches:
       - name: 'SCON4 1.2.05'
         file: uncompressed_patch.xdelta
         crc: 0x55ee8b1a
-  1.2.04:
+  v1.2.04:
     name: SCON4 1.2.04
     file: https://github.com/NicholasMoser/SCON4-Releases/releases/download/v1.2.04/uncompressed_patch.xdelta
     site: https://github.com/NicholasMoser/SCON4-Releases/releases/tag/v1.2.04
@@ -118,7 +118,7 @@ patches:
       - name: 'SCON4 1.2.04'
         file: uncompressed_patch.xdelta
         crc: 0x55ee8b1a
-  1.2.03:
+  v1.2.03:
     name: SCON4 1.2.03
     file: https://github.com/NicholasMoser/SCON4-Releases/releases/download/v1.2.03/uncompressed_patch.xdelta
     site: https://github.com/NicholasMoser/SCON4-Releases/releases/tag/v1.2.03
@@ -127,7 +127,7 @@ patches:
       - name: 'SCON4 1.2.03'
         file: uncompressed_patch.xdelta
         crc: 0x55ee8b1a
-  1.2.02:
+  v1.2.02:
     name: SCON4 1.2.02
     file: https://github.com/NicholasMoser/SCON4-Releases/releases/download/v1.2.02/uncompressed_patch.xdelta
     site: https://github.com/NicholasMoser/SCON4-Releases/releases/tag/v1.2.02
@@ -136,7 +136,7 @@ patches:
       - name: 'SCON4 1.2.02'
         file: uncompressed_patch.xdelta
         crc: 0x55ee8b1a
-  1.2.01:
+  v1.2.01:
     name: SCON4 1.2.01
     file: https://github.com/NicholasMoser/SCON4-Releases/releases/download/v1.2.01/uncompressed_patch.xdelta
     site: https://github.com/NicholasMoser/SCON4-Releases/releases/tag/v1.2.01
@@ -145,7 +145,7 @@ patches:
       - name: 'SCON4 1.2.01'
         file: uncompressed_patch.xdelta
         crc: 0x55ee8b1a
-  1.2:
+  v1.2:
     name: SCON4 1.2
     file: https://github.com/NicholasMoser/SCON4-Releases/releases/download/v1.2.00/uncompressed_patch.xdelta
     site: https://github.com/NicholasMoser/SCON4-Releases/releases/tag/v1.2.00
@@ -154,7 +154,7 @@ patches:
       - name: 'SCON4 1.2'
         file: uncompressed_patch.xdelta
         crc: 0x55ee8b1a
-  1.1.05:
+  v1.1.05:
     name: SCON4 1.1.05
     file: https://github.com/NicholasMoser/SCON4-Releases/releases/download/v1.1.05/uncompressed_patch.xdelta
     site: https://github.com/NicholasMoser/SCON4-Releases/releases/tag/v1.1.05
@@ -163,7 +163,7 @@ patches:
       - name: 'SCON4 1.1.05'
         file: uncompressed_patch.xdelta
         crc: 0x55ee8b1a
-  1.1.04:
+  v1.1.04:
     name: SCON4 1.1.04
     file: https://github.com/NicholasMoser/SCON4-Releases/releases/download/v1.1.04/uncompressed_patch.xdelta
     site: https://github.com/NicholasMoser/SCON4-Releases/releases/tag/v1.1.04
@@ -172,7 +172,7 @@ patches:
       - name: 'SCON4 1.1.04'
         file: uncompressed_patch.xdelta
         crc: 0x55ee8b1a
-  1.1.03:
+  v1.1.03:
     name: SCON4 1.1.03
     file: https://github.com/NicholasMoser/SCON4-Releases/releases/download/v1.1.03/uncompressed_patch.xdelta
     site: https://github.com/NicholasMoser/SCON4-Releases/releases/tag/v1.1.03
@@ -181,7 +181,7 @@ patches:
       - name: 'SCON4 1.1.03'
         file: uncompressed_patch.xdelta
         crc: 0x55ee8b1a
-  1.1.02:
+  v1.1.02:
     name: SCON4 1.1.02
     file: https://github.com/NicholasMoser/SCON4-Releases/releases/download/v1.1.02/uncompressed_patch.xdelta
     site: https://github.com/NicholasMoser/SCON4-Releases/releases/tag/v1.1.02
@@ -190,7 +190,7 @@ patches:
       - name: 'SCON4 1.1.02'
         file: uncompressed_patch.xdelta
         crc: 0x55ee8b1a
-  1.1.01:
+  v1.1.01:
     name: SCON4 1.1.01
     file: https://github.com/NicholasMoser/SCON4-Releases/releases/download/v1.1.01/uncompressed_patch.xdelta
     site: https://github.com/NicholasMoser/SCON4-Releases/releases/tag/v1.1.01
@@ -199,7 +199,7 @@ patches:
       - name: 'SCON4 1.1.01'
         file: uncompressed_patch.xdelta
         crc: 0x55ee8b1a
-  1.1:
+  v1.1:
     name: SCON4 1.1
     file: https://github.com/NicholasMoser/SCON4-Releases/releases/download/v1.1.0/uncompressed_patch.xdelta
     site: https://github.com/NicholasMoser/SCON4-Releases/releases/tag/v1.1.0
