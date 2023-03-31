@@ -6,7 +6,7 @@ hide:
   - prev
   - search
   - tabs
-latest: 1.6.0-beta11
+latest: v1.6.0-beta11
 patcher_errors:
   mismatch: Mismatch. Use the vanilla ROM.
 patches:
