@@ -48,10 +48,8 @@ MarcFile.prototype.romFormat = function () {
     var format = 'ciso'; // CISO files start with CISO and have G4NJDA at 0x8000
   } else if (magic2 == nkitMagic && magic1 == gameId) {
       var format = 'nkit'; // NKIT files have NKIT at 0x200 and start with G4NJDA
-  } else if (magic1 == gameId) {
-    var format = 'iso'; // At this point if it starts with G4NJDA it is likely a GNT4 ISO
   } else {
-    var format = 'unknown';
+    var format = 'iso'; // At this point if it starts with G4NJDA it is likely a GNT4 ISO
   }
 
   if (!this.originalFormat)
