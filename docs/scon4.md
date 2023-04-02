@@ -212,6 +212,10 @@ patches:
 
 # Super Clash of Ninja 4
 
+This online patcher uses a lot of memory. If it doesn't seem to work for you try the downloadable patcher [Six Patches of Pain](https://github.com/NicholasMoser/Six-Patches-Of-Pain/releases).
+
+The patcher may ask you to convert your copy of the game to another format. This is because our patches can only be applied against a specific format of the game.
+
 {{ patcher().render() }}
 {%- if 'latest' not in page.meta %}
 {{ exception('you must define the latest version in ' + page.url) }}
