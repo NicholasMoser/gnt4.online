@@ -14,8 +14,8 @@ hide:
 The GNT4 Online community uses the Dolphin emulator. You may need to install
 [7-Zip](https://www.7-zip.org/) to open the Dolphin install.
 
-[Download](https://dolphin-emu.org/download/){ .md-button .md-button--primary data-md-color-primary="green" data-md-color-accent="green" }
-[GitHub](https://github.com/dolphin-emu/dolphin){ .md-button data-md-color-primary="green" data-md-color-accent="green" }
+[Download](https://dolphin-emu.org/download/){ .md-button .md-button--primary data-md-color-primary="#a76223" data-md-color-accent="#a76223" }
+[GitHub](https://github.com/dolphin-emu/dolphin){ .md-button data-md-color-primary="#a76223" data-md-color-accent="#a76223" }
 
 ## Obtain the GNT4 ISO
 
