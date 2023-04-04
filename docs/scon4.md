@@ -109,6 +109,15 @@ patches:
       - name: 'SCON4 1.4'
         file: uncompressed_patch.xdelta
         crc: 0x55ee8b1a
+  v1.3.42:
+    name: SCON4 1.3.42
+    file: https://github.com/NicholasMoser/SCON4-Releases/releases/download/1.3.42/uncompressed_patch.xdelta
+    site: https://github.com/NicholasMoser/SCON4-Releases/releases/tag/1.3.42
+    size: 0x57058000
+    patches:
+      - name: 'SCON4 1.4.32'
+        file: uncompressed_patch.xdelta
+        crc: 0x55ee8b1a
   v1.2.05:
     name: SCON4 1.2.05
     file: https://github.com/NicholasMoser/SCON4-Releases/releases/download/v1.2.05/uncompressed_patch.xdelta
@@ -215,6 +224,60 @@ patches:
     size: 0x57058000
     patches:
       - name: 'SCON4 1.1'
+        file: uncompressed_patch.xdelta
+        crc: 0x55ee8b1a
+  v1.0.9:
+    name: SCON4 1.0.9
+    file: https://github.com/NicholasMoser/SCON4-Releases/releases/download/1.0.9/uncompressed_patch.xdelta
+    site: https://github.com/NicholasMoser/SCON4-Releases/releases/tag/1.0.9
+    size: 0x57058000
+    patches:
+      - name: 'SCON4 1.0.9'
+        file: uncompressed_patch.xdelta
+        crc: 0x55ee8b1a
+  v1.0.7:
+    name: SCON4 1.0.7
+    file: https://github.com/NicholasMoser/SCON4-Releases/releases/download/1.0.7/uncompressed_patch.xdelta
+    site: https://github.com/NicholasMoser/SCON4-Releases/releases/tag/1.0.7
+    size: 0x57058000
+    patches:
+      - name: 'SCON4 1.0.7'
+        file: uncompressed_patch.xdelta
+        crc: 0x55ee8b1a
+  v1.0.6:
+    name: SCON4 1.0.6
+    file: https://github.com/NicholasMoser/SCON4-Releases/releases/download/1.0.6/uncompressed_patch.xdelta
+    site: https://github.com/NicholasMoser/SCON4-Releases/releases/tag/1.0.6
+    size: 0x57058000
+    patches:
+      - name: 'SCON4 1.0.6'
+        file: uncompressed_patch.xdelta
+        crc: 0x55ee8b1a
+  v1.0.5:
+    name: SCON4 1.0.5
+    file: https://github.com/NicholasMoser/SCON4-Releases/releases/download/1.0.5/uncompressed_patch.xdelta
+    site: https://github.com/NicholasMoser/SCON4-Releases/releases/tag/1.0.5
+    size: 0x57058000
+    patches:
+      - name: 'SCON4 1.0.5'
+        file: uncompressed_patch.xdelta
+        crc: 0x55ee8b1a
+  v1.0.4:
+    name: SCON4 1.0.4
+    file: https://github.com/NicholasMoser/SCON4-Releases/releases/download/1.0.4/uncompressed_patch.xdelta
+    site: https://github.com/NicholasMoser/SCON4-Releases/releases/tag/1.0.4
+    size: 0x57058000
+    patches:
+      - name: 'SCON4 1.0.4'
+        file: uncompressed_patch.xdelta
+        crc: 0x55ee8b1a
+  v1.0.3:
+    name: SCON4 1.0.3
+    file: https://github.com/NicholasMoser/SCON4-Releases/releases/download/1.0.3/uncompressed_patch.xdelta
+    site: https://github.com/NicholasMoser/SCON4-Releases/releases/tag/1.0.3
+    size: 0x57058000
+    patches:
+      - name: 'SCON4 1.0.3'
         file: uncompressed_patch.xdelta
         crc: 0x55ee8b1a
 ---
