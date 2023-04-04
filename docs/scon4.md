@@ -235,7 +235,6 @@ The patcher may ask you to convert your copy of the game to another format. This
 
 [Patch ROM :fontawesome-solid-spinner:{ .fa-spin style="display: none;" }](#){ .md-button .md-button--primary data-patch-id="{{ page.meta.latest }}" data-modal="{{ modalId(patcher().id) }}" onclick="loadPatcher(this)" #patcher-modal }
 [Patch Notes :fontawesome-solid-arrow-up-right-from-square:]({{ page.meta.patches[latest_patch].site }}){ .md-button target='_blank' }
-[Credits](#){ .md-button data-micromodal-trigger="{{ modalId('credits') }}" #credits }
 
 ## Previous Versions
 
