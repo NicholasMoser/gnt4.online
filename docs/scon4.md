@@ -6,10 +6,19 @@ hide:
   - prev
   - search
   - tabs
-latest: v1.6.0
+latest: v1.6.1
 patcher_errors:
   mismatch: Mismatch. Use the vanilla ROM.
 patches:
+  v1.6.1:
+    name: SCON4 1.6.1
+    file: https://github.com/NicholasMoser/SCON4-Releases/releases/download/1.6.1/patch.xdelta
+    site: https://github.com/NicholasMoser/SCON4-Releases/releases/tag/1.6.1
+    size: 0x57058000
+    patches:
+      - name: 'SCON4 1.6.1'
+        file: patch.xdelta
+        crc: 0x55ee8b1a
   v1.6.0:
     name: SCON4 1.6.0
     file: https://github.com/NicholasMoser/SCON4-Releases/releases/download/1.6.0/patch.xdelta
