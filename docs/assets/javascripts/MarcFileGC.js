@@ -1,4 +1,4 @@
-/* MarcFile.js extensions for N64 ROMs */
+/* MarcFile.js extensions for GameCube ISOs */
 
 MarcFile.prototype.convertFormat = function (toFormat) {
   const fromFormat = this.romFormat();
