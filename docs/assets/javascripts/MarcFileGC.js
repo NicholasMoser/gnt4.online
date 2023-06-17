@@ -33,6 +33,7 @@ MarcFile.prototype.readHexString = function (len) {
 }
 
 MarcFile.prototype.romFormat = function () {
+  console.log("romFormat");
   const last_offset = this.offset;
   const gameId = '47344e4a'; // G4NJ
   const cisoMagic = '4349534f'; // CISO

@@ -185,32 +185,6 @@ function updateChecksums(file, startOffset, force) {
   var expectedSize = Elements.File.Patch.options[selectedPatch].getAttribute("data-rom-size") || file.fileSize;
   var expectedFormat = Elements.File.Patch.options[selectedPatch].getAttribute("data-rom-format") || 'iso';
 
-  // check the detected rom format
-  var romFormat = file.originalRomFormat();
-  Elements.Info.Header.Format.innerHTML = romFormat;
-  setMessageCopyable(Elements.Info.Header.Format.id, true);
-
-  if (file === romFile && romFormat != expectedFormat) {
-    if (romFormat === 'unknown') {
-      setMessage(Elements.Message.Header.Format.id, '', 'invalid');
-      Elements.Info.Header.Format.setAttribute('data-value', 'invalid');
-    } else {
-      var convertAction = setSpecialAction(
-        `Convert to ${expectedFormat}`,
-        `Click to convert and save to ${expectedFormat}`,
-        `convertRom(romFile, '${expectedFormat}');`
-      );
-      setMessage(Elements.Message.Header.Format.id, convertAction, 'warning');
-      Elements.Info.Header.Format.setAttribute('data-value', 'convert');
-    }
-  } else {
-    setMessage(Elements.Message.Header.Format.id, '', 'valid');
-    Elements.Info.Header.Format.setAttribute('data-value', 'valid');
-  }
-
-  setElementGroup(Elements.Info.Checksum, 'Calculating...', []);
-  setElementGroup(Elements.Message.Checksum, '', []);
-
   if (CAN_USE_WEB_WORKERS) {
     webWorkerCrc.postMessage({ u8array: file._u8array, startOffset: startOffset }, [file._u8array.buffer]);
 
@@ -476,7 +450,8 @@ function onSelectRomFile() {
   setTabApplyEnabled(false);
   Elements.Zip.Dialog.style.display = 'none';
   [Elements.Info, Elements.Message].forEach((group) => setElementGroup(group, '', [], false));
-  Elements.Info.Header.Format.innerHTML = 'Loading...';
+  setElementGroup(Elements.Info.Checksum, 'Calculating...', []);
+  setElementGroup(Elements.Message.Checksum, '', []);
   try {
     romFile = new MarcFile(this, _parseROM);
   } catch (e) {
@@ -509,17 +484,11 @@ function getModalElements(root) {
       Patch: root.querySelector('#input-file-patch'),
     },
     Info: {
-      Header: {
-        Format: root.querySelector('#format'),
-      },
       Checksum: {
         CRC32: root.querySelector('#crc32'),
       }
     },
     Message: {
-      Header: {
-        Format: root.querySelector('#message-format'),
-      },
       Checksum: {
         CRC32: root.querySelector('#message-crc32'),
       }
@@ -676,7 +645,7 @@ function loadPatcher(patchInfo) {
         CUSTOM_PATCHER[i].patches[j].selectOption.value = i + ',' + j;
         CUSTOM_PATCHER[i].patches[j].selectOption.innerHTML = CUSTOM_PATCHER[i].patches[j].name || CUSTOM_PATCHER[i].patches[j].file;
 
-        ['crc', 'format', 'size'].forEach((meta) => {
+        ['crc', 'size'].forEach((meta) => {
           var primary = CUSTOM_PATCHER[i][meta] || '';
           var value = CUSTOM_PATCHER[i].patches[j][meta] || primary;
           CUSTOM_PATCHER[i].patches[j].selectOption.setAttribute(`data-rom-${meta}`, value);
