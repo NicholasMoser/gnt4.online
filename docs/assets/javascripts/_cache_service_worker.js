@@ -29,7 +29,7 @@ var PRECACHE_URLS=[
 	`/assets/javascripts/formats/zip.js`,
 	`/assets/javascripts/locale.js`,
 	`/assets/javascripts/MarcFile.js`,
-	`/assets/javascripts/MarcFileN64.js`,
+	`/assets/javascripts/MarcFileGC.js`,
 	`/assets/javascripts/RomPatcher.js`,
 	`/assets/javascripts/worker_apply.js`,
 	`/assets/javascripts/worker_crc.js`,
