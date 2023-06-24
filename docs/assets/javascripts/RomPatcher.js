@@ -185,6 +185,9 @@ function updateChecksums(file, startOffset, force) {
   var expectedSize = Elements.File.Patch.options[selectedPatch].getAttribute("data-rom-size") || file.fileSize;
   var expectedFormat = Elements.File.Patch.options[selectedPatch].getAttribute("data-rom-format") || 'iso';
 
+  setElementGroup(Elements.Info.Checksum, 'Calculating...', []);
+  setElementGroup(Elements.Message.Checksum, '', []);
+
   if (CAN_USE_WEB_WORKERS) {
     webWorkerCrc.postMessage({ u8array: file._u8array, startOffset: startOffset }, [file._u8array.buffer]);
 
@@ -277,6 +280,9 @@ function preparePatchedRom(originalRom, patchedRom, headerSize) {
   patchedRom.fileName = `${patchFile.outputName}.${patchedRom.romFormat()}`.replace(/ /g, '_');
   patchedRom.fileType = originalRom.fileType;
   patchedRom.save();
+  // TODO: Can we add something here in Chrome when the file is downloading but the user is not yet alerted?
+  // There is a period of time between calling save() and the user seeing the file finish that the user may
+  // think that the process froze and failed.
 
   Elements.Button.Apply.querySelector('span').style.display = 'none';
   MicroModal.close(modalId);
@@ -450,7 +456,7 @@ function onSelectRomFile() {
   setTabApplyEnabled(false);
   Elements.Zip.Dialog.style.display = 'none';
   [Elements.Info, Elements.Message].forEach((group) => setElementGroup(group, '', [], false));
-  setElementGroup(Elements.Info.Checksum, 'Calculating...', []);
+  setElementGroup(Elements.Info.Checksum, 'Loading...', []);
   setElementGroup(Elements.Message.Checksum, '', []);
   try {
     romFile = new MarcFile(this, _parseROM);
