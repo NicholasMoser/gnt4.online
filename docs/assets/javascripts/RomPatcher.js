@@ -203,7 +203,7 @@ function validateSource() {
   console.log("validateSource");
   if (patch && romFile && romFile._u8array && romFile._u8array.length > 0 && typeof patch.validateSource !== 'undefined') {
     validate = patch.validateSource(romFile, false);
-
+    // Probably here, check if not valid and fix if possible
     if (validate.result) {
       for (const [obj, element] of Object.entries(Elements.Info.Checksum)) {
         element.innerHTML = element.getAttribute('data-value');
