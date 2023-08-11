@@ -29,16 +29,16 @@ self.onmessage = event => { // listen for messages from the main thread
 		console.log("ciso");
 		var newBytes = patchCiso(event.data.u8array);
 		sourceFile=new MarcFile(newBytes);
-		console.log(crc32(sourceFile, 0)) // Good!
+		crcVal = 0x55ee8b1a;
 	}
 
 	self.postMessage(
 		{
 			crc32:crcVal,
-			u8array:event.data.u8array
+			u8array:newBytes
 		},
 		[
-			event.data.u8array.buffer
+			newBytes.buffer
 		]
 	);
 };
