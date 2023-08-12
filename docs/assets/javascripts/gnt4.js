@@ -1,20 +1,29 @@
 
 function patchGoodDump(_u8array) {
     console.log("patchGoodDump -> start");
-    var newBytes = new Uint8Array(0x57058000);
-  
-    // Copy bytes over
-    for (var i = 0; i < 0x57058000; i++) {
-      newBytes[i] = _u8array[i];
-    }
   
     // First write this weird four byte word to bi2.bin
-    newBytes[0x500] = 0x00;
-    newBytes[0x501] = 0x52;
-    newBytes[0x502] = 0x02;
-    newBytes[0x503] = 0x02;
+    _u8array[0x500] = 0x00;
+    _u8array[0x501] = 0x52;
+    _u8array[0x502] = 0x02;
+    _u8array[0x503] = 0x02;
   
     console.log("patchGoodDump -> end");
+
+    // There are random padding bytes from 0x248104 to 0xC4F8000 (0xC2AFEFC bytes).
+    // Replace them with zeroes by looping 49839 times. Then add 3836 extra zeroes.
+    for (var i = 0x248104; i < 0xC4F8000; i++) {
+      _u8array[i] = 0;
+    }
+
+    // There are random padding bytes from 0x4553001C - 0x45532B7F (0x2B63 bytes).
+    // Just add 11108 zeroes directly.
+    for (var i = 0x4553001C; i < 0x45532B80; i++) {
+      _u8array[i] = 0;
+    }
+
+    console.log("patchGoodDump -> end");
+    return _u8array;
   }
   
 function patchNkit(_u8array) {
