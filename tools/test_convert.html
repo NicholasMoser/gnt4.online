@@ -46,7 +46,7 @@
             console.log("Reading file...");
             getAsByteArray(file).then((value) => {
                     console.log(value);
-                    var newBytes = patchCiso(value);
+                    var newBytes = patchNkit(value);
                     console.log(newBytes);
                     saveFile(newBytes);
                 });
