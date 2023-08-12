@@ -103,10 +103,28 @@ function parseCustomPatch(customPatch) {
           message: mismatch
         };
       }
+      patch.validateSourceWithCrc = function (crc) {
+        return {
+          result: customPatch.crc === crc,
+          message: mismatch
+        };
+      }
     } else if (typeof customPatch.crc === 'object') {
       patch.validateSource = function (romFile, headerSize) {
         for (var i = 0; i < customPatch.crc.length; i++) {
           if (customPatch.crc[i] === crc32(romFile, headerSize)) {
+            return {
+              result: true,
+              message: ''
+            };
+          }
+        }
+
+        return false;
+      }
+      patch.validateSourceWithCrc = function (crc) {
+        for (var i = 0; i < customPatch.crc.length; i++) {
+          if (customPatch.crc[i] === crc) {
             return {
               result: true,
               message: ''
@@ -123,6 +141,12 @@ function parseCustomPatch(customPatch) {
       patch.validateSource = function (romFile, headerSize) {
         return {
           result: customPatch.patches[0].crc === crc32(romFile, headerSize),
+          message: mismatch
+        };
+      }
+      patch.validateSourceWithCrc = function (crc) {
+        return {
+          result: customPatch.patches[0].crc === crc,
           message: mismatch
         };
       }
@@ -199,11 +223,10 @@ function updateChecksums(file, startOffset, force) {
   }
 }
 
-function validateSource() {
-  console.log("validateSource");
+function validateSourceWithCrc(crc) {
+  console.log("validateSourceWithCrc -> start");
   if (patch && romFile && romFile._u8array && romFile._u8array.length > 0 && typeof patch.validateSource !== 'undefined') {
-    validate = patch.validateSource(romFile, false);
-    // Probably here, check if not valid and fix if possible
+    validate = patch.validateSourceWithCrc(crc);
     if (validate.result) {
       for (const [obj, element] of Object.entries(Elements.Info.Checksum)) {
         element.innerHTML = element.getAttribute('data-value');
@@ -228,6 +251,38 @@ function validateSource() {
       }
     }
   }
+  console.log("validateSourceWithCrc -> end");
+}
+
+function validateSource() {
+  console.log("validateSource -> start");
+  if (patch && romFile && romFile._u8array && romFile._u8array.length > 0 && typeof patch.validateSource !== 'undefined') {
+    validate = patch.validateSource(romFile, false);
+    if (validate.result) {
+      for (const [obj, element] of Object.entries(Elements.Info.Checksum)) {
+        element.innerHTML = element.getAttribute('data-value');
+        setMessageCopyable(element.id, true);
+      }
+
+      if (Elements.Info.Checksum.CRC32.innerHTML.length !== 0) {
+        setMessage(Elements.Message.Checksum.CRC32.id, '', 'valid')
+        setMessage('status');
+        setTabApplyEnabled(true);
+      }
+    } else {
+      for (const [obj, element] of Object.entries(Elements.Info.Checksum)) {
+        element.innerHTML = element.getAttribute('data-value');
+        setMessageCopyable(element.id, true);
+      }
+
+      if (Elements.Info.Checksum.CRC32.innerHTML.length !== 0) {
+        setMessage(Elements.Message.Checksum.CRC32.id, '', 'invalid')
+        setMessage('status', validate.message, 'error');
+        setTabApplyEnabled(false);
+      }
+    }
+  }
+  console.log("validateSource -> end");
 }
 
 
@@ -560,7 +615,7 @@ function loadWorkers(basePath) {
       romFile._u8array = event.data.u8array;
       romFile._dataView = new DataView(event.data.u8array.buffer);
 
-      validateSource();
+      validateSourceWithCrc(event.data.crc32);
     };
 
     webWorkerCrc.onerror = event => {
