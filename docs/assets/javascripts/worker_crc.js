@@ -20,18 +20,15 @@ self.onmessage = event => { // listen for messages from the main thread
 		if (sourceFile.readU32() == 0x4e4b4954) { // NKIT magic
 			console.log("nkit");
 			dumpBytes = patchNkit(dumpBytes);
-			sourceFile = new MarcFile(dumpBytes);
 			crcVal = 0x55ee8b1a;
 		} else {
 			console.log("good dump");
 			dumpBytes = patchGoodDump(dumpBytes);
-			sourceFile = new MarcFile(dumpBytes);
 			crcVal = 0x55ee8b1a;
 		}
 	} else if (crcVal == 0x0371b18c) {
 		console.log("ciso");
 		dumpBytes = patchCiso(dumpBytes);
-		sourceFile = new MarcFile(dumpBytes);
 		crcVal = 0x55ee8b1a;
 	}
 
