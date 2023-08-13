@@ -13,7 +13,7 @@ class Patcher:
         self.meta_class = 'rom-info-meta'
 
     def body(self):
-        accepted = '.iso,.ciso,.zip'
+        accepted = '.iso,.ciso,.nkit,.zip'
         return (
             f'<div class="{self.app_class}" markdown="1">\n'
             '|   |   |\n'
@@ -26,8 +26,6 @@ class Patcher:
             '<select class="md-dropdown" id="zip-dropdown-select"></select>'
             '</span>'
             '|\n'
-            '|   |   |\n'
-            f"{self.romInfo('format', 'ROM Format')}"
             '|   |   |\n'
             f"{self.romInfo('crc32', 'CRC32')}"
             '|   |   |\n'

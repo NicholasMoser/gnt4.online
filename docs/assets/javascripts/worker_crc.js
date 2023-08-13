@@ -2,21 +2,46 @@
 
 self.importScripts(
 	'./MarcFile.js',
-	'./crc.js'
+	'./crc.js',
+	'./gnt4.js'
 );
 
 
 
 self.onmessage = event => { // listen for messages from the main thread
-	var sourceFile=new MarcFile(event.data.u8array);
+	var dumpBytes = event.data.u8array;
+	var sourceFile = new MarcFile(dumpBytes);
+	console.log("crc32 -> begin")
+	var crcVal = crc32(sourceFile, event.data.startOffset);
+	console.log("crc32 -> end")
+	// Convert known GNT4 dumps to the standard "bad dump" that the community uses 
+	if (crcVal == 0x60aefa3e) {
+		sourceFile.seek(0x200);
+		if (sourceFile.readU32() == 0x4e4b4954) { // NKIT magic
+			console.log("nkit");
+			dumpBytes = patchNkit(dumpBytes);
+			sourceFile = new MarcFile(dumpBytes);
+			console.log(crc32(sourceFile, 0)) // Bad!
+		} else {
+			console.log("good dump");
+			dumpBytes = patchGoodDump(dumpBytes);
+			sourceFile = new MarcFile(dumpBytes);
+			console.log(crc32(sourceFile, 0))
+		}
+	} else if (crcVal == 0x0371b18c) {
+		console.log("ciso");
+		dumpBytes = patchCiso(dumpBytes);
+		sourceFile = new MarcFile(dumpBytes);
+		crcVal = 0x55ee8b1a;
+	}
 
 	self.postMessage(
 		{
-			crc32:crc32(sourceFile, event.data.startOffset),
-			u8array:event.data.u8array
+			crc32:crcVal,
+			u8array:dumpBytes
 		},
 		[
-			event.data.u8array.buffer
+			dumpBytes.buffer
 		]
 	);
 };

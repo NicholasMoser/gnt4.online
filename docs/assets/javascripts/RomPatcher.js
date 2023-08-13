@@ -103,10 +103,28 @@ function parseCustomPatch(customPatch) {
           message: mismatch
         };
       }
+      patch.validateSourceWithCrc = function (crc) {
+        return {
+          result: customPatch.crc === crc,
+          message: mismatch
+        };
+      }
     } else if (typeof customPatch.crc === 'object') {
       patch.validateSource = function (romFile, headerSize) {
         for (var i = 0; i < customPatch.crc.length; i++) {
           if (customPatch.crc[i] === crc32(romFile, headerSize)) {
+            return {
+              result: true,
+              message: ''
+            };
+          }
+        }
+
+        return false;
+      }
+      patch.validateSourceWithCrc = function (crc) {
+        for (var i = 0; i < customPatch.crc.length; i++) {
+          if (customPatch.crc[i] === crc) {
             return {
               result: true,
               message: ''
@@ -123,6 +141,12 @@ function parseCustomPatch(customPatch) {
       patch.validateSource = function (romFile, headerSize) {
         return {
           result: customPatch.patches[0].crc === crc32(romFile, headerSize),
+          message: mismatch
+        };
+      }
+      patch.validateSourceWithCrc = function (crc) {
+        return {
+          result: customPatch.patches[0].crc === crc,
           message: mismatch
         };
       }
@@ -185,29 +209,6 @@ function updateChecksums(file, startOffset, force) {
   var expectedSize = Elements.File.Patch.options[selectedPatch].getAttribute("data-rom-size") || file.fileSize;
   var expectedFormat = Elements.File.Patch.options[selectedPatch].getAttribute("data-rom-format") || 'iso';
 
-  // check the detected rom format
-  var romFormat = file.originalRomFormat();
-  Elements.Info.Header.Format.innerHTML = romFormat;
-  setMessageCopyable(Elements.Info.Header.Format.id, true);
-
-  if (file === romFile && romFormat != expectedFormat) {
-    if (romFormat === 'unknown') {
-      setMessage(Elements.Message.Header.Format.id, '', 'invalid');
-      Elements.Info.Header.Format.setAttribute('data-value', 'invalid');
-    } else {
-      var convertAction = setSpecialAction(
-        `Convert to ${expectedFormat}`,
-        `Click to convert and save to ${expectedFormat}`,
-        `convertRom(romFile, '${expectedFormat}');`
-      );
-      setMessage(Elements.Message.Header.Format.id, convertAction, 'warning');
-      Elements.Info.Header.Format.setAttribute('data-value', 'convert');
-    }
-  } else {
-    setMessage(Elements.Message.Header.Format.id, '', 'valid');
-    Elements.Info.Header.Format.setAttribute('data-value', 'valid');
-  }
-
   setElementGroup(Elements.Info.Checksum, 'Calculating...', []);
   setElementGroup(Elements.Message.Checksum, '', []);
 
@@ -222,11 +223,10 @@ function updateChecksums(file, startOffset, force) {
   }
 }
 
-function validateSource() {
-  console.log("validateSource");
+function validateSourceWithCrc(crc) {
+  console.log("validateSourceWithCrc -> start");
   if (patch && romFile && romFile._u8array && romFile._u8array.length > 0 && typeof patch.validateSource !== 'undefined') {
-    validate = patch.validateSource(romFile, false);
-
+    validate = patch.validateSourceWithCrc(crc);
     if (validate.result) {
       for (const [obj, element] of Object.entries(Elements.Info.Checksum)) {
         element.innerHTML = element.getAttribute('data-value');
@@ -251,6 +251,38 @@ function validateSource() {
       }
     }
   }
+  console.log("validateSourceWithCrc -> end");
+}
+
+function validateSource() {
+  console.log("validateSource -> start");
+  if (patch && romFile && romFile._u8array && romFile._u8array.length > 0 && typeof patch.validateSource !== 'undefined') {
+    validate = patch.validateSource(romFile, false);
+    if (validate.result) {
+      for (const [obj, element] of Object.entries(Elements.Info.Checksum)) {
+        element.innerHTML = element.getAttribute('data-value');
+        setMessageCopyable(element.id, true);
+      }
+
+      if (Elements.Info.Checksum.CRC32.innerHTML.length !== 0) {
+        setMessage(Elements.Message.Checksum.CRC32.id, '', 'valid')
+        setMessage('status');
+        setTabApplyEnabled(true);
+      }
+    } else {
+      for (const [obj, element] of Object.entries(Elements.Info.Checksum)) {
+        element.innerHTML = element.getAttribute('data-value');
+        setMessageCopyable(element.id, true);
+      }
+
+      if (Elements.Info.Checksum.CRC32.innerHTML.length !== 0) {
+        setMessage(Elements.Message.Checksum.CRC32.id, '', 'invalid')
+        setMessage('status', validate.message, 'error');
+        setTabApplyEnabled(false);
+      }
+    }
+  }
+  console.log("validateSource -> end");
 }
 
 
@@ -303,6 +335,9 @@ function preparePatchedRom(originalRom, patchedRom, headerSize) {
   patchedRom.fileName = `${patchFile.outputName}.${patchedRom.romFormat()}`.replace(/ /g, '_');
   patchedRom.fileType = originalRom.fileType;
   patchedRom.save();
+  // TODO: Can we add something here in Chrome when the file is downloading but the user is not yet alerted?
+  // There is a period of time between calling save() and the user seeing the file finish that the user may
+  // think that the process froze and failed.
 
   Elements.Button.Apply.querySelector('span').style.display = 'none';
   MicroModal.close(modalId);
@@ -476,7 +511,8 @@ function onSelectRomFile() {
   setTabApplyEnabled(false);
   Elements.Zip.Dialog.style.display = 'none';
   [Elements.Info, Elements.Message].forEach((group) => setElementGroup(group, '', [], false));
-  Elements.Info.Header.Format.innerHTML = 'Loading...';
+  setElementGroup(Elements.Info.Checksum, 'Loading...', []);
+  setElementGroup(Elements.Message.Checksum, '', []);
   try {
     romFile = new MarcFile(this, _parseROM);
   } catch (e) {
@@ -509,17 +545,11 @@ function getModalElements(root) {
       Patch: root.querySelector('#input-file-patch'),
     },
     Info: {
-      Header: {
-        Format: root.querySelector('#format'),
-      },
       Checksum: {
         CRC32: root.querySelector('#crc32'),
       }
     },
     Message: {
-      Header: {
-        Format: root.querySelector('#message-format'),
-      },
       Checksum: {
         CRC32: root.querySelector('#message-crc32'),
       }
@@ -585,7 +615,7 @@ function loadWorkers(basePath) {
       romFile._u8array = event.data.u8array;
       romFile._dataView = new DataView(event.data.u8array.buffer);
 
-      validateSource();
+      validateSourceWithCrc(event.data.crc32);
     };
 
     webWorkerCrc.onerror = event => {
@@ -676,7 +706,7 @@ function loadPatcher(patchInfo) {
         CUSTOM_PATCHER[i].patches[j].selectOption.value = i + ',' + j;
         CUSTOM_PATCHER[i].patches[j].selectOption.innerHTML = CUSTOM_PATCHER[i].patches[j].name || CUSTOM_PATCHER[i].patches[j].file;
 
-        ['crc', 'format', 'size'].forEach((meta) => {
+        ['crc', 'size'].forEach((meta) => {
           var primary = CUSTOM_PATCHER[i][meta] || '';
           var value = CUSTOM_PATCHER[i].patches[j][meta] || primary;
           CUSTOM_PATCHER[i].patches[j].selectOption.setAttribute(`data-rom-${meta}`, value);

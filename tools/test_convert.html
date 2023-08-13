@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <script type="text/javascript" src="../docs/assets/javascripts/gnt4.js"></script>
+    <script type="text/javascript" src="../docs/assets/javascripts/FileSaver.js"></script>
+    <script>
+        function saveFile(byteArray) {
+            console.log('save -> start');
+            var blob;
+            try{
+                blob=new Blob([byteArray],{type:'application/octet-stream'});
+            }catch(e){
+                //old browser, use BlobBuilder
+                window.BlobBuilder=window.BlobBuilder || window.WebKitBlobBuilder || window.MozBlobBuilder || window.MSBlobBuilder;
+                if(e.name==='InvalidStateError' && window.BlobBuilder){
+                    var bb=new BlobBuilder();
+                    bb.append(this._u8array.buffer);
+                    blob=bb.getBlob('application/octet-stream');
+                }else{
+                    throw new Error('Incompatible Browser');
+                    return false;
+                }
+            }
+            saveAs(blob,"test.iso");
+            console.log('save -> end');
+        }
+
+        function readFile(file) {
+            return new Promise((resolve, reject) => {
+                // Create file reader
+                let reader = new FileReader()
+
+                // Register event listeners
+                reader.addEventListener("loadend", e => resolve(e.target.result))
+                reader.addEventListener("error", reject)
+
+                // Read file
+                reader.readAsArrayBuffer(file)
+            })
+        }
+
+        async function getAsByteArray(file) {
+            return new Uint8Array(await readFile(file))
+        }
+
+        function handle(file) {
+            console.log("Reading file...");
+            getAsByteArray(file).then((value) => {
+                    console.log(value);
+                    var newBytes = patchGoodDump(value);
+                    console.log(newBytes);
+                    saveFile(newBytes);
+                });
+            }
+    </script>
+<body>
+
+<h1>GNT4 Conversion Tester</h1>
+
+<p>
+    <input id="dump" type="file"/>
+    <button type="button" onclick="handle(document.getElementById('dump').files[0])">Run</button>
+</p>
+
+</body>
+</html> 
