@@ -228,6 +228,19 @@ function validateSourceWithCrc(crc) {
   console.log("validateSourceWithCrc -> start");
   if (patch && romFile && romFile._u8array && romFile._u8array.length > 0 && typeof patch.validateSource !== 'undefined') {
     validate = patch.validateSourceWithCrc(crc);
+    if (!validate.result && Elements.File.Patch.childNodes != null) {
+      // Try the other patch
+      var nodes = Elements.File.Patch.childNodes;
+      for (var i = 0; i < nodes.length; i++) {
+        var patchCrc = nodes[i].getAttribute("data-rom-crc");
+        if (crc == patchCrc) {
+          console.log("Matched with other patch");
+          Elements.File.Patch.selectedIndex = i;
+          onSelectPatchFile(Elements.File.Patch.value);
+          validate = patch.validateSourceWithCrc(crc);
+        }
+      }
+    }
     if (validate.result) {
       for (const [obj, element] of Object.entries(Elements.Info.Checksum)) {
         element.innerHTML = element.getAttribute('data-value');
@@ -478,22 +491,26 @@ function onApplyPatch() {
 function onCloseModal(modal) {
   document.querySelector('.md-dialog').style.zIndex = "";
   Elements.File.Input.removeEventListener('change', onSelectRomFile);
-  Elements.File.Patch.removeEventListener('change', onSelectPatchFile);
+  Elements.File.Patch.removeEventListener('change', userSelectPatchFile);
   Elements.Button.Apply.removeEventListener('click', onApplyPatch);
   Elements.Zip.List.removeEventListener('change', onSelectZipFile);
 }
 
-function onSelectPatchFile() {
+function userSelectPatchFile() {
+  onSelectPatchFile(this.value)
+}
+
+function onSelectPatchFile(value) {
   console.log("onSelectPatchFile");
   var selectedCustomPatchIndex, selectedCustomPatchCompressedIndex, selectedPatch;
 
-  if (/^\d+,\d+$/.test(this.value)) {
-    var indexes = this.value.split(',');
+  if (/^\d+,\d+$/.test(value)) {
+    var indexes = value.split(',');
     selectedCustomPatchIndex = parseInt(indexes[0]);
     selectedCustomPatchCompressedIndex = parseInt(indexes[1]);
     selectedPatch = CUSTOM_PATCHER[selectedCustomPatchIndex].patches[selectedCustomPatchCompressedIndex];
   } else {
-    selectedCustomPatchIndex = parseInt(this.value);
+    selectedCustomPatchIndex = parseInt(value);
     selectedCustomPatchCompressedIndex = null;
     selectedPatch = CUSTOM_PATCHER[selectedCustomPatchIndex];
   }
@@ -722,7 +739,7 @@ function loadPatcher(patchInfo) {
 
   // event listeners
   Elements.File.Input.addEventListener('change', onSelectRomFile);
-  Elements.File.Patch.addEventListener('change', onSelectPatchFile);
+  Elements.File.Patch.addEventListener('change', userSelectPatchFile);
   Elements.Button.Apply.addEventListener('click', onApplyPatch);
   Elements.Zip.List.addEventListener('change', onSelectZipFile);
 };
