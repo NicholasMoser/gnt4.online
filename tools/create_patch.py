@@ -25,8 +25,8 @@ with open(prev_scon4, "rb") as f:
     hash_display = "0x%0.8x" % prev_hash
 
 with open('patches.csv', 'w') as out:
-    out.write('0x55ee8b1a,vanilla.xdelta\n')
-    out.write(f'{hash_display},previous.xdelta\n')
+    out.write(f'version,patch,hash\n')
+    out.write(f'{os.path.basename(prev_scon4)},previous.xdelta,{hash_display}\n')
 
 output = f'''
     patches:
