@@ -1,8 +1,8 @@
 nav:
   # this will be removed after the rest of the site has content
-  - GNT4 Mods:
+  - GNT4 Online:
     - index.md
-    - ROM Patches:
+    - Community Patches:
       - Super Clash of Ninja 4: scon4.md
     - Discords:
       - Super Clash of Ninja 4: https://discord.com/invite/supercon4
