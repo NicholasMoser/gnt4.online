@@ -3,8 +3,8 @@ import sys
 import subprocess
 import zlib
 
-DEFAULT_XDELTA3_PATH = 'D:/GNT/xdelta3.exe'
-DEFAULT_VANILLA_PATH = 'D:/GNT/GNT4.iso'
+DEFAULT_XDELTA3_PATH = 'G:/GNT/xdelta3.exe'
+DEFAULT_VANILLA_PATH = 'G:/GNT/GNT4.iso'
 
 prev_scon4 = input('Path to previous SCON4: ')
 if not os.path.isfile(prev_scon4):
