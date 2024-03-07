@@ -2,8 +2,9 @@ nav:
   # this will be removed after the rest of the site has content
   - GNT4 Online:
     - index.md
-    - Community Patches:
-      - Super Clash of Ninja 4: scon4.md
+    - Super Clash of Ninja 4:
+      - Download: scon4.md
+      - All Changes: scon4_all_changes.md
     - Documents:
       - Modding Info: https://github.com/NicholasMoser/Naruto-GNT-Modding#naruto-gnt-modding
       - SEQ Disassembly Reports: seq/seqs.html
