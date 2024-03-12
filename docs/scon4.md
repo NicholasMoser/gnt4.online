@@ -24,8 +24,8 @@ patches:
         crc: 0x55ee8b1a
   v1.7.1:
     name: SCON4 1.7.1
-    file: https://github.com/NicholasMoser/testrepo/releases/download/1.7.1/patches.zip
-    site: https://github.com/NicholasMoser/testrepo/releases/tag/1.7.1
+    file: https://github.com/NicholasMoser/SCON4-Releases/releases/download/1.7.1/patches.zip
+    site: https://github.com/NicholasMoser/SCON4-Releases/releases/tag/1.7.1
     size: 0x57058000
     patches:
       - name: 'SCON4 1.7.1'

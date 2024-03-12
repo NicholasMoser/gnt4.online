@@ -62,6 +62,11 @@ All directions use numpad notation. For example, 6B is holding forward and press
   - Show Inputs changed to OFF
 - Added new blood texture for certain types of damage
 - All hitstun states cannot high crush anymore (low hitting counter attacks)
+- HP Pools have been normalized, to reduce variance
+- Airborne Guard Break status has been made more dangerous to the victim. It can no longer be tech rolled, and the ability to shake out of it has been reduced to a minimum of 40 frames (from 30)
+- Grounded Guard Break ability to shake out was reduced to a minimum of 40 frames (from 30)
+- Running side steps have been given the ability to track onto the opponent from any distance, these were modelled after those in REV3 to allow new uses for offensive approaching and counterplaying chicken blocking. This also allows running step to turn around to face the opponent when back turned.
+- It was determined that the defensive power of Jump-Back was too powerful and made the game overly defensive. Many new system mechanics hope to provide universal counterplay to jumping for all characters.
 
 Note: 3-Man Cell is currently non-functional.
 
@@ -171,6 +176,7 @@ And for Naruto's ZTK transformation:
 - RA can now be done at any time during run and does not have to wait for a looped animation to begin
 - 2Y throw added that knocks down
 - GRKnJ travels one frame slower; appears slightly further back
+- 4Z disabled
 
 And for Sasuke's sharingan transformation:
 
@@ -255,6 +261,7 @@ And for Sasuke's sharingan transformation:
 - 2X has better super freeze, hitbox appears one frame sooner and disappears two frames later
 - 4X is a real time super with startup immunity to mids and highs
 - GRKnJ bounce changed to be closer; travels one frame faster
+- 4Z disabled
 
 ### Kakashi
 
@@ -291,6 +298,7 @@ And for Sasuke's sharingan transformation:
 - 4X requires and costs 25%
 - 2A adds hits to the combo meter; +1 damage; can now be grabbed on landing on successful hit; cannot be cancelled
 - GRKnJ travels two frames slower; appears further back
+- 4Z disabled
 
 #### Cosmetic
 
@@ -486,9 +494,9 @@ And for Sasuke's sharingan transformation:
 - 2X has less super freeze and comes out faster, can move faster when hitting from further away than right next to the opponent, opponent falls slower, opponent cannot sub until they hit the ground or are hit; resets combo counter
 - S6B stays in front; SB goes behind
 
-### Choji
+### Chouji
 
-![Choji](/assets/images/changelog/choji.png)
+![Chouji](/assets/images/changelog/choji.png)
 
 - Overall: When large, Chouji has guard frames and is grabbable
 - Faster run
@@ -529,6 +537,7 @@ And for Sasuke's sharingan transformation:
 - 5X starts moving 4 frames sooner during super freeze
 - 4X is a real time super similar to Act4A with immunity to highs and mids on startup; requires and uses 75%, does not gain meter, is blockable
 - 2Y added
+- 4Z disabled
 
 #### Cosmetic
 
@@ -827,7 +836,7 @@ There are also some Karasu specific changes:
 - 6B(B) buffer can happen one frame sooner
 - 4B does not stagger anymore (due to 6B change)
 - 5BBB(B) can be delayed
-- 2B added as a sweep; has 2B(B) with B follow up that is old 2B and A follow up that is 2A
+- 2B added as a sweep (Mizuki 2B); has 2B(B) with B follow up
 - 8B has less endlag; transitions to A faster; more lift; can transition on whiff
 - JB ground hit stuns longer; grabbable
 - 5A bounce hitbox made the first two frames, hilt appears on frame 3, bounce made untechable and a high
@@ -851,6 +860,7 @@ There are also some Karasu specific changes:
 - RA as teleport
 - Z+Y changed to be 4X; requires and costs 25% meter; hitbox appears two frames sooner
   - TODO: What does this mean? Also added: 4X changed to be 8Y. First frame does 5Y grab (if hit) but on a miss does old 4X; roll and sub window removed; command grab hitbox starts two frames later
+- 4Z disabled
 
 #### Cosmetic
 
@@ -939,7 +949,7 @@ There are also some Karasu specific changes:
 
 - New walk animation
 - 8BA combo removed
-- Health: 200 to 210
+- Health: 200 to 215
 - Guard: 1600 to 1680
 - Grabbable moves: 2A, JA, 2BBB(A), 8B landing
 - 5B: Hitbox lasts one frame longer, elbow hitbox does not appear on the first frame
