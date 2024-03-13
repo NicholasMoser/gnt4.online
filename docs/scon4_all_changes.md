@@ -444,12 +444,14 @@ And for Sasuke's sharingan transformation:
 ![Might Guy](/assets/images/changelog/guy.png)
 
 - 5B has more lift
-- 5B(B) has an additional endlag frame
+- 5B(B) has an additional endlag frame on hit to prevent 5BB infinite
+- 5BB(A) hitbox duration increased by one frame to better match the animation
 - 5BBA(A) has more lift
 - 6B animation changed to be the 4B(B) animation and staggers, when done in combo it is vanilla
 - 6B(A) has more lift, super cancel, less blockstun; if holding 6 when it comes out does 6A
 - 2B hitbox duration increased by 1 frame, launches, lift adjusted
-- 8B both hits have slightly more lift
+- 8A teleports in front of the opponent; can be grabbed; cannot do follow ups on whiff
+- 8B both hits have slightly more lift; two less frames recovery on landing
 - 8B(B) added as JB
 - RB: Changed to be strong on block, launches upwards, hitbox duration increased by 8 frames
 - JB doesn't float as high in the startup; has slightly more height and launch angle change
@@ -457,7 +459,6 @@ And for Sasuke's sharingan transformation:
 - 6A: Second hit launches far and away, Y cancel removed
 - 4A window improved, can move immediately on appearance
 - 2A launches instead of sweeps with more lift
-- 8A teleports in front of the opponent; can be grabbed; cannot do follow ups on whiff
 - Throw works both sides; throw does 20 damage with no gate or 1 gate open
 - 2Y does a knockdown throw that does 30 damage
 - 5X slightly bigger shoulder hitbox, more duration, begins moving 2 frames sooner, activator does 10 damage in both gated form; damage on activation changed from 71 to 66 and 81
@@ -506,6 +507,12 @@ And for Sasuke's sharingan transformation:
   - 4: 5X, 2X, 4X
 - Health: 225 to 240
 - Guard: 1800 to 1920
+- 5A
+  - Has one (TODO two?) more frame hitbox duration
+  - Cannot be cancelled
+  - Super armor ends frame 30 (from 55)
+  - Damage increased from 25 to 30
+  - Throw trajectory changed
 - 5B has slightly more stun on hit and block; transition to 5B(A) is one frame faster
 - 5B(B) has slightly more lift, shoulder hitbox does not appear on the first frame, SFX comes out one frame later, 3 frames less disadvantage on block
 - 5B(A) hitbox appears one frame sooner; transitions one frame faster
@@ -516,19 +523,32 @@ And for Sasuke's sharingan transformation:
 - 6B(B) is the strong uppercut (8B(B))
 - 6B(A) is a small bounce instead of stagger
 - 6BA(A) replaced with chips
-- 4B is untechable and high for the first two frames of the hitbox, then mid and techable; hitbox appears and disappears one frame later; hitboxes are slightly larger
+- 4B
+  - Untechable and high for the first two frames of the hitbox, then mid and techable
+  - Hitbox appears and disappears one frame later
+  - Hitboxes are slightly larger
+  - High crushes frames 46 - 69; 69 is last follow up frame for B
+  - Frame 70 to the end is the A extension
+- 4B(B) "stands" for four frames before going airborne; "lands" two frames sooner
+- 4B(A) extension added, corresponds to 2A
+- 8A
+  - Hitboxes adjusted to not grab behind as easily
+  - Super armor ends when Chouji leaves the ground
+  - Hitboxes appear 4 frames earlier (TODO 2 now?)
+  - Damage changed from 40 to 30
+  - Opponent can sub after Chouji removes his hands from the opponent
+  - Carries forward on capture
+  - Activates if blocked (Ukon)
 - 8B to 8B(B) transition is slightly slower
 - 8B(A) is 8A
 - 8B(B) ends three frames sooner
 - RB ends sooner
-- 5A has one (TODO two?) more frame hitbox duration, cannot be cancelled, super armor ends frame 30 (from 55), damage increased from 25 to 30, throw trajectory changed, throw is unsubbable and untechable
 - A5A is hittable after Chouji throws the opponent
 - 6A links into the final hit better, ending hits twice, the first is a bounce and second hit is a hard knockdown, knockbacks cleaned up to not be as severe
 - 4A counter window improved, can be activated from all sides
 - Act4A is unblockable and unsubbable, slight adjustment to size, damage increase 20 to 25
 - 2B starts high crush 2 frames sooner and ends 8 frames later
 - 2A maxes out strength (1.5x) at 6 chips from 13. Builds 1/16th of a bar of meter
-- 8A: Hitboxes adjusted to not grab behind as easily, super armor ends when Chouji leaves the ground, hitboxes appear 4 frames earlier (TODO 2 now?), damage changed from 40 to 30; opponent can sub after Chouji removes his hands from the opponent
 - A8A is hittable after Chouji gets off the opponent
 - RA size adjusted, hitbox duration better matches animation, pushes on block
 - JA does increased guard damage, falls faster, hard knockdown, pushes on block, size adjusted, can be DIed forward or backward
@@ -561,7 +581,10 @@ And for Sasuke's sharingan transformation:
 - 6B(B) has three grabbable frames at the startup before the teleport; can change direction with 4B
 - 4B bounces closer to Ino
 - 4BB(B) adjustments to hitbox timing, landing, and crush. High crushes on landing
-- 8B is a backflip with no hitbox, strings can be followed up from it
+- 8B
+  - Is a backflip with no hitbox
+  - Strings can be followed up from it
+  - Has one less frame animation startup and one frame more recovery
 - JB hitbox appears 1 frame later and disappeares 3 frames later
 - JB(B) and JB(2B) are strings
 - 5A charge time decreased to 7 frames from 11
@@ -648,32 +671,53 @@ And for Sasuke's sharingan transformation:
 
 ![Hinata](/assets/images/changelog/hinata.png)
 
+- Health: 185 to 205
+- Guard: 1480 to 1520
 - Combo list updated:
   - 5BBA(A), 6A(A) added to the combo strings
 - Y Cancel uses the same animation as 2X
-- Health: 185 to 205
-- Guard: 1480 to 1520
 - Grabbable moves: 8A, JA, 2X
+- 5B Hitbox appears one frame sooner, more generous hitbox, 1 frame more block stun
 - 5B(B) hitbox appears and disappears one frame later
 - 5BB(A) has stagger, has one more frame blockstun, turns better on hit
 - 5BBBB(6B) is RB
-- 6B has one more frame blockstun
+- 6B
+  - Has one more frame blockstun
+  - Has a bit more forward momentum to increase range
+  - High crush added frames 15-37
 - 6B(B) has one more frame blockstun and can be super canceled; HC is four frames sooner
 - 6BBB(B) and 6BBB(6B) added
+- 6A(A) is a multi hitting attack before it launches away
 - 4B no longer staggers or pushes block, significantly stronger on hit and block
-- 2B has slightly less lift; high crushes from 14-40 to better match the visuals
-- 2B(B) changed to be 5BB(B) with A follow up intact
+- 2B
+  - Has slightly less lift
+  - High crushes from 14-40 to better match the visuals
+  - Hand hitbox appears on second active frame
+- 2B(B)
+  - Changed to be 5BB(B) with A follow up intact
+  - Change of hit angle to assist back turn combos
 - 8B second hit lifts on block, both hitboxes appear one frame later, slightly bigger hitboxes on the second hit; recovers slightly faster
-- RB when done in a string does 5BBB(B) with the A follow up intact
+- RB
+  - Does 5BBB(B) when done in a string; with the A follow up intact
+  - Damage increased from 18 to 19
+  - Pushes on block with 4 more frames of blockstun
+  - Has more backwards momentum on step back (41-51)
+  - Hitbox is active for 5 more frames (2 to 7)
+- RA damage reduced from 19 to 15
 - 5A charge changed from 11f to 8f
 - 4A uses the same animation as 2X, starts up 4 frames sooner, ends 8 frames later
-- Act4A can only be subbed on the first frame
+- Act4A cannot be subbed at all (TODO: was this always the case?)
 - 6A stagger added, turns better on hit, more lift, first three frames are intangible
 - 2A(A) added as 6A(A)
 - 5X damage increased from 65 to 80, starts moving in super freeze three frames sooner; two more active hitbox frames
 - 2X requires 75% meter to use, window starts up 3 frames faster and ends when the animation starts to change like other counters; drains slightly more than 12.5% meter on a miss at the end of the move; activation gives opponent no chakra on hit (TODO 2X now loses meter when she can no longer counter instead of the end of the move?)
 - GRKnJ made into RA; appears closer to the opponent; lift reduced slightly
+- JB
+  - Goes a shorter distance when you release B in the first few frames (short hop)
+  - Both distances have slightly faster fall at the end
+  - Hitbox on the elbow moved to the knee
 - 9B does not do instant RB anymore
+- 5BB6B / 2B6B extension has been added as RB
 
 #### Cosmetic
 
@@ -694,7 +738,9 @@ And for Sasuke's sharingan transformation:
 - JB can be adjusted to go further or less far with holding 4 or 6
 - 5A charge changed from 11f to 8f
 - 6A: Turns better on hit; intangible on the first three frames; no intangible in combos
-- 6A(A) damage increased from 15 to 20
+- 6A(A)
+  - Damage increased from 15 to 20
+  - Drains chakra on hit
 - 4A drains meter at a rate of 120 units per frame instead of 180
 - Act4A is unsubbable and untechable and does 10 more damage; recovers 5 frames faster
 - 2A(A) added as 6A(A)
@@ -712,22 +758,44 @@ And for Sasuke's sharingan transformation:
 - 5B(B) hitbox disappears two frames earlier
 - 5BB(B) turns back turned opponents around
 - 5BBA(A) has three grabbable frames at the startup, doesn't teleport as high
+- 5BBA(B) changed to be 8AB(B)
 - 5BBBB(A) hitbox appears two frames earlier; teleports a frame later when coming from B moves (ex: 6BB(A) instead of 8AB(A))
 - 6B turns back turned opponents around
-- 6B(B) (taijutsu flip kick) made strong on block, start up is 4 frames later, toe hitboxes slightly bigger; "lands" 2 frames later; recovers 10 frames faster on landing
+- 6B(B) 
+  - Taijutsu flip kick, made strong on block
+  - Start up is 4 frames later
+  - Toe hitboxes slightly bigger
+  - "lands" 2 frames later
+  - Recovers 10 frames faster on landing
+  - Can be done on whiff
+  - Does not lift on block
+- 4B does not push on block
 - 4BB(B) increased duration, lower angle, hand knockdown
 - 2B lift increased
 - 2BA(A) and 2BAA(A) adjusted hand to clasp on Gaara's arm properly
+- 2BAA now has extensions into 2A and 6A (2BAA6A , 2BAA2A)
+- 8A
+  - Has sit on frames 9-20
+  - Cannot be thrown 15-until the pillar appears, then can be grabbed after
+  - Hands curl around the arm properly
+  - Recovers 6 frames faster
+- 8A(B) (sand flip kick) "lands" two frames later; recovers 8 frames faster
 - 8B ends significantly sooner, cannot do follow ups after Gaara lands
 - 8B(B) cannot be done upon landing on the ground
-- 5A charge charge changed from 11f to 9f
-- 6A appears 12 frames sooner; can be grabbed for the whole duration
+- 5A
+  - Charge changed from 11f to 9f
+  - Uncharged moves slower with both orbs
+  - Single charge has only one move slower
+- 6A
+  - Appears 12 frames sooner
+  - Can be grabbed for the whole duration
+  - Recovers faster
+- 6A(A) extension added as chargeable 5A
 - 4A counter window improved
-- Act4A appears behind opponent into custom RA that is an unblockable sweep
+- Act4A is now a modified sand dive that appears lower and is unblockable, does less damage
 - 2A comes out faster, can be grabbed
-- 8A has sit on frames 9-20, cannot be thrown 15-until the pillar appears, then can be grabbed after; hands curl around the arm properly
-- 8A(B) (sand flip kick) "lands" two frames later; recovers 8 frames faster
 - JA projectile has more stun; air momentum only affects his upwards lift
+- RB animation replaced with a flip kick; RB(B) added
 - 5X hitbox appears 5 frames sooner
 - 2X:
   - Comes out faster
@@ -739,7 +807,12 @@ And for Sasuke's sharingan transformation:
   - Does 40 damage
   - Properly turns off intangibility and leaves it off
   - 3 frames less intangibility
-- GRKnJ is RA; teleports 1 frame faster
+- GRKnJ
+  - Is RA
+  - Teleports 1 frame faster
+  - Side switches two frames sooner (same total duration)
+  - Gives him a KnJ you can turn around and block like all the others
+- Sand dive hitbox appears sooner, "lands" sooner
 
 #### Cosmetic
 
@@ -808,19 +881,24 @@ There are also some Karasu specific changes:
 
 ![Haku](/assets/images/changelog/haku.png)
 
+- Health: 190 > 200
 - 5B made high
 - 2B hitbox appears one frame sooner; hit direction changed slightly to assist follow ups
-- 2B(B) first hit launches
+- 2B(B) first hit launches and damaged increased from 8,10 > 12,14
 - 2B(A) changed to be 6A(A)
 - 6A hits twice; damage is distributed between the two hits; can hold 8 during startup to do flip
+- 6B(B) damage: 12 > 15; recovery reduced by 9 frames; slightly more lift
+- 6BB(B) damage: 12 > 20; hitbox appears one frame sooner
 - 4A window improved
+- 4B low crushes two frames earlier
 - Act4A appears above 14 frames faster, activation is unblockable and unsubbable; hitboxes are bigger and better placed; moves quicker
 - 8A needles have slightly more lift
-- RA replaced with 2B(A) and follow ups
+- RA does not have to complete a run animation loop first; projectiles appear one frame later
 - JA spawns 5 needles instead of 10, holding each needle drains 6 chakra per frame instead of 3 (was pairs before)
 - 5X hitbox appears 4 frames earlier
-- 2X: Stomp hitbox changed to be a shockwave hitbox instead of on his shin; immune to highs and mids at startup; does not teleport
+- 2X stomp turns back turned around; needles lift; TOD no longer possible
 - GRKnJ changed to be a mid from a high
+- Flip has five additional frames of recovery
 
 ### Zabuza
 
@@ -872,32 +950,72 @@ There are also some Karasu specific changes:
 
 - Scar added to model's face
 - Grabbable moves: 6B(A), 6A, 8A, JA
-- 5B: hitbox appears one frame sooner, slightly smaller hand hitbox; elbow hitbox removed; hand hitbox larger on frame 2
+- 5B
+  - Hitbox appears one frame sooner
+  - Slightly smaller hand hitbox
+  - Elbow hitbox removed
+  - Hand hitbox larger on frame 2
+  - Damage increased by 1
+- 5B(B) damage increased by 1
 - 5BB(A) changed to be a modified RA with 6A(A) follow up
 - 5BBA(A) transition made 7 frames later
 - 6B has more stun, more lift, and turns back turned people around
 - 6B(B) made a mid from a high, replaced with 2B(B)
-- 6BB(B) replaced with 6B(B); does 22 damage from 20; transition on the follow up made until the move ends instead of only 10 frames
-- 6BB(A) can be delayed to do 5A with follow ups instead of 6A(A)
+- 6BB(B)
+  - Replaced with 6B(B)
+  - Transition on the follow up made until the move ends instead of only 10 frames
+  - Dust cloud when foot is put down is slightly smaller
+- 6BB(A)
+  - Can be delayed to do 5A with follow ups instead of 6A(A)
+  - Damage changed from 20 to 26
 - 6BBB(A) with follow ups exists
 - 6BB(A) replaced with 6A(A)
-- 4B has more lift
+- 4B
+  - Has more lift
+  - +3 DEF frames
+  - Ends three frames sooner
+  - More lift
 - 2B made strong from weak on hit and block
 - 2B(B) had spinning knockback removed, and has less lift; replaced with 6B(B); comes out one frame slower
 - 8B replaced with 2B(B); does 20 damage from 26; transition is faster; made a mid from a high
 - 8B(B) ends sooner (14f)
 - JB made to launch with spinning knockback instead of stagger
-- RB hitbox appears one frame later, move recovers earlier; first frame of the hitbox is techable, the rest are untechable
-- 5A charge time reduced from 13f to 10f; done with 8 does 8A; has slightly more lift on uncharged; done raw does not have increased lift
+- J6A new move, slow moving air control projectile
+- RB
+  - Hitbox appears one frame later
+  - Move recovers earlier
+  - First frame of the hitbox is techable, the rest are untechable (TODO: Resolve with below comment?)
+  - First frame changed to a high from a mid to match other untechable bounce moves
+  - Faster recovery on hit only
+- 5A
+  - Charge time reduced from 13 frames to 10 frames
+  - Done with 8 does 8A
+  - Has slightly more lift on uncharged
+  - Done raw does not have increased lift
+  - Startup animation changed from 22 frames to 19 frames
+  - Ending animation changed from 47 frames to 44 frames
 - 4A has a better window
-- Act4A is unblockable and comes out faster
+- Act4A
+  - Unblockable
+  - Comes out faster on hit
+  - Grabbable on landing
 - 6A teleports behind the opponent no matter the range, when done in a string it does vanilla teleport with quicker action
 - 6A(A) hitbox disappears three frames sooner
-- 2A has slightly more lift; damage increased from 18 to 23
+- 2A
+  - Has slightly more lift
+  - Damage increased from 18 to 23
+  - Turns around back turned
+- 2A(A) "lands"
 - RA lifts on block
 - Air Throw added
 - 5X first hit turns around back turned people
-- 2X does 2X activator that goes into 5X super, it starts two frames sooner the hitboxes are bigger, first hit turns around back turned people, activated super does more damage; activated hits four additional times when the shurikens hit the opponent
+- 2X
+  - Does 2X activator that goes into 5X super
+  - It starts two frames sooner the hitboxes are bigger
+  - First hit turns around back turned people
+  - Activated super does more damage
+  - Activated hits four additional times when the shurikens hit the opponent
+  - Three less super freeze frames
 - 4X is a real time super with start immunity to highs and mids that does Kabuto's 5X animation; has a unique super freeze animation; cannot be Y cancelled
 - GRKnJ hitbox appears one frame later; appears much further back
 - 6A combos added to strings list
@@ -955,9 +1073,10 @@ There are also some Karasu specific changes:
 - 5B: Hitbox lasts one frame longer, elbow hitbox does not appear on the first frame
 - 5B(B) changed to be old 6B animation with old 5B(B) damage, ends sooner
 - 6B uses an animation similar to Orochimaru; turns around back turned people, more stun, slightly later on transition to follow ups, slightly more lift
+- 6AA(A) changed to be an empty teleport and has A and B follow ups; faces the opponent on reappearance; has three grabbable frames before the teleport
 - 4B Hitbox appears one frame sooner
 - 4B and 4BA(Y) have improved windows on states as well as ending sooner and can be grabbed during their "sit" frames
-- 4B(B) OTGs; no longer catches late on OTGs, hitbox appears one frame sooner
+- 4B(B) OTGs; no longer catches late on OTGs, hitbox appears one frame sooner; activates if blocked (Ukon)
 - 4B(A) transitions 8 frames faster
 - 4BA(Y) can be subbed in the first few frames
 - 2B(B) has more lift, can be done on whiff, "landing" is one frame sooner
@@ -966,7 +1085,7 @@ There are also some Karasu specific changes:
 - RB replaced with RA, lift increased
 - 2BBB(B) hitbox appears one frame later
 - 2BBB(A) snakes lift and do chip; does 2A in combo; ends 10 frames sooner
-- 8B is a blockable hitgrab that is untechable
+- 8B is a blockable hitgrab that is untechable, adjusted to stop the "reverse bounce" from happening
 - 5A charge time changed from 10f to 8f
 - 6A lifts higher and lifts on block
 - 2A snakes:
@@ -974,11 +1093,15 @@ There are also some Karasu specific changes:
   - Animation changed to be the finisher of 5X
   - If pressing 2 at startup in a combo, does 2BBB(A)
   - Recover 5 frames faster
+  - Damage per hit increased: 3 > 4
 - 4A changed to be a teleport that can teleport to either side
 - JA momentum applies sooner
-- JA and 6AA(A) snakes adjusted to do chip damage and lift
+- JA snakes adjusted to do chip damage and lift
+- JB has a more steep angle
+- JY victim subbable timing made to match Tsunade, is no longer sub unsafe on hit
 - RA, 4BA(A) changed to be a teleport into the air RKnJ position into normal fall; A and B strings added
-- RA and 6AA(A) have three grabbable frames before the teleport
+- RA has three grabbable frames before the teleport
+- RB(B) and RB(A) both face the opponent on the follow up
 - 5Y is a side switch throw
 - 2Y is a new throw that bounces the opponent
 - Air Throw added
@@ -993,6 +1116,7 @@ There are also some Karasu specific changes:
   - Immune to highs and mids frames 1-9 after super freeze then immune to highs until after the hitbox disappears
   - Requires and costs 75%
   - 10+30 damage
+  - Blockable
 - GRKnJ appears slightly further behind the opponent
 - 2BB~A transition slowed down by 6 frames
 
