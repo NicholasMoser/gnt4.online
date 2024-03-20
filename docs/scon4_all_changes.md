@@ -53,7 +53,9 @@ All directions use numpad notation. For example, 6B is holding forward and press
 - X cannot grab break
 - GRKnJs have at a minimum 17 intangible travel frames and will hit on at least frame 29
 - 4As are grabbable the entire duration
-- Sleep state (Kabuto 2X) cannot sub until later; resets the combo counter
+- Sleep state (Kabuto 2X)
+  - Cannot sub until later
+  - Resets the combo counter
 - Can select which RKnJ you use while in the air. If pressing R, then your character will do the air sub, if pressing 2R then they will do the ground sub
 - Wake up attacks added. If holding A or B on frame 15 of a neutral getup, the character will transition to a get up attack. These are fully intangible for four frames and then immune to mids and highs until the hitbox disappears. They are -21 on block
 - Optional default settings changed:
@@ -290,7 +292,9 @@ And for Naruto's ZTK transformation:
   - Can now be done at any time during run and does not have to wait for a looped animation to begin
   - First projectile appears one frame sooner
   - Gap between the two changed to be 1 frame (from 2)
-- GRKnJ travels one frame slower; appears slightly further back
+- GRKnJ
+  - Travels one frame slower
+  - Appears slightly further back
 - 4Z disabled
 
 And for Sasuke's sharingan transformation:
@@ -514,7 +518,9 @@ And for Sasuke's sharingan transformation:
 - RB
   - Is super cancellable
   - High crushes frame 6 (from 1)
-- GRKnJ travels two frames slower; appears further back
+- GRKnJ
+  - Travels two frames slower
+  - Appears further back
 - 4Z disabled
 
 And in Sharingan mode:
@@ -1829,7 +1835,8 @@ There are also some Karasu specific changes:
 - 4X
   - Is a super projectile that begins with a jump backward
   - Unblockable
-  - Requires and uses 75% meter; can be charged with X for more damage
+  - Requires and uses 75% meter
+  - Can be charged with X for more damage
 - RB
   - Starts a frame later
   - Move ends sooner
@@ -2055,7 +2062,8 @@ There are also some Karasu specific changes:
 - 2B(B)
   - First frame is a bounce, then normal hit
   - If holding B on frame 13 the move will bounce (first frame a techable high, second to end an untechable mid)
-  - If you don't it will hit with normal stun; ends slightly earlier
+  - If you don't it will hit with normal stun
+  - Ends slightly earlier
 - 2BB(B)
   - Bounces closer to Jiraiya
   - Recovers sooner
@@ -2607,7 +2615,10 @@ And for Sakon only:
 - 6B
   - Turns backturned opponents around
   - High crushes
-- 6BB(B) has 2 more frames of hitstun; +1 damage; hitbox comes out and disappears one frame sooner
+- 6BB(B)
+  - Has 2 more frames of hitstun
+  - +1 damage
+  - Hitbox comes out and disappears one frame sooner
 - 6A
   - Has 10 less recovery frames
   - Doki hitbox slightly bigger
@@ -2668,7 +2679,9 @@ And for Tayuya's doki demons:
 
 - 2A made strong
 - 6AA(A) floats higher
-- 8A made strong; hitbox appears one frame later and disappears one frame sooner
+- 8A
+  - Made strong
+  - Hitbox appears one frame later and disappears one frame sooner
 - 8A(A) made strong
 
 ### Kimimaro
@@ -2777,7 +2790,9 @@ And for Tayuya's doki demons:
   - Appears further back
   - First hit has slightly more lift
   - Damages changed from 5+5 to 3+3
-- ARKnJ has 12 frames less endlag to match the others; lift reduced
+- ARKnJ
+  - Has 12 frames less endlag to match the others
+  - Lift reduced
 
 ### Kisame
 
