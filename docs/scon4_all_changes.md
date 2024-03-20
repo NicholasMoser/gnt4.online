@@ -71,6 +71,8 @@ All directions use numpad notation. For example, 6B is holding forward and press
 - Grounded Guard Break ability to shake out was reduced to a minimum of 40 frames (from 30)
 - Running side steps have been given the ability to track onto the opponent from any distance, these were modelled after those in REV3 to allow new uses for offensive approaching and counterplaying chicken blocking. This also allows running step to turn around to face the opponent when back turned.
 - It was determined that the defensive power of Jump-Back was too powerful and made the game overly defensive. Many new system mechanics hope to provide universal counterplay to jumping for all characters.
+- When you run the game without a memory card, everything will be correctly unlocked now (e.g. Difficulty 4)
+- Rounds default to 3 in options
 
 Note: 3-Man Cell is currently non-functional.
 
@@ -120,6 +122,7 @@ Note: 3-Man Cell is currently non-functional.
   - Elbow hitboxes appear on second active frame
 - 6A(A) and 6A(8A) added as 2A and 8A
 - 4B bounces closer
+- 4A clone drain adjusted from 42 units per frame to 32 units per frame (a bit more than 6 seconds to a full 8)
 - 8B
  - Hitbox appears two frames later
  - Both hitboxes increased in size
@@ -1528,7 +1531,10 @@ TODO: Resolve above two 2A entries
 - 6BA(B)
   - Can be done on whiff
   - Transitions faster
-- 6A done in strings has more endlag
+- 6A
+  - Done in strings has more endlag
+  - Has slightly less stun
+  - Kankuro recovers two frames faster than before
 - 6A(B)
   - Can be done on whiff
   - String window adjusted to only go to animation end and not with the additional recovery that was added to 6A
@@ -1714,7 +1720,6 @@ There are also some Karasu specific changes:
   - Has slightly more lift
   - Damage increased from 18 to 23
   - Turns around back turned
-- 2A(A) "lands"
 - 6B
   - Has more stun
   - Has more lift
@@ -1803,7 +1808,6 @@ There are also some Karasu specific changes:
   - Turns around the opponent on backturned
 - 2B(B) made a mid (TODO: Was this reverted to high?)
 - 2BBA(B) hitbox disappears three frames sooner
-- 2A(A) "Lands" to fix rare issue where late in the 2A move Mizuki becomes "airborne" and cannot cancel his follow ups after teleport
 - 6B staggers
 - 6B(B) has one more frame of hitbox
 - 6BB(B) Y cancels properly
@@ -1901,6 +1905,7 @@ There are also some Karasu specific changes:
   - No longer catches late on OTGs
   - Hitbox appears one frame sooner
   - Activates if blocked (Ukon)
+  - Foot hitbox appears on second active frame instead of the first (TODO: What about from vanilla?)
 - 4B(A) transitions 8 frames faster
 - 4BA(A)
   - Changed to be a teleport into the air RKnJ position into normal fall
