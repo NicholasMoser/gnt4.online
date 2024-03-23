@@ -243,6 +243,7 @@ And for Naruto's ZTK transformation:
   - Actually low crushes the frame before the hitbox appears
   - Can be subbed after hitting the ground
 - JA changed to be 8B(A) like Lee JA and current JA made to be J2A
+- 5X opponent lays motionless after successful hit for 60 frames less
 - 2X high crush frames removed
 - RA given three grabbable frames before the teleport
 - A8A
@@ -490,6 +491,7 @@ And for Sasuke's sharingan transformation:
 - 5BB(A) route added as a 6A that staggers
 - 5BBA(B) added
 - 5BB(6A) is added as a kunai dash
+- 5BB6AB string removed 
 - 5BBB(B) has 5 more damage and is a hard knockdown
 - 5BBB(A)
   - Hitbox size adjusted
@@ -545,6 +547,7 @@ And in Sharingan mode:
   - Moves forward on start up
   - Improved hitbox
   - Crushes three frames earlier
+- 2B(B) does not cancel to stand
 - 6B
   - First hit has slightly more blockstun
   - Second hit pushes on block with a slightly bigger knee hitbox
@@ -606,6 +609,7 @@ And in Sharingan mode:
   - Starts moving 3 frames sooner
   - Activates if only hitting the second hit
   - First hit turns back turned opponents around
+  - First hit hitbox duration increased by one frame
 - 2X has slightly less lift
 - RB replaced with RA with B follow ups
 - RB(B)
@@ -646,7 +650,6 @@ And in Sharingan mode:
 - 5BB(A) hitbox has one more frame duration to better match the animation
 - 5BBA(A) has more lift and a hyuuga cancel before he leaves the ground
 - 5A has more lift
-  - Is super cancellable in all gates
   - Turns the opponent around on back turned
 	- 1G: Deflects projectiles
 	- 2G: Staggers
@@ -1344,6 +1347,7 @@ TODO: Resolve above two 2A entries
   - Activates if only hitting the second hit
   - Damage reduced from 75 to 70
   - First hit turns back turned opponents around
+  - First hit hitbox duration increased by one frame
 - 2X
   - Starts 3 frames faster and ends 8 frames later
   - Drains slightly more than 12.5% meter on a miss at the end of the move
@@ -2511,6 +2515,7 @@ There are also some Karasu specific changes:
   - Hitbox appears and disappears one frame sooner
   - Better stun on hit and block
   - Move ends sooner
+  - Made a mid
 - 5BBA(A) transition adjusted to be quicker
 - 5A charge changed from 11f to 8f
 - 2A stagger removed
@@ -2583,7 +2588,7 @@ And for Sakon only:
 
 ![Tayuya](/assets/images/changelog/tayuya.png)
 
-- Health: 180 to 215
+- Health: 180 to 205
 - Guard: 1440 to 1680
 - Grabbable Moves: 5A, JA
 - 3ME entry option replaced with vanilla GRKnJ
