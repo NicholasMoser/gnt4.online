@@ -31,7 +31,9 @@ All directions use numpad notation. For example, 6B is holding forward and press
 - 5X8 is an example where the move begins with 5X but needs a press of 8 to do something different. This essentially works like 8X, but it is different solely for comboing into the move as if you input 8X and release the 8, you will do 5X. These moves are seen at the first active frame of the move in most cases
 - DI (Directional Input) is on a few air moves. This allows you to hold forward or back as you begin the move to change how your momentum is applied
 - Ring is a combo with multiple options depending on direction pressed
-- ~ is the transition between moves, so 5A~A is the transition between 5A and the follow-up 5A
+- ~ is the transition between moves, so 5A~A is the minimum time the game needed to initiate the second 5A
+- lowercase letters mean an input is being slid from
+- [] means a button is being held down
 
 ## General Changes
 
@@ -73,6 +75,10 @@ All directions use numpad notation. For example, 6B is holding forward and press
 - When you run the game without a memory card, everything will be correctly unlocked now (e.g. Difficulty 4)
 - Rounds default to 3 in options
 - Default Menu Option is "Battle Mode" instead of "Three Man Cell"
+- Damage for "reversal" supers has been normalized down across the board
+- Slide inputs have been introduced. These inputs are common in Tekken and Soul Calibur. Simply slide your thumb/finger from the first button to the second quickly to use.
+- Dive kick hitboxes have been enlarged across the board
+- The moves that activate even when blocked (example Chouji 8A) will also activate when clashing the initial hitbox
 
 Note: 3-Man Cell is currently non-functional.
 
@@ -1963,7 +1969,7 @@ There are also some Karasu specific changes:
 - 4X is a command grab that puts down into an untechable, unsubbable state
   - Immune to highs and mids frames 1-9 after super freeze then immune to highs until after the hitbox disappears
   - Requires and costs 75%
-  - 10+30 damage
+  - 5 + 25 damage
   - Blockable
 - RB
   - Replaced with RA
