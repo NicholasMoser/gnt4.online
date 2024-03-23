@@ -73,6 +73,7 @@ All directions use numpad notation. For example, 6B is holding forward and press
 - It was determined that the defensive power of Jump-Back was too powerful and made the game overly defensive. Many new system mechanics hope to provide universal counterplay to jumping for all characters.
 - When you run the game without a memory card, everything will be correctly unlocked now (e.g. Difficulty 4)
 - Rounds default to 3 in options
+- Default Menu Option is "Battle Mode" instead of "Three Man Cell"
 
 Note: 3-Man Cell is currently non-functional.
 
@@ -427,6 +428,7 @@ And for Sasuke's sharingan transformation:
   - Does not lift on block
 - 4BA(B) launches away
 - 4BAA(A) added as RA
+- 4A remains grounded
 - 8B
   - Lift decreased
   - Duration adjusted to fit the animation better
@@ -486,6 +488,7 @@ And for Sasuke's sharingan transformation:
   - Recovers two frames faster on block only
   - Second active frame (to the end) of the hitbox lifts on block
 - 5BB(A) route added as a 6A that staggers
+- 5BBA(B) added
 - 5BB(6A) is added as a kunai dash
 - 5BBB(B) has 5 more damage and is a hard knockdown
 - 5BBB(A)
@@ -499,10 +502,14 @@ And for Sasuke's sharingan transformation:
   - Can now be grabbed on landing on successful hit
   - Cannot be cancelled
 - A2A is hittable at the peak of the jump (TODO: huh)
-- 6B hitbox appears one frame earlier, more lift to match S6B's second hit
+- 6B
+  - Hitbox appears one frame earlier
+  - Hitbox size slightly increased
+  - More lift to match S6B's second hit
 - 6A
   - Hitbox on the hand slightly bigger to better match the kunai
   - Has more lift
+  - +5 frames blockstun
 - 4B floats higher
 - 4A uses animation from stance cancel
 - Act4A moves into launch hit faster, unblockable
@@ -1096,6 +1103,7 @@ TODO: Resolve above two 2A entries
   - Has slightly more lift
   - Bounces
   - 7 frames less recovery
+  - Hits slightly further away
 - 6BBA(B)
   - Has two more frames duration on the hitbox
   - Can be transitioned into quickly
