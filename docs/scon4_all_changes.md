@@ -194,6 +194,7 @@ And for Naruto's ZTK transformation:
   - Requires 75%
   - Third to last hit staggers
   - Second to last hit doesn't jump as far forward
+  - Second to last hit made a big bounce from a small to stop sub restore
   - Fixed animation glitch (added one hit)
   - First hit lift adjusted to not sometimes reset the combo
   - One less frame super freeze
@@ -1527,6 +1528,7 @@ TODO: Resolve above two 2A entries
   - More float
 - 5B(B) hitbox appears and disappears one frame later
 - 5BB6B does 6B with follow ups
+- 2B(6B) transition is two frames later with limited follow ups (2B6BBB and 2B6BBA)
 - 6B(A) recovers 2 frames faster
 - 6BA(B)
   - Can be done on whiff
@@ -1549,7 +1551,9 @@ TODO: Resolve above two 2A entries
   - Is "airborne" two frames earlier
 - 8B(B) removed
 - 8B(A) added as 5A
-- 5X starts moving two frames sooner in super freeze
+- 5X
+  - Starts moving two frames sooner in super freeze
+  - Has two less super freeze frames to allow Kank to properly just frame super like everyone else (TODO: Does this cancel out the above?)
 - RZA added by changing the animation to Kabuto's RA animation with RZAZA/ZRAA follow up
 
 There are also some Karasu specific changes:
@@ -1558,6 +1562,7 @@ There are also some Karasu specific changes:
 - Backdash ends 5 frames sooner
 - Grabbable moves: 8B, 8A, JA
 - 2A, 2A(A), 2AA(A), 2AAA(A) have 4 more damage each
+- JA first two frames cancel into 5A instead of landing
 - JY added
   - Removes the unsubbable state (this is applied for the first few release frames of all overhead throws)
 
@@ -1720,6 +1725,7 @@ There are also some Karasu specific changes:
   - Has slightly more lift
   - Damage increased from 18 to 23
   - Turns around back turned
+- 2A(A) "lands" at startup
 - 6B
   - Has more stun
   - Has more lift
@@ -1807,6 +1813,7 @@ There are also some Karasu specific changes:
   - Change to hit direction
   - Turns around the opponent on backturned
 - 2B(B) made a mid (TODO: Was this reverted to high?)
+- 2A(A) "lands" at startup
 - 2BBA(B) hitbox disappears three frames sooner
 - 6B staggers
 - 6B(B) has one more frame of hitbox
@@ -2273,7 +2280,6 @@ There are also some Karasu specific changes:
   - Transition to 2B(B) window increased by 10 frames
 - 2BB(B)
   - Replaced with a custom 6BA(B) that knocks away on hit and block
-  - Hitbox appears one frame later
 - 2BB(A)
   - Has guard from 1-22
   - Has one hitbox active frame removed from the end
@@ -2820,8 +2826,10 @@ And for Tayuya's doki demons:
   - Hitbox appears one frame sooner
   - Hilt hitbox is larger
   - Uncharged juggles better and ends with a low sweep
-  - 1C is a mid sweep
-  - 2C is an untechable sweep
+  - Lift adjusted
+  - 0C last hit is a stagger
+  - 1C last hit is a mid sweep
+  - 2C last hit is an untechable sweep
 - 6A2C
   - Is unblockable
   - Sweep ender is untechable
@@ -2844,7 +2852,6 @@ And for Tayuya's doki demons:
   - Shark juggles better
   - Shark is a single hit projectile that does 50 damage
   - Can be grabbed the entire duration
-- 1X does turn around 2X
 - GRKnJ changed to a custom 6B
 
 #### Cosmetic
