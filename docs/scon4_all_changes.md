@@ -67,8 +67,7 @@ All directions use numpad notation. For example, 6B is holding forward and press
 - Added new blood texture for certain types of damage
 - All hitstun states cannot high crush anymore (low hitting counter attacks)
 - HP Pools have been normalized, to reduce variance
-- Airborne Guard Break status has been made more dangerous to the victim. It can no longer be tech rolled, and the ability to shake out of it has been reduced to a minimum of 40 frames (from 30)
-- Grounded Guard Break ability to shake out was reduced to a minimum of 40 frames (from 30)
+- Guard Break (Airborne and Grounded) ability to shake out is reduced to a minimum of 40 frames (from 30)
 - Running side steps have been given the ability to track onto the opponent from any distance, these were modelled after those in REV3 to allow new uses for offensive approaching and counterplaying chicken blocking. This also allows running step to turn around to face the opponent when back turned.
 - It was determined that the defensive power of Jump-Back was too powerful and made the game overly defensive. Many new system mechanics hope to provide universal counterplay to jumping for all characters.
 - When you run the game without a memory card, everything will be correctly unlocked now (e.g. Difficulty 4)
@@ -85,6 +84,7 @@ Note: 3-Man Cell is currently non-functional.
 - Asian Gate over Chuunin Roof
 - Aquarium over Hot Springs
 - Gamecube Galaxy over Sunset Ramen
+- Radical Highway replaces Academy Sunrise
 
 ## Character Changes
 
@@ -1265,7 +1265,9 @@ TODO: Resolve above two 2A entries
   - Turns better on hit
   - More lift
   - First three frames are intangible
-- 6A(A) is a multi hitting attack before it launches away
+- 6A(A)
+  - Is a multi hitting attack before it launches away
+  - Last hit is unsubbable
 - 4B
   - No longer staggers or pushes block
   - Significantly stronger on hit and block
@@ -1280,8 +1282,7 @@ TODO: Resolve above two 2A entries
   - Slightly bigger hitboxes on the second hit
   - Recovers slightly faster
 - JB
-  - Goes a shorter distance when you release B in the first few frames (short hop)
-  - Both distances have slightly faster fall at the end
+  - Hitbox and end fall speed increase
   - Hitbox on the elbow moved to the knee
 - 5X
   - Damage increased from 65 to 80
@@ -1366,6 +1367,7 @@ TODO: Resolve above two 2A entries
   - Active frame 2 hitbox size increase
 - 5B(B) hitbox disappears two frames earlier
 - 5BB(B) turns back turned opponents around
+- 5BBA(B) given more lift
 - 5BBA(A)
   - Has three grabbable frames at the startup
   - Doesn't teleport as high
@@ -1392,6 +1394,7 @@ TODO: Resolve above two 2A entries
   - Recovers 10 frames faster on landing
   - Can be done on whiff
   - Does not lift on block
+- 6BB(B) transition is six frames slower
 - 6A
   - Appears 12 frames sooner
   - Can be grabbed for the whole duration
@@ -1418,6 +1421,7 @@ TODO: Resolve above two 2A entries
 - 8A(B)
   - Sand flip kick "lands" two frames later
   - Recovers 8 frames faster
+- 8AB(B) transition is three frames slower
 - JA
   - Projectile has more stun
   - Air momentum only affects his upwards lift
@@ -1443,6 +1447,7 @@ TODO: Resolve above two 2A entries
 - Sand dive
   - Hitbox appears sooner
   - "lands" sooner
+- TFlip has more lift
 
 #### Cosmetic
 
@@ -1690,6 +1695,7 @@ There are also some Karasu specific changes:
   - Links better on air hits
   - Damage reduced
   - Hilt hitbox on first revolution is slightly bigger
+  - Hits have slightly more directional movement
 - 4X
   - Added
   - Is a command grab
@@ -1757,6 +1763,7 @@ There are also some Karasu specific changes:
 - 6A
   - Teleports behind the opponent no matter the range
   - When done in a string it does vanilla teleport with quicker action
+  - TODO: What to say about teleport failure?
 - 6A combos added to strings list
 - 6A(A) hitbox disappears three frames sooner
 - 4B
