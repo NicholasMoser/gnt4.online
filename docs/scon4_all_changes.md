@@ -800,7 +800,9 @@ And in Sharingan mode:
     - Does JX from the ground with modified momentum
     - Requires and costs 75%
 - J6X added where TenTen hops slightly forward before doing the super instead of slightly back
-- RB made strong and pushes on block
+- RB
+    - Made strong and pushes on block
+    - Lifts slightly higher
 - RA can now be done at anytime during run and does not have to wait for a loop of the animation
 - GRKnJ moved further back
 - GRKnJ made a mid from a high
@@ -1579,7 +1581,7 @@ TODO: Resolve above two 2A entries
 - JB
     - Does 10 damage (from 16) and 10 block damage (from 16) but has the same guard stun
     - Hitbox removed from head and butt
-    - Less lift
+    - Less lift (TODO: Now has more lift, but is it more or less than vanilla?)
 - J2B
     - Added as a glide that can be cancelled early with Y
     - Has A and B follow ups
@@ -1718,6 +1720,7 @@ There are also some Karasu specific changes:
 
 ![Zabuza](/assets/images/changelog/zabuza.png)
 
+- All sword attacks have a slightly bigger center hitbox
 - All non sword attacks do -2 damage (except 5B and 5B(B))
 - 5B elbow hitbox does not show up on the first frame
 - 5B(B) appears and disappears one frame later
@@ -1726,40 +1729,47 @@ There are also some Karasu specific changes:
 - 5BBB(B) can be delayed
 - 5B(6B) as boot
 - 5A
-    - Bounce hitbox made the first two frames
-    - Hilt appears on frame 3
-    - Bounce made untechable and a high
+    - Hitboxes appear one frame sooner
+    - Hilt hitbox appears on active frame 3
+    - Press/hold A on frame 27 makes the move an untechable bounce
+    - Non hold has more lift
+- 5A(A) uses 2A animation, but lifts
 - 5AAA follow ups changed
     - A does vanilla and is a hard knockdown
     - 2A does vanilla B follow up
     - B follow up changed to be a custom 8A teleport
 - 2B
+    - New sweep animation
     - Added as a sweep (Mizuki 2B)
-    - Has 2B(B) with B follow up
+- 2B(B)
+    - Can be done on whiff
+    - Changed to be 5B(B)
 - 2A can be Y cancelled
 - 2AA(A/2A) added
 - 6B
     - Turns back turned opponents around on hit
     - Hitbox improved
     - Hitbox added to forward knee
-    - Stagger
 - 6B(B)
     - Buffer can happen one frame sooner
     - (TODO: Faster recovery?)
 - 6A
     - Charge is faster
+    - On charge release has guard frames 1-4 (active 2-5)
+    - Has more lift
     - 1C breaks guard easier and hitstun increased
-    - Other charges do less guard damage
     - 3C is a hard knockdown
+    - Other charges do less guard damage
+- 6A(A) has more lift
 - 4B does not stagger anymore (due to 6B change)
-- 4A window improved
+- 4A counter has been replaced with a full screen tracking teleport similar in function to Orochimaru. 4A6 is possible
 - Act4A teleports and recovers quicker
 - 8B
     - Has less endlag
     - Transitions to A faster
     - More lift
     - Can transition on whiff
-- 8A can be canceled before the teleport
+- 8A has been replaced with an anti air/sub trap full moon slash
 - JB
     - Ground hit stuns longer
     - Is grabbable
@@ -1771,6 +1781,7 @@ There are also some Karasu specific changes:
 - 2Y
     - Is slam throw
     - Victim flags adjusted to better match the animation
+- JY air throw added
 - 8Y
     - Changed to 4Y
     - Made blockable and unbreakable
@@ -2247,6 +2258,7 @@ There are also some Karasu specific changes:
 - 5A
     - Hand hitbox does not appear on the first frame
     - Slightly more lift
+    - Turns back turned opponents around
 - 5A(B)
     - Stuns longer
     - Knee hitbox does not appear on the first frame
@@ -2798,6 +2810,7 @@ And for Sakon only:
     - Duration increased to 17 frames
     - Starts up three frames later (ends same time) with three frames less super freeze (TODO: 3 or 5?)
     - Small subbable window now exists as a result
+    - Is grabbable for the first 26 frames after super freeze (hitbox appears on 29)
 - RA has defense frames and can be grabbed during airborne frames
 - GRKnJ
     - Summons a 6A monster that hits for a small bounce
