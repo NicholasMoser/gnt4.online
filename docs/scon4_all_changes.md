@@ -117,8 +117,7 @@ Note: 3-Man Cell is currently non-functional.
     - Hand hitboxes bigger
 - 5BBBB(A) added as 8A
 - 5BAA(A)
-    - Starts up and ends one frame later
-    - Staggers
+    - Made spinning knockdown
 - 2B has less lift
 - 2A has a new animation
 - 6B
@@ -849,7 +848,7 @@ And in Sharingan mode:
     - Y cancel removed
     - Recovers six frames faster
 - 4B
-    - Only has four guard frames after charge (if charge only)
+    - Has only 5 guard frames on step forward (charge or otherwise)
     - Active 2-5
 - 4A
     - Window improved
@@ -1150,7 +1149,7 @@ TODO: Resolve above two 2A entries
     - Ends sooner
 - 5BB(A) hits 5 times
 - 5BBA~B slowed down slightly
-- 5BBA(B) changed to be 6BBA(B)
+- 5BBA(B) animation changed to be 6B animation with increased forward momentum
 - 5A
     - Charges in 14 frames from 27
     - Bugs made low
@@ -1165,8 +1164,9 @@ TODO: Resolve above two 2A entries
     - Hitbox appears and disappears one frame later
 - 2A
     - Comes out faster
-    - Hitboxes bigger
-    - Bugs changed to be lows
+    - Front hitbox removed and two adjacent hitboxes are smaller
+    - Hitboxes bigger (TODO: Is this true after the above change?)
+    - Bugs changed to be mids (TODO: were they always mids?)
 - 6B(B) given stagger
 - 6BBA(8B) added as 8B
 - 6BB(B)
