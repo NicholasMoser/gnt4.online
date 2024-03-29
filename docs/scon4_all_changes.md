@@ -1347,6 +1347,8 @@ TODO: Resolve above two 2A entries
     - Has one more frame blockstun
     - Has a bit more forward momentum to increase range
     - High crush added frames 15-37
+    - Startup animation adjusted to now hit one frame later (frame 16 was the same frame as old 6B)
+    - More lift
 - 6B(B)
     - Adjusted to use a modified RB animation (TODO: is the below still relevant now?)
     - Has one more frame blockstun
