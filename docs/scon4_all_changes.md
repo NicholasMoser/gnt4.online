@@ -770,6 +770,7 @@ And in Sharingan mode:
     - Ends sooner
     - Has more lift
     - Faster recovery on hit or block only
+    - On whiff recovery changed from 19 additional frames (from on hit) to 10
 - 6A(A) can now be done on whiff
 - 6AB does 6B
 - 4A activates automatically
@@ -828,11 +829,13 @@ And in Sharingan mode:
     - Hitbox duration increased by 1 frame
     - Launches
     - Lift adjusted
-- 2B(A) changed to be 6A
+    - (TODO: Says this was reverted, was it all reverted?)
 - 2A
-    - Launches instead of sweeps with more lift
+    - Duration increased by 7 frames
     - Has less endlag
+    - Launches instead of sweeps with more lift
     - Has spinning knockback
+    - Hitbox stays active for two more frames
 - 6B
     - Animation changed to be the 4B(B) animation and staggers
     - When done in combo it is vanilla
@@ -1147,6 +1150,7 @@ TODO: Resolve above two 2A entries
 - 5BB(B)
     - Lifts on hit and block
     - Ends sooner
+- 5BBB(A) changed to be 5A
 - 5BB(A) hits 5 times
 - 5BBA~B slowed down slightly
 - 5BBA(B) animation changed to be 6B animation with increased forward momentum
@@ -1164,8 +1168,8 @@ TODO: Resolve above two 2A entries
     - Hitbox appears and disappears one frame later
 - 2A
     - Comes out faster
-    - Front hitbox removed and two adjacent hitboxes are smaller
-    - Hitboxes bigger (TODO: Is this true after the above change?)
+    - Front hitbox removed
+    - Hitboxes bigger (TODO: Are the other non-front hitboxes bigger?)
     - Bugs changed to be mids (TODO: were they always mids?)
 - 6B(B) given stagger
 - 6BBA(8B) added as 8B
@@ -1347,9 +1351,6 @@ TODO: Resolve above two 2A entries
     - Turns better on hit
     - More lift
     - First three frames are intangible
-- 6A(A)
-    - Is a multi hitting attack before it launches away
-    - Last hit is unsubbable
 - 4B
     - No longer staggers or pushes block
     - Significantly stronger on hit and block
@@ -1657,6 +1658,9 @@ TODO: Resolve above two 2A entries
     - Starts moving two frames sooner in super freeze
     - Has two less super freeze frames to allow Kank to properly just frame super like everyone else (TODO: Does this cancel out the above and below?)
     - Has one less frame super freeze
+- RB
+  - If input A on the first frame, will not transition
+  - Slide input transition made 6 frames
 - RZA added by changing the animation to Kabuto's RA animation with RZAZA/ZRAA follow up
 - R[Z]A input changed to a slide input, the inputs RbA does the former R[Z]A; the B follow up is R[Z]A[Z]A and the A follow up is RA(A)
 
