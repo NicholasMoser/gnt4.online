@@ -312,7 +312,7 @@ And for Sasuke's sharingan transformation:
 
 - 5BBB(B) has one more hitbox duration frame to better match the animation
 - 4A counter window sped up
-- Act4A cannot be subbed (TODO: Is this same as vanilla?)
+- Act4A can be subbed on the first frame only (TODO: Is this same as vanilla?)
 - 5X
     - Adjustments to duration, sizes, and damage is applied on the cinematic portion
     - Does 10+65 from 10+50
@@ -434,7 +434,9 @@ And for Sasuke's sharingan transformation:
     - Does not lift on block
 - 4BA(B) launches away
 - 4BAA(A) added as RA
-- 4A remains grounded
+- 4A
+    - Remains grounded
+    - Teleport has a different reappearance animation
 - 8B
     - Lift decreased
     - Duration adjusted to fit the animation better
@@ -684,7 +686,7 @@ And in Sharingan mode:
     - 1G: 3x guard damage
     - 2G: Instant guard break
 - 4A window is increased
-- Act4A cannot be subbed at all (TODO: Was this ever possible?)
+- Act4A can be subbed on the first frame only (TODO: Was this ever possible?)
 - 4B(B) high crush from 13-36
 - 8B
     - First hit lifts on block
@@ -925,6 +927,8 @@ And in Sharingan mode:
 - 8B
     - Replaced by a modified SBB(B) with better knockback
     - High crush 7-15
+    - Has more stun on block
+    - Recovers slightly faster on block and whiff (12 frames slower than on hit)
 - 8B(A) can only be done after landing
 - SB
     - Remove stagger
@@ -1117,6 +1121,7 @@ TODO: Resolve above two 2A entries
 - 5Y
     - Has a new animation
     - Does 20 damage
+    - Can be subbed 5 frames sooner
 - 2Y
     - Has a new animation
     - Does 20 damage and side switches
@@ -1168,9 +1173,10 @@ TODO: Resolve above two 2A entries
     - Hitbox appears and disappears one frame later
 - 2A
     - Comes out faster
-    - Front hitbox removed
+    - Spawns 3 frames later
     - Hitboxes bigger (TODO: Are the other non-front hitboxes bigger?)
     - Bugs changed to be mids (TODO: were they always mids?)
+    - "sit" flags adjusted
 - 6B(B) given stagger
 - 6BBA(8B) added as 8B
 - 6BB(B)
@@ -1342,6 +1348,7 @@ TODO: Resolve above two 2A entries
     - Has a bit more forward momentum to increase range
     - High crush added frames 15-37
 - 6B(B)
+    - Adjusted to use a modified RB animation (TODO: is the below still relevant now?)
     - Has one more frame blockstun
     - Is super cancellable
     - HC (TODO: Heavy crush?) is four frames sooner
@@ -1358,7 +1365,7 @@ TODO: Resolve above two 2A entries
     - Uses the same animation as 2X
     - Starts up 4 frames sooner
     - Ends 8 frames later
-- Act4A cannot be subbed at all (TODO: was this always the case?)
+- Act4A can be subbed on the first frame only (TODO: was this always the case?)
 - 8B
     - Second hit lifts on block
     - Both hitboxes appear one frame later
@@ -1717,6 +1724,7 @@ There are also some Karasu specific changes:
 - RA
     - Does not have to complete a run animation loop first
     - Projectiles appear one frame later
+    - Changed position of projectile spawn
 - GRKnJ changed to be a mid from a high
 - Flip has five additional frames of recovery
 
@@ -2692,6 +2700,7 @@ There are also some Karasu specific changes:
     - Ends sooner
     - Transitions later
 - GRKnJ hitboxes changed to properly match RB
+- Z44 removed 
 
 And for Sakon only:
 
