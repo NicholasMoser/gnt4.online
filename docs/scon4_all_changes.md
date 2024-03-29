@@ -78,6 +78,8 @@ All directions use numpad notation. For example, 6B is holding forward and press
 - Damage for "reversal" supers has been normalized down across the board
 - Slide inputs have been introduced. These inputs are common in Tekken and Soul Calibur. Simply slide your thumb/finger from the first button to the second quickly to use.
 - The moves that activate even when blocked (example Chouji 8A) will also activate when clashing the initial hitbox
+- Jump attacks have been changed across the cast to make them all air throwable
+- Airthrows are invulnerable during the animation to avoid being hit out of a successful air throw by a move like Itachi’s jA
 
 Note: 3-Man Cell is currently non-functional.
 
@@ -524,6 +526,7 @@ And for Sasuke's sharingan transformation:
 - Act4A moves into launch hit faster, unblockable
 - 8B hitbox appears two frames later
 - JB is super cancellable, better descent angle
+- J2B added as a modified version of the BBBA(B) kick
 - J2Y
     - Added
     - Requires and costs 25% meter
@@ -538,6 +541,7 @@ And for Sasuke's sharingan transformation:
 - RB
     - Is super cancellable
     - High crushes frame 6 (from 1)
+- RA kunais have more lift for better combo consistency
 - GRKnJ
     - Travels two frames slower
     - Appears further back
@@ -562,8 +566,9 @@ And in Sharingan mode:
     - Second hit pushes on block with a slightly bigger knee hitbox
     - Hitbox disappears one frame earlier
     - Has no pushback on the second hit and a slightly improved hitbox
+    - Damage adjusted to 13+22, from 17-18 (TODO: Fix this syntax)
 - 6A
-    - First hit has more lift
+    - First hit has more lift (to avoid a situation where the first hit connected and the second missed because of the counter hit while crouched hitstun animation)
     - First hit has +7 frames of blockstun
     - 2 more frames on duration
     - Hitbox on the hand slightly bigger to better match the kunai
@@ -877,7 +882,7 @@ And in Sharingan mode:
 - 5Y
     - Works both sides
     - Does 20 damage with no gate or 1 gate open
-- 2Y is a side switch throw
+- 2Y is a higher damage hard knockdown throw
 - 5X
     - Elbow hitbox moved to shoulder
     - Slightly bigger shoulder hitbox
@@ -1115,6 +1120,7 @@ TODO: Resolve above two 2A entries
 - JB
     - Hitbox appears 1 frame later
     - Hitbox disappears 3 frames later
+    - Hitboxes decreased to 150 in size, from 179
 - JB(B) and JB(2B) are strings
 - JA in combos teleports with 6 or 4
 - JY added
@@ -1329,11 +1335,15 @@ TODO: Resolve above two 2A entries
     - More generous hitbox
     - 1 frame more block stun
 - 5B(B) hitbox appears and disappears one frame later
+- 5BB(B) blockstun slightly decreased, so the options to avoid the followup in a blockstring are identical to the options to avoid Awakened Hinata’s equivalent blockstring (Easier to dodge the kunai by jumping, and 10 frame 4A’s successfully counter)
+- 5BB(6B) Lift increased by 2
+- 5BBBB(B) second hit does not lift on block
 - 5BB(A)
     - Has stagger
     - Has one more frame blockstun
     - Turns better on hit
 - 5BBBB(6B) is RB
+- 5bA (slide input) is a lunging punch modeled after Yun from Street Fighter. Is a high damage whiff punish button with very long range. Unsafe on block
 - 5A charge changed from 11f to 8f
 - 2B
     - Has slightly less lift
@@ -1344,11 +1354,11 @@ TODO: Resolve above two 2A entries
     - Change of hit angle to assist back turn combos
 - 2A(A) added as 6A(A)
 - 6B
-    - Has one more frame blockstun
-    - Has a bit more forward momentum to increase range
+    - Has more forward momentum to increase range
+    - Hitbox has been decreased in size
     - High crush added frames 15-37
+    - Has one more frame blockstun
     - Startup animation adjusted to now hit one frame later (frame 16 was the same frame as old 6B)
-    - More lift
 - 6B(B)
     - Adjusted to use a modified RB animation (TODO: is the below still relevant now?)
     - Has one more frame blockstun
@@ -1391,6 +1401,7 @@ TODO: Resolve above two 2A entries
     - Pushes on block with 4 more frames of blockstun
     - Has more backwards momentum on step back (41-51)
     - Hitbox is active for 5 more frames (2 to 7)
+    - Lift increased by 2
 - RB is the 5BB6B / 2B6B extension
 - RA damage reduced from 19 to 15
 - GRKnJ
@@ -1920,6 +1931,9 @@ There are also some Karasu specific changes:
 - GRKnJ
     - Hitbox appears one frame later
     - Appears much further back
+- Dash Punch (6BBA and other strings)
+    - Now super cancels, allowing combos into 5X or 2X near walls
+    - Has 4 more lift to allow combos
 
 #### Cosmetic
 
