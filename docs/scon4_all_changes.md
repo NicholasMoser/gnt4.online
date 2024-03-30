@@ -121,6 +121,12 @@ Note: 3-Man Cell is currently non-functional.
 - 5BBBB(A) added as 8A
 - 5BAA(A)
     - Made spinning knockdown
+- 5A
+    - 0C kunai staggers on hit
+    - 0C damage increased from 7 to 9
+    - 1C damage increased from 12 to 14
+    - 2C damage increased from 17 to 19
+    - 2C kunai flies significantly faster and pushes on block
 - 2B has less lift
 - 2A has a new animation
 - 6B
@@ -144,7 +150,7 @@ Note: 3-Man Cell is currently non-functional.
     - Has more duration
 - 4X
     - Requires 50% meter
-    - Has more lift
+    - Has less 5 lift so it can’t start combos (TODO: compared to vanilla?)
 - RA has more lift
 - RA(A)
     - Does not lift anymore
@@ -178,10 +184,15 @@ And for Naruto's ZTK transformation:
     - Given more float
     - Is super cancellable
 - 5A~A is -1 (from -7) (5A is now +7 on hit)
+- 2B is a sweep to match normal 2B
 - 2A
+    - 19 damage from 13
+    - 73 lift from 69
     - Does activated 4A
     - Adjustments to size, duration, and hitbox
-- 6B low crushes
+- 6B
+    - 64 from 40 lift, allowing him to start combos if he hits an airborne opponent
+    - Low crushes
 - 6A
     - Given more float
     - Super cancellable
@@ -294,6 +305,9 @@ And for Naruto's ZTK transformation:
 - 6B(B) slightly more lift
 - 6BB(B) changed to be 5BBB(B) with A follow up only
 - 6A
+    - Does not stagger anymore
+    - Leaves opponents on the ground on hit
+    - Has have 26 hitstun allowing followups after the move ends
     - Is grabbable until release
     - Has better tracking on startup
 - 4B guards on frames 2-15 from 2-17
@@ -363,8 +377,11 @@ And for Sasuke's sharingan transformation:
     - 1C (15 to 13)
     - 2C (15)
 - 6A
- - Animation adjusted to not look so jumpy
- - Combos into this timing adjusted
+    - Does not stagger anymore
+    - Leaves opponents on the ground on hit
+    - Has have 26 hitstun allowing followups after the move ends
+    - Animation adjusted to not look so jumpy
+    - Combos into this timing adjusted
 - 4B
     - Hitbox appears one frame later to better match the animation
     - Can be grabbed on startup
@@ -493,11 +510,13 @@ And for Sasuke's sharingan transformation:
 - Kakashi takes 1.25x damage in sharingan mode
 - Grabbable moves: 8A, JA, RA, 5A, 2A landing
 - 5B
+    - Does 14 damage from 13
     - Hitbox appears one frame sooner
     - Slightly smaller hand hitbox
     - Elbow hitbox removed
     - Hand hitbox larger on frame 2
 - 5B(B)
+    - Does 13 damage from 12
     - Has increased stun
     - Hitbox appears and disappears one frame later
     - Has one extra block frame
@@ -522,6 +541,7 @@ And for Sasuke's sharingan transformation:
     - Cannot be cancelled
 - A2A is hittable at the peak of the jump (TODO: huh)
 - 6B
+    - Does 28 damage from 26
     - Hitbox appears one frame earlier
     - Hitbox size slightly increased
     - More lift to match S6B's second hit
@@ -536,11 +556,17 @@ And for Sasuke's sharingan transformation:
     - Uses animation from stance cancel
     - Active frame 10, from 17
 - Act4A moves into launch hit faster, unblockable
-- 8B hitbox appears two frames later
+- 8B
+    - Hitbox appears two frames later
+    - Has 2 extra active frames
+- 8B(B) has 100 lift from 96
 - 8A
     - Spawns Kunai one frame later
     - Hitboxes slightly smaller (This is a buff)
-- JB is super cancellable, better descent angle
+- JB
+    - 100 lift from 96
+    - Is super cancellable
+    - Better descent angle
 - J2B added as a modified version of the BBBA(B) kick
 - J2Y
     - Added
@@ -548,10 +574,12 @@ And for Sasuke's sharingan transformation:
     - Unbreakable
     - In non-sharingan version it puts Kakashi in sharingan mode and does not build meter
 - 5X
+    - 0C damage increased from 60 to 80
+    - Full charge damage increased from 100 to 120
+    - Full charge time reduced from 100 to 76 frames
     - Duration improved from 1 frame to 7
-    - Fully charged from 1 to 8
+    - Fully charged from frame 1 to 8
     - Damage adjusted to the cinematic portion of the attack
-    - Full charge reduced from 100 to 76 frames
     - All hand hitboxes bigger
 - 4X requires and costs 25%
 - RB
@@ -573,7 +601,6 @@ And in Sharingan mode:
     - Hitbox appears one frame sooner with one more frame of block stun
 - 5BBB(B) comes out one frame slower
 - 2B
-    - Moves forward on start up
     - Improved hitbox
     - Hitbox comes out one frame sooner
     - Crushes two frames longer
@@ -583,10 +610,12 @@ And in Sharingan mode:
 - 2B(B) does not cancel to stand
 - 6B
     - First hit has slightly more blockstun
+    - First hit does 17 damage from 12
     - Second hit pushes on block with a slightly bigger knee hitbox
+    - Damage adjusted to 13+22, from 17-18 (TODO: Fix this syntax)
+    - Total damage is now 35 damage (TODO: is this correct? fix above entries for damage as well)
     - Hitbox disappears one frame earlier
     - Has no pushback on the second hit and a slightly improved hitbox
-    - Damage adjusted to 13+22, from 17-18 (TODO: Fix this syntax)
 - 6A
     - First hit has more lift (to avoid a situation where the first hit connected and the second missed because of the counter hit while crouched hitstun animation)
     - First hit has +7 frames of blockstun
@@ -626,6 +655,7 @@ And in Sharingan mode:
 - 5BBB(A)
    - Is a custom capture state move
    - Opponent is launched away
+   - Crumples the opponent, he gets no combo follow up from this
 - 5BBBB(A) damage increased from 14 to 20
 - 5A charge time reduced from 11 frames to 8
 - 2B(B) changed with 5BBB(B) with A follow up
@@ -662,6 +692,7 @@ And in Sharingan mode:
 
 - Health: 225 to 220
 - Works like a level up character with 2G mode having no passive lift or meter drain
+- 2G has health drain at a slower rate, taking 1 damage every 20 frames, or 3 per second
 - Damages adjusted between all forms:
     - 5B: 9,13,17 > 9,12,15
     - 6B: 11, 17, 22 > 11,15,19
@@ -1457,6 +1488,7 @@ TODO: Resolve above two 2A entries
     - Window starts up 3 frames faster and ends when the animation starts to change like other counters
     - Drains slightly more than 12.5% meter on a miss at the end of the move
     - Activation gives opponent no chakra on hit (TODO 2X now loses meter when she can no longer counter instead of the end of the move?)
+    - Fixed unsubbable, opponent is invulnerable until they hit the ground (TODO: huh)
 - RB
     - Does 5BBB(B) when done in a string, with the A follow up intact
     - Damage increased from 18 to 19
@@ -1490,6 +1522,7 @@ TODO: Resolve above two 2A entries
 - 5A charge changed from 11f to 8f
 - 2A(A) added as 6A(A)
 - 6A
+    - Has 72 lift from 64
     - Turns better on hit
     - Intangible on the first three frames
     - No intangible in combos
@@ -1664,7 +1697,9 @@ TODO: Resolve above two 2A entries
     - Replaced by Act4A
     - Has three grabbable frames at the startup
     - Made strong
-- 8B(A) does the same damage as 6A (29, from 22)
+- 8B(A)
+    - Does the same damage as 6A (29, from 22)
+    - Is hard knockdown to match 6A
 - JB
     - Does 10 damage (from 16) and 10 block damage (from 16) but has the same guard stun
     - Hitbox removed from head and butt
@@ -1976,6 +2011,7 @@ There are also some Karasu specific changes:
     - Transition is faster
     - Made a mid from a high
 - 8B(B) ends sooner (14f)
+- 8A projectiles have significantly more lift on hit
 - JB made to launch with spinning knockback instead of stagger
 - J6A
     - Added
@@ -2241,6 +2277,10 @@ There are also some Karasu specific changes:
     - Can follow up into A on whiff
     - Recovery animation adjusted
 - 6A damage decreased by one damage
+- 6A in ring combo (flames)
+    - Does not stagger anymore
+    - Leaves opponents on the ground on hit
+    - Has have 32 hitstun allowing followups after the move ends
 - 6A(A) goes to ring combo
 - 4A
     - Acts like a normal counter
@@ -2321,6 +2361,10 @@ There are also some Karasu specific changes:
 - 6B
     - Has slightly less lift
     - Stun in strings reduced by 9 frames
+- 6A
+    - Does not stagger anymore
+    - Leaves opponents on the ground on hit
+    - Has have 26 hitstun allowing followups after the move ends
 - 4A
     - Has more stun
     - The looping of the animation is adjusted to 14 frames from 20
@@ -2469,6 +2513,10 @@ There are also some Karasu specific changes:
 - 2A(A) has slightly more stun
 - 6B can do A follow up on whiff
 - 6B(B) added as 2BBB(B) with follow ups
+- 6A
+    - Does not stagger anymore
+    - Leaves opponents on the ground on hit
+    - Has have 26 hitstun allowing followups after the move ends
 - 4A "attachment" window changed from 10 frames to 14
 - 8B
     - Has guard frames until Oro jumps
@@ -2615,10 +2663,21 @@ There are also some Karasu specific changes:
 - 5A
     - Charge changed from 9 frames to 6 frames
     - Done with 6 does 6A
+    - 0C
+        - 16 damage from 8
+        - Staggers
+        - Medium power from weak
+        - Does 2 chip damage up from 1
+    - 1C
+        - 24 damage from 12, pushes on block
+        - Strong power from medium
+        - Does 3 chip damage up from 1
 - 5A1C
     - Is a hard knockdown
     - Less lift
-- 2B has more stun
+- 2B
+    - Has more stun
+    - Low crushes on frame 7, from frame 10
 - 2B(A) changed to be 6A
 - 2BA(A) added with stone clap
 - 2A
@@ -2649,6 +2708,15 @@ There are also some Karasu specific changes:
     - Ends two frames sooner
 - 8A super armor ends when Jirobo leaves the ground
 - A8A ends three frames sooner when the animation ends and is hittable after he gets off the opponent
+- JB
+    - Hitbox is active for 1 more frame
+    - The hitboxes increased in size to 190 from 179
+    - Bounces the opponent much closer to Jirobo, allowing him to hit 5B in situations where it used to not reach far enough
+- JA
+    - Does 16 damage from 8
+    - Pushes on block
+    - Strong power from medium
+    - Does 2 chip damage up from 1
 - 5Y damage reduced from 22 to 20
 - 2Y added
 - JY added
@@ -3084,6 +3152,7 @@ And for Tayuya's doki demons:
     - Clone appears higher and more forward
     - More lift on hit
     - Less blockstun
+    - Is air throwable
 - 5X
     - Damage reduced from 85 to 70
     - Starts moving 2 frames sooner in super freeze
