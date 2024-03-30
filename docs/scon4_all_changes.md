@@ -23,7 +23,7 @@ All directions use numpad notation. For example, 6B is holding forward and press
 - JB is jumping B
 - J2A would be jumping, holding down, and pressing A
 - 6A(A) means that we are talking about the second A press in the 6A string
-- S5X means in Sharingan mode for Sasuke and Kakashi. Similar for other transformations.
+- S5X means in Sharingan mode for Sasuke and Kakashi. Stance for Shikamaru. Similar for other transformations.
 - 1C or 2C means charged once or twice respectively
 - Act4A means the activated part of a 4A counter. This can also be seen on command grabs such as Tsunade's Jump A as ActJA
 - A8A means the activated part of 8A.
@@ -186,10 +186,11 @@ And for Naruto's ZTK transformation:
 - 5A~A is -1 (from -7) (5A is now +7 on hit)
 - 2B is a sweep to match normal 2B
 - 2A
+    - Does old activated 4A (Act4A)
     - 19 damage from 13
     - 73 lift from 69
-    - Does activated 4A
-    - Adjustments to size, duration, and hitbox
+    - Adjustments to size and duration
+    - Hitbox increased by 50%, resembling Curse Seal Sasuke’s 2A (but not as large as his)
 - 6B
     - 64 from 40 lift, allowing him to start combos if he hits an airborne opponent
     - Low crushes
@@ -197,7 +198,7 @@ And for Naruto's ZTK transformation:
     - Given more float
     - Super cancellable
 - 4A window improved
-- Act4A goes into RA
+- Act4A now goes into RA
 - 8B lifts on block
 - 8B(B) has more lift
 - 8B(A) added
@@ -534,6 +535,9 @@ And for Sasuke's sharingan transformation:
     - Hitbox added to shoulder and made slightly bigger
     - Doesn't lift on block
     - More lift
+- 5A
+    - Kunai stagger causes launch on grounded opponents
+    - Kunai has increased lift
 - 2A
     - Adds hits to the combo meter
     - +1 damage
@@ -561,6 +565,7 @@ And for Sasuke's sharingan transformation:
     - Has 2 extra active frames
 - 8B(B) has 100 lift from 96
 - 8A
+    - Staggers on grounded opponents
     - Spawns Kunai one frame later
     - Hitboxes slightly smaller (This is a buff)
 - JB
@@ -586,7 +591,9 @@ And for Sasuke's sharingan transformation:
     - Is super cancellable
     - High crushes frame 6 (from 1)
     - Improved lift from 64 to 100
-- RA kunais have more lift for better combo consistency
+- RA
+    - Kunai stagger causing launch on grounded opponents
+    - Kunais have more lift for better combo consistency, e.g. RA(B)
 - GRKnJ
     - Travels two frames slower
     - Appears further back
@@ -692,7 +699,7 @@ And in Sharingan mode:
 
 - Health: 225 to 220
 - Works like a level up character with 2G mode having no passive lift or meter drain
-- 2G has health drain at a slower rate, taking 1 damage every 20 frames, or 3 per second
+- 2G has health drain at a slower rate, taking 1 damage every 45 frames, or 1.3 per second
 - Damages adjusted between all forms:
     - 5B: 9,13,17 > 9,12,15
     - 6B: 11, 17, 22 > 11,15,19
@@ -899,7 +906,9 @@ And in Sharingan mode:
 - 5BB(A)
     - Hitbox duration increased by one frame to better match the animation
     - Changed to a mid from a high
-- 5BBA(A) has more lift
+- 5BBA(A)
+    - Has more lift
+    - Hitbox appears one frame later to prevent the move from hitting behind him
 - 5BBAA(A) can be done on whiff
 - 5A
     - Is super cancellable
@@ -1028,7 +1037,10 @@ And in Sharingan mode:
 - SABB(B) more damage
 - SA(A) staggers
 - SAA(A) replaced with 8A
-- S2B and S2A are both empty teleports
+- S2B is an empty teleport
+- S2A
+    - Is an empty teleport
+    - Appears closer behind the opponent, making it more risky to Shika when the opponent turns around to face you (like Itachi 4A)
 - S6B stays in front; SB goes behind
 - 5X starts moving 4 frames sooner in super freeze
 - 2X
@@ -1199,7 +1211,6 @@ TODO: Resolve above two 2A entries
     - Is a backflip with no hitbox
     - Strings can be followed up from it
     - Has one less frame animation startup and one frame more recovery
-    - Has 3 more frames endlag and the follow up can only be done for two frames (can still be buffered)
 - JB
     - Hitbox appears 1 frame later
     - Hitbox disappears 3 frames later
@@ -2849,6 +2860,7 @@ There are also some Karasu specific changes:
     - If holding A it does the launching hit and more damage
     - If not it does a normal hit with super cancel
     - Final hitbox made 220 from 179
+    - Larger hitbox on last hit is applied to both variants
 - 4B
     - Doesn't push on block
     - Recovers three frames faster
