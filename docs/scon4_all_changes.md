@@ -273,6 +273,10 @@ And for Naruto's ZTK transformation:
     - Elbow hitbox removed
     - Fist hitbox made larger on second active frame
 - 5B(B) hitbox appears and disappears one frame later
+- 5BB(B)
+    - Sends the opponent in a different direction
+    - It doesn’t turn around backturned opponents
+    - It is more consistent to combo with and prevents an issue where the camera could spin around in a disorientating manner (change was reverted) (TODO: Huh?)
 - 5BBBB(B) has more lift
 - 5BBBBB(B)
     - Appears one frame sooner and disappears 3 frames sooner
@@ -934,6 +938,8 @@ And in Sharingan mode:
     - High crush 7-15
     - Has more stun on block
     - Recovers slightly faster on block and whiff (12 frames slower than on hit)
+    - Does 16 damage, from 18
+    - Does not lift on block and is punishable on block by all jabs (Shikamaru can still use 8BA to prevent punishes in a low reward high risk mix up)
 - 8B(A) can only be done after landing
 - SB
     - Remove stagger
@@ -955,6 +961,9 @@ And in Sharingan mode:
 - S6B stays in front; SB goes behind
 - 5X starts moving 4 frames sooner in super freeze
 - 2X
+    - Does 32 damage from 40
+    - Comboed into 8B does 48 damage now from 58
+    - Is a mid and loses to wake up kick if Shikamaru is too close to the opponent
     - Has less super freeze
     - Hitbox appears two frames later
     - Can move faster when hitting from further away than right next to the opponent
@@ -1646,6 +1655,7 @@ TODO: Resolve above two 2A entries
     - Elbow hitbox appears on the second active frame
     - Two less damage
     - Increased lift
+    - Adjusted 5B active frames to match the animation properly (hitbox active on frame 15). It was previously active on frame 14 but would never hit on that frame due to the animation (TODO: Is this in vanilla?)
 - 5B(B) hitbox appears and disappears one frame later
 - 5BB6B does 6B with follow ups
 - 2B(6B) transition is two frames later with limited follow ups (2B6BBB and 2B6BBA)
@@ -1970,6 +1980,7 @@ There are also some Karasu specific changes:
     - Unique follow ups for combo or raw (A and B)
 - 6A(B) changed to be 2BA(B)
 - 6AB(B) removed
+- 4B has less blockstun, making it punishable on block when not spaced
 - 4A
     - Window improved
     - Can activate on projectiles
@@ -2452,6 +2463,7 @@ There are also some Karasu specific changes:
 - 8B
     - High crushes on landing
     - 4 less recovery frames
+    - Does 19 damage from 18 for better meter gain during combos
 - JB
     - Launches instead of staggers
     - Hitboxes slightly bigger
@@ -2658,12 +2670,18 @@ There are also some Karasu specific changes:
     - Made a mid
 - 5BBA(A) transition adjusted to be quicker
 - 5A charge changed from 11f to 8f
+- 2B(B) is medium power instead of weak, giving the move more blockstun and making the blockstring harder to get out of with jA kunais
 - 2A stagger removed
 - 2A(B)
     - Has more lift and ends earlier
     - Transition slowed down
+    - Is medium power instead of weak, giving the move more blockstun and making the blockstring harder to get out of with JA kunais
 - 2AB(A) does 8BB(A)
 - 2A(A) staggers and has increased lift
+- 6B
+    - High crushes from frame 7-16
+    - Hitboxes increased in size to 128 (from 102)
+    - Does 17 damage up from 15, Ukon’s does 20 up from 18
 - 6B(B) replaced with 8B with follow ups
 - 6A
     - If holding A it does the launching hit and more damage
