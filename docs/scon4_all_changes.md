@@ -80,6 +80,7 @@ All directions use numpad notation. For example, 6B is holding forward and press
 - The moves that activate even when blocked (example Chouji 8A) will also activate when clashing the initial hitbox
 - Jump attacks have been changed across the cast to make them all air throwable
 - Airthrows are invulnerable during the animation to avoid being hit out of a successful air throw by a move like Itachi’s jA
+- Sound effect plays when a counter-hit occurs
 
 Note: 3-Man Cell is currently non-functional.
 
@@ -220,7 +221,7 @@ And for Naruto's ZTK transformation:
 
 ![OTK Naruto](/assets/images/changelog/otk.png)
 
-- Health: 220 > 190
+- Health: 220 > 200
 - Grabbable Moves: 6A, JA, 2B(A), 8A landing
 - 5B has more blockstun
 - 5B(B) hitbox appears one frame later
@@ -266,7 +267,8 @@ And for Naruto's ZTK transformation:
 
 ![Sasuke](/assets/images/changelog/sasuke.png)
 
-- Health: 210 > 215
+- Health: 210 > 220
+- 
 - Grabbable Moves: JA, RA, 8A, 6A, 8B landing, SJX, S8X
 - 5B
     - Is super cancellable
@@ -394,7 +396,7 @@ And for Sasuke's sharingan transformation:
 
 ![Sakura](/assets/images/changelog/sakura.png)
 
-- Health: 185 to 205
+- Health: 185 to 210
 - Guard: 1480 to 1640
 - Grabbable Moves: 5A(A), 5AA(A), 8(A), 8B(A), JA, JA(A), JAA(A)
 - Throw has a new animation and does damage
@@ -525,10 +527,17 @@ And for Sasuke's sharingan transformation:
     - Hitbox on the hand slightly bigger to better match the kunai
     - Has more lift
     - +5 frames blockstun
-- 4B floats higher
-- 4A uses animation from stance cancel
+- 4B
+    - Floats higher
+    - Staggers
+- 4A
+    - Uses animation from stance cancel
+    - Active frame 10, from 17
 - Act4A moves into launch hit faster, unblockable
 - 8B hitbox appears two frames later
+- 8A
+    - Spawns Kunai one frame later
+    - Hitboxes slightly smaller (This is a buff)
 - JB is super cancellable, better descent angle
 - J2B added as a modified version of the BBBA(B) kick
 - J2Y
@@ -545,6 +554,7 @@ And for Sasuke's sharingan transformation:
 - RB
     - Is super cancellable
     - High crushes frame 6 (from 1)
+    - Improved lift from 64 to 100
 - RA kunais have more lift for better combo consistency
 - GRKnJ
     - Travels two frames slower
@@ -564,6 +574,8 @@ And in Sharingan mode:
     - Hitbox comes out one frame sooner
     - Crushes two frames longer
     - Crushes three frames earlier
+    - Same direction (DIR) as non-sharingan 2B
+    - Improved lift from 64 to 80
 - 2B(B) does not cancel to stand
 - 6B
     - First hit has slightly more blockstun
@@ -577,6 +589,7 @@ And in Sharingan mode:
     - 2 more frames on duration
     - Hitbox on the hand slightly bigger to better match the kunai
 - 4A has 9 additional frames added to the activator to better match the animation
+- 8A hitboxes slightly smaller (This is a buff)
 - J2Y
     - Added
     - Requires and costs 25% meter
@@ -600,6 +613,7 @@ And in Sharingan mode:
 
 ![Neji](/assets/images/changelog/neji.png)
 
+- Health: ??? to 210 (TODO)
 - Grabbable Moves: 8A, JA
 - 5B
     - Elbow hitbox appears on frame 2
@@ -742,7 +756,7 @@ And in Sharingan mode:
 
 ![Tenten](/assets/images/changelog/tenten.png)
 
-- Health: 185 to 205
+- Health: 185 to 210
 - Guard: 1480 to 1640
 - New idle animation
 - Grabbable Moves: 5BB(A), 5BBB(A), 5AC(A), 5A2CA(A), 4A, 8A, RA, JA, JA(A), JAA(A), JAAA(A), JX, 8X
@@ -832,6 +846,7 @@ And in Sharingan mode:
     - Hitbox duration increased by one frame to better match the animation
     - Changed to a mid from a high
 - 5BBA(A) has more lift
+- 5BBAA(A) can be done on whiff
 - 5A
     - Is super cancellable
     - Turns back turned opponents around
@@ -875,6 +890,8 @@ And in Sharingan mode:
 - 8B(B)
   - Added as JB
   - Travels slightly more forward
+  - Can be done on whiff
+- 8B(A) can be done on whiff
 - 8A
     - Teleports in front of the opponent
     - Can be grabbed
@@ -912,7 +929,7 @@ And in Sharingan mode:
 
 ![Shikamaru](/assets/images/changelog/shikamaru.png)
 
-- Health: 200 to 205
+- Health: 200 to 210
 - Grabbable Moves: 8A, JA
 - 5B ends two frames earlier
 - 5BB(A)
@@ -1056,7 +1073,7 @@ TODO: Resolve above two 2A entries
     - Hard knockdown
     - Pushes on block
     - Size adjusted
-    - Can be DIed forward or backward
+    - Can be DIed and is updated each frame; can be forward, backward or neutral
 - JY
     - Added
     - Does a modified A8A animation
@@ -1084,7 +1101,7 @@ TODO: Resolve above two 2A entries
 
 ![Ino](/assets/images/changelog/ino.png)
 
-- Health: 185 to 205
+- Health: 185 to 210
 - Guard: 1480 to 1640
 - Grabbable Moves: 8A, JA
 - 5B shoulder hitbox does not appear on the first active frame
@@ -1163,7 +1180,7 @@ TODO: Resolve above two 2A entries
 
 ![Shino](/assets/images/changelog/shino.png)
 
-- Health: 195 to 205
+- Health: 195 to 210
 - Guard: 1560 to 1640
 - Grabbable Moves: 5BB(A), 6A, JA
 - 5B(B) hitbox appears and disappears one frame later
@@ -1279,7 +1296,7 @@ TODO: Resolve above two 2A entries
 
 ![Kiba](/assets/images/changelog/kiba.png)
 
-- Health: 200 to 205
+- Health: 200 to 210
 - Guard: 1600 to 1640
 - Grabbable moves: 8A, JA, JB(B) ending
 - 5B
@@ -1333,7 +1350,7 @@ TODO: Resolve above two 2A entries
 
 ![Hinata](/assets/images/changelog/hinata.png)
 
-- Health: 185 to 205
+- Health: 185 to 210
 - Guard: 1480 to 1520
 - Combo list updated:
     - 5BBA(A), 6A(A) added to the combo strings
@@ -1347,6 +1364,7 @@ TODO: Resolve above two 2A entries
 - 5BB(B) blockstun slightly decreased, so the options to avoid the followup in a blockstring are identical to the options to avoid Awakened Hinata’s equivalent blockstring (Easier to dodge the kunai by jumping, and 10 frame 4A’s successfully counter)
 - 5BB(6B) Lift increased by 2
 - 5BBBB(B) second hit does not lift on block
+- 5BBBA(B) hitstun reduced by 3 to remove grounded infinite
 - 5BB(A)
     - Has stagger
     - Has one more frame blockstun
@@ -1363,11 +1381,8 @@ TODO: Resolve above two 2A entries
     - Change of hit angle to assist back turn combos
 - 2A(A) added as 6A(A)
 - 6B
-    - Has more forward momentum to increase range
-    - Hitbox has been decreased in size
-    - High crush added frames 15-37
-    - Has one more frame blockstun
-    - Startup animation adjusted to now hit one frame later (frame 16 was the same frame as old 6B)
+    - New elbow animation
+    - Hits 16-20
 - 6B(B)
     - Adjusted to use a modified RB animation (TODO: is the below still relevant now?)
     - Has one more frame blockstun
@@ -1392,6 +1407,7 @@ TODO: Resolve above two 2A entries
     - Both hitboxes appear one frame later
     - Slightly bigger hitboxes on the second hit
     - Recovers slightly faster
+- 8A last projectile spawns one frame later; hitbox slightly bigger
 - JB
     - Hitbox and end fall speed increase
     - Hitbox on the elbow moved to the knee
@@ -1643,7 +1659,7 @@ TODO: Resolve above two 2A entries
 
 ![Kankuro](/assets/images/changelog/kankuro.png)
 
-- Health: 180 > 190
+- Health: 180 > 200
 - Health: 185 to 180 TODO: uhh
 - Guard: 1480 > 1520
 - Grabbable moves: 6B(A), 8B, 5A, 6A, 6A(A), 4A, 2A, 2A(A), 2AA(A), 2AAA(A), 2AAAA(A), RA, RA(A), 8A, JA
@@ -1713,9 +1729,11 @@ There are also some Karasu specific changes:
 - 2B
     - Hitbox appears one frame sooner
     - Hit direction changed slightly to assist follow ups
+    - Lift set to 100, from 64
 - 2B(B)
     - First hit launches
     - Damaged increased from 8,10 > 12,14
+    - Second kick hitbox set to 170 from 128
 - 2B(A) changed to be 6A(A)
 - 6B(B)
     - Damage increase from 12 to 15
@@ -1728,7 +1746,9 @@ There are also some Karasu specific changes:
     - Hits twice
     - Damage is distributed between the two hits
     - Can hold 8 during startup to do flip
-- 4B low crushes two frames earlier
+- 4B
+    - Low crushes two frames earlier
+    - Guards frames 2-10 from 2-13
 - 4A window improved
 - Act4A
     - Appears above 14 frames faster
@@ -1739,6 +1759,7 @@ There are also some Karasu specific changes:
 - JA
     - Spawns 5 needles instead of 10
     - Holding each needle drains 6 chakra per frame instead of 3 (was pairs before)
+- 5Y the opponent can sub 5 frames earlier to prevent an unsubbable infinite from being started (TODO: Vanilla?)
 - 5X hitbox appears 4 frames earlier
 - 2X
     - Stomp turns back turned around
@@ -1747,7 +1768,7 @@ There are also some Karasu specific changes:
 - RA
     - Does not have to complete a run animation loop first
     - Projectiles appear one frame later
-    - Changed position of projectile spawn
+    - Changed position of projectile spawn (TODO: Back to vanilla?)
 - GRKnJ changed to be a mid from a high
 - Flip has five additional frames of recovery
 
@@ -1907,6 +1928,7 @@ There are also some Karasu specific changes:
     - Unblockable
     - Comes out faster on hit
     - Grabbable on landing
+    - Has fuse flag, making iruka unhittable until the move finishes
 - 8B
     - Replaced with 2B(B)
     - Does 20 damage from 26
@@ -1966,6 +1988,7 @@ There are also some Karasu specific changes:
     - Change to hit direction
     - Turns around the opponent on backturned
 - 2B(B) made a mid (TODO: Was this reverted to high?)
+- 2A has high crush
 - 2A(A) "lands" at startup
 - 2BBA(B) hitbox disappears three frames sooner
 - 6B staggers
@@ -1980,12 +2003,20 @@ There are also some Karasu specific changes:
     - Unique follow ups for combo or raw (A and B)
 - 6A(B) changed to be 2BA(B)
 - 6AB(B) removed
-- 4B has less blockstun, making it punishable on block when not spaced
+- 4B
+    - Has less blockstun, making it punishable on block when not spaced
+    - Doesn't push on block
 - 4A
     - Window improved
     - Can activate on projectiles
 - Act4A teleports up and behind the opponent
-- 8B pushes on block
+- 8B
+    - Pushes on block
+    - Damage increased from 12 to 25
+    - Guard damage increased from 12 to 37
+    - Hitbox is active for 6 frames, up from 4
+    - Made a mid, from a high
+    - Made strong power, from medium power
 - 8A projectiles have an additional frame gap between their spawn
 - JB hitboxes made slightly bigger
 - JA throws two shurikens
@@ -2021,7 +2052,7 @@ There are also some Karasu specific changes:
 
 ![Anko](/assets/images/changelog/anko.png)
 
-- Health: 200 to 215
+- Health: 200 to 220
 - Guard: 1600 to 1680
 - Grabbable moves: 2A, JA, 2BBB(A), 8B landing
 - New walk animation
@@ -2060,8 +2091,10 @@ There are also some Karasu specific changes:
     - Changed to be an empty teleport and has A and B follow ups
     - Faces the opponent on reappearance
     - Has three grabbable frames before the teleport
-- 4B Hitbox appears one frame sooner
-- 4B and 4BA(Y) have improved windows on states as well as ending sooner and can be grabbed during their "sit" frames
+- 4B
+    - Hitbox appears one frame sooner
+    - Improved windows on states as well as ending sooner and can be grabbed during their "sit" frames
+    - Guards frames 2-15 from 2-17
 - 4B(B)
     - OTGs
     - No longer catches late on OTGs
@@ -2072,7 +2105,9 @@ There are also some Karasu specific changes:
 - 4BA(A)
     - Changed to be a teleport into the air RKnJ position into normal fall
     - A and B strings added
-- 4BA(Y) can be subbed in the first few frames
+- 4BA(Y)
+    - Can be subbed in the first few frames
+    - Has improved windows on states as well as ending sooner and can be grabbed during their "sit" frames
 - 4A changed to be a teleport that can teleport to either side
 - 8B
     - Is a blockable hitgrab that is untechable
@@ -2458,12 +2493,19 @@ There are also some Karasu specific changes:
 - 6A(A) has more stun
 - 6A(B) added as 2B with follow ups
 - 6AA(A) launches on hit and block
-- 4A window improved
+- 4A
+    - Window improved
+    - Made frame 8, from 10
 - Act4A comes out quicker and ends quicker
 - 8B
     - High crushes on landing
     - 4 less recovery frames
-    - Does 19 damage from 18 for better meter gain during combos
+    - Damage and guard damage to 19 from 14
+    - Hitbox active for 5 frames from 4
+    - Made strong power instead of weak power
+- 8A
+    - Kunai begin spawning one frame later
+    - Have smaller hitboxes (this is a buff to combo ability)
 - JB
     - Launches instead of staggers
     - Hitboxes slightly bigger
@@ -2580,7 +2622,7 @@ There are also some Karasu specific changes:
 
 ![Kidomaru](/assets/images/changelog/kidomaru.png)
 
-- Health: 230 to 215
+- Health: 230 to 220
 - Grabbable Moves: 6A, 2A, JA, 8A, 5BBBB(A), 2BBB(A), 5BBAB(A), 2BBAB(A)
 - Ring Combo
     - 8A is 8A
@@ -2658,6 +2700,7 @@ There are also some Karasu specific changes:
 
 ![Sakon](/assets/images/changelog/sakon.png)
 
+- Health: 215 to 220
 - Sakon (but not Ukon) has a new idle
 - Pressing (or holding) Z on the first frame of back dash switches the brothers; can be done on match startup
 - 5B
@@ -2752,7 +2795,7 @@ And for Sakon only:
 
 ![Tayuya](/assets/images/changelog/tayuya.png)
 
-- Health: 180 to 205
+- Health: 180 to 210
 - Guard: 1440 to 1680
 - Grabbable Moves: 5A, JA
 - 3ME entry option replaced with vanilla GRKnJ
@@ -2877,6 +2920,8 @@ And for Tayuya's doki demons:
 
 ![Kimimaro](/assets/images/changelog/kimimaro.png)
 
+- Health: ??? to 210 (TODO)
+- TODO: Check his and other guards
 - Grabbable Moves: JA
 - 5B
     - Elbow hitbox removed
@@ -2885,8 +2930,15 @@ And for Tayuya's doki demons:
 - 5BBB(B)
     - Has more lift on the second hit
     - Does not lift on block
+- 5BBB(A)
+    - Hand hitboxes removed
+    - Hitbox appears one frame later
+    - First frame is a techable high
+    - Second frame to the last frame is an untechable mid
 - 5BBBB(B) hitbox appears two frames later
 - 2B(B) launches
+- 2A(A) has more lift
+- 2AA(A) added as 6AAA(A)
 - 6B
     - Turns back turned people around on hit
     - More lift
@@ -2900,11 +2952,12 @@ And for Tayuya's doki demons:
     - Non point hitboxes appear two frames later
     - Three less damage
     - Less stun/blockstun
-- 6AA(A) lifts on block
+- 6AA(A)
+    - Lifts on block
+    - Shoulder hitbox removed
+    - Elbow hitbox shrank slightly
 - 6AAA~A is one frame slower
 - 6AAA(A) first hitbox appears one frame later
-- 2A(A) has more lift
-- 2AA(A) added as 6AAA(A)
 - 6A
     - Made a strong hit
     - More lift
@@ -2919,6 +2972,7 @@ And for Tayuya's doki demons:
     - Launches
 - 6AAA(A) does one more damage on each hit with less lift and better connection in the air
 - 4A window improved
+- 4B now has medium power instead of strong power, giving it less blockstun
 - Act4A
     - All hits are unblockable except the last
     - Links better on airborne
@@ -2941,7 +2995,7 @@ And for Tayuya's doki demons:
 
 ![Itachi](/assets/images/changelog/itachi.png)
 
-- Health: 230 to 205
+- Health: 230 to 210
 - Guard: 1840 to 1680
 - 3 grabbable frames added before teleporting on: RA, 6A(B), 8A(B), 6AA(A), 5BBBBA(A), 6BBA(A)
 - 5B
@@ -2998,7 +3052,6 @@ And for Tayuya's doki demons:
 
 ![Kisame](/assets/images/changelog/kisame.png)
 
-- Health: 240 to 230
 - Guard: 1920 to 1840
 - Grabbable Move: JB Ground Hit
 - All sword attacks have a slightly larger center hitbox
