@@ -161,7 +161,7 @@ Note: 3-Man Cell is currently non-functional.
 
 And for Naruto's ZTK transformation:
 
-- Takes 1.25x as much damage (instead of 1.5x)
+- ZTK does not take increased damage
 - No passive health drain
 - Passive meter gain reduced to 2 units per frame (from 40)
 - Health drain is paused during activated super
@@ -267,8 +267,6 @@ And for Naruto's ZTK transformation:
 
 ![Sasuke](/assets/images/changelog/sasuke.png)
 
-- Health: 210 > 220
-- 
 - Grabbable Moves: JA, RA, 8A, 6A, 8B landing, SJX, S8X
 - 5B
     - Is super cancellable
@@ -547,6 +545,7 @@ And for Sasuke's sharingan transformation:
 - J2Y
     - Added
     - Requires and costs 25% meter
+    - Unbreakable
     - In non-sharingan version it puts Kakashi in sharingan mode and does not build meter
 - 5X
     - Duration improved from 1 frame to 7
@@ -567,6 +566,7 @@ And for Sasuke's sharingan transformation:
 
 And in Sharingan mode:
 
+- Does not take extra damage in sharingan mode
 - 5B has 2 more frames of block stun
 - 5BB(B)
     - Is super cancellable and staggers
@@ -748,7 +748,7 @@ And in Sharingan mode:
 - JY:
     - 0G: Nothing
     - 1G: Normal Air throw
-    - 2G: Special lotus air throw
+    - 2G: Special lotus air throw, unbreakable and does 35 total damage
 - 5X
     - Does Gaara version of the super on everyone
     - Damage is 55
