@@ -274,6 +274,7 @@ And for Naruto's ZTK transformation:
     - Actually low crushes the frame before the hitbox appears
     - Can be subbed after hitting the ground
 - JA changed to be 8B(A) like Lee JA and current JA made to be J2A
+- JY High and Mid crush during air throw (TODO: is this in vanilla?)
 - 5X opponent lays motionless after successful hit for 60 frames less
 - 2X high crush frames removed
 - RA given three grabbable frames before the teleport
@@ -817,6 +818,7 @@ And in Sharingan mode:
     - 0G: Nothing
     - 1G: Normal Air throw
     - 2G: Special lotus air throw, unbreakable and does 35 total damage
+    - High and Mid crush during air throw
 - 5X
     - Does Gaara version of the super on everyone
     - Damage is 55
@@ -1182,6 +1184,7 @@ TODO: Resolve above two 2A entries
 - JY
     - Added
     - Does a modified A8A animation
+    - High and Mid crush during air throw
 - 2Y added
 - 5X starts moving 4 frames sooner during super freeze
 - 4X
@@ -1201,6 +1204,7 @@ TODO: Resolve above two 2A entries
 #### Cosmetic
 
 - 4A hand signs are removed when Chouji can no longer counter
+- Alternate stagger animation added
 
 ### Ino
 
@@ -1815,7 +1819,6 @@ TODO: Resolve above two 2A entries
 - Health: 185 to 180 TODO: uhh
 - Guard: 1480 > 1520
 - Grabbable moves: 6B(A), 8B, 5A, 6A, 6A(A), 4A, 2A, 2A(A), 2AA(A), 2AAA(A), 2AAAA(A), RA, RA(A), 8A, JA
-- Karasu throw removed
 - 3ME entrances are modified
     - Airborne option is the same air sub as everyone else
     - Grounded version is RB
@@ -1865,6 +1868,7 @@ TODO: Resolve above two 2A entries
 
 There are also some Karasu specific changes:
 
+- Karasu throw removed
 - Sleep stuns longer
 - Backdash ends 5 frames sooner
 - Grabbable moves: 8B, 8A, JA
@@ -1872,6 +1876,7 @@ There are also some Karasu specific changes:
 - JA first two frames cancel into 5A instead of landing
 - JY added
     - Removes the unsubbable state (this is applied for the first few release frames of all overhead throws)
+    - High and Mid crush during air throw
 
 ### Haku
 
@@ -2018,6 +2023,7 @@ There are also some Karasu specific changes:
 #### Cosmetic
 
 - 6A releases sword 3 frames later and opens hand
+- Alternate stagger animation added
 
 ### Iruka
 
@@ -2227,6 +2233,7 @@ There are also some Karasu specific changes:
 - 5B(B)
     - Changed to be old 6B animation with old 5B(B) damage
     - Ends sooner
+- 5BBB(B-B) cannot be done on the last two frames
 - 5A
     - Charge time changed from 10f to 8f
     - Grabbable the entire move
@@ -2241,11 +2248,13 @@ There are also some Karasu specific changes:
     - Does 2A in combo
     - Ends 10 frames sooner
 - 2A snakes
-    - Do chip damage
+    - Damage per hit increased: 3 > 4
+    - Ends 10 frames sooner
+    - Recover 5 frames faster (TODO: Does this cancel out the above?)
+    - Does chip damage
     - Animation changed to be the finisher of 5X
     - If pressing 2 at startup in a combo, does 2BBB(A)
-    - Recover 5 frames faster
-    - Damage per hit increased: 3 > 4
+- 22A (upsnakes) do not lift on block
 - 6B
     - Uses an animation similar to Orochimaru
     - Turns around back turned people
@@ -2261,12 +2270,14 @@ There are also some Karasu specific changes:
     - Hitbox appears one frame sooner
     - Improved windows on states as well as ending sooner and can be grabbed during their "sit" frames
     - Guards frames 2-15 from 2-17
+    - Cannot do follow ups on whiff
 - 4B(B)
     - OTGs
     - No longer catches late on OTGs
     - Hitbox appears one frame sooner
     - Activates if blocked (Ukon)
     - Foot hitbox appears on second active frame instead of the first (TODO: What about from vanilla?)
+    - Does not give meter
 - 4B(A) transitions 8 frames faster
 - 4BA(A)
     - Changed to be a teleport into the air RKnJ position into normal fall
@@ -2289,29 +2300,55 @@ There are also some Karasu specific changes:
     - Victim subbable timing made to match Tsunade
     - Is no longer sub unsafe on hit
 - 5Y is a side switch throw
-- 2Y is a new throw that bounces the opponent
-- JY added
-- 5X has:
+- 2Y
+    - Is a new throw that bounces the opponent
+    - Unsubbable window added
+- JY
+    - Added
+    - High and Mid crush during air throw
+- SY Cannot substitute out
+- SB
+    - Made a mid (from no hit type)
+    - Can still beat Ukon block
+- SA
+    - Has a new startup animation
+    - Transitions into 4A (can hold and pick side)
+- 5X
+    - Is 2X
+    - Starts moving five frames sooner in super freeze and has an extended activator hitbox
+- 2X
+    - Is 5X
     - An improved launch angle to stop resetting the combo against high up opponents
-    - Requires 75% meter, but costs 100%
+    - Costs 75% meter
     - One less super freeze frame
     - Hitbox starts and ends one frame later
     - Elbow hitbox smaller
-- 2X starts moving five frames sooner in super freeze and has an extended activator hitbox
-- 4X is a command grab that puts down into an untechable, unsubbable state
-    - Immune to highs and mids frames 1-9 after super freeze then immune to highs until after the hitbox disappears
-    - Requires and costs 75%
+- 4X
+    - Is a new command grab that puts down into an untechable, unsubbable state
+    - Costs 75% meter
     - 5 + 25 damage
     - Blockable
+    - Immune to highs and mids frames 1-9 after super freeze then immune to highs until after the hitbox disappears
+    - Has 14 frames of blockstun and does not push
+    - Has 10 frames of high/mid crush
+    - Does not give Anko meter
 - RB
     - Replaced with RA
     - Lift increased
-- RB(B) and RB(A) both face the opponent on the follow up
+    - Does not lift on block
+    - +2 frames duration on the hitbox
+- RB(B) faces the opponent on the follow up
+- RB(A)
+    - Faces the opponent on the follow up
+    - Does not turn around if behind the opponent (TODO: Does this cancel out the above?)
 - RA
     - Changed to be a teleport into the air RKnJ position into normal fall
-    - A and B strings added
+    - Has A and B string follow-ups
 - RA has three grabbable frames before the teleport
-- GRKnJ appears slightly further behind the opponent
+- GRKnJ
+    - Appears slightly further behind the opponent
+    - +2 frames duration on the hitbox
+    - Switches sides two frames sooner, but hits on the same time (switches into stand for two frames)
 - 2BB~A transition slowed down by 6 frames
 
 #### Cosmetic
@@ -2491,6 +2528,10 @@ There are also some Karasu specific changes:
 - GRKnJ
     - Has the reduced endlag of RB
     - Changed from to a mid from a high
+
+#### Cosmetic
+
+- Alternate stagger animation added
 
 ### Tsunade
 
@@ -2706,6 +2747,7 @@ There are also some Karasu specific changes:
 - JB
     - Launches instead of staggers
     - Hitboxes slightly bigger
+- JY High and Mid crush during air throw (TODO: was this in vanilla?)
 - 5X
     - Activator has the hitbox appear 4 frames sooner
     - Begins moving 3 frames sooner
@@ -2821,7 +2863,9 @@ There are also some Karasu specific changes:
     - Does 2 chip damage up from 1
 - 5Y damage reduced from 22 to 20
 - 2Y added
-- JY added
+- JY
+    - Added
+    - High and Mid crush during air throw
 - 5X has two less frames super freeze
 - 2X made immune to highs and mids from frames 0-14 after super freeze instead of intangible 0-1, 42-end
 - RB ends 12 frames earlier
@@ -2837,6 +2881,7 @@ There are also some Karasu specific changes:
 #### Cosmetic
 
 - 8A ends properly at the end of the animation
+- Alternate stagger animation added
 
 ### Kidomaru
 
@@ -3216,6 +3261,7 @@ And for Tayuya's doki demons:
 - 8A "lands" three frames sooner
 - 8A(B) less lift
 - 8A(A) less lift
+- JY High and Mid crush during air throw (TODO: Was this in vanilla?)
 - 5X
     - Comes out one frame later
     - Hand hitbox removed
@@ -3359,3 +3405,4 @@ And for Tayuya's doki demons:
 
 - 4A releases the sword two frames earlier
 - 8A when done in a combo, Kisame will already be holding the sword
+- Alternate stagger animation added
