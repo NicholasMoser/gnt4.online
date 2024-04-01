@@ -937,7 +937,7 @@ And in Sharingan mode:
 ![Might Guy](/assets/images/changelog/guy.png)
 
 - 5B has more lift
-- 5B(B) has an additional endlag frame on hit to prevent 5BB infinite
+- 5B(B) has one frame added to the animation to prevent 5BB infinite
 - 5BB(B)
     - Hitbox moved from elbow to hand
     - Shoulder hitbox made slightly bigger
@@ -947,10 +947,10 @@ And in Sharingan mode:
     - Changed to a mid from a high
 - 5BBA(A)
     - Has more lift
-    - Hitbox appears one frame later to prevent the move from hitting behind him
 - 5BBAA(A) can be done on whiff
 - 5A
     - Is super cancellable
+    - Cannot do the B follow up for the last two frames
     - Turns back turned opponents around
     - Slightly more lift
 - 2B
@@ -989,6 +989,7 @@ And in Sharingan mode:
     - Second hit does not use spinning knockdown
     - Two less frames recovery on landing
     - "airborne" one frame earlier
+    - Forward momentum in strings built into the animation
 - 8B(B)
   - Added as JB
   - Travels slightly more forward
@@ -1007,6 +1008,7 @@ And in Sharingan mode:
     - Does 20 damage with no gate or 1 gate open
 - 2Y is a higher damage hard knockdown throw
 - 5X
+    - Low crushes
     - Elbow hitbox moved to shoulder
     - Slightly bigger shoulder hitbox
     - Fist hitbox bigger
@@ -1024,8 +1026,15 @@ And in Sharingan mode:
     - Changed to be strong on block
     - Launches upwards
     - Hitbox duration increased by 8 frames
+- RA
+    - Pushes on block
+    - Has more block stun
+    - Bounces
 - RKnJ made to work like RB
-- GRKnJ changed to be a mid from a high
+- GRKnJ
+    - Changed to be a mid from a high
+    - Knee hitbox removed and put on the foot of the rear leg with a bit more size
+    - Is now a mid
 
 ### Shikamaru
 
@@ -1105,7 +1114,7 @@ And in Sharingan mode:
 - Health: 225 to 240
 - Guard: 1800 to 1920
 - When large, Chouji has guard frames and is grabbable
-- Faster run
+- Faster run (vanilla travels 4.5 units in 20 frames, now does it in 17)
 - 5B
     - Has slightly more stun on hit and block
     - Transition to 5B(A) is one frame faster
@@ -1114,19 +1123,28 @@ And in Sharingan mode:
     - Shoulder hitbox does not appear on the first frame
     - SFX comes out one frame late
     - 3 frames less disadvantage on block
+- 5BB(A)
+    - Can be done on whiff
+    - Can turn around if holding back on the first frame
 - 5B(A)
     - Hitbox appears one frame sooner
     - Transitions one frame faster
+- 5B6A added
 - 5BA(A) added as 2A
 - 5BB(B) and 8B is an uppercut
 - 5BBB(B) and 8B(B) is also an uppercut, but has spinning knockback and hits higher
 - 5A
+    - Damage increased from 25 to 30
     - Has one (TODO two?) more frame hitbox duration
+    - Arm hitboxes appear on the third active frame
     - Cannot be cancelled
     - Super armor ends frame 30 (from 55)
-    - Damage increased from 25 to 30
     - Throw trajectory changed
-- 2B starts high crush 2 frames sooner and ends 8 frames later
+- 2B
+    - Made faster
+    - Recovers faster
+    - High crushes faster
+    - No string follow up
 - 2A chips increase Chouji's strength. He requires 8 chips to get to his maximum strength which is 1.5x. He also loses chip gains for certain moves which are:
     - 1: GRKnJ
     - 2: 6A, Act4A, RA, JA
@@ -1135,17 +1153,30 @@ And in Sharingan mode:
     - Maxes out strength (1.5x) at 6 chips from 13
     - Builds 1/16th of a bar of meter
 TODO: Resolve above two 2A entries
-- 6B damage (+3) and stun increased
-- 6B(B) is the strong uppercut (8B(B))
-- 6B(A) is a small bounce instead of stagger
+- 6B
+    - Damage (+3) and stun increased
+    - Hitstun increased slightly to allow 5B to link
+    - Turns around back turned opponents
+- 6B(B)
+    - Is the strong uppercut (8B(B))
+    - Cannot be done on the last two frames of 6B
+- 6B(A)
+    - If holding down on frame 1 the attack will bounce instead of stagger
+    - 8 frames less endlag
+- 6BA(A) added as 5B(A)
+- 6BAA(A) added as 2A
 - 6BA(A) replaced with chips
+- 6BA6A added
 - 6A
     - Links into the final hit better
     - Ending hits twice
     - The first is a bounce and second hit is a hard knockdown
     - Knockbacks cleaned up to not be as severe
+    - Deflects projectiles and updates direction often
+    - Startup sped up by 4 frames
+    - Damage increased by 1 for each hit
 - 4B
-    - Untechable and high for the first two frames of the hitbox, then mid and techable
+    - Always a mid untechable bounce
     - Hitbox appears and disappears one frame later
     - Hitboxes are slightly larger
     - High crushes frames 46 - 69; 69 is last follow up frame for B
@@ -1174,6 +1205,7 @@ TODO: Resolve above two 2A entries
     - Activates if blocked (Ukon)
 - A5A is hittable after Chouji throws the opponent
 - A8A is hittable after Chouji gets off the opponent
+- JB bounces closer to Chouji
 - JA
     - Does increased guard damage
     - Falls faster
@@ -1181,6 +1213,7 @@ TODO: Resolve above two 2A entries
     - Pushes on block
     - Size adjusted
     - Can be DIed and is updated each frame; can be forward, backward or neutral
+    - Deflects projectiles
 - JY
     - Added
     - Does a modified A8A animation
@@ -1191,13 +1224,19 @@ TODO: Resolve above two 2A entries
     - Is a real time super similar to Act4A with immunity to highs and mids on startup
     - Requires and uses 75%
     - Does not gain meter
-    - Is blockable
     - 30 damage (affected by chips)
-- RB ends sooner
+    - Is blockable
+    - Has 14 frames of blockstun and does not push
+    - Has 10 frames of high/mid crush
+- RB
+    - Doesn’t jump forward as far
+    - Attacks quicker
+    - Recovers quicker
 - RA
     - Size adjusted
     - Hitbox duration better matches animation
     - Pushes on block
+    - Deflects projectiles
 - GRKnJ size adjusted to match RA
 - 4Z disabled
 
@@ -1486,7 +1525,7 @@ TODO: Resolve above two 2A entries
 - Y Cancel uses the same animation as 2X
 - Grabbable moves: 8A, JA, 2X
 - 5B
-    - Hitbox appears one frame sooner
+    - Hitbox appears one frame sooner (animation changed to match this)
     - More generous hitbox
     - 1 frame more block stun
 - 5B(B) hitbox appears and disappears one frame later
@@ -1494,12 +1533,12 @@ TODO: Resolve above two 2A entries
 - 5BB(6B) Lift increased by 2
 - 5BBBB(B) second hit does not lift on block
 - 5BBBA(B) hitstun reduced by 3 to remove grounded infinite
+- 5BB(A-A) is now -3 on block (was -6)
 - 5BB(A)
     - Has stagger
     - Has one more frame blockstun
     - Turns better on hit
 - 5BBBB(6B) is RB
-- 5bA (slide input) is a lunging punch modeled after Yun from Street Fighter. Is a high damage whiff punish button with very long range. Unsafe on block
 - 5A
     - Charge changed from 11f to 8f
     - Grabbable the entire move
@@ -1510,21 +1549,25 @@ TODO: Resolve above two 2A entries
 - 2B(B)
     - Changed to be 5BB(B) with A follow up intact
     - Change of hit angle to assist back turn combos
+- 2BB(A) cannot be done on whiff anymore (TODO: vanilla?)
 - 2A(A) added as 6A(A)
-- 6B
-    - New elbow animation
-    - Hits 16-20
+- 6B has additional startup momentum
 - 6B(B)
     - Adjusted to use a modified RB animation (TODO: is the below still relevant now?)
     - Has one more frame blockstun
     - Is super cancellable
     - HC (TODO: Heavy crush?) is four frames sooner
+- 6BB(B) cannot be done on whiff anymore (TODO: vanilla?)
 - 6BBB(B) and 6BBB(6B) added
 - 6A
     - Stagger added
     - Turns better on hit
     - More lift
-    - First three frames are intangible
+    - First three frames are grabbable intangibility
+- 6(A-A) is now -3 on block (was -11)
+- 6A(A)
+    - Does 20 damage (from 15)
+    - Pushes on block has 4 less endlag frames
 - 4B
     - No longer staggers or pushes block
     - Significantly stronger on hit and block
@@ -1552,8 +1595,12 @@ TODO: Resolve above two 2A entries
     - Requires 75% meter to use
     - Window starts up 3 frames faster and ends when the animation starts to change like other counters
     - Drains slightly more than 12.5% meter on a miss at the end of the move
-    - Activation gives opponent no chakra on hit (TODO 2X now loses meter when she can no longer counter instead of the end of the move?)
     - Fixed unsubbable, opponent is invulnerable until they hit the ground (TODO: huh)
+    - Is not avoided by “landing” during the activation (prevents an issue where Temari could activate 2X with her jB, but not get hit by the counter)
+    - Chakra is taken the first frame of the capture state instead of on activation of super freeze
+- Act2X
+    - Opponent intangibility adjusted as well as flight path
+    - Gives meter to the opponent (TODO: vanilla?)
 - RB
     - Does 5BBB(B) when done in a string, with the A follow up intact
     - Damage increased from 18 to 19
@@ -1564,7 +1611,7 @@ TODO: Resolve above two 2A entries
 - RB is the 5BB6B / 2B6B extension
 - RA damage reduced from 19 to 15
 - GRKnJ
-    - Made into RA
+    - Made into RB (TODO: vanilla?)
     - Appears closer to the opponent
     - Lift reduced slightly
 - 9B does not do instant RB anymore (TODO: is this in vanilla?)
@@ -1579,7 +1626,11 @@ TODO: Resolve above two 2A entries
 
 - Guard: 1760 to 1800
 - Grabbable Moves: 8A, JA, 2X
-- 5B(B) hitbox appears and disappears one frame later
+- 5B(B)
+    - Hitbox appears and disappears one frame later
+    - Has 2 additional hitstun
+    - Has 3 additional blockstun frames
+- 5BB(B) has one less hitbox duration on the end
 - 5BB(A)
     - Turns better on hit
     - Given same stun as 6A
@@ -1591,7 +1642,7 @@ TODO: Resolve above two 2A entries
 - 6A
     - Has 72 lift from 64
     - Turns better on hit
-    - Intangible on the first three frames
+    - Grabbable intangible on the first three frames
     - No intangible in combos
 - 6A(A)
     - Damage increased from 15 to 20
@@ -1617,10 +1668,17 @@ TODO: Resolve above two 2A entries
     - Damage reduced from 75 to 70
     - First hit turns back turned opponents around
     - First hit hitbox duration increased by one frame
+    - Second hitboxes are bigger if the first is hit
 - 2X
     - Starts 3 frames faster and ends 8 frames later
     - Drains slightly more than 12.5% meter on a miss at the end of the move
     - Activation gives opponent no chakra on hit (TODO 2X now loses meter when she can no longer counter instead of the end of the move?)
+    - Chakra is taken the first frame of the capture state instead of on activation of super freeze
+    - Is not avoided by “landing” during the activation
+    - Super freeze resets intangible at the end
+- Act2X
+    - Damage reduced 95 to 70
+    - Drains 50% chakra
 - RB given hyuuga cancel
 - GRKnJ appears slightly closer to the opponent
 
@@ -1635,11 +1693,11 @@ TODO: Resolve above two 2A entries
     - Active frame 2 hitbox size increase
 - 5B(B) hitbox disappears two frames earlier
 - 5BB(B) turns back turned opponents around
-- 5BBA(B) given more lift
 - 5BBA(A)
     - Has three grabbable frames at the startup
     - Doesn't teleport as high
 - 5BBA(B) changed to be 8AB(B)
+- 5BBAB(B) added (and all other sand flip kicks) as the spinning back punch
 - 5BBBB(A)
     - Hitbox appears two frames earlier
     - Teleports a frame later when coming from B moves (e.g. 6BB(A) instead of 8AB(A))
@@ -1648,13 +1706,17 @@ TODO: Resolve above two 2A entries
     - Uncharged moves slower with both orbs
     - Single charge has only one move slower
     - Grabbable the entire move
+    - Release animation sped up by two frames
 - 2B lift increased
 - 2BA(A) and 2BAA(A) adjusted hand to clasp on Gaara's arm properly
 - 2BAA now has extensions into 2A and 6A (2BAA6A , 2BAA2A)
 - 2A
     - Comes out faster
     - Grabbable the entire move
-- 6B turns back turned opponents around
+    - Strength increased from weak to medium
+- 6B
+    - Turns back turned opponents around
+    - High crush ends three frames sooner
 - 6B(B) 
     - Taijutsu flip kick, made strong on block
     - Start up is 4 frames later
@@ -1666,10 +1728,17 @@ TODO: Resolve above two 2A entries
 - 6BB(B) transition is six frames slower
 - 6A
     - Appears 12 frames sooner
+    - Startup animation sped up to match faster spawn time
     - Can be grabbed for the whole duration
     - Recovers faster
+    - High crush updated
+    - No longer staggers so the opponent remains grounded on hit
+    - Increased stun
 - 6A(A) extension added as chargeable 5A
-- 4B does not push on block
+- 4B
+    - Does not push on block
+    - Has more lift
+    - Has a string into 2X (just press X) for 15 frames post hitbox
 - 4BB(B)
     - Increased duration
     - Lower angle
@@ -1682,25 +1751,36 @@ TODO: Resolve above two 2A entries
 - 8B
     - Ends significantly sooner
     - Cannot do follow ups after Gaara lands
+    - Flags cleaned up
 - 8B(B) cannot be done upon landing on the ground
 - 8A
     - Has sit on frames 9-20
-    - Cannot be thrown 15-until the pillar appears, then can be grabbed after
+    - Grabbable entire duration
     - Hands curl around the arm properly
     - Recovers 6 frames faster
 - 8A(B)
     - Sand flip kick "lands" two frames later
     - Recovers 8 frames faster
 - 8AB(B) transition is three frames slower
+- JB
+    - Hitboxes slightly bigger
+    - Slightly more lift
+    - Slightly more forward descent angle
 - JA
-    - Projectile has more stun
     - Air momentum only affects his upwards lift
-- 5X hitbox appears 5 frames sooner
+    - Comes out 5 frames faster
+    - Ends 10 frames faster
+    - Momentum is similar to other JAs
+- 2Y is a side switch throw
+- 5X
+    - Hitbox appears 5 frames sooner
+    - Has two frames less super freeze (BBX works higher in the combo counter)
 - 2X
     - Comes out faster
     - Recovers 52 frames faster (no longer unsafe on hit)
     - Requires and costs 75% meter
     - Blocks everything while the orb is active
+    - Does not move backwards if block is activated
     - Safe(r) on hit
     - Grabbable until frame 29 on startup and as the sphere disappears
     - Does 40 damage
@@ -1712,7 +1792,7 @@ TODO: Resolve above two 2A entries
 - GRKnJ
     - Is RA
     - Teleports 1 frame faster
-    - Side switches two frames sooner (same total duration)
+    - Switches sides two frames sooner, but hits on the same time (switches into stand for two frames)
     - Gives him a KnJ you can turn around and block like all the others
 - Sand dive
     - Hitbox appears sooner
@@ -1884,14 +1964,19 @@ There are also some Karasu specific changes:
 
 - Health: 190 > 200
 - 5B made high
-- 5A is grabbable the entire move
-- 5A(A) is grabbable the entire move
+- 5A
+    - Needle does 7 damage (from 4)
+    - Is grabbable the entire move
+    - 1C does 11 damage (from 4)
+- 5A(A)
+    - Needle does 7 damage (from 4)
+    - Is grabbable the entire move
 - 2B
     - Hitbox appears one frame sooner
     - Hit direction changed slightly to assist follow ups
     - Lift set to 100, from 64
 - 2B(B)
-    - First hit launches
+    - First hit made spinning knockdown with reduced lift to increase late combo consistency into second hit
     - Damaged increased from 8,10 > 12,14
     - Second kick hitbox set to 170 from 128
 - 2B(A) changed to be 6A(A)
@@ -1915,11 +2000,12 @@ There are also some Karasu specific changes:
     - Activation is unblockable and unsubbable
     - Hitboxes are bigger and better placed
     - Moves quicker
+    - Lift decreased
+    - Has intangibility for one more frame
 - 8A needles have slightly more lift
 - JA
     - Spawns 5 needles instead of 10
     - Holding each needle drains 6 chakra per frame instead of 3 (was pairs before)
-- 5Y the opponent can sub 5 frames earlier to prevent an unsubbable infinite from being started (TODO: Vanilla?)
 - 5X hitbox appears 4 frames earlier
 - 2X
     - Stomp turns back turned around
