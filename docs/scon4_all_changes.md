@@ -1391,11 +1391,12 @@ TODO: Resolve above two 2A entries
 - 2BB(B)
     - Does not low crush at the end
     - Can be grabbed
+- 2A(B) lift changed? (TODO)
 - 2AB(B)
     - Transition timing adjusted to match 6B(B)
     - Cannot transition upon landing
 - 6B
-    - Increased lift
+    - Increased lift (TODO: still true?)
     - Does not lift on block
     - Ends quicker (TODO: conflict with below?)
     - Has 6 more recovery frames on whiff and block
@@ -2290,7 +2291,6 @@ There are also some Karasu specific changes:
     - Added
     - Is a command grab
     - Requires 50% meter
-    - Unblockable
     - Hard knockdown (TODO: Still true?)
 - RB as Boot
 - RA as teleport
