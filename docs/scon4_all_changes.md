@@ -91,6 +91,7 @@ All directions use numpad notation. For example, 6B is holding forward and press
 - Most counter 4A’s durations are reduced greatly by shortening the time the character stays in the pose (list below)
 - A glitch when certain counters are activated, but don’t “capture” the victim (Hinata and A. Hinata 2X, Hinata 4A, Lee 4A, Sasuke S4A) will create an intangible state for the character initiating the counter and leave them unable to move. This was adjusted to create a state where the activated counter person is stuck in place, but hittable
 - TDOWN flag not lingering after attacks end (prevents issues where characters could be thrown out of blockstun in some situations after tdown becomes active)
+- Throwbreak window changed globally to 6 frames
 
 Note: 3-Man Cell is currently non-functional.
 
@@ -513,7 +514,13 @@ And for Sasuke's sharingan transformation:
     - Ends 9 frames sooner (TODO: still relevant?)
     - Changed to be a modified RB that staggers with BB follow ups as before
     - A follow ups on the end removed
-- 5BBB(B) is a hard knockdown
+    - Has 2 more lift
+- 5BBB(B)
+    - Is a hard knockdown
+    - Has 9 more lift
+- 5BBBB(B)
+    - Does 18 damage, from 13
+    - Bounces the opponent and is no longer a hard knockdown
 - 5BB(A)
     - Input can now be buffered up to 23 like in vanilla, but also can be input anytime to the end of the move
     - Cannot follow up on whiff
@@ -548,6 +555,7 @@ And for Sasuke's sharingan transformation:
 - 6A
     - 6A changed to be 5AA(A)
     - Animation recovers faster when used not in a string
+    - Shurikens are highs instead of mid to become high crushable
 - 6A(B)
     - Transition delayed 5 frames
     - Has a closer hit
@@ -582,6 +590,7 @@ And for Sasuke's sharingan transformation:
     - Spaced out the projectiles more
     - Projectiles do not lift off the ground
     - Grabbable the entire move
+- JB does 18 damage, from 13
 - JA
     - Can transition faster
     - Has forward or backwards momentum with 6 or 4
@@ -3448,7 +3457,6 @@ There are also some Karasu specific changes:
 - RB
     - Hitbox appears one frame earlier
     - More blockstun
-    - Pushes on block
 - RA
     - Has less lift
     - 3 more frames duration
@@ -3495,7 +3503,6 @@ And for Sakon only:
     - Less disadvantage on block
     - Move ends sooner
     - 5 frames less recovery
-    - Has one less active frame
 - 5BBB(B) made into 6BB(B)
 - 5BBBB(B)
     - High crush on frame 7 and stand on 14 instead of high crush 14 to the end
@@ -3567,9 +3574,15 @@ And for Sakon only:
     - "lands" three frames sooner
     - Low crushes
 - 8B(B) transition window ends two frames sooner
-- 8A has 10 less recovery frames
-- 8A(A) has 10 less recovery frames
-- 8A(B) works again and is a back handspring if not done in a combo (TODO: Is this just vanilla now?)
+- 8A
+    - Has 10 less recovery frames
+    - Staggers on hit
+- 8A(A) removed (TODO: in vanilla?)
+- 8A(2A) removed (TODO: in vanilla?)
+- 8A(B)
+    - Outside of combos is a back handspring (TODO: maybe rewrite these?)
+    - In ring is strong power from medium
+    - In ring is 23 damage from 18
 - JB
     - Travels at a more horizontal angle
     - Shin hitbox removed and put on waist
@@ -3577,6 +3590,7 @@ And for Sakon only:
     - Damage increase 8 > 18
 - JA
     - Staggers on the last hit
+    - Last hit is medium power instead of strong, making it -6 on block for an instant jA (was 0 on block for instant jA)
     - Slightly more gravity for Tayuya
     - First four hits don't move the opponent
 - 5X
