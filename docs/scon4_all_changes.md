@@ -92,6 +92,7 @@ All directions use numpad notation. For example, 6B is holding forward and press
 - A glitch when certain counters are activated, but don’t “capture” the victim (Hinata and A. Hinata 2X, Hinata 4A, Lee 4A, Sasuke S4A) will create an intangible state for the character initiating the counter and leave them unable to move. This was adjusted to create a state where the activated counter person is stuck in place, but hittable
 - TDOWN flag not lingering after attacks end (prevents issues where characters could be thrown out of blockstun in some situations after tdown becomes active)
 - Throwbreak window changed globally to 6 frames
+- Throwbreak window normalized between p1 and p2. Both have 6 frames to break (in vanilla player 1 had 1 less frame than player 2).
 
 Note: 3-Man Cell is currently non-functional.
 
@@ -374,7 +375,9 @@ And for Naruto's ZTK transformation:
     - Staggers
     - Ends earlier
     - Sped up recovery on hit
-- 8B cannot be subbed until later
+- 8B
+    - Cannot be subbed until later
+    - Has proper distance between characters after the move finishes to prevent OTG hits
 - 8A
     - Hitbox slightly bigger
     - Grabbable the entire move
