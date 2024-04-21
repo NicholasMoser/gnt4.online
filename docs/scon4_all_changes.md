@@ -1065,7 +1065,6 @@ And in Sharingan mode:
     - Shoulder hitbox made slightly bigger
 - 5BBB(B) slight forward momentum at the startup
 - 5BB(A)
-    - Hitbox duration increased by one frame to better match the animation
     - Changed to a mid from a high
 - 5BBA(A)
     - Has more lift
@@ -1073,7 +1072,6 @@ And in Sharingan mode:
 - 5A
     - Is super cancellable
     - Cannot do the B follow up for the last two frames
-    - Turns back turned opponents around
     - Slightly more lift
 - 2B
     - Hitbox duration increased by 1 frame
@@ -1320,9 +1318,12 @@ TODO: Resolve above two 2A entries
     - Is unblockable and unsubbable
     - Light adjustment to size
     - Damage increase 20 to 25
-- 8B to 8B(B) transition is slightly slower
-- 8B(A) is 8A
+- 8B
+    - Does 15 damage when not in strings
+    - Still does 17 damage in strings (BBB and 6BAB)
+- 8B-B is slightly slower
 - 8B(B) ends three frames sooner
+- 8B(A) is 8A
 - 8A
     - Hitboxes adjusted to not grab behind as easily
     - Super armor ends when Chouji leaves the ground
@@ -1357,7 +1358,8 @@ TODO: Resolve above two 2A entries
     - Has 14 frames of blockstun and does not push
     - Has 10 frames of high/mid crush
 - RB
-    - Doesn’t jump forward as far
+    - Leaps further forward during the time the hitbox is active (TODO: More than vanilla?)
+    - Has slightly extra lift on airborne opponents
     - Attacks quicker
     - Recovers quicker
 - RA
@@ -1380,10 +1382,13 @@ TODO: Resolve above two 2A entries
 - Health: 185 to 210
 - Guard: 1480 to 1640
 - Grabbable Moves: 8A, JA
-- 5B shoulder hitbox does not appear on the first active frame
+- 5B
+    - Shoulder hitbox does not appear on the first active frame
+    - Has 1 more lift
 - 5B(B)
     - Hitbox appears and disappears one frame later
     - Can do 8B instead
+    - Has 2 more lift
 - 5BB(A) does a delayed 6A
 - 5BB(B)
     - Launches on hit and block
@@ -1400,6 +1405,10 @@ TODO: Resolve above two 2A entries
     - Charge time decreased to 7 frames from 11
     - Grabbable the entire move
 - 2B(B) has less recovery frames
+- 2B(A)
+    - Transitions 2 frames faster
+    - String connects OTG
+    - Can’t be jumped on block
 - 2BB(B)
     - Does not low crush at the end
     - Can be grabbed
@@ -1415,6 +1424,10 @@ TODO: Resolve above two 2A entries
 - 6B(B)
     - Has three grabbable frames at the startup before the teleport
     - Can change direction with 4B
+- 6B(A)
+    - Added as JA to be a low risk low reward pressure option on block
+    - Kunais don’t connect on hit, but allow 6A as a low reward link
+    - String can only be delayed for 10 frames
 - 4B
     - Bounces closer to Ino
     - Doesn't push on block
@@ -1454,11 +1467,12 @@ TODO: Resolve above two 2A entries
     - Starts moving slightly sooner
     - Slightly less damage
     - Cannot be thrown out of startup anymore
+    - Hitbox size increased from 102 to 128
 - 2X
     - Is 5X
-    - Whiff animation of Ino sitting on her knees cut in half (30 frames from 60)
-    - Hitboxes adjusted with duration adjustment to be shorter but wider range as originally intended
-    - Whiff endlag adjusted to include 10 frames of standing (means it is 22 frames faster)
+    - Is a close range attack with less recovery on miss
+    - Beam hitbox active for 6 frames from 3
+    - Ino has 1 less frame of super freeze for better combo consistency
 - RB
     - Has smaller hitboxes
     - RB hitboxes adjusted to clip less on sidesteps
@@ -1469,6 +1483,7 @@ TODO: Resolve above two 2A entries
     - More lift
     - Changed to be a mid from a high
     - Hitbox sizes made to properly match RB sizes
+    - Hitbox sizes are larger (TODO: resolve with above)
 - Dive kick hitboxes made slightly bigger (TODO: what divekick?)
   
 #### Cosmetic
@@ -2347,7 +2362,6 @@ There are also some Karasu specific changes:
 - 2A
     - Has slightly more lift
     - Damage increased from 18 to 23
-    - Turns around back turned
     - Last two frames of the move cannot do B follow up
     - High crushes
 - 2A(A) "lands" at startup
@@ -3232,6 +3246,7 @@ There are also some Karasu specific changes:
     - Turns around back turned (TODO: still relevant with launch?)
     - Crushes frame 7 - 53
     - Hitboxes slightly bigger
+    - Sped up by 4 frames in startup (2B(B) is not changed)
 - 6(B-B) delay window for 5B(B) is now six frames (from 8; vanilla 10)
 - 6BB(B) hitboxes slightly bigger
 - 6A
@@ -3243,7 +3258,6 @@ There are also some Karasu specific changes:
     - Is blockable
 - 6A(B) added
 - 6A(A) added as stone clap
-- 4B(B) changed to be 5BB(B) with A button follow ups
 - 4A
     - DEF from frames 12-35, animation ends frame 49
     - When done in a combo it does 6A
@@ -3254,6 +3268,7 @@ There are also some Karasu specific changes:
 - 8B(B)
     - Starts up one frame later
     - Transitions 3 frames later
+    - Active for 3 frames, from 2, for improved combo functionality
     - Ends two frames sooner
 - 8A super armor ends when Jirobo leaves the ground
 - A8A ends three frames sooner when the animation ends and is hittable after he gets off the opponent
@@ -3280,7 +3295,7 @@ There are also some Karasu specific changes:
     - High/mid crush frames adjusted
     - Is “standing” sooner on whiff and hit
     - Does not push on block
-    - Hitbox has 4 active frames (from 10)
+    - Hitbox has 12 active frames (TODO: vanilla?)
     - Blockable by all
 - RB
     - Ends 12 frames earlier
