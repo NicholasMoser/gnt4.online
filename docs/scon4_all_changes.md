@@ -1284,7 +1284,6 @@ And in Sharingan mode:
 - 5B(A)
     - Hitbox appears one frame sooner
     - Transitions one frame faster
-- 5B6A added
 - 5BA(A) added as 2A
 - 5BB(B) and 8B is an uppercut
 - 5BBB(B) and 8B(B) is also an uppercut, but has spinning knockback and hits higher
@@ -1321,7 +1320,6 @@ TODO: Resolve above two 2A entries
 - 6BA(A) added as 5B(A)
 - 6BAA(A) added as 2A
 - 6BA(A) replaced with chips
-- 6BA6A added
 - 6A
     - Links into the final hit better
     - Ending hits twice
@@ -1830,6 +1828,7 @@ TODO: Resolve above two 2A entries
     - Fixed unsubbable, opponent is invulnerable until they hit the ground (TODO: huh)
     - Is not avoided by “landing” during the activation (prevents an issue where Temari could activate 2X with her jB, but not get hit by the counter)
     - Chakra is taken the first frame of the capture state instead of on activation of super freeze
+    - Wallbounce removed (TODO: vanilla?)
 - Act2X
     - Opponent intangibility adjusted as well as flight path
     - Gives meter to the opponent (TODO: vanilla?)
@@ -1902,10 +1901,9 @@ TODO: Resolve above two 2A entries
     - First hit hitbox duration increased by one frame
     - Second hitboxes are bigger if the first is hit
 - 2X
+    - Consumes 1/8 chakra if not activated
+    - Damage increased to 78 (85 with fall damage)
     - DEF from frames 11-45, animation ends frame 55
-    - Drains slightly more than 12.5% meter on a miss at the end of the move
-    - Activation gives opponent no chakra on hit (TODO 2X now loses meter when she can no longer counter instead of the end of the move?)
-    - Chakra is taken the first frame of the capture state instead of on activation of super freeze
     - Is not avoided by “landing” during the activation
     - Super freeze resets intangible at the end
 - Act2X
@@ -2054,7 +2052,6 @@ TODO: Resolve above two 2A entries
 - 5A(A) is grabbable the entire move
 - 5AA(A) is grabbable the entire move
 - 5A8 does 8A
-- 5AX added
 - 5AAX added
 - 2B
     - Turns on backturn
@@ -2093,7 +2090,6 @@ TODO: Resolve above two 2A entries
 - 8A is grabbable the entire move
 - 8A(A) is grabbable the entire move
 - 8AA(A) is grabbable the entire move
-- 8AX added
 - JB
     - Does 10 damage (from 16) and 10 block damage (from 16) but has the same guard stun
     - Hitbox removed from head and butt
@@ -3710,7 +3706,6 @@ And for Sakon only:
     - Staggers on hit for its new follo-wup to connect, which is 8B(B)
     - Strong power from medium
     - -16 on block from -20
-- RB(B) is 8B(B)
 - RA
     - Has defense frames and can be grabbed during airborne frames
     - Damage increased to 14
