@@ -93,6 +93,17 @@ All directions use numpad notation. For example, 6B is holding forward and press
 - Throwbreak window changed globally to 6 frames
 - Throwbreak window normalized between p1 and p2. Both have 6 frames to break (in vanilla player 1 had 1 less frame than player 2).
 - Runstop (the action where your character ends their run cycle, that could only be acted out of with attacks or jumps) is functionally gone! This allows you to run and stop on a dime, run and walk either direction, run into backdash, run into normal sidestep instead of runstep, and run into turnaround when you’re backturned!
+- Added recording option to training mode, allowing you to define inputs for the CPU to repeat.
+- Hold Start to Pause in non-training battle modes
+- Replace character select screen music with new song from Brutalmoon
+- Display version of SCON4 at top of main menu
+- New textures for health bars
+- Remove CS2 fireball clash
+- Remove pipe in Konoha Hospital that can block the camera
+- Remove X+Y Throw Break
+- Fix P1 Health Bar Spacing
+- Move crisis section in health bar over a single pixel to make it more accurate for when crisis mode has been entered
+- Skip memory card warning message on game launch to boot faster
 
 Note: 3-Man Cell is currently non-functional.
 
