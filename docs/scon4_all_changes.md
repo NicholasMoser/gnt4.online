@@ -438,14 +438,14 @@ And for Sasuke's sharingan transformation:
 - 5A(B)
     - One more active frame
     - All 5A(B) attacks have the B follow ups (TODO: Is this referring to strings after 5AB?)
-- 5A(B-A) transition made one frame faster
-- 5(A-A) transition starts two frames later (same duration)
+- 5A(B~A) transition made one frame faster
+- 5(A~A) transition starts two frames later (same duration)
 - 5A(A)
     - Adjusted high crush frames to make more sense
     - Changed from low to mid
     - Changed from W to S (TODO: huh)
     - +1 frame duration on the hitbox
-- 5A(A-A) transition possible one frame sooner
+- 5A(A~A) transition possible one frame sooner
 - 2B(B)
     - Launches higher
     - Launches on block
@@ -672,7 +672,7 @@ And for Sasuke's sharingan transformation:
     - Recovers two frames faster on block only
     - Second active frame (to the end) of the hitbox lifts on block
 - 5BB(A) route added as a 6A that staggers
-- 5BB(A-B) cannot be done on the last two frames
+- 5BB(A~B) cannot be done on the last two frames
 - 5BBA(B) added
 - 5BB(6A) is added as a kunai dash
 - 5BB6AB string removed 
@@ -1205,7 +1205,7 @@ And in Sharingan mode:
 - 8B(A) can only be done after landing
 - 8A is grabbable the entire move
 - JB landing animation adjusted and sped up
-- (JB-A) transition made one frame slower (forces it to work off the grounded transition so it's consistent)
+- (JB~A) transition made one frame slower (forces it to work off the grounded transition so it's consistent)
 - SB
     - More lift (TODO: DIR reset to 0, was this reverted?)
     - Can be done with 6 to change sides or 2 to empty teleport
@@ -1332,7 +1332,7 @@ TODO: Resolve above two 2A entries
 - 8B
     - Does 15 damage when not in strings
     - Still does 17 damage in strings (BBB and 6BAB)
-- 8B-B is slightly slower
+- 8(B~B) is slightly slower
 - 8B(B) ends three frames sooner
 - 8B(A) is 8A
 - 8A
@@ -1506,7 +1506,7 @@ TODO: Resolve above two 2A entries
 - 5BB(B)
     - Lifts on hit and block
     - Ends sooner
-- 5BB(B-B) cannot be done on the last two frames
+- 5BB(B~B) cannot be done on the last two frames
 - 5BBB(A) changed to be 5A
 - 5BB(A) hits 5 times
 - 5BBA~B slowed down slightly
@@ -1679,7 +1679,7 @@ TODO: Resolve above two 2A entries
     - Projectile appears two frames later
     - Projectile staggers
     - Bigger hitbox
-- 6(A-A) cannot be done on whiff
+- 6A(A) cannot be done on whiff
 - 4B staggers instead of bounces
 - 4A DEF from frames 11-35, animation ends frame 49
 - Act4A
@@ -1734,11 +1734,11 @@ TODO: Resolve above two 2A entries
 - 5BB(6B) Lift increased by 2
 - 5BBBB(B) second hit does not lift on block
 - 5BBBA(B) hitstun reduced by 3 to remove grounded infinite
-- 5BB(A-A) is now -3 on block (was -6)
 - 5BB(A)
     - Has stagger
     - Has one more frame blockstun
     - Turns better on hit
+- 5BBA(A) is now -3 on block (was -6)
 - 5BBBB(6B) is RB
 - 5A
     - Charge changed from 11f to 8f
@@ -1765,10 +1765,10 @@ TODO: Resolve above two 2A entries
     - Turns better on hit
     - More lift
     - First three frames are grabbable intangibility
-- 6(A-A) is now -3 on block (was -11)
 - 6A(A)
     - Does 20 damage (from 15)
     - Pushes on block has 4 less endlag frames
+    - is now -3 on block (was -11)
 - 4B
     - No longer staggers or pushes block
     - Significantly stronger on hit and block
@@ -2543,7 +2543,7 @@ There are also some Karasu specific changes:
     - -10 on block from -8
 - 5BB(A) added
 - 5BBB(A) removed
-- 5BBB(B-B) cannot be done on the last two frames
+- 5BBB(B~B) cannot be done on the last two frames
 - 5BBBB(B) has 2 active frames instead of 5, to allow a 2 frame step window immediately before it hits
 - 5A
     - Charge time changed from 10f to 8f
@@ -2997,7 +2997,7 @@ There are also some Karasu specific changes:
 - 5A
     - Charge time changed from 11 frames to 8
     - Grabbable the entire move
-- 5(A-A) cannot be done during the last four frames
+- 5(A~A) cannot be done during the last four frames
 - 5A(A) added as 2AA(A)
 - 2B can follow up on whiff
 - 2BBB(B) has more lift
@@ -3204,7 +3204,6 @@ There are also some Karasu specific changes:
     - Crushes frame 7 - 53
     - Hitboxes slightly bigger
     - Sped up by 4 frames in startup (2B(B) is not changed)
-- 6(B-B) delay window for 5B(B) is now six frames (from 8; vanilla 10)
 - 6BB(B) hitboxes slightly bigger
 - 6A
     - Has slightly more lift
