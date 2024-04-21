@@ -22,9 +22,9 @@ All directions use numpad notation. For example, 6B is holding forward and press
 - RA is running A
 - JB is jumping B
 - J2A would be jumping, holding down, and pressing A
-- 6A(A) means that we are talking about the second A press in the 6A string
+- 6A(A) means that we are talking about the second A press in the 6A sting
 - S5X means in Sharingan mode for Sasuke and Kakashi. Stance for Shikamaru. Similar for other transformations.
-- 1C or 2C means charged once or twice respectively
+- 0C, 1C, or 2C means uncharged, charged once, or charged twice respectively
 - Act4A means the activated part of a 4A counter. This can also be seen on command grabs such as Tsunade's Jump A as ActJA
 - A8A means the activated part of 8A.
 - GRKnJ and ARKnJ are ground and air attack substitutions; LKnJ is the non attack version
@@ -32,8 +32,7 @@ All directions use numpad notation. For example, 6B is holding forward and press
 - DI (Directional Input) is on a few air moves. This allows you to hold forward or back as you begin the move to change how your momentum is applied
 - Ring is a combo with multiple options depending on direction pressed
 - ~ is the transition between moves, so 5A~A is the minimum time the game needed to initiate the second 5A
-- lowercase letters mean an input is being slid from
-- [] means a button is being held down
+- Lowercase letters mean an input is being slid from
 
 ## General Changes
 
@@ -3437,7 +3436,6 @@ There are also some Karasu specific changes:
     - Swaps Sakon to Ukon the first active frame of the hitbox and swaps Ukon to Sakon on frame 2 of the activator
     - Goes into 5X on activation
 - 4X
-    - Transforms in place of [Z]44
     - Requires and costs 25%
 - 2X now a mid instead of a high
 - RB
