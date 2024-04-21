@@ -137,8 +137,6 @@ Note: 3-Man Cell is currently non-functional.
 - 5BBBB(A) added as 8A
 - 5BAA(A)
     - Made spinning knockdown
-    - Given slightly more lift
-    - Transition to next A slowed down by 7 frames
 - 5A
     - 0C kunai staggers on hit
     - 0C damage increased from 7 to 9
@@ -512,15 +510,26 @@ And for Sasuke's sharingan transformation:
 - 5B(B)
     - Shoulder hitbox slightly smaller
     - Hitbox appears and disappears one frame later
+    - String transition sped up by 1 frame to remove the opponent’s window to 4B on block
 - 5BB(B)
     - "lands" two frames sooner (TODO: still relevant?)
     - Ends 9 frames sooner (TODO: still relevant?)
+    - Hitbox active frames reduced to 3 from 5
     - Changed to be a modified RB that staggers with BB follow ups as before
     - A follow ups on the end removed
     - Has 2 more lift
+- 5BB(A)
+    - Is vanilla 5AA(A)
+    - +8 on hit
+    - -7 on block
+    - Shurikens are mids
+    - Can be done on whiff
 - 5BBB(B)
     - Is a hard knockdown
     - Has 9 more lift
+- 5BBB(A)
+    - Added as 2A
+    - Against shorter characters the string can miss on hit depending on both character’s standing orientation, but can hit consistently by delaying the A followup slightly
 - 5BBBB(B)
     - Does 18 damage, from 13
     - Bounces the opponent and is no longer a hard knockdown
@@ -531,6 +540,7 @@ And for Sasuke's sharingan transformation:
 - 5BBA(B) launches away
 - 5A is grabbable the entire move
 - 5A(A) is grabbable the entire move
+- 5AA(B) follow-up removed
 - 5AA(A)
     - Staggers
     - Grabbable the entire move
@@ -538,31 +548,50 @@ And for Sasuke's sharingan transformation:
     - Projectiles adjusted for consistency with release timing and size
     - More stun
 - 5A2C staggers
-- 2B launches instead of sweeps
-- 2B(B) added as 6B
+- 2B
+    - Launches instead of sweeps
+    - High crushes on frame 8 instead of frame 6
+- 2B(B)
+    - Added as 6B
+    - Can only be delayed until frame 40 instead of the entire recovery
 - 2BBB added as string
 - 2A
+    - Damage decreased from 15 to 13
     - Cannot be followed up on on whiff
-    - +2 damage
     - Hitbox extended by 5 frames
+    - Active for 8 frames down from 13
     - A follow up made faster by 3 frames
 - 2A(B)
     - Added
+    - Spin launches opponent
     - This move and similar moves do not move as far forward on startup
-    - Launches away
 - 2AA(A) replaced with RA
-- 6B flags adjusted to better match the animation
+- 6B is 5BB(B)
 - 6B(B)
     - Flags adjusted to better match the animation
     - Has more lift
+- 6B(A)
+    - Added as 2A
+    - Can be done on whiff
+    - Against shorter characters the string can miss on hit depending on both character’s standing orientation, but can hit consistently by delaying the A followup slightly
 - 6A
-    - 6A changed to be 5AA(A)
-    - Animation recovers faster when used not in a string
-    - Shurikens are highs instead of mid to become high crushable
+    - 6A changed to be kunai slash
+    - 18 damage
+    - Hits on frame 19
+    - Is active for 7 frames
 - 6A(B)
     - Transition delayed 5 frames
     - Has a closer hit
-- 6A(A) added as vanilla 8B(A)
+- 6A(A)
+    - Changed to be a second kunai slash
+    - Does 17 damage
+    - Punishable on block if the teleport followup isn't used
+- 6A(4A)
+    - Is vanilla 5AA(A)
+    - +8 on hit
+    - -7 on block
+    - Shurikens are mids
+- 6AA(A) is vanilla 6A
 - 4B
     - Cannot be followed up on on whiff
     - Guards from frames 2-5 instead of 2-7 (TODO: still true? may not be)
@@ -570,8 +599,7 @@ And for Sasuke's sharingan transformation:
     - Has flying screen added
     - Hitbox appears one frame earlier
     - Launches spinning upwards
-- 4B(A)
-    - Changed to be 5BA(A)
+- 4B(A) removed
 - 4BA(B) launches away
 - 4BA(A) changed to be 5BAA(A)
 - 4BAA(A) added as RA
@@ -579,16 +607,17 @@ And for Sasuke's sharingan transformation:
     - Remains grounded
     - Teleport has a different reappearance animation
 - 8B
-    - Damage increased to 17, (from 15)
+    - Damage increased from 15 to 16
     - Lift decreased
     - Duration adjusted to fit the animation better
     - Hitbox come out one frame slower
     - Ends sooner
     - "lands" two frames earlier
 - 8B(B)
+    - Damage decreased from 18 to 17
     - Flying screen removed
     - Adjusted lift, size, and duration
-- 8B(A) made 5A with follow ups
+- 8B(A) removed
 - 8A
     - Spaced out the projectiles more
     - Projectiles do not lift off the ground
@@ -596,12 +625,9 @@ And for Sasuke's sharingan transformation:
 - JB does 18 damage, from 13
 - JA
     - Can transition faster
-    - Has forward or backwards momentum with 6 or 4
 - JA(A)
     - Air momentum changed
     - Can transition faster
-    - Has forward or backwards momentum with 6 or 4
-- JAA(A) has forward or backwards momentum with 6 or 4
 - 5Y
     - Puts the opponent in a proper “stagger” state instead of leaving the opponent backturned
     - Hit with stagger after this instead launches the opponent
@@ -619,10 +645,12 @@ And for Sasuke's sharingan transformation:
     - Hitbox disappears two frames sooner
     - First hitbox frame made a mid, untechable bounce like frames 2 to the end
     - TODO: resolve all the above
+- RBA(B) follo-wup removed
 - RA changed to be running shuriken throw
 - GRKnJ
     - Bounce changed to be closer
     - Travels one frame faster
+    - Recovers faster so she can get an OTG hit on missed tech (actionable on frame 55 from 64)
 - 4Z disabled
 
 #### Cosmetic
@@ -707,7 +735,7 @@ And for Sasuke's sharingan transformation:
     - In non-sharingan version it puts Kakashi in sharingan mode and does not build meter
 - 5X
     - 0C damage increased from 60 to 80
-    - Full charge damage increased from 100 to 120
+    - Full charge damage increased from 100 to 105
     - Full charge time reduced from 100 to 76 frames (TODO: is this 77 frames now?)
     - Duration improved from 1 frame to 7
     - Fully charged from frame 1 to 8
@@ -772,6 +800,7 @@ And in Sharingan mode:
     - On transition to capture state leaves sharingan mode
     - Requires and costs 75%
 - 2X
+    - Damage decreased from 110 to 95
     - Is vanilla sharingan 5X
     - Activator duration increased by 2 frames
     - Damage reduced slightly
@@ -796,6 +825,7 @@ And in Sharingan mode:
    - Is a custom capture state move
    - Opponent is launched away
    - Crumples the opponent (no combo follow up from this)
+- 5BBB(A) and 5BBB(6A) inputs reverted to BBB(4A) and BBB(A) inputs, respectively (TODO: what to do about this? is it even relevant?)
 - 5BBBB(A) damage increased from 14 to 20
 - 5A
     - Charge time reduced from 11 frames to 8
@@ -877,10 +907,8 @@ And in Sharingan mode:
 - 5B has more lift
 - 5B(B) one frame added to the animation
 - 5B(A) added as 5A with 5B(B) follow ups
-- 5BB(A) hitbox has one more frame duration to better match the animation
 - 5BBA(A) has more lift and a hyuuga cancel before he leaves the ground
 - 5A has more lift
-    - Turns the opponent around on back turned
 	- 1G: Deflects projectiles
 	- 2G: Does more stun and 5 less guard damage
 - 2B changed to be strong on hit and block
@@ -1021,6 +1049,7 @@ And in Sharingan mode:
 - JB
     - Has one more frame active hitbox
     - Has three additional landing lag frames on whiff
+    - High crush window during landing animation removed
 - JA
     - Can transition faster
     - Has forward or backwards momentum with 6 or 4
@@ -1551,6 +1580,7 @@ TODO: Resolve above two 2A entries
 - 6BBAB(A)
     - Transition from 6BBAB is two frames faster
     - Second wave of bugs comes out four frames sooner
+    - Stagger on hit so they lift in situations where you’re not comboing into it
 - 6A
     - 6A changed to be BB(A)
     - Bugs bite every 5 frames instead of 4 frames
@@ -1660,10 +1690,12 @@ TODO: Resolve above two 2A entries
     - Is active after 9 frames instead of after 1
     - If hit, Akamaru stands back up
     - On release, Akamaru does his 6A (sand kick)
+    - Shortened; animation takes 45 frames
 - 6B(B)
     - Bounces closer
     - Recovers one frame sooner
     - Does 4 more damage
+    - Removed high crush during the landing recovery
 - 6B(2A) added as 5A
 - 6A
     - Changed to be 5BBB(A) with A follow up (old 6A)
@@ -1698,6 +1730,10 @@ TODO: Resolve above two 2A entries
 - 2X
     - If holding X after super freeze ends, Akamaru will jump.
     - Akamaru has more lift (TODO: is this in general?)
+- RB removed high crush during the landing recovery
+- RB(B) removed high crush during the landing recovery
+- RB(4B) removed high crush during the landing recovery
+- RB(8B) removed high crush during the landing recovery
 - RA
     - Hitbox extended two frames
     - Last three frames are -2 damage and guard damage
@@ -2317,6 +2353,7 @@ There are also some Karasu specific changes:
 - 4X
     - Added
     - Is a command grab
+    - Is a reversal
     - Requires 50% meter
     - Hard knockdown (TODO: Still true?)
 - RB as Boot
@@ -3171,9 +3208,8 @@ There are also some Karasu specific changes:
     - Gap between the two changed to be 1 frame (from 2)
     - Grabbable the entire move
 - GRKnJ
-    - Replaced with 5BBBB(A)
-    - Adjusted to hit quicker without reducing travel time
-    - Knocks down
+    - Changed to be RB animation instead of the palm strike
+    - Is y-cancelable
 - Sleep is +1 against Karasu and does not mess up his commands
 
 #### Cosmetic
@@ -3538,6 +3574,13 @@ And for Sakon only:
     - Less disadvantage on block
     - Move ends sooner
     - 5 frames less recovery
+- 5BB(B)
+    - Has less blockstun and hitstun to be a more defined but volatile weak point in her B string
+    - Now is the only move that is directly punishable on block in her B string (since BBBB(B) now has push on block)
+    - Increased risk/reward since the B followup is extremely good on counter hit if they try to punish BB(B)
+- 5BB(4B)
+    - Is 8B(B)
+    - Forces block if the opponent jumps back
 - 5BBB(B) made into 6BB(B)
 - 5BBBB(B)
     - High crush on frame 7 and stand on 14 instead of high crush 14 to the end
@@ -3548,6 +3591,9 @@ And for Sakon only:
     - Ends sooner
     - Hard knockdown
 - 5A
+    - 0C damage increased from 13 damage total to 20 (4+5+5+5+5, from 5+5+3+2+2)
+    - 1C damage increased from 26 damage total to 30 (5+5+5+5+6+7+7, from 6+5+5+5+4+4+3)
+    - Slightly extra guard damage on final 3 hits
     - Charge changed from 19 to 9 frames
     - More lift
     - Last hit staggers
@@ -3559,47 +3605,57 @@ And for Sakon only:
     - Has slightly more endlag
     - Extra recovery on hit only
 - 2B
+    - Damage increased from 9 to 14
     - Has more lift with adjusted hitbox times to better match the animation
-    - Damage increased from 9 to 12
+    - Recovers 10 frames faster
 - 2B(B)
     - Lifts on block
     - Ends sooner
     - Adjusted frames and knockbacks
 - 2A
+    - Damage increased from 15 to 16
     - Ends sooner
     - Has 10 less recovery frames
 - 2AX is a string into 2X
-- 6B
-    - Turns backturned opponents around
-    - High crushes
+- 6B high crushes
 - 6B(B) has four more frames blockstun
 - 6BB(B)
     - Has 2 more frames of hitstun
     - +1 damage
     - Hitbox comes out and disappears one frame sooner
     - Hitboxes made slightly smaller
+- 6BBB(B) damage increased from 13 to 16
 - 6A
     - Has 10 less recovery frames
     - Doki hitbox slightly bigger
     - Raw version has more stun
     - Combo version has less stun
+- 6A(B)
+    - Is now a modified 5BBB(B)
+    - 16 damage
+    - Staggers on hit
+    - -23 on block
 - 6A(A) has 10 less recovery frames
+- 6A(2A) is vanilla 2A
 - 6AA(A) has 10 less recovery frames
+- 6AA(2A) is vanilla 2A
 - 4B
     - Damage increase: 14 > 16 (TODO: still true?)
     - Stagger removed (TODO: still true?)
     - Does small bounce (TODO: still true?)
     - Hits closer to Tayuya (TODO: still true?)
     - Can be grabbed (TODO: still true?)
-    - Guard frames adjusted
-    - Airborne one frame sooner
-    - Airborne on 15 and DEF ends on 16
+    - Guard frames adjusted (TODO: get all frames)
+    - Airborne one frame sooner (TODO: still true?)
     - Ability to be grabbed terminates when the guard frames end
-    - Ending adjusted
+    - Has sped up recovery on block (moderately slower than the recovery on hit)
+    - Is -13 on block
+    - Does not push on block
 - 4A
     - DEF from frames 11-35, animation ends frame 49
     - Doesn't slide backwards when guarding
-- Act4A is unblockable
+- Act4A
+    - Is unblockable
 - 8B
     - Has the 2B(B) changes
     - Ends one frame sooner
@@ -3608,28 +3664,35 @@ And for Sakon only:
     - Second hit does not lift on block
     - "lands" three frames sooner
     - Low crushes
-- 8B(B) transition window ends two frames sooner
+- 8B(B)
+    - Transition window ends two frames sooner
+    - Set the launch angle to default
+    - Does extra guard damage (24 up from 17)
+    - Pushes on block
+    - Strong power from medium
+    - Adjusted blockstun to be similar to previous value (-25 on block, was -24)
 - 8A
     - Has 10 less recovery frames
     - Staggers on hit
-- 8A(A) removed (TODO: in vanilla?)
-- 8A(2A) removed (TODO: in vanilla?)
-- 8A(B)
-    - Outside of combos is a back handspring (TODO: maybe rewrite these?)
+- 8A(A)
+    - Outside of combos is a back handspring (TODO: maybe rewrite these?) (TODO: is this even in vanilla?)
     - In ring is strong power from medium
     - In ring is 23 damage from 18
+- 8A(2A) removed (TODO: in vanilla?)
 - JB
     - Travels at a more horizontal angle
     - Shin hitbox removed and put on waist
     - Slightly bigger
     - Damage increase 8 > 18
 - JA
+    - Damage increased from 13 damage total to 18 (4+4+4+5+6, from 4+4+3+3+3)
     - Staggers on the last hit
     - Last hit is medium power instead of strong, making it -6 on block for an instant jA (was 0 on block for instant jA)
     - Slightly more gravity for Tayuya
     - First four hits don't move the opponent
 - 5X
-    - Requires 75% meter and has one more frame duration
+    - Requires 100% meter (TODO: vanilla?)
+    - Has one more frame duration
     - Damage increased to 50 from 40
 - 2X
     - Doesn't push on hit
@@ -3637,8 +3700,17 @@ And for Sakon only:
     - Starts up three frames later (ends same time) with three frames less super freeze (TODO: 3 or 5?)
     - Small subbable window now exists as a result
     - Is grabbable for the first 26 frames after super freeze (hitbox appears on 29)
+    - Has 2 less active frames, making the window to escape with R sub 5 frames (was 3) (TODO: resolve with above)
 - RB
     - Does 18 damage up from 12, to match ring 8A(B)
+    - Starts up 2 frames faster
+    - Range reduced by 15%
+    - Hitbox active for an extra frame
+    - Doesn’t push on block
+    - Staggers on hit for its new follo-wup to connect, which is 8B(B)
+    - Strong power from medium
+    - -16 on block from -20
+- RB(B) is 8B(B)
 - RA
     - Has defense frames and can be grabbed during airborne frames
     - Damage increased to 14
@@ -3656,6 +3728,12 @@ And for Tayuya's doki demons:
     - Made strong
     - Hitbox appears one frame later and disappears one frame sooner
 - 8A(A) made strong
+
+#### Cosmetic
+
+- VFX added to 5BBB(B), 8B(B), JB
+- Different VFX added to RB
+- Act4A power on each hit adjusted for sound effect purposes (Medium-Weak-Weak-Strong-Strong, from weak power on all 5)
 
 ### Kimimaro
 
@@ -3678,13 +3756,13 @@ And for Tayuya's doki demons:
     - Second frame to the last frame is an untechable mid
 - 5BBBB(B) hitbox appears two frames later
 - 5A is grabbable the entire move
-- 2B(B) launches
+- 2B(B) is a high
 - 2A cannot do the B follow up for the last two frames
-- 2A(A) has more lift
+- 2A(A)
+    - Has more lift
+    - Has a slightly bigger hitbox on the bone to fix a rare situation where 6BA(A) on backturn could whiff on Jiraiya
 - 2AA(A) added as 6AAA(A)
-- 6B
-    - Turns back turned people around on hit
-    - More lift
+- 6B has more lift
 - 6B(B) more stun
 - 6BB(B) replaced with 4B
 - 6BAA(A) added as 6AAA(A)
@@ -3703,7 +3781,7 @@ And for Tayuya's doki demons:
 - 6AAA(A) first hitbox appears one frame later
 - 6A
     - Made a strong hit
-    - More lift
+    - More lift (including on airborne opponents)
     - Swapped with 6A(A)
     - Hitbox appears one frame sooner
     - Cannot do the B follow up for the last two frames
@@ -3720,9 +3798,7 @@ And for Tayuya's doki demons:
 - Act4A
     - All hits are unblockable except the last
     - Links better on airborne
-- 8B
-    - Has spinning knockback and ends sooner
-    - More lift
+- 8B(A) lift increased by 3
 - 8A "lands" three frames sooner
 - 8A(B) less lift
 - 8A(A) less lift
