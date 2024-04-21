@@ -104,6 +104,9 @@ All directions use numpad notation. For example, 6B is holding forward and press
 - Fix P1 Health Bar Spacing
 - Move crisis section in health bar over a single pixel to make it more accurate for when crisis mode has been entered
 - Skip memory card warning message on game launch to boot faster
+- Change 1v1 Fight to first option in Battle Menu
+- Fix pausing/disconnecting so that it correctly identifies which player paused
+- Display the controller of who paused/disconnected in the pause menu title
 
 Note: 3-Man Cell is currently non-functional.
 
@@ -327,13 +330,6 @@ And for Naruto's ZTK transformation:
     - OTK is hittable and grabbable shortly after he does damage
 - GRKnJ made into a 6B that bounces
 
-#### Cosmetic
-
-- Fixed a GFX glitch on Act4A
-- 8A GFX and SFX adjuted on "landing" when blocked
-- Idle animation replaced with Rev3 OTK’s
-- Backdash animation cleaned up to work better with new idle
-
 ### Sasuke
 
 ![Sasuke](/assets/images/changelog/sasuke.png)
@@ -423,11 +419,6 @@ And for Sasuke's sharingan transformation:
 - 8X added doing a modified JX
 - RA has three grabbable startup frames
 
-#### Cosmetic
-
-- 8B GFX and SFX adjusted on "landing" when blocked
-- Air thrown animation added in properly
-
 ### CS2 Sasuke
 
 ![CS2 Sasuke](/assets/images/changelog/cs2.png)
@@ -500,11 +491,6 @@ And for Sasuke's sharingan transformation:
     - Given three grabbable frames at the startup before the teleport
     - Startup animations cleaned up
 - GRKnJ moved backwards
-
-#### Cosmetic
-
-- Air thrown animation added in properly
-- 4B VFX comes out one frame later
 
 ### Sakura
 
@@ -664,10 +650,6 @@ And for Sasuke's sharingan transformation:
     - Recovers faster so she can get an OTG hit on missed tech (actionable on frame 55 from 64)
 - 4Z disabled
 
-#### Cosmetic
-
-- 4A has a different startup animation
-
 ### Kakashi
 
 ![Kakashi](/assets/images/changelog/kakashi.png)
@@ -816,11 +798,6 @@ And in Sharingan mode:
     - Activator duration increased by 2 frames
     - Damage reduced slightly
     - On transition to capture state leaves sharingan mode
-
-#### Cosmetic
-
-- SAct4A on Iruka and Mizuki 5X hands fixed
-- Alternate costume changed to be ANBU Kakashi
 
 ### Neji
 
@@ -995,10 +972,6 @@ And in Sharingan mode:
     - 2G: a set distance appearance teleport and less startup than 1G; can be grabbed after Lee reappears
 - GRKnJ moved further back on appearance
 - GRKnJ made a mid from a high
-
-#### Cosmetic
-
-- 8A whiff SFX removed
 
 ### Tenten
 
@@ -1408,11 +1381,6 @@ TODO: Resolve above two 2A entries
 - GRKnJ size adjusted to match RA
 - 4Z disabled
 
-#### Cosmetic
-
-- 4A hand signs are removed when Chouji can no longer counter
-- Alternate stagger animation added
-
 ### Ino
 
 ![Ino](/assets/images/changelog/ino.png)
@@ -1523,10 +1491,6 @@ TODO: Resolve above two 2A entries
     - Hitbox sizes made to properly match RB sizes
     - Hitbox sizes are larger (TODO: resolve with above)
 - Dive kick hitboxes made slightly bigger (TODO: what divekick?)
-  
-#### Cosmetic
-
-- Win pose against Sakura properly closes both hands
 
 ### Shino
 
@@ -1751,10 +1715,6 @@ TODO: Resolve above two 2A entries
     - Travels two frames slower
     - Switches sides two frames sooner, but hits on the same time (switches into stand for four frames)
 
-#### Cosmetic
-
-- 4A hand sign is put away on ending
-
 ### Hinata
 
 ![Hinata](/assets/images/changelog/hinata.png)
@@ -1857,10 +1817,6 @@ TODO: Resolve above two 2A entries
     - Appears closer to the opponent
     - Lift reduced slightly
 - 9B does not do instant RB anymore (TODO: is this in vanilla?)
-
-#### Cosmetic
-
-- Y cancel fingers adjusted
 
 ### Awakened Hinata
 
@@ -2039,11 +1995,6 @@ TODO: Resolve above two 2A entries
     - Hitbox appears sooner
     - "lands" sooner
 - TFlip has more lift
-
-#### Cosmetic
-
-- 4A hand sign put away on ending
-- 2A fingers close after release of sand
 
 ### Temari
 
@@ -2367,12 +2318,6 @@ There are also some Karasu specific changes:
 - RA as teleport
 - 4Z disabled
 
-#### Cosmetic
-
-- 6A releases sword 3 frames later and opens hand
-- Alternate stagger animation added
-- 4B, 5A, 5BBA, 6A, 6AA, and 2A use alternate voice clips
-
 ### Iruka
 
 ![Iruka](/assets/images/changelog/iruka.png)
@@ -2498,11 +2443,6 @@ There are also some Karasu specific changes:
     - Now super cancels, allowing combos into 5X or 2X near walls
     - Has 4 more lift to allow combos
 
-#### Cosmetic
-
-- Y Cancel does the correct hand sign
-- 4A hand sign is put away on ending or on activation
-
 ### Mizuki
 
 ![Mizuki](/assets/images/changelog/mizuki.png)
@@ -2582,12 +2522,6 @@ There are also some Karasu specific changes:
     - Made into 4B
     - Hand closed
     - Travel time
-
-#### Cosmetic
-
-- Y Cancel makes appropriate hand sign
-- 5X and 2X hands are fixed on the activator
-- 4B GFX adjusted
 
 ### Anko
 
@@ -2739,10 +2673,6 @@ There are also some Karasu specific changes:
     - Switches sides two frames sooner, but hits on the same time (switches into stand for two frames)
 - 2BB~A transition slowed down by 6 frames
 
-#### Cosmetic
-
-- Second to last hit of 5X has kunai in her hand with the proper GFX
-
 ### Sarutobi
 
 ![Sarutobi](/assets/images/changelog/sarutobi.png)
@@ -2840,10 +2770,6 @@ There are also some Karasu specific changes:
     - Appears further back
 - Flip kick faster recovery on hit or block only
 
-#### Cosmetic
-
-- RA and 6BB(A) startup animation cleaned up
-
 ### Jiraiya
 
 ![Jiraiya](/assets/images/changelog/jiraiya.png)
@@ -2937,10 +2863,6 @@ There are also some Karasu specific changes:
 - Palm strike
     - Recovers 7 frames faster so Jiraiya can’t get wake up kicked
     - Capture state launches slightly less far away
-
-#### Cosmetic
-
-- Alternate stagger animation added
 
 ### Tsunade
 
@@ -3126,10 +3048,6 @@ There are also some Karasu specific changes:
     - Has additional hitbox frames
     - Switches sides two frames sooner, but hits on the same time (switches into stand for two frames)
 
-#### Cosmetic
-
-- 2X ends properly at the end of the animation with the correct graphics
-
 ### Kabuto
 
 ![Kabuto](/assets/images/changelog/kabuto.png)
@@ -3218,10 +3136,6 @@ There are also some Karasu specific changes:
     - Changed to be RB animation instead of the palm strike
     - Is y-cancelable
 - Sleep is +1 against Karasu and does not mess up his commands
-
-#### Cosmetic
-
-- 4A hand sign is put away on ending
 
 ### Jirobo
 
@@ -3355,11 +3269,6 @@ There are also some Karasu specific changes:
     - Flags fixed from vanilla
 - RKnJ does proper damage (TODO: huh)
 - Post stone clap grab removed
-
-#### Cosmetic
-
-- 8A ends properly at the end of the animation
-- Alternate stagger animation added
 
 ### Kidomaru
 
@@ -3735,12 +3644,6 @@ And for Tayuya's doki demons:
     - Hitbox appears one frame later and disappears one frame sooner
 - 8A(A) made strong
 
-#### Cosmetic
-
-- VFX added to 5BBB(B), 8B(B), JB
-- Different VFX added to RB
-- Act4A power on each hit adjusted for sound effect purposes (Medium-Weak-Weak-Strong-Strong, from weak power on all 5)
-
 ### Kimimaro
 
 ![Kimimaro](/assets/images/changelog/kimimaro.png)
@@ -3957,9 +3860,3 @@ And for Tayuya's doki demons:
 - RB
     - Hitbox on shoulder blades to arm pit
 - GRKnJ changed to a custom 6B
-
-#### Cosmetic
-
-- 4A releases the sword two frames earlier
-- 8A when done in a combo, Kisame will already be holding the sword
-- Alternate stagger animation added
