@@ -58,7 +58,6 @@ All directions use numpad notation. For example, 6B is holding forward and press
 - Sleep state (Kabuto 2X)
     - Cannot sub until later
     - Resets the combo counter
-- Can select which RKnJ you use while in the air. If pressing R, then your character will do the air sub, if pressing 2R then they will do the ground sub
 - Wake up attacks added. If holding A or B on frame 15 of a neutral getup, the character will transition to a get up attack. These are fully intangible for four frames and then immune to mids and highs until the hitbox disappears. They are -21 on block
 - Optional default settings changed:
     - 60 to 90 seconds
@@ -93,6 +92,7 @@ All directions use numpad notation. For example, 6B is holding forward and press
 - TDOWN flag not lingering after attacks end (prevents issues where characters could be thrown out of blockstun in some situations after tdown becomes active)
 - Throwbreak window changed globally to 6 frames
 - Throwbreak window normalized between p1 and p2. Both have 6 frames to break (in vanilla player 1 had 1 less frame than player 2).
+- Runstop (the action where your character ends their run cycle, that could only be acted out of with attacks or jumps) is functionally gone! This allows you to run and stop on a dime, run and walk either direction, run into backdash, run into normal sidestep instead of runstep, and run into turnaround when you’re backturned!
 
 Note: 3-Man Cell is currently non-functional.
 
@@ -231,7 +231,7 @@ And for Naruto's ZTK transformation:
 - 6A
     - Given more float
     - Super cancellable
-- 4A DEF window starts frame 9 and ends frame 29 (animation ends frame 47)
+- 4A DEF from frames 8-35, animation ends frame 52
 - Act4A now goes into RA
 - 8B lifts on block
 - 8B(B) has more lift
@@ -284,7 +284,7 @@ And for Naruto's ZTK transformation:
 - 2A hitbox appears one frame later
 - 6BAA(A) given three grabbable frames before the teleport
 - 4B2A is 2BA with 6 additional startup frames
-- 4A DEF window starts frame 10 and ends frame 29 (animation ends frame 47)
+- 4A DEF from frames 8-35, animation ends frame 52
 - Act4A
     - Has a slightly smaller hitbox
     - Made to do more damage
@@ -397,7 +397,7 @@ And for Naruto's ZTK transformation:
 And for Sasuke's sharingan transformation:
 
 - 5BBB(B) has one more hitbox duration frame to better match the animation
-- 4A DEF window starts frame 8 and ends frame 23 (animation ends frame 37+4)
+- 4A DEF from frames 8-35, animation ends frame 52
 - Act4A can be subbed on the first frame only (TODO: Is this same as vanilla?)
 - 8A is grabbable the entire move
 - 5X
@@ -470,7 +470,7 @@ And for Sasuke's sharingan transformation:
     - Moves and appears 3 frames sooner
     - Same strike timing
     - Can be grabbed on landing
-- 4A DEF window starts frame 10 and ends frame 33 (animation ends frame 46)
+- 4A DEF from frames 10-35, animation ends frame 51
 - Act4A unblockable
 - 8B cannot be subbed until later
 - 8A
@@ -684,7 +684,7 @@ And for Sasuke's sharingan transformation:
     - Floats higher
     - Staggers
 - 4A
-    - DEF window starts frame 10 and ends frame 49 (animation ends frame 88)
+    - DEF from frames 10-49, animation ends frame 88
     - Uses animation from stance cancel
     - Can be held longer for meter drain with the A button
 - Act4A moves into launch hit faster, unblockable
@@ -909,7 +909,7 @@ And in Sharingan mode:
     - Loses guard frames if it charges
     - 1G: 3x guard damage
     - 2G: Instant guard break
-- 4A DEF window starts frame 8 and ends frame 23 (animation ends frame 41)
+- 4A DEF from frames 8-35, animation ends frame 52
 - Act4A can be subbed on the first frame only (TODO: Was this ever possible?)
 - 4B(B) high crush from 13-36
 - 8B
@@ -1104,7 +1104,7 @@ And in Sharingan mode:
     - Has only 5 guard frames on step forward (charge or otherwise)
     - Active 2-5
 - 4A
-    - DEF window starts frame 8 and ends frame 26 (animation ends frame 43)
+    - DEF from frames 8-35, animation ends frame 52
     - Can move immediately on appearance
 - 8B
     - Both hits have slightly more lift
@@ -1314,7 +1314,7 @@ TODO: Resolve above two 2A entries
     - "lands" two frames sooner
 - 4B(A) extension added, corresponds to 2A
 - 4A
-    - DEF window starts frame 10 and ends frame 29 (animation ends frame 43)
+    - DEF from frames 10-35, animation ends 49
     - Can be activated from all sides
 - Act4A
     - Is unblockable and unsubbable
@@ -1420,7 +1420,7 @@ TODO: Resolve above two 2A entries
     - Doesn't push on block
 - 4BB(B)
     - Adjustments to hitbox timing, landing, and crush. High crushes on landing
-- 4A DEF window starts frame 11 and ends frame 34 (animation ends frame 47)
+- 4A DEF from frames 8-35, animation ends frame 49
 - Act4A
     - Is unblockable
     - Hard knockdown
@@ -1556,7 +1556,7 @@ TODO: Resolve above two 2A entries
 - 4BB(A) given all 6BB(A) follow ups
 - 4B(A) changed to be 6A
 - 4B~A made 10 frames quicker
-- 4A DEF window starts frame 10 and ends frame 27 (animation ends frame 41)
+- 4A DEF from frames 10-35, animation ends frame 49
 - Act4A
     - Recovers significantly faster
     - Walking bugs are unblockable
@@ -1661,7 +1661,7 @@ TODO: Resolve above two 2A entries
     - Bigger hitbox
 - 6(A-A) cannot be done on whiff
 - 4B staggers instead of bounces
-- 4A DEF window starts frame 11 and ends frame 33 (animation ends frame 42)
+- 4A DEF from frames 11-35, animation ends frame 49
 - Act4A
     - Ends a bit faster
     - Unblockable
@@ -1753,7 +1753,7 @@ TODO: Resolve above two 2A entries
     - No longer staggers or pushes block
     - Significantly stronger on hit and block
 - 4A
-    - DEF window starts frame 8 and ends frame 29 (animation ends frame 39) (TODO: Is this right? It also says 11-29 and anim end 49)
+    - DEF from frames 8-35, animation ends frame 52
     - Uses the same animation as 2X
 - Act4A can be subbed on the first frame only (TODO: was this always the case?)
 - 8B
@@ -1774,7 +1774,7 @@ TODO: Resolve above two 2A entries
     - Two more active hitbox frames
 - 2X
     - Requires 75% meter to use
-    - Window starts up 3 frames faster and ends when the animation starts to change like other counters
+    - DEF from frames 11-45, animation ends frame 55
     - Drains slightly more than 12.5% meter on a miss at the end of the move
     - Fixed unsubbable, opponent is invulnerable until they hit the ground (TODO: huh)
     - Is not avoided by “landing” during the activation (prevents an issue where Temari could activate 2X with her jB, but not get hit by the counter)
@@ -1832,7 +1832,7 @@ TODO: Resolve above two 2A entries
     - Remove stagger and push on block
     - Has +3 guard frames
 - 4A
-    - DEF window starts frame 11 and ends frame 29 (animation ends frame 49)
+    - DEF from frames 11-29, animation ends frame 49
     - Drains meter at a rate of 120 units per frame instead of 180
 - Act4A
     - Is unsubbable and untechable
@@ -1851,7 +1851,7 @@ TODO: Resolve above two 2A entries
     - First hit hitbox duration increased by one frame
     - Second hitboxes are bigger if the first is hit
 - 2X
-    - Starts 3 frames faster and ends 8 frames later
+    - DEF from frames 11-45, animation ends frame 55
     - Drains slightly more than 12.5% meter on a miss at the end of the move
     - Activation gives opponent no chakra on hit (TODO 2X now loses meter when she can no longer counter instead of the end of the move?)
     - Chakra is taken the first frame of the capture state instead of on activation of super freeze
@@ -1925,7 +1925,7 @@ TODO: Resolve above two 2A entries
     - Lower angle
     - Hard knockdown
 - 4A
-    - DEF window starts frame 11 and ends frame 27 (animation ends frame 41)
+    - DEF from frames 11-35, animation ends frame 49
 - Act4A
     - Is now a modified sand dive that appears lower and is unblockable
     - Does less damage
@@ -2031,7 +2031,7 @@ TODO: Resolve above two 2A entries
     - 7 frames less blockstun
     - Faster endlag on hit (+10 on whiff or block)
 - 4A
-    - DEF window starts frame 11 and ends frame 29 (animation ends frame 43)
+    - DEF from frames 11-35, animation ends frame 49
 - 8B(B)
     - Replaced by Act4A
     - Has three grabbable frames at the startup
@@ -2190,9 +2190,9 @@ There are also some Karasu specific changes:
     - Damage is distributed between the two hits
     - Can hold 8 during startup to do flip
 - 4B
+    - DEF from frames 2-10 from 2-13
     - Low crushes two frames earlier
-    - Guards frames 2-10 from 2-13
-- 4A DEF window starts frame 11 and ends frame 33 (animation ends frame 48)
+- 4ADEF from frames 8-35, animation ends frame 51
 - Act4A
     - Appears above 14 frames faster
     - Activation is unblockable and unsubbable
@@ -2382,7 +2382,7 @@ There are also some Karasu specific changes:
     - +3 DEF frames
     - Ends three frames sooner
     - More lift
-- 4A DEF window starts frame 10 and ends frame 27 (animation ends frame 42)
+- 4A DEF from frames 8-35, animation ends frame 51
 - Act4A
     - Unblockable
     - Has proper intangibility that ends when Iruka lands
@@ -2484,7 +2484,7 @@ There are also some Karasu specific changes:
 - 6AB(B) removed
 - 4B doesn't push on block
 - 4A
-    - DEF window starts frame 10 and ends frame 27 (animation ends frame 42)
+    - DEF from frames 8-35, animation ends frame 51
     - Can activate on projectiles
 - Act4A teleports up and behind the opponent
 - 8B
@@ -2545,45 +2545,60 @@ There are also some Karasu specific changes:
     - Elbow hitbox does not appear on the first frame
 - 5B(B)
     - Changed to be old 6B animation with old 5B(B) damage
+    - Halved range
     - Ends sooner
+    - Recovery reduced by 7 frames
+    - -10 on block from -8
+- 5BB(A) added
+- 5BBB(A) removed
 - 5BBB(B-B) cannot be done on the last two frames
+- 5BBBB(B) has 2 active frames instead of 5, to allow a 2 frame step window immediately before it hits
 - 5A
     - Charge time changed from 10f to 8f
     - Grabbable the entire move
+    - Throws the projectiles 7 frames faster
+    - 9 frames less recovery
+    - Allows follow-ups depending on spacing, comparable to Orochimaru’s 5A
+    - Medium power instead of weak
+    - Plus on hit instead of minus for both moves
 - 2B(B)
     - Has more lift
     - Can be done on whiff
     - "landing" is one frame sooner
+- 2BB(A) removed
 - 2B(A) can be done on whiff
 - 2BBB(B) hitbox appears one frame later
 - 2BBB(A)
     - Snakes lift and do chip
     - Does 2A in combo
     - Ends 10 frames sooner
-- 2A snakes
-    - Damage per hit increased: 3 > 4
-    - Ends 10 frames sooner
-    - Recover 5 frames faster (TODO: Does this cancel out the above?)
-    - Does chip damage
-    - Animation changed to be the finisher of 5X
-    - If pressing 2 at startup in a combo, does 2BBB(A)
-- 22A (upsnakes) do not lift on block
+- 2A changed to upward snakes
 - 6B
     - Uses an animation similar to Orochimaru
     - Turns around back turned people
     - More stun
     - Slightly later on transition to follow ups
     - Slightly more lift
-- 6A lifts higher and lifts on block
+    - Hits on frame 13 instead of 11
+    - Range reduced by 20%
+    - Does 17 damage, down from 18
+- 6B(B) is 5BBBB(B)
+- 6BB(A) is 5BBBBB(A) (Does not have 6BBB)
+- 6B(A) added
+- 6A
+    - Does 17 damage, down from 20
+    - Lifts higher and lifts on block
 - 6AA(A)
     - Changed to be an empty teleport and has A and B follow ups
     - Faces the opponent on reappearance
     - Has three grabbable frames before the teleport
 - 4B
+    - DEF from frames 2-15 from 2-17
     - Hitbox appears one frame sooner
     - Improved windows on states as well as ending sooner and can be grabbed during their "sit" frames
-    - Guards frames 2-15 from 2-17
     - Cannot do follow ups on whiff
+    - Does not lift on block
+    - Has 18 frames of blockstun down from 23, so 4BA(A) can be punished on block
 - 4B(B)
     - OTGs
     - No longer catches late on OTGs
@@ -2602,13 +2617,17 @@ There are also some Karasu specific changes:
 - 8B
     - Is a blockable hitgrab that is untechable
     - Adjusted to stop the "reverse bounce" from happening
-- 8A is grabbable the entire move
+- 8A
+    - Is grabbable the entire move
+    - Medium power instead of weak
+    - Plus on hit instead of minus for both moves
 - JB
     - Does chip damage and does 4 more damage
     - Has a more steep angle
 - JA
     - Momentum applies sooner
     - Snakes adjusted to do chip damage and lift
+    - Snake hits do 4 damage up from 3 damage (hit count can vary a lot depending on position, but 8 hits of jA does 23 damage total)
 - JY
     - Victim subbable timing made to match Tsunade
     - Is no longer sub unsafe on hit
@@ -2651,9 +2670,7 @@ There are also some Karasu specific changes:
     - Does not lift on block
     - +2 frames duration on the hitbox
 - RB(B) faces the opponent on the follow up
-- RB(A)
-    - Faces the opponent on the follow up
-    - Does not turn around if behind the opponent (TODO: Does this cancel out the above?)
+- RB(A) removed
 - RA
     - Changed to be a teleport into the air RKnJ position into normal fall
     - Has A and B string follow-ups
@@ -2918,7 +2935,7 @@ There are also some Karasu specific changes:
     - Replaced with RB(A) with follow ups and charges
     - High crush 5-8 and 1-6: if charge, loses high crush (TODO: huh?)
 - 4A
-    - DEF window starts frame 10 and ends frame 29 (animation ends frame 44)
+    - DEF from frames 11-35, animation ends frame 49
     - Works against projectiles
     - Recovery is throwable
 - Act4A
@@ -3102,7 +3119,7 @@ There are also some Karasu specific changes:
 - 6A(B) added as 2B with follow ups
 - 6AA(A) launches on hit and block
 - 4A
-    - DEF window starts frame 8 and ends frame 33 (animation ends frame 49)
+    - DEF from frames 8-35, animation ends frame 51
     - Made frame 8, from 10
 - Act4A comes out quicker and ends quicker
 - 8B
@@ -3228,7 +3245,7 @@ There are also some Karasu specific changes:
 - 6A(A) added as stone clap
 - 4B(B) changed to be 5BB(B) with A button follow ups
 - 4A
-    - DEF window starts frame 12 and ends frame 33 (animation ends frame 47)
+    - DEF from frames 12-35, animation ends frame 49
     - When done in a combo it does 6A
 - Act4A
     - Hit into a spinning knockdown that is unblockable
@@ -3565,7 +3582,7 @@ And for Sakon only:
     - Ability to be grabbed terminates when the guard frames end
     - Ending adjusted
 - 4A
-    - DEF window starts frame 11 and ends frame 25 (animation ends frame 38)
+    - DEF from frames 11-35, animation ends frame 49
     - Doesn't slide backwards when guarding
 - Act4A is unblockable
 - 8B
@@ -3683,7 +3700,7 @@ And for Tayuya's doki demons:
     - Made a strong hit
     - Launches
 - 6AAA(A) does one more damage on each hit with less lift and better connection in the air
-- 4A DEF window starts frame 10 and ends frame 28 (animation ends frame 43)
+- 4A DEF from frames 11-35, animation ends frame 51
 - 4B blockstun adjusted (TODO: in what way?)
 - Act4A
     - All hits are unblockable except the last
@@ -3754,7 +3771,7 @@ And for Tayuya's doki demons:
     - Damage is applied on the stab
     - Drains 50% meter on the damage frame
 - 2X
-    - DEF window starts frame 11 and ends frame 29 (animation ends frame 49)
+    - DEF from frames 11-45, animation ends frame 55
     - Defends back
     - Missed 2X drains just over 12.5% meter at the end of the move
     - Requires 75%
@@ -3808,7 +3825,7 @@ And for Tayuya's doki demons:
     - Is unblockable
     - Sweep ender is untechable
 - 4A
-    - DEF window starts frame 12 and ends frame 33 (animation ends frame 51)
+    - DEF from frames 12-35, animation ends frame 52
     - Endlag is grabbable
 - Act4A is unblockable and drains chakra
 - 8B
