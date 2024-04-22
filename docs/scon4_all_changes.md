@@ -32,15 +32,9 @@ All directions use numpad notation. For example, 6B is holding forward and press
 - DI (Directional Input) is on a few air moves. This allows you to hold forward or back as you begin the move to change how your momentum is applied
 - Ring is a combo with multiple options depending on direction pressed
 - ~ is the transition between moves, so 5A~A is the minimum time the game needed to initiate the second 5A
-- Lowercase letters mean an input is being slid from
 
-## General Changes
+## Gameplay Change
 
-- Menus and text have been translated to English
-- Screen doesn't slow down on character death
-- Music doesn't stop on pause
-- Stage select screen has diagrams with sizes for the stages
-- Unlocks everything by default
 - Stand resets intangibility
 - Turn around is three frames faster
 - Dash transitions to run on frame 6 (from 8)
@@ -54,27 +48,13 @@ All directions use numpad notation. For example, 6B is holding forward and press
 - X cannot grab break
 - GRKnJs have at a minimum 17 intangible travel frames and will hit on at least frame 29
 - 4As are grabbable the entire duration
-- Sleep state (Kabuto 2X)
-    - Cannot sub until later
-    - Resets the combo counter
 - Wake up attacks added. If holding A or B on frame 15 of a neutral getup, the character will transition to a get up attack. These are fully intangible for four frames and then immune to mids and highs until the hitbox disappears. They are -21 on block
-- Optional default settings changed:
-    - 60 to 90 seconds
-- Training default settings changed:
-    - 2P Action changed to 2P Control
-    - Chakra Recovery changed to OFF
-    - Show Inputs changed to OFF
-- Added new blood texture for certain types of damage
 - All hitstun states cannot high crush anymore (low hitting counter attacks)
 - HP Pools have been normalized, to reduce variance
 - Guard Break (Airborne and Grounded) ability to shake out is reduced to a minimum of 40 frames (from 30)
 - Running side steps have been given the ability to track onto the opponent from any distance, these were modelled after those in REV3 to allow new uses for offensive approaching and counterplaying chicken blocking. This also allows running step to turn around to face the opponent when back turned.
 - It was determined that the defensive power of Jump-Back was too powerful and made the game overly defensive. Many new system mechanics hope to provide universal counterplay to jumping for all characters.
-- When you run the game without a memory card, everything will be correctly unlocked now (e.g. Difficulty 4)
-- Rounds default to 3 in options
-- Default Menu Option is "Battle Mode" instead of "Three Man Cell"
 - Damage for "reversal" supers has been normalized down across the board
-- Slide inputs have been introduced. These inputs are common in Tekken and Soul Calibur. Simply slide your thumb/finger from the first button to the second quickly to use.
 - The moves that activate even when blocked (example Chouji 8A) will also activate when clashing the initial hitbox
 - Jump attacks have been changed across the cast to make them all air throwable
 - Airthrows are invulnerable during the animation to avoid being hit out of a successful air throw by a move like Itachi’s jA
@@ -92,32 +72,52 @@ All directions use numpad notation. For example, 6B is holding forward and press
 - Throwbreak window changed globally to 6 frames
 - Throwbreak window normalized between p1 and p2. Both have 6 frames to break (in vanilla player 1 had 1 less frame than player 2).
 - Runstop (the action where your character ends their run cycle, that could only be acted out of with attacks or jumps) is functionally gone! This allows you to run and stop on a dime, run and walk either direction, run into backdash, run into normal sidestep instead of runstep, and run into turnaround when you’re backturned!
+
+## System Defaults Changes
+
+- Default Menu Option is "Battle Mode" instead of "Three Man Cell"
+- Default "Battle Mode" option is 1v1 Fight
+- Battle default settings changed:
+    - Match time changed from 60 to 90 seconds
+    - Rounds changed from 2 to 3
+- Training default settings changed:
+    - 2P Action changed to 2P Control
+    - Chakra Recovery changed to OFF
+    - Show Inputs changed to OFF
+
+## User Interface Changes
+
+- Menus and text have been translated to English
+- Stage select screen has diagrams with sizes for the stages
+- New textures for health bars
+- Display version of SCON4 at top of main menu
+- Fix P1 Health Bar Spacing (it was not consistent with P2's Health Bar)
+- Move crisis section in health bar over a single pixel to make it more accurate for when crisis mode has been entered
+
+## General Changes
+
+- Unlocks everything by default
 - Added recording option to training mode, allowing you to define inputs for the CPU to repeat.
 - Hold Start to Pause in non-training battle modes
+- Display the controller of who paused/disconnected in the pause menu title
 - Replace character select screen music with new song from Brutalmoon
-- Display version of SCON4 at top of main menu
-- New textures for health bars
+- Screen doesn't slow down on character death
+- Music doesn't stop on pause
+- Added new blood texture for certain types of damage
 - Remove CS2 fireball clash
 - Remove pipe in Konoha Hospital that can block the camera
 - Remove X+Y Throw Break
-- Fix P1 Health Bar Spacing
-- Move crisis section in health bar over a single pixel to make it more accurate for when crisis mode has been entered
-- Skip memory card warning message on game launch to boot faster
-- Change 1v1 Fight to first option in Battle Menu
-- Fix pausing/disconnecting so that it correctly identifies which player paused
-- Display the controller of who paused/disconnected in the pause menu title
+- Options setting "Match Time" increased to include higher times (e.g. lowest option changes from 30 seconds to 60 seconds)
 
 Note: 3-Man Cell is currently non-functional.
 
-## Stage Changes
+## New Stages
 
-- Silent Shrine over Fog Bridge
-- Heaven and Earth Bridge over Ice World
-- Cell Games over Uchiha District
-- Asian Gate over Chuunin Roof
-- Aquarium over Hot Springs
-- Gamecube Galaxy over Sunset Ramen
-- Radical Highway replaces Academy Sunrise
+- Uchiha Hideout added, replacing Academy Yard - Sunrise
+- Silent Shrine added, replacing Great Naruto Bridge - Mist
+- Tenchi Bridge added, replacing Ichiraku Ramen - Sunset
+- Asian Gate added, replacing Chunin Exams Rooftop - Sound 4 Barrier
+- Aquarium added, replacing Hot Springs
 
 ## Character Changes
 
@@ -2118,7 +2118,7 @@ TODO: Resolve above two 2A entries
     - Has slightly less stun
     - Kankuro recovers two frames faster than before
     - Grabbable the entire move
-- 6A-(B) cannot be done on the last two frames of the move
+- (6A~B) cannot be done on the last two frames of the move
 - 6A(B)
     - Can be done on whiff
     - String window adjusted to only go to animation end and not with the additional recovery that was added to 6A
@@ -3134,7 +3134,10 @@ There are also some Karasu specific changes:
 - GRKnJ
     - Changed to be RB animation instead of the palm strike
     - Is y-cancelable
-- Sleep is +1 against Karasu and does not mess up his commands
+- Sleep state (Kabuto 2X)
+    - Cannot sub until later
+    - Resets the combo counter
+    - +1 against Karasu and does not mess up his commands
 
 ### Jirobo
 
