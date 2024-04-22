@@ -35,43 +35,41 @@ All directions use numpad notation. For example, 6B is holding forward and press
 
 ## Gameplay Change
 
+- Runstop (the action where your character ends their run cycle, that could only be acted out of with attacks or jumps) is functionally gone. This allows you to run and stop on a dime, run and walk either direction, run into backdash, run into normal sidestep instead of runstep, and run into turnaround when you’re backturned.
+- Wake up attacks added. If holding A or B on frame 15 of a neutral get-up, the character will transition to a get-up attack. These are fully intangible for four frames and then immune to mids and highs until the hitbox disappears. They are -21 on block
+- New system mechanics were implemented to provide universal counterplay to jumping for all characters. This is because the defensive power of jump-back was too powerful and made the game overly defensive.
+- Running side steps have been given the ability to track onto the opponent from any distance. These were modelled after those in REV3 to allow new uses for offensive approaching and counter-playing jump-back. This also allows running step to turn around to face the opponent when back turned.
+- New backdashes instead of back flips
+- Sound effect plays when a counter-hit occurs
 - Stand resets intangibility
 - Turn around is three frames faster
+- Side step animations adjusted so they begin to leave their position at frame 4 instead of frame 5; same total duration
 - Dash transitions to run on frame 6 (from 8)
-- New backdashes instead of back flips
+- Dash stop, like run stop, can be cancelled with an attack or a jump
 - Landing on your face, bouncing on your back or face, and crumple restores your ability to substitute
-- Air and Ground grab breaks have guard frames that guard against normal and special attacks
 - Jump land doesn't high crush
-- Jump land, throw miss, all landing states, more hit states can be grabbed
-- Throws cannot be subbed for the first 10 frames of launch
-- All grab breaks are now 4 frames from 3 (except Jirobo clap command grab)
-- X cannot grab break
-- GRKnJs have at a minimum 17 intangible travel frames and will hit on at least frame 29
-- 4As are grabbable the entire duration
-- Wake up attacks added. If holding A or B on frame 15 of a neutral getup, the character will transition to a get up attack. These are fully intangible for four frames and then immune to mids and highs until the hitbox disappears. They are -21 on block
-- All hitstun states cannot high crush anymore (low hitting counter attacks)
 - HP Pools have been normalized, to reduce variance
-- Guard Break (Airborne and Grounded) ability to shake out is reduced to a minimum of 40 frames (from 30)
-- Running side steps have been given the ability to track onto the opponent from any distance, these were modelled after those in REV3 to allow new uses for offensive approaching and counterplaying chicken blocking. This also allows running step to turn around to face the opponent when back turned.
-- It was determined that the defensive power of Jump-Back was too powerful and made the game overly defensive. Many new system mechanics hope to provide universal counterplay to jumping for all characters.
+- More hit states can be grabbed, e.g. jump land, throw miss, and all landing states,
+- Throws cannot be subbed for the first 10 frames of launch
+- Air throws are invulnerable during the animation to avoid being hit out of a successful air throw by a move like Itachi’s jA
+- Jump attacks have been changed across the cast to make them all air throwable
+- Overhead throw unsubbable time frame has intangible added
+- Air and ground throw breaks have guard frames that guard against normal and special attacks
+- When DEF (autoguard on 4B, counters, etc) is active and you get grabbed, you cannot break the grab
+- Throw break window increased globally to 6 frames
+- Throw break window normalized between P1 and P2 (in vanilla P1 had 1 less frame to break than P2).
+- Throw break can only be done with the A, B, and Y buttons
+- Throw break cannot be done with X + Y
+- 4As are grabbable the entire duration
+- GRKnJs have at a minimum 17 intangible travel frames and will hit on at least frame 29
+- All hitstun states cannot high crush anymore (low hitting counter attacks)
+- Grounded and air guard break ability to shake out is reduced to a minimum of 40 frames (from 30)
+- Grounded guard break removes intangible status
 - Damage for "reversal" supers has been normalized down across the board
 - The moves that activate even when blocked (example Chouji 8A) will also activate when clashing the initial hitbox
-- Jump attacks have been changed across the cast to make them all air throwable
-- Airthrows are invulnerable during the animation to avoid being hit out of a successful air throw by a move like Itachi’s jA
-- Sound effect plays when a counter-hit occurs
-- Overhead throw unsubbable time frame has intangible added
-- Grounded guard break removes intangible status
-- Dash stop, like run stop, can be cancelled with an attack or a jump
-- Grab break window increased to 8 frames (from 4), air throws are 6 frames; can only break grabs with A and B buttons
-- Back dash animations all cleaned up and coding adjusted
-- Sidestep animations adjusted so they begin to leave their position at frame 4 instead of frame 5; same total duration
-- When DEF (autoguard on back B, counters, etc) is active and you get grabbed, you cannot break the grab
 - Most counter 4A’s durations are reduced greatly by shortening the time the character stays in the pose (list below)
 - A glitch when certain counters are activated, but don’t “capture” the victim (Hinata and A. Hinata 2X, Hinata 4A, Lee 4A, Sasuke S4A) will create an intangible state for the character initiating the counter and leave them unable to move. This was adjusted to create a state where the activated counter person is stuck in place, but hittable
 - TDOWN flag not lingering after attacks end (prevents issues where characters could be thrown out of blockstun in some situations after tdown becomes active)
-- Throwbreak window changed globally to 6 frames
-- Throwbreak window normalized between p1 and p2. Both have 6 frames to break (in vanilla player 1 had 1 less frame than player 2).
-- Runstop (the action where your character ends their run cycle, that could only be acted out of with attacks or jumps) is functionally gone! This allows you to run and stop on a dime, run and walk either direction, run into backdash, run into normal sidestep instead of runstep, and run into turnaround when you’re backturned!
 
 ## System Defaults Changes
 
@@ -106,7 +104,6 @@ All directions use numpad notation. For example, 6B is holding forward and press
 - Added new blood texture for certain types of damage
 - Remove CS2 fireball clash
 - Remove pipe in Konoha Hospital that can block the camera
-- Remove X+Y Throw Break
 - Options setting "Match Time" increased to include higher times (e.g. lowest option changes from 30 seconds to 60 seconds)
 
 Note: 3-Man Cell is currently non-functional.
@@ -118,6 +115,10 @@ Note: 3-Man Cell is currently non-functional.
 - Tenchi Bridge added, replacing Ichiraku Ramen - Sunset
 - Asian Gate added, replacing Chunin Exams Rooftop - Sound 4 Barrier
 - Aquarium added, replacing Hot Springs
+
+## New Costumes
+
+New costumes were added. All characters now have 3 or 4 costumes, selectable with A, Y, X, and Z.
 
 ## Character Changes
 
