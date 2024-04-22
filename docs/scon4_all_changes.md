@@ -141,7 +141,7 @@ New costumes were added. All characters now have 3 or 4 costumes, selectable wit
     - Can be delayed three more frames
 - 5BBB(8B) does not lift on block
 - 5BBBB(B)
-    - Does slightly more damage
+    - Damage increased from 14 to 16
     - Pushes further away
     - Doesn't teleport as far
     - Intangible for eight more frames
@@ -216,7 +216,6 @@ And for Naruto's ZTK transformation:
 - ZTK does not take increased damage
 - No passive health drain
 - Passive meter gain reduced to 2 units per frame (from 40)
-- Health drain is paused during activated super
 - 5BBBB(B) bounces closer
 - 5BA(B)
     - Has more lift
@@ -233,7 +232,7 @@ And for Naruto's ZTK transformation:
 - 2B is a sweep to match normal 2B
 - 2A
     - Does old activated 4A (Act4A)
-    - 19 damage from 13
+    - Damage increased from 16 to 19
     - 73 lift from 69
     - Adjustments to size and duration
     - Hitbox increased by 50%, resembling Curse Seal Sasuke’s 2A (but not as large as his)
@@ -302,7 +301,7 @@ And for Naruto's ZTK transformation:
     - Made to do more damage
     - Unsubbable and untechable
 - 8B(B) follow up timing changed to match 2B(B)
-- 8BB(B) damage reduced from 18 to 16
+- 8BB(B) added
 - 8BBBB added as new string to match 5BBBBBB
 - 8BBBA added as new string to match 5BBBBBA
 - 8B(A)
@@ -354,8 +353,8 @@ And for Naruto's ZTK transformation:
     - Charge changed from 10f to 8f
     - Grabbable the entire move
 - 2B
+    - Damage increased from 13 to 15
     - Launch instead of sweep
-    - +2 damage
 - 2B(B) changed to be 5BB(B)
 - 2BB(B)
     - Added as old 2B(B)
@@ -406,15 +405,16 @@ And for Sasuke's sharingan transformation:
 - Act4A can be subbed on the first frame only (TODO: Is this same as vanilla?)
 - 8A is grabbable the entire move
 - 5X
+    - 0C damage increased from 60 to 75
     - Adjustments to duration, sizes, and damage is applied on the cinematic portion
-    - Does 10+65 from 10+50
     - Has three (TODO: four now?) frames less super freeze for Sasuke
     - Reduced from 100 to 76 frames
     - Activator hitbox extended by one frame
     - Bigger hand hitbox
     - Does not push on block (Ukon)
 - 5X8
-    - Added with anti air chidori that does 10+60
+    - Added anti-air chidori
+    - Does 75 damage
 - JX fireballs have slightly more lift and stagger
 - 8X added doing a modified JX
 - RA has three grabbable startup frames
@@ -453,10 +453,9 @@ And for Sasuke's sharingan transformation:
     - Properly low crushes
     - “airborne” two frames earlier
     - Falls slightly faster
-- 2A damages adjusted
-    - 0C (15 to 11)
-    - 1C (15 to 13)
-    - 2C (15)
+- 2A
+    - 0C damage decreased from 15 to 11
+    - 1C damage decreased from 15 to 13
 - 6B(A) slightly more lift
 - 6A
     - Does not stagger anymore
@@ -474,17 +473,17 @@ And for Sasuke's sharingan transformation:
 - Act4A unblockable
 - 8B cannot be subbed until later
 - 8A
-    - Damage and block damage reduced from 14,10,10,10 to 9,6,6,6
+    - Damage decreased from 14+9+9+8 (40 total) to 9+5+5+5 (24 total)
     - Remove ending high crush and standing in the air (had no purpose)
 - A8B is hittable after releasing the opponent (TODO: huh)
 - JA
     - Now builds meter and lifts airborne opponents
     - Can be subbed and teched
 - 2X
+    - Damage decreased from 80 to 60
     - Comes out faster
     - Animation takes two frames longer to leave the ground (opponent is moving on the first airborne frame)
     - Requires and uses 75%
-    - Damage reduced from 80 to 60
     - Is not intangible upon leaving the ground, but low crushes
     - Fireball comes out six frames faster (8 due to +2 on the ground)
 - RA, RA(A)
@@ -528,7 +527,7 @@ And for Sasuke's sharingan transformation:
     - Added as 2A
     - Against shorter characters the string can miss on hit depending on both character’s standing orientation, but can hit consistently by delaying the A followup slightly
 - 5BBBB(B)
-    - Does 18 damage, from 13
+    - Damage increased from 11 to 14
     - Bounces the opponent and is no longer a hard knockdown
 - 5BB(A)
     - Input can now be buffered up to 23 like in vanilla, but also can be input anytime to the end of the move
@@ -573,7 +572,7 @@ And for Sasuke's sharingan transformation:
     - Against shorter characters the string can miss on hit depending on both character’s standing orientation, but can hit consistently by delaying the A followup slightly
 - 6A
     - 6A changed to be kunai slash
-    - 18 damage
+    - Does 18 damage
     - Hits on frame 19
     - Is active for 7 frames
 - 6A(B)
@@ -581,7 +580,7 @@ And for Sasuke's sharingan transformation:
     - Has a closer hit
 - 6A(A)
     - Changed to be a second kunai slash
-    - Does 17 damage
+    - Does 16 damage
     - Punishable on block if the teleport followup isn't used
 - 6A(4A)
     - Is vanilla 5AA(A)
@@ -604,14 +603,14 @@ And for Sasuke's sharingan transformation:
     - Remains grounded
     - Teleport has a different reappearance animation
 - 8B
-    - Damage increased from 15 to 16
+    - Damage increased from 14 to 16
     - Lift decreased
     - Duration adjusted to fit the animation better
     - Hitbox come out one frame slower
     - Ends sooner
     - "lands" two frames earlier
 - 8B(B)
-    - Damage decreased from 18 to 17
+    - Damage decreased from 17 to 16
     - Flying screen removed
     - Adjusted lift, size, and duration
 - 8B(A) removed
@@ -619,7 +618,7 @@ And for Sasuke's sharingan transformation:
     - Spaced out the projectiles more
     - Projectiles do not lift off the ground
     - Grabbable the entire move
-- JB does 18 damage, from 13
+- JB damage increased from 13 to 18
 - JA
     - Can transition faster
 - JA(A)
