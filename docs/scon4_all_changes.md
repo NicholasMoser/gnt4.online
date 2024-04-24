@@ -656,13 +656,13 @@ And for Sasuke's sharingan transformation:
 - Kakashi takes 1.25x damage in sharingan mode
 - Grabbable moves: 8A, JA, RA, 5A, 2A landing
 - 5B
-    - Does 14 damage from 13
+    - Damage increased from 13 to 14
     - Hitbox appears one frame sooner
     - Slightly smaller hand hitbox
     - Elbow hitbox removed
     - Hand hitbox larger on frame 2
 - 5B(B)
-    - Does 13 damage from 12
+    - Damage increased from 12 to 13
     - Has increased stun
     - Hitbox appears and disappears one frame later
     - Has one extra block frame
@@ -675,7 +675,9 @@ And for Sasuke's sharingan transformation:
 - 5BBA(B) added
 - 5BB(6A) is added as a kunai dash
 - 5BB6AB string removed 
-- 5BBB(B) has 5 more damage and is a hard knockdown
+- 5BBB(B)
+    - Damage increased from 17 to 21
+    - Is a hard knockdown
 - 5BBB(A)
     - Hitbox size adjusted
     - Hitbox added to shoulder and made slightly bigger
@@ -686,13 +688,13 @@ And for Sasuke's sharingan transformation:
     - Kunai has increased lift
     - Grabbable the entire move
 - 2A
+    - Damage increased from 48 to 49
     - Adds hits to the combo meter
-    - +1 damage
     - Can now be grabbed on landing on successful hit
     - Cannot be cancelled
 - A2A is hittable at the peak of the jump (TODO: huh)
 - 6B
-    - Does 28 damage from 26
+    - Damage increased from 26 to 28
     - Hitbox appears one frame earlier
     - Hitbox size slightly increased
     - More lift to match S6B's second hit
@@ -726,8 +728,8 @@ And for Sasuke's sharingan transformation:
     - Unbreakable
     - In non-sharingan version it puts Kakashi in sharingan mode and does not build meter
 - 5X
-    - 0C damage increased from 60 to 80
-    - Full charge damage increased from 100 to 105
+    - 0C damage increased from 60 to 70
+    - Full charge damage increased from 100 to 115
     - Full charge time reduced from 100 to 76 frames (TODO: is this 77 frames now?)
     - Duration improved from 1 frame to 7
     - Fully charged from frame 1 to 8
@@ -766,12 +768,11 @@ And in Sharingan mode:
     - Improved lift from 64 to 80
 - 2B(B) does not cancel to stand
 - 6B
-    - Total damage is now 35 damage (TODO: is this correct? fix above entries for damage as well)
+    - Damage increased from 12+17 (29 total) to 13+20 (33 total)
+    - Damage on second hit with whiffed first hit increased from 18 to 22
     - First hit has slightly more blockstun (TODO: does it still?)
-    - First hit does 17 damage from 12
     - Second hit pushes on block with a slightly bigger knee hitbox
     - Has no pushback on the second hit and a slightly improved hitbox
-    - Damage adjusted to 13+22, from 17-18 (TODO: Fix this syntax)
     - Hitbox disappears one frame earlier
 - 6A
     - First hit has more lift (to avoid a situation where the first hit connected and the second missed because of the counter hit while crouched hitstun animation)
@@ -792,7 +793,7 @@ And in Sharingan mode:
     - On transition to capture state leaves sharingan mode
     - Requires and costs 75%
 - 2X
-    - Damage decreased from 110 to 95
+    - Damage decreased from 120 to 95
     - Is vanilla sharingan 5X
     - Activator duration increased by 2 frames
     - Damage reduced slightly
@@ -813,15 +814,16 @@ And in Sharingan mode:
    - Opponent is launched away
    - Crumples the opponent (no combo follow up from this)
 - 5BBB(A) and 5BBB(6A) inputs reverted to BBB(4A) and BBB(A) inputs, respectively (TODO: what to do about this? is it even relevant?)
-- 5BBBB(A) damage increased from 14 to 20
+- 5BBBB(A) damage increased from 9 to 20
 - 5A
     - Charge time reduced from 11 frames to 8
     - Grabbable the entire move
 - 2B(B) changed with 5BBB(B) with A follow up
 - 2A(A) added as 6A
 - 6A
+    - Damage decreased from 8+9+9 (26 total) to 7+6+6 (19 total)
     - Launches on the last hit
-    - Damage and lift adjusted
+    - Lift adjusted
     - First two hits juggle slightly better without a wall
 - 4B
     - Remove stagger
@@ -856,40 +858,25 @@ And in Sharingan mode:
 - Health: 225 to 220
 - Works like a level up character with 2G mode having no passive lift or meter drain
 - 2G has health drain at a slower rate, taking 1 damage every 45 frames, or 1.3 per second
-- Damages adjusted between all forms:
-    - 5B: 9,13,17 > 9,12,15
-    - 6B: 11, 17, 22 > 11,15,19
-    - 4B: 12,18,23 > 12,16,20
-    - 4B1C: 18, 27, 35 > 18,26,34
-    - 2B: 10,15,19 > 10,14,18
-    - RB: 15,22,28 > 15,21,27
-    - 5A: 11,17,22 > 11,15,19
-    - 6A: 9,14,18; 18, 24, 30 > 9,13,17 > 18,22,26
-    - 2A: 11,17,22 > 11,15,19
-    - JB: 21,28,34 > 21,25,29
-    - JA: 13,19,24 > 13,17,21
-    - 8B: 8,12,15
-    - 8A: 0,7,9; 10,13,17 > 0,7,9; 10,12,14
-    - 5BB: 8,12,15
-    - 6BA: 18,26,30 > 18,22,26
-    - 4BB: 12,18,23 > 12,16,20
-    - 5BBAA: 15,22,28 > 15,19,23
-    - 8BA: 15,22,28 > 15,19,23
-    - 5BBA: 12,22,28 > 12,16,20
-- Damages adjusted specifically for 2G:
-    - 5B: 15 > 14
-    - 6B (raw): 22 > 20
-    - 6B (combo): 19 > 17
-    - 4B, 4B1C: 20 > 18, 34 > 30
-    - 2B: 18 > 16
-    - RB: 27 > 24
-    - 2A: 19 > 17
-    - JA: 21 > 19
-    - 5B(B): 15 > 14
-    - 2B(B): 20 > 18
-    - 2BB(A): 23 > 21
-    - 5BBBB(A): 23 > 21
-    - 5BB(A): 20 > 18
+- Damages adjusted between all forms. Left side is vanilla, right side is SCON4. Damage is in the form 0G,1G,2G:
+    - 5B: 9,13,17 -> 10,12,15
+    - 6B: 11,17,22 -> 14,17,22
+    - 4B: 12,18,23 -> 12,16,20
+    - 2B: 10,15,19 -> 11,14,18
+    - RB: 15,22,28 -> 16,21,27
+    - 5A: 11,17,22 -> 12,15,19
+    - 6A: 9+13,14+19,18+24-> 3+23,4+29,5+36
+    - 2A: 11,17,22 -> 12,15,19
+    - JB: 16,31,31 -> 21,29,29
+    - JA: 13,19,24 -> 14,17,21
+    - 8B: 8+7,12+11,15+14 -> 9+8,12+11,15+14
+    - 8A: 14,20,26 -> 11,12,12
+    - 6BA: 13,19,23-> 19,24,28
+    - 4BB: 11,17,21 -> 11,14,18
+    - 5BBAA: 12,18,23 -> 13,16,19
+    - 8BA: 13,19,25 -> 14,17,20
+    - 5BBA: 10,19,25 -> 11,14,18
+    - 5X: 60,70,150 -> 65,73,115
 - 6B(A), JB, 6A second hit, 8A, Throw damage adjusted across the three states
 - 5B has more lift
 - 5B(B) one frame added to the animation
@@ -952,15 +939,10 @@ And in Sharingan mode:
         - Cannot act after throw
         - Does 35 total damage
 - 5X
-    - Damage is 55
-    - Activator does 10 damage
     - Activator has +1 frame duration
 - 1G5X
-    - Damage is 65
-    - Activator does 10 damage
     - Activator has +1 frame duration
     - Does the Gaara version of the super on everyone
-- 2G5X does 110 damage from 146
 - 4X requires 50% and takes 50%
     - 1G 4X is a hard knockdown
 - 1G4X requires and costs 75% meter
@@ -1037,15 +1019,15 @@ And in Sharingan mode:
     - Can transition faster
     - Has forward or backwards momentum with 6 or 4
 - JA(A)
-    - Damage reduced on projectiles: 6 > 4
+    14
+    - Damage decreased on each projectile from 6 to 4
     - Can transition faster
     - Has forward or backwards momentum with 6 or 4
 - JAA(A)
-    - Damage reduced on projectiles: 8 > 6
+    - Damage decreased on each projectile from 8 to 6
     - Can transition faster
     - Has forward or backwards momentum with 6 or 4
 - JAAA(A)
-    - Damage reduced: 12 > 10 (TODO: Is this vanilla now?)
     - Can transition faster
     - Has forward or backwards momentum with 6 or 4
 - JAAAA(X) added as JX when having 75% meter
@@ -1112,7 +1094,7 @@ And in Sharingan mode:
     - Recovers six frames faster
 - 4B
     - Has only 5 guard frames on step forward (charge or otherwise)
-    - Active 2-5
+    - Active frames 2-5
 - 4A
     - DEF from frames 8-35, animation ends frame 52
     - Can move immediately on appearance
@@ -1135,11 +1117,11 @@ And in Sharingan mode:
     - Doesn't float as high in the startup
     - Has slightly more height and launch angle change
     - Hitboxes made slightly bigger
-- 5Y
-    - Works both sides
-    - Does 20 damage with no gate or 1 gate open
+- 5Y works on both sides (TODO: huh)
 - 2Y is a higher damage hard knockdown throw
 - 5X
+    - 0G damage decreased from 75 to 72
+    - 1G damage increased from 78 to 87
     - Low crushes
     - Elbow hitbox moved to shoulder
     - Slightly bigger shoulder hitbox
@@ -1147,12 +1129,10 @@ And in Sharingan mode:
     - Begins moving 2 frames sooner
     - Has three frames less super freeze
     - More duration
-    - Activator does 10 damage in both gated form
-    - Damage on activation changed from 71 to 66 and 81
 - 2X
     - Can be done with no gates open
-    - Activator does 10 damage in both gate forms
-    - Activated does 72 and 87 damage from 90
+    - 0G damage is 81
+    - 1G damage decreased from 100 to 96
     - Has two frames less super freeze
 - RB
     - Changed to be strong on block
@@ -1199,7 +1179,6 @@ And in Sharingan mode:
     - High crush 7-15
     - Has more stun on block
     - Recovers slightly faster on block and whiff (12 frames slower than on hit)
-    - Does 16 damage, from 18
     - Does not lift on block and is punishable on block by all jabs (Shikamaru can still use 8BA to prevent punishes in a low reward high risk mix up)
 - 8B(A) can only be done after landing
 - 8A is grabbable the entire move
@@ -1218,7 +1197,7 @@ And in Sharingan mode:
     - Can be grabbed before the teleport
     - Has a puff of smoke on reappearance on both sides
     - Disappears two frames slower (same travel time) and closes hand before teleporting
-- SABB(B) more damage
+- SABB(B) damage increased from 10 to 13
 - SA(A) staggers
 - SAA(A) replaced with 8A
 - S2B
@@ -1232,8 +1211,8 @@ And in Sharingan mode:
 - S6B stays in front; SB goes behind
 - 5X starts moving 4 frames sooner in super freeze
 - 2X
-    - Does 32 damage from 40
-    - Comboed into 8B does 48 damage now from 58
+    - Damage decreased from 40 to 32
+    - Fall damage if opponent hits the ground decreased from 4 to 3
     - Is a mid and loses to wake up kick if Shikamaru is too close to the opponent
     - Has less super freeze
     - Hitbox appears two frames later
@@ -1271,7 +1250,7 @@ And in Sharingan mode:
 - 5BB(B) and 8B is an uppercut
 - 5BBB(B) and 8B(B) is also an uppercut, but has spinning knockback and hits higher
 - 5A
-    - Damage increased from 25 to 30
+    - Damage increased from 30 to 35
     - Has one (TODO two?) more frame hitbox duration
     - Arm hitboxes appear on the third active frame
     - Cannot be cancelled
@@ -1291,7 +1270,8 @@ And in Sharingan mode:
     - Builds 1/16th of a bar of meter
 TODO: Resolve above two 2A entries
 - 6B
-    - Damage (+3) and stun increased
+    - Damage increased from 17 to 20
+    - Stun increased
     - Hitstun increased slightly to allow 5B to link
     - Turns around back turned opponents
 - 6B(B)
@@ -1304,13 +1284,13 @@ TODO: Resolve above two 2A entries
 - 6BAA(A) added as 2A
 - 6BA(A) replaced with chips
 - 6A
+    - Damage increased by 1 for each hit
     - Links into the final hit better
     - Ending hits twice
     - The first is a bounce and second hit is a hard knockdown
     - Knockbacks cleaned up to not be as severe
     - Deflects projectiles and updates direction often
     - Startup sped up by 4 frames
-    - Damage increased by 1 for each hit
 - 4B
     - Always a mid untechable bounce
     - Hitbox appears and disappears one frame later
@@ -1325,20 +1305,18 @@ TODO: Resolve above two 2A entries
     - DEF from frames 10-35, animation ends 49
     - Can be activated from all sides
 - Act4A
+    - Damage increased from 25 to 31
     - Is unblockable and unsubbable
     - Light adjustment to size
-    - Damage increase 20 to 25
-- 8B
-    - Does 15 damage when not in strings
-    - Still does 17 damage in strings (BBB and 6BAB)
+- 8B replaced with uppercut from BB(B) and 6BA(B)
 - 8(B~B) is slightly slower
 - 8B(B) ends three frames sooner
 - 8B(A) is 8A
 - 8A
+    - Damage decreased from 45 to 35
     - Hitboxes adjusted to not grab behind as easily
     - Super armor ends when Chouji leaves the ground
     - Hitboxes appear 4 frames earlier (TODO 2 now?)
-    - Damage changed from 40 to 30
     - Opponent can sub after Chouji removes his hands from the opponent
     - Carries forward on capture
     - Activates if blocked (Ukon)
@@ -1346,6 +1324,7 @@ TODO: Resolve above two 2A entries
 - A8A is hittable after Chouji gets off the opponent
 - JB bounces closer to Chouji
 - JA
+    - Damage increased from 24 to 26
     - Does increased guard damage
     - Falls faster
     - Hard knockdown
@@ -1459,18 +1438,18 @@ TODO: Resolve above two 2A entries
 - JA in combos teleports with 6 or 4
 - JY added
 - 5Y
+    - Damage increased from 0 to 20
     - Has a new animation
-    - Does 20 damage
     - Can be subbed 5 frames sooner
 - 2Y
-    - Has a new animation
+    - Added
     - Does 20 damage and side switches
 - 5X
     - Is 2X
+    - Damage decreased from 99 to 86
     - Does vanilla 5X activator into vanilla 2X activated
     - Whiff animation of Ino sitting on her knees cut in half (30 frames from 60)
     - Starts moving slightly sooner
-    - Slightly less damage
     - Cannot be thrown out of startup anymore
     - Hitbox size increased from 102 to 128
 - 2X
@@ -1578,7 +1557,7 @@ TODO: Resolve above two 2A entries
     - Recovers significantly faster
     - Walking bugs are unblockable
 - 8B
-    - Does 1 more damage
+    - Damage increased from X to 18
     - Ends sooner
     - Hitbox appears one frame later and disappears one frame earlier
     - Hard knockdown
@@ -1598,15 +1577,15 @@ TODO: Resolve above two 2A entries
 - 2Y
     - Added
     - A lower damage pseudo-stagger that leaves the opponent grounded for unique use in setups
+    - Does 10 damage
     - Shino is +13 after the throw
-    - Does 10 damage total
 - 5X
     - Hitbox appears one frame sooner
     - One less frame of super freeze (TODO: Now 2 less?)
     - Hitbox appears one frame later (better range)
 - 2X
+    - Damage increased from 78 to 83
     - Bugs spawn faster
-    - Each hit does 1 more damage
     - Slightly less lift
     - Hitbox travels slightly more vertically to improve consistency
 - RB
@@ -1664,16 +1643,15 @@ TODO: Resolve above two 2A entries
     - On release, Akamaru does his 6A (sand kick)
     - Shortened; animation takes 45 frames
 - 6B(B)
+    - Damage increased from 16 to 20
     - Bounces closer
     - Recovers one frame sooner
-    - Does 4 more damage
     - Removed high crush during the landing recovery
 - 6B(2A) added as 5A
 - 6A
     - Changed to be 5BBB(A) with A follow up (old 6A)
     - Hitbox has +1 active frame
 - 6A akamaru
-    - Damage increase from 5 to 10
     - Foot hitbox bigger and doesn't lift
     - Projectile appears two frames later
     - Projectile staggers
@@ -1682,9 +1660,9 @@ TODO: Resolve above two 2A entries
 - 4B staggers instead of bounces
 - 4A DEF from frames 11-35, animation ends frame 49
 - Act4A
+    - Damage increased from 17 to 25
     - Ends a bit faster
     - Unblockable
-    - Does more damage
 - 8B
     - Has 7 additional endlag frames
     - Hitbox comes out two frames later
@@ -1708,7 +1686,7 @@ TODO: Resolve above two 2A entries
 - RB(8B) removed high crush during the landing recovery
 - RA
     - Hitbox extended two frames
-    - Last three frames are -2 damage and guard damage
+    - Last three frames
 - RA(B) changed to be 6B with follow ups
 - GRKnJ
     - Travels two frames slower
@@ -1765,7 +1743,7 @@ TODO: Resolve above two 2A entries
     - More lift
     - First three frames are grabbable intangibility
 - 6A(A)
-    - Does 20 damage (from 15)
+    - Damage increased from 15 to 20
     - Pushes on block has 4 less endlag frames
     - is now -3 on block (was -11)
 - 4B
@@ -1788,7 +1766,7 @@ TODO: Resolve above two 2A entries
     - Hitbox and end fall speed increase
     - Hitbox on the elbow moved to the knee
 - 5X
-    - Damage increased from 65 to 80
+    - Damage increased from 71 to 85
     - Starts moving in super freeze three frames sooner
     - Two more active hitbox frames
 - 2X
@@ -1803,14 +1781,13 @@ TODO: Resolve above two 2A entries
     - Opponent intangibility adjusted as well as flight path
     - Gives meter to the opponent (TODO: vanilla?)
 - RB
-    - Does 5BBB(B) when done in a string, with the A follow up intact
     - Damage increased from 18 to 19
+    - Is the 5BB6B / 2B6B extension
     - Pushes on block with 4 more frames of blockstun
     - Has more backwards momentum on step back (41-51)
     - Hitbox is active for 5 more frames (2 to 7)
     - Lift increased by 2
-- RB is the 5BB6B / 2B6B extension
-- RA damage reduced from 19 to 15
+- RA damage decreased from 19 to 15
 - GRKnJ
     - Made into RB (TODO: vanilla?)
     - Appears closer to the opponent
@@ -1851,8 +1828,8 @@ TODO: Resolve above two 2A entries
     - DEF from frames 11-29, animation ends frame 49
     - Drains meter at a rate of 120 units per frame instead of 180
 - Act4A
+    - Damage increased from 19 to 34
     - Is unsubbable and untechable
-    - Does 10 more damage
     - Recovers 5 frames faster
 - 8B
     - Appears one frame later
@@ -1862,19 +1839,16 @@ TODO: Resolve above two 2A entries
 - JY added
 - 5X
     - Activates if only hitting the second hit
-    - Damage reduced from 75 to 70
+    - Damage reduced from 77 to 71
     - First hit turns back turned opponents around
     - First hit hitbox duration increased by one frame
     - Second hitboxes are bigger if the first is hit
 - 2X
     - Consumes 1/8 chakra if not activated
-    - Damage increased to 78 (85 with fall damage)
+    - Damage decreased from 104 to 85
     - DEF from frames 11-45, animation ends frame 55
     - Is not avoided by “landing” during the activation
     - Super freeze resets intangible at the end
-- Act2X
-    - Damage reduced 95 to 70
-    - Drains 50% chakra
 - RB given hyuuga cancel
 - GRKnJ appears slightly closer to the opponent
 
@@ -1943,7 +1917,7 @@ TODO: Resolve above two 2A entries
     - DEF from frames 11-35, animation ends frame 49
 - Act4A
     - Is now a modified sand dive that appears lower and is unblockable
-    - Does less damage
+    - Damage increased from 0 to 18
 - 8B
     - Ends significantly sooner
     - Cannot do follow ups after Gaara lands
@@ -1972,6 +1946,7 @@ TODO: Resolve above two 2A entries
     - Hitbox appears 5 frames sooner
     - Has two frames less super freeze (BBX works higher in the combo counter)
 - 2X
+    - Damage decreased from 88 to 40
     - Comes out faster
     - Recovers 52 frames faster (no longer unsafe on hit)
     - Requires and costs 75% meter
@@ -1979,7 +1954,6 @@ TODO: Resolve above two 2A entries
     - Does not move backwards if block is activated
     - Safe(r) on hit
     - Grabbable until frame 29 on startup and as the sphere disappears
-    - Does 40 damage
     - Properly turns off intangibility and leaves it off
     - 3 frames less intangibility
 - RB
@@ -2019,7 +1993,7 @@ TODO: Resolve above two 2A entries
 - 2B(A)
     - Replaced with 2A
     - Follow ups adjusted to be in line with raw 2A
-- 2BB(A) increased in damage by 7
+- 2BB(A) damage increased from 22 to 28
 - 2A
     - In combo ends sooner
     - Transitions to A follow ups slower (same as raw 2A)
@@ -2046,13 +2020,13 @@ TODO: Resolve above two 2A entries
     - Has three grabbable frames at the startup
     - Made strong
 - 8B(A)
-    - Changed to be 26 damage (from 29, vanilla 22)
+    - Damage increased from 22 to 28
     - Is an untechable bounce
 - 8A is grabbable the entire move
 - 8A(A) is grabbable the entire move
 - 8AA(A) is grabbable the entire move
 - JB
-    - Does 10 damage (from 16) and 10 block damage (from 16) but has the same guard stun
+    - Damage decreased from 16 to 11
     - Hitbox removed from head and butt
     - Less lift (TODO: Now has more lift, but is it more or less than vanilla?)
 - J2B
@@ -2060,8 +2034,8 @@ TODO: Resolve above two 2A entries
     - Has A and B follow ups
     - Always faces the opponent
 - 6A
+    - Damage increased from 22 to 31
     - 6A is a hard knockdown
-    - Does 29 damage
 - 4A window improved
 - Act4A
     - Is unblockable
