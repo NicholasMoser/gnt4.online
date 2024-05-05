@@ -9,7 +9,8 @@ hide:
 
 # SCON4 All Changes
 
-This page lists all changes in the current version of SCON4 since vanilla GNT4.
+This page lists most changes in the current version of SCON4 since vanilla GNT4. Please be aware that it is not 100% accurate.
+This is because it has been pieced together across 7 years of changes. If you discover an inaccuracy, please contact kitesage on Discord.
 
 ## Legend
 
@@ -1557,7 +1558,7 @@ TODO: Resolve above two 2A entries
     - Recovers significantly faster
     - Walking bugs are unblockable
 - 8B
-    - Damage increased from X to 18
+    - Damage increased from 16 to 18
     - Ends sooner
     - Hitbox appears one frame later and disappears one frame earlier
     - Hard knockdown
@@ -2070,8 +2071,8 @@ TODO: Resolve above two 2A entries
     - Airborne option is the same air sub as everyone else
     - Grounded version is RB
 - 5B
+    - Damage decreased from 12 to 10
     - Elbow hitbox appears on the second active frame
-    - Two less damage
     - Increased lift
     - Adjusted 5B active frames to match the animation properly (hitbox active on frame 15). It was previously active on frame 14 but would never hit on that frame due to the animation (TODO: Is this in vanilla?)
 - 5B(B) hitbox appears and disappears one frame later
@@ -2125,12 +2126,12 @@ There are also some Karasu specific changes:
 - Backdash ends 5 frames sooner
 - Grabbable moves: 8B, 8A, JA
 - 2A
-    - Damage increased by 4
+    - Damage increased from 5 to 9
     - Elbow hitboxes moved to chest and waist
     - Hitbox active two more frames
-- 2A(A) damage increased by 4
-- 2AA(A) damage increased by 4
-- 2AAA(A) damage increased by 4
+- 2A(A) damage increased from 6 to 10
+- 2AA(A) damage increased from 6 to 10
+- 2AAA(A) damage increased from 6 to 10
 - JA first two frames cancel into 5A instead of landing
 - JY added
     - Removes the unsubbable state (this is applied for the first few release frames of all overhead throws)
@@ -2145,19 +2146,19 @@ There are also some Karasu specific changes:
 - Health: 190 > 200
 - 5B made high
 - 5A
-    - Needle does 7 damage (from 4)
+    - 0C damage increased from 4 to 7
+    - 1C damage increased from 4 to 11
     - Is grabbable the entire move
-    - 1C does 11 damage (from 4)
 - 5A(A)
-    - Needle does 7 damage (from 4)
+    - Damage increased from each needle from 4 to 7
     - Is grabbable the entire move
 - 2B
     - Hitbox appears one frame sooner
     - Hit direction changed slightly to assist follow ups
     - Lift set to 100, from 64
 - 2B(B)
+    - Damaged increased from 8,10 to 10,12
     - First hit made spinning knockdown with reduced lift to increase late combo consistency into second hit
-    - Damaged increased from 8,10 > 12,14
     - Second kick hitbox set to 170 from 128
 - 2B(A) changed to be 6A(A)
 - 6B(B)
@@ -2204,7 +2205,7 @@ There are also some Karasu specific changes:
 ![Zabuza](/assets/images/changelog/zabuza.png)
 
 - All sword attacks have a slightly bigger center hitbox
-- All non sword attacks do -2 damage (except 5B and 5B(B))
+- All non sword damage decreased by 2, except 5B and 5B(B)
 - 5B elbow hitbox does not show up on the first frame
 - 5B(B) appears and disappears one frame later
 - 5B(A) as 2A with follow ups
@@ -2275,18 +2276,19 @@ There are also some Karasu specific changes:
     - Changed to 4Y
     - Made blockable and unbreakable
 - 2X
+    - Damage decreased from 85 to 77
     - Is immune to highs and mids from frame 11 to 36
     - Requires 75% meter
     - Links better on air hits
-    - Damage reduced
     - Hilt hitbox on first revolution is slightly bigger
     - Hits have slightly more directional movement
 - 4X
     - Added
     - Is a command grab
     - Is a reversal
+    - Does 49 damage
     - Requires 50% meter
-    - Hard knockdown (TODO: Still true?)
+    - Hard knockdown
 - RB as Boot
 - RA as teleport
 - 4Z disabled
@@ -2295,15 +2297,14 @@ There are also some Karasu specific changes:
 
 ![Iruka](/assets/images/changelog/iruka.png)
 
-- Scar added to model's face
 - Grabbable moves: 6B(A), 6A, 8A, JA
 - 5B
+    - Damage increased from 13 to 14
     - Hitbox appears one frame sooner
     - Slightly smaller hand hitbox
     - Elbow hitbox removed
     - Hand hitbox larger on frame 2
-    - Damage increased by 1
-- 5B(B) damage increased by 1
+- 5B(B) damage increased from 12 to 13
 - 5BB(A)
     - Changed to be a new animation that does not go as far forward
     - A follow up changed to be 8A
@@ -2322,8 +2323,8 @@ There are also some Karasu specific changes:
     - Replaced with 6B(B)
     - Comes out one frame slower
 - 2A
-    - Has slightly more lift
     - Damage increased from 18 to 23
+    - Has slightly more lift
     - Last two frames of the move cannot do B follow up
     - High crushes
 - 2A(A) "lands" at startup
@@ -2343,8 +2344,9 @@ There are also some Karasu specific changes:
     - Performed by holding down after 6B(A)
     - Puts Iruka on the ground
 - 6BB(A)
+    - Changed to 6A(A) dash punch
+    - Damage increased from 20 to 26
     - Can be delayed to do 5A with follow ups instead of 6A(A)
-    - Damage changed from 20 to 26
 - 6BBB(A) with follow ups exists
 - 6BB(A) replaced with 6A(A)
 - 6A
@@ -2378,19 +2380,19 @@ There are also some Karasu specific changes:
 - J6A
     - Added
     - Slow moving air control projectile
-    - Damage is 4 per hit
     - Beats other projectiles like 5A does
 - JY added
 - 5X
+    - Damage decreased from 70 to 64
     - First hit turns around back turned people
     - First hitbox is active for 3 frames (from 1)
     - Second hitboxes are mids (from highs)
     - Second hitboxes are bigger if the first hits
 - 2X
+    - Damage decreased from 90 to 86
     - Does 2X activator that goes into 5X super
     - It starts two frames sooner the hitboxes are bigger
     - First hit turns around back turned people
-    - Activated super does more damage
     - Activated hits four additional times when the shurikens hit the opponent
     - Three less super freeze frames
     - Second hitboxes are mids (from highs)
@@ -2459,9 +2461,9 @@ There are also some Karasu specific changes:
     - Can activate on projectiles
 - Act4A teleports up and behind the opponent
 - 8B
-    - Pushes on block
     - Damage increased from 12 to 25
     - Guard damage increased from 12 to 37
+    - Pushes on block
     - Hitbox is active for 6 frames, up from 4
     - Made strong power, from medium power
     - Doesn’t jump as high
@@ -2472,7 +2474,8 @@ There are also some Karasu specific changes:
 - JA throws two shurikens
 - 2Y added as a knockdown throw for 40 damage
 - 5X
-    - Is vanilla into 2X animation with less damage
+    - Is vanilla into 2X animation
+    - Damage decreased from 72 to 68
     - First hitbox turns backturned opponents around
     - First hitbox is active for 3 frames (from 1)
     - Second hitboxes are bigger if the first hits
@@ -2481,7 +2484,6 @@ There are also some Karasu specific changes:
     - Is vanilla 2X activator with large size and better duration on hitboxes
     - First hitbox turns backturned opponents around
     - Second hitboxes are bigger if the first hits
-    - Activation does more damage than 5X
 - 4X
     - Is a super projectile that begins with a jump backward
     - Requires and uses 75% meter
@@ -2539,19 +2541,18 @@ There are also some Karasu specific changes:
     - Ends 10 frames sooner
 - 2A changed to upward snakes
 - 6B
-    - Uses an animation similar to Orochimaru
+    - Changed to use an animation similar to Orochimaru
     - Turns around back turned people
     - More stun
     - Slightly later on transition to follow ups
     - Slightly more lift
     - Hits on frame 13 instead of 11
     - Range reduced by 20%
-    - Does 17 damage, down from 18
 - 6B(B) is 5BBBB(B)
 - 6BB(A) is 5BBBBB(A) (Does not have 6BBB)
 - 6B(A) added
 - 6A
-    - Does 17 damage, down from 20
+    - Damage decreased from 20 to 17
     - Lifts higher and lifts on block
 - 6AA(A)
     - Changed to be an empty teleport and has A and B follow ups
@@ -2587,12 +2588,13 @@ There are also some Karasu specific changes:
     - Medium power instead of weak
     - Plus on hit instead of minus for both moves
 - JB
-    - Does chip damage and does 4 more damage
+    - Damage increased from 28 to 32
+    - Does chip damage
     - Has a more steep angle
 - JA
-    - Momentum applies sooner
+    - Damage for snake hits increased from 3 to 4 (hit count can vary a lot depending on position, but 8 hits of jA does 23 damage total)
     - Snakes adjusted to do chip damage and lift
-    - Snake hits do 4 damage up from 3 damage (hit count can vary a lot depending on position, but 8 hits of jA does 23 damage total)
+    - Momentum applies sooner
 - JY
     - Victim subbable timing made to match Tsunade
     - Is no longer sub unsafe on hit
@@ -2667,8 +2669,8 @@ There are also some Karasu specific changes:
     - Charged time reduced from 10f to 8f
     - Grabbable the entire move
 - 2B
+    - Damage increased from 13 to 14
     - Can continue to 2B(A) on whiff
-    - Does one more damage
     - Last active frame has less lift
 - 2B(B)
     - Is spinning knockback
@@ -2681,24 +2683,22 @@ There are also some Karasu specific changes:
     - Transitions two frames faster
     - First hit has slightly more lift
 - 2BBB(B)
+    - Damage increased from 10+12 to 6+16
     - Links into the second hit better
-    - Damages adjusted to 6+16 (from 10+12)
     - Made a bounce instead of a knockdown
-- 2B(A) damage increased by 2
+- 2B(A) damage increased from 16 to 18
 - 2BA(B)
     - Has more lift
     - Hitbox duration adjusted to juggle better
     - Ends much sooner
 - 2BAB(B) damage increased from 23 to 25
-- 2A
-    - Does not lift on block
-    - Changed from 3 hits at 8 damage each to 8 hits at 3 damage each
+- 2A does not lift on block
 - 6B can follow up on whiff
 - 6B(B)
     - Has less endlag
     - Can follow up into A on whiff
     - Recovery animation adjusted
-- 6A damage decreased by one damage
+- 6A damage decreased from 17 to 16
 - 6A in ring combo (flames)
     - Does not stagger anymore
     - Leaves opponents on the ground on hit
@@ -2717,17 +2717,17 @@ There are also some Karasu specific changes:
     - Hitbox stays out one more frame
 - 8B(A) transition made 8 frames slower
 - 8A
+    - Hits decreased from 3 to 1
+    - Damage modified from 3x10 to 20
     - Does chip damage
     - Made strong
     - Lifts on block
     - When done in a string goes to ring combo
-    - Hits once (from 3) and does 20 damage (from 3x10)
     - Made spinning knockdown with more lift
     - Beam travels at a slightly lower angle with slightly bigger hitboxes
     - Final hitbox made slightly bigger to help with hitting opponents right next to you
 - JA
-    - Damage increased from 3 to 7 on each fireball
-    - Staggers on hit and damage adjusted
+    - Staggers on hit
     - Appears one frame sooner
     - Lift slightly increased
 - JY added
