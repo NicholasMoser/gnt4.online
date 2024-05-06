@@ -127,6 +127,8 @@ New costumes were added. All characters now have 3 or 4 costumes, selectable wit
 
 ![Naruto](/assets/images/changelog/naruto.png)
 
+- Health unchanged at 220
+- Guard unchanged at 1760
 - Grabbable Moves: JA, 8A, Z2A
 - 5B elbow hitbox appears on frame 2
 - 5B(B)
@@ -285,7 +287,8 @@ And for Naruto's ZTK transformation:
 
 ![OTK Naruto](/assets/images/changelog/otk.png)
 
-- Health: 220 > 200
+- Health decreased from 220 to 200
+- Guard unchanged at 1760
 - Grabbable Moves: 6A, JA, 2B(A), 8A landing
 - 5B has more blockstun
 - 5B(B) hitbox appears one frame later
@@ -334,6 +337,8 @@ And for Naruto's ZTK transformation:
 
 ![Sasuke](/assets/images/changelog/sasuke.png)
 
+- Health unchanged at 210
+- Guard unchanged at 1680
 - Grabbable Moves: JA, RA, 8A, 6A, 8B landing, SJX, S8X
 - 5B
     - Is super cancellable
@@ -424,7 +429,8 @@ And for Sasuke's sharingan transformation:
 
 ![CS2 Sasuke](/assets/images/changelog/cs2.png)
 
-- Health: 220 to 210
+- Health decreased from 220 to 210
+- Guard unchanged at 1760
 - Grabbable Moves: 6A, 2A, JA, 8B landing
 - 5B
     - Hitbox appears one frame later
@@ -496,8 +502,8 @@ And for Sasuke's sharingan transformation:
 
 ![Sakura](/assets/images/changelog/sakura.png)
 
-- Health: 185 to 210
-- Guard: 1480 to 1640
+- Health increased from 185 to 210
+- Guard increased from 1480 to 1640
 - Grabbable Moves: 5A(A), 5AA(A), 8(A), 8B(A), JA, JA(A), JAA(A)
 - Throw has a new animation and does damage
 - 5B
@@ -654,7 +660,8 @@ And for Sasuke's sharingan transformation:
 
 ![Kakashi](/assets/images/changelog/kakashi.png)
 
-- Kakashi takes 1.25x damage in sharingan mode
+- Health unchanged at 230
+- Guard unchanged at 1840
 - Grabbable moves: 8A, JA, RA, 5A, 2A landing
 - 5B
     - Damage increased from 13 to 14
@@ -803,7 +810,8 @@ And in Sharingan mode:
 
 ![Neji](/assets/images/changelog/neji.png)
 
-- Health: ??? to 210 (TODO)
+- Health increased from 205 to 210
+- Guard unchanged at 1640
 - Grabbable Moves: 8A, JA
 - 5B
     - Elbow hitbox appears on frame 2
@@ -855,7 +863,8 @@ And in Sharingan mode:
 
 ![Rock Lee](/assets/images/changelog/lee.png)
 
-- Health: 225 to 220
+- Health decreased from 225 to 220
+- Guard decreased from 1800 to 1760
 - Works like a level up character with 2G mode having no passive lift or meter drain
 - 2G has health drain at a slower rate, taking 1 damage every 45 frames, or 1.3 per second
 - Damages adjusted between all forms. Left side is vanilla, right side is SCON4. Damage is in the form 0G,1G,2G:
@@ -958,8 +967,8 @@ And in Sharingan mode:
 
 ![Tenten](/assets/images/changelog/tenten.png)
 
-- Health: 185 to 210
-- Guard: 1480 to 1640
+- Health increased from 185 to 210
+- Guard increased from 1480 to 1600
 - New idle animation
 - Grabbable Moves: 5BB(A), 5BBB(A), 5AC(A), 5A2CA(A), 4A, 8A, RA, JA, JA(A), JAA(A), JAAA(A), JX, 8X
 - 5B
@@ -1052,6 +1061,8 @@ And in Sharingan mode:
 
 ![Might Guy](/assets/images/changelog/guy.png)
 
+- Health unchanged at 230
+- Guard unchanged at 1840
 - 5B has more lift
 - 5B(B) has one frame added to the animation to prevent 5BB infinite
 - 5BB(B)
@@ -1152,7 +1163,8 @@ And in Sharingan mode:
 
 ![Shikamaru](/assets/images/changelog/shikamaru.png)
 
-- Health: 200 to 210
+- Health increased from 200 to 210
+- Guard decreased from 1600 to 1520
 - Grabbable Moves: 8A, JA
 - 5B ends two frames earlier
 - 5BB(A)
@@ -1228,8 +1240,8 @@ And in Sharingan mode:
 
 ![Chouji](/assets/images/changelog/choji.png)
 
-- Health: 225 to 240
-- Guard: 1800 to 1920
+- Health increased from 225 to 240
+- Guard increased from 1800 to 1920
 - When large, Chouji has guard frames and is grabbable
 - Faster run (vanilla travels 4.5 units in 20 frames, now does it in 17)
 - 5B
@@ -1363,8 +1375,8 @@ TODO: Resolve above two 2A entries
 
 ![Ino](/assets/images/changelog/ino.png)
 
-- Health: 185 to 210
-- Guard: 1480 to 1640
+- Health increased from 185 to 210
+- Guard increased from 1480 to 1640
 - Grabbable Moves: 8A, JA
 - 5B
     - Shoulder hitbox does not appear on the first active frame
@@ -1474,8 +1486,8 @@ TODO: Resolve above two 2A entries
 
 ![Shino](/assets/images/changelog/shino.png)
 
-- Health: 195 to 210
-- Guard: 1560 to 1640
+- Health increased from 195 to 210
+- Guard increased from 1560 to 1640
 - Grabbable Moves: 5BB(A), 6A, JA
 - 5B
     - Animation makes the arm fully extended one frame sooner
@@ -1605,8 +1617,8 @@ TODO: Resolve above two 2A entries
 
 ![Kiba](/assets/images/changelog/kiba.png)
 
-- Health: 200 to 210
-- Guard: 1600 to 1640
+- Health increased from 200 to 210
+- Guard increased from 1600 to 1640
 - Grabbable moves: 8A, JA, JB(B) ending
 - 5B
     - Hitbox appears and disappears one frame later
@@ -1696,8 +1708,8 @@ TODO: Resolve above two 2A entries
 
 ![Hinata](/assets/images/changelog/hinata.png)
 
-- Health: 185 to 210
-- Guard: 1480 to 1520
+- Health increased from 185 to 210
+- Guard increased from 1480 to 1640
 - Combo list updated:
     - 5BBA(A), 6A(A) added to the combo strings
 - Y Cancel uses the same animation as 2X
@@ -1798,7 +1810,8 @@ TODO: Resolve above two 2A entries
 
 ![Awakened Hinata](/assets/images/changelog/woke.png)
 
-- Guard: 1760 to 1800
+- Health unchanged at 220
+- Guard decreased from 1760 to 1840
 - Grabbable Moves: 8A, JA, 2X
 - 5B(B)
     - Hitbox appears and disappears one frame later
@@ -1856,7 +1869,8 @@ TODO: Resolve above two 2A entries
 
 ![Gaara](/assets/images/changelog/gaara.png)
 
-- Guard: 1760 to 2000
+- Health unchanged at 220
+- Guard increased from 1760 to 2000
 - 5B
     - Elbow hitbox removed
     - Hitbox made smaller
@@ -1973,7 +1987,8 @@ TODO: Resolve above two 2A entries
 
 ![Temari](/assets/images/changelog/temari.png)
 
-- Health: 190 > 200
+- Health increased from 190 to 200
+- Guard increased from 1520 to 1600
 - Grabbable Moves: 5A(A), 5AA(A), 2A, 8A, 8A(A), 8AA(A), JA
 - 5B
     - Hitbox appears for 1 more frame
@@ -2062,9 +2077,8 @@ TODO: Resolve above two 2A entries
 
 ![Kankuro](/assets/images/changelog/kankuro.png)
 
-- Health: 180 > 200
-- Health: 185 to 180 TODO: uhh
-- Guard: 1480 > 1520
+- Health increased from 185 to 200
+- Guard increased from 1480 to 1600
 - Grabbable moves: 6B(A), 8B, 5A, 6A, 6A(A), 4A, 2A, 2A(A), 2AA(A), 2AAA(A), 2AAAA(A), RA, RA(A), 8A, JA
 - 3ME entrances are modified
     - Airborne option is the same air sub as everyone else
@@ -2142,7 +2156,8 @@ There are also some Karasu specific changes:
 
 ![Haku](/assets/images/changelog/haku.png)
 
-- Health: 190 > 200
+- Health increased from 190 to 200
+- Guard increased from 1520 to 1600
 - 5B made high
 - 5A
     - 0C damage increased from 4 to 7
@@ -2203,6 +2218,8 @@ There are also some Karasu specific changes:
 
 ![Zabuza](/assets/images/changelog/zabuza.png)
 
+- Health unchanged at 230
+- Guard unchanged at 1840
 - All sword attacks have a slightly bigger center hitbox
 - All non sword damage decreased by 2, except 5B and 5B(B)
 - 5B elbow hitbox does not show up on the first frame
@@ -2296,6 +2313,8 @@ There are also some Karasu specific changes:
 
 ![Iruka](/assets/images/changelog/iruka.png)
 
+- Health unchanged at 230
+- Guard unchanged at 1840
 - Grabbable moves: 6B(A), 6A, 8A, JA
 - 5B
     - Damage increased from 13 to 14
@@ -2421,6 +2440,8 @@ There are also some Karasu specific changes:
 
 ![Mizuki](/assets/images/changelog/mizuki.png)
 
+- Health unchanged at 220
+- Guard unchanged at 1760
 - Grabbable Moves: 6B(A), 6BB(B), 6A, 8A, JA
 - 5B
     - Hitbox appears one frame sooner
@@ -2501,8 +2522,8 @@ There are also some Karasu specific changes:
 
 ![Anko](/assets/images/changelog/anko.png)
 
-- Health: 200 to 220
-- Guard: 1600 to 1680
+- Health increased from 200 to 220
+- Guard increased from 1600 to 1760
 - Grabbable moves: 2A, JA, 2BBB(A), 8B landing
 - New walk animation
 - 8BA combo removed
@@ -2651,8 +2672,8 @@ There are also some Karasu specific changes:
 
 ![Sarutobi](/assets/images/changelog/sarutobi.png)
 
-- Health: 200 to 220
-- Guard: 1600 to 1760
+- Health increased from 200 to 220
+- Guard increased from 1680 to 1760
 - Grabbable Moves: 6A(A), 8A, 2A, JA
 - Ring Combo
     - 5A = 5BB(A)
@@ -2746,6 +2767,8 @@ There are also some Karasu specific changes:
 
 ![Jiraiya](/assets/images/changelog/jiraiya.png)
 
+- Health unchanged at 240
+- Guard unchanged at 1920
 - Grabbable Moves: 2A, 6A, 8A
 - 5B(B)
     - Stun on block and hit improved
@@ -2840,9 +2863,8 @@ There are also some Karasu specific changes:
 
 ![Tsunade](/assets/images/changelog/tsunade.png)
 
-- New walking animation
-- Health: 210 to 220
-- Guard: 1680 to 1760
+- Health increased from 210 to 220
+- Guard increased from 1680 to 1760
 - Grabbable moves: 2A
 - 5B
     - Hitbox appears one frame sooner
@@ -2954,6 +2976,8 @@ There are also some Karasu specific changes:
 
 ![Orochimaru](/assets/images/changelog/orochimaru.png)
 
+- Health unchanged at 220
+- Guard unchanged at 1760
 - Grabbable Moves: JA, 8A, 2A(A), 2AA(A), 6A, 2B(A)
 - 5B
     - Slightly more stun on block
@@ -3023,7 +3047,8 @@ There are also some Karasu specific changes:
 
 ![Kabuto](/assets/images/changelog/kabuto.png)
 
-- Health: 180 to 190
+- Health increased from 180 to 190
+- Guard unchanged at 1640
 - Grabbable moves: RA, JA, 8A, 2A landing
 - 5B
     - Hitbox appears two frames later
@@ -3115,8 +3140,8 @@ There are also some Karasu specific changes:
 
 ![Jirobo](/assets/images/changelog/jirobo.png)
 
-- Health: 230 to 240
-- Guard: 1840 to 1920
+- Health increased from 230 to 240
+- Guard increased from 1840 to 1920
 - Grabbable moves: JA, 6A, 5BBBA(A)
 - 5B(B)
     - Has better advantage on hit and block
@@ -3245,7 +3270,8 @@ There are also some Karasu specific changes:
 
 ![Kidomaru](/assets/images/changelog/kidomaru.png)
 
-- Health: 230 to 220
+- Health increased from 210 to 220
+- Guard increased from 1680 to 1760
 - Grabbable Moves: 6A, 2A, JA, 8A, 5BBBB(A), 2BBB(A), 5BBAB(A), 2BBAB(A)
 - Ring Combo
     - 8A is 8A
@@ -3337,7 +3363,8 @@ There are also some Karasu specific changes:
 
 ![Sakon](/assets/images/changelog/sakon.png)
 
-- Health: 215 to 220
+- Health increased from 215 to 220
+- Guard decreased from 1720 to 1680
 - Sakon (but not Ukon) has a new idle
 - Pressing (or holding) Z on the first frame of back dash switches the brothers; can be done on match startup
 - 5B
@@ -3445,8 +3472,8 @@ And for Sakon only:
 
 ![Tayuya](/assets/images/changelog/tayuya.png)
 
-- Health: 180 to 210
-- Guard: 1440 to 1680
+- Health increased from 180 to 210
+- Guard increased from 1440 to 1640
 - Grabbable Moves: 5A, JA
 - 3ME entry option replaced with vanilla GRKnJ
 - All Doki Demon summons in combo are 6A
@@ -3616,8 +3643,8 @@ And for Tayuya's doki demons:
 
 ![Kimimaro](/assets/images/changelog/kimimaro.png)
 
-- Health: ??? to 210 (TODO)
-- TODO: Check his and other guards
+- Health decreased from 215 to 210
+- Guard decreased from 1720 to 1680
 - Grabbable Moves: JA
 - 5B
     - Elbow hitbox removed
@@ -3699,8 +3726,8 @@ And for Tayuya's doki demons:
 
 ![Itachi](/assets/images/changelog/itachi.png)
 
-- Health: 230 to 210
-- Guard: 1840 to 1680
+- Health decreased from 230 to 210
+- Guard decreased from 1840 to 1680
 - 3 grabbable frames added before teleporting on: RA, 6A(B), 8A(B), 6AA(A), 5BBBBA(A), 6BBA(A)
 - 5B
     - Elbow hitbox doesn't appear on the first active frame
@@ -3762,7 +3789,8 @@ And for Tayuya's doki demons:
 
 ![Kisame](/assets/images/changelog/kisame.png)
 
-- Guard: 1920 to 1840
+- Health decreased from 240 to 230
+- Guard decreased from 1920 to 1840
 - Grabbable Move: JB Ground Hit
 - All sword attacks have a slightly larger center hitbox
 - All non-sword attacks do -2 damage (except 5B and 5B(B) which are -1 damage)
