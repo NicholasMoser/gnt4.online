@@ -797,7 +797,6 @@ And in Sharingan mode:
     - Damage decreased from 120 to 95
     - Is vanilla sharingan 5X
     - Activator duration increased by 2 frames
-    - Damage reduced slightly
     - On transition to capture state leaves sharingan mode
 
 ### Neji
@@ -1839,8 +1838,8 @@ TODO: Resolve above two 2A entries
 - JB can be adjusted to go further or less far with holding 4 or 6
 - JY added
 - 5X
+    - Damage decreased from 77 to 71
     - Activates if only hitting the second hit
-    - Damage reduced from 77 to 71
     - First hit turns back turned opponents around
     - First hit hitbox duration increased by one frame
     - Second hitboxes are bigger if the first is hit
@@ -2797,7 +2796,7 @@ There are also some Karasu specific changes:
     - Slightly bigger hitbox
     - Hits every 5 frames (from 4)
     - Drains 192 per frame (from 240)
-- 8B damage adjusted to 10+20 (was 13+17)
+- 8B damage modified from 13+17 to 10+20
 - 8A is grabbable the entire move
 - JB
     - Hitbox appears one frame sooner
@@ -2805,7 +2804,7 @@ There are also some Karasu specific changes:
 - JY added
 - 2Y
     - Added as a sideswitch throw
-    - Damage reduced to 10
+    - Does 10 damage (5Y does 20 damage)
 - 5X
     - Has one less frame of super freeze
     - Hitbox appears and disappears one frame later 
@@ -2865,9 +2864,8 @@ There are also some Karasu specific changes:
     - Stuns longer
     - Knee hitbox does not appear on the first frame
     - Slightly more lift
-- 5AB(A) Stun increased slightly
-- 5AA(A)
-    - Has less blockstun so followup is easier to sidestep
+- 5AB(A) stun increased slightly
+- 5AA(A) has less blockstun so followup is easier to sidestep
 - 2B(B) pushes on block
 - 2BA(A) charge time reduced by 1
 - 2BAA(B) transitions one frame slower
@@ -3001,7 +2999,7 @@ There are also some Karasu specific changes:
     - Oro can move a few frames later (TODO: This is faster now?)
     - Opponent can sub
     - Puts opponent into “stagger” state, where another stagger will launch the opponent
-- 5X damage reduced 65 to 50
+- 5X damage decreased from 10+65 to 10+50
 - 2X
     - Damage on the activated portion
     - Ends sooner
@@ -3053,9 +3051,9 @@ There are also some Karasu specific changes:
     - Has guard from 1-22
     - Has one hitbox active frame removed from the end
 - 2A
+    - Unscaled damage applies to both players (fixed vanilla bug)
     - Flags adjusted to match the animation better
     - Cannot sub during the animation
-    - Unscaled damage applies to both players
     - Cannot be cancelled
     - Moves to the hold frame 2 frames faster, making it hit quicker and easier to combo into
 - A2A can be hit at the peak of his jump
@@ -3072,9 +3070,9 @@ There are also some Karasu specific changes:
     - Made frame 8, from 10
 - Act4A comes out quicker and ends quicker
 - 8B
+    - Damage increased from 14 from 19
     - High crushes on landing
     - 4 less recovery frames
-    - Damage and guard damage to 19 from 14
     - Hitbox active for 5 frames from 4
     - Made strong power instead of weak power
     - Does not jump as far forward
@@ -3091,7 +3089,7 @@ There are also some Karasu specific changes:
     - Begins moving 3 frames sooner
     - Hitbox changed from chest to shoulder to avoid some reverse hitboxes
 - 2X
-    - Does slightly more damage
+    - Damage increased from 12 to 15
     - Drains chakra
     - Second frame to end is unblockable
     - Hit airborne launches higher
@@ -3124,7 +3122,7 @@ There are also some Karasu specific changes:
     - Has better advantage on hit and block
     - Ends sooner
 - 5BB(B)
-    - Does 10 less block damage
+    - Guard damage decreased from 450 to 300
     - Hitbox comes out two frames later
     - Ends one frame later
 - 5BBB(B) has 9 less endlag frames
@@ -3132,11 +3130,11 @@ There are also some Karasu specific changes:
 - 5BB(A) can be done on whiff
 - 5BB(6A) can be done on whiff
 - 5BBBA(B)
-    - Does 1 more damage
+    - Damage increased from 17 to 18
     - Pushes on block
     - Does not high crush
 - 5BBBA(A)
-    - Does 1 less damage
+    - Damage decreased from 18 to 17
     - Grab follow ups removed
     - But makes an unsubbable knockdown
     - Knockdown starts getting up faster
@@ -3150,13 +3148,12 @@ There are also some Karasu specific changes:
     - Charge changed from 9 frames to 6 frames
     - Done with 6 does 6A
     - 0C
-        - 13 damage from 8
-        - 2 chip damage from 1
+        - Damage increased from 8 to 13
         - Staggers
         - Medium power from weak
     - 1C
-        - 21 damage from 12
-        - 3 chip damage from 1
+        - Damage increased from 12 to 21
+        - Chip damage increased from 1 to 2
         - Strong power from medium
         - Pushes on block
         - Hard knockdown
@@ -3210,13 +3207,12 @@ There are also some Karasu specific changes:
     - Bounces the opponent much closer to Jirobo, allowing him to hit 5B in situations where it used to not reach far enough
     - JB DIR change removed (TODO: vanilla?)
 - JA
-    - 13 damage from 8
-    - 2 chip damage from 1
+    - Damage increased from 8 to 13
     - Pushes on block
     - Strong power from medium
     - Bounces opponent
     - Stone appears 4 frames faster
-- 5Y damage reduced from 22 to 20
+- 5Y damage decreased from 22 to 20
 - 2Y added
 - JY
     - Added
@@ -3240,9 +3236,9 @@ There are also some Karasu specific changes:
     - High crush on landing
 - ARKnJ intangibility removed
 - GRKnJ
-    - Has faster englag to match RB
+    - Damage decreased from 21 to 5
+    - Has faster endlag to match RB
     - Flags fixed from vanilla
-- RKnJ does proper damage (TODO: huh)
 - Post stone clap grab removed
 
 ### Kidomaru
@@ -3274,7 +3270,7 @@ There are also some Karasu specific changes:
     - Last hit has +1 duration
     - All hits have more lift
 - 5BBB(A) is ring combo
-- 5BBBB(B) does more damage
+- 5BBBB(B) damage increased from 22 to 27
 - 5BBAB(B) has no knockback on the first two hits and none of the hits pushes block
 - 5BBAB(A), 5BBBB(A) does flying screen instead of bounce
 - 5BBAB(A)
@@ -3283,9 +3279,8 @@ There are also some Karasu specific changes:
 - 5A
     - Grabbable the entire move
     - All charges do feet trapped
-    - 0C is 4 damage (no change)
-    - 1C is 7 damage
-    - 2C is 10 damage
+    - 1C: damage increased from 5 to 7
+    - 2C: damage increased from 5 to 10
 - 2B has sweep added with less lift
 - 2BB(B)
     - Has more lift
@@ -3293,17 +3288,17 @@ There are also some Karasu specific changes:
     - Ends earlier
 - 2BBB(B) flags adjusted
 - 2BB(A) arm hitbox is slightly bigger
-- 2BBAB(B) does more damage
+- 2BBAB(B) damage increased from 22 to 27
 - 6B(B) has one more frame duration and slightly more lift
 - 6B(A) added as ring
 - 6BB(B)
-    - Does more damage
+    - Damage increased from 20 to 25
     - 3 frames before the teleport that are grabbable added
     - Transition able to be delayed an extra 14 frames
 - 6BB(A) is ring
 - 6A and 8A killing in 3MC no longer locks out the use of the same moves
 - 6A
-    - Does 1+10 damage instead of 5 damage
+    - Damage increased from 5 to 1+10
     - Is now unblockable by Ukon and bypasses reversals
 - 4B first two hits link into the third better
 - 4A
@@ -3367,14 +3362,15 @@ There are also some Karasu specific changes:
 - 2AB(A) does 8BB(A)
 - 2A(A) staggers and has increased lift
 - 6B
+    - Sakon damage increased from 15 to 17
+    - Ukon damage increased from 18 to 20
     - High crushes from frame 7-16
     - Hitboxes increased in size to 128 (from 102)
-    - Does 17 damage up from 15, Ukon’s does 20 up from 18
     - Transition to 6B(B) made 5 frames faster
     - Transition to 6B(A) made 6 frames slower
 - 6B(B) replaced with 8B with follow ups
 - 6A
-    - If holding A it does the launching hit and more damage
+    - If holding A it does the launching hit and 4 more damage
     - If not it does a normal hit with super cancel
     - Final hitbox made 220 from 179
     - Larger hitbox on last hit is applied to both variants
@@ -3391,29 +3387,31 @@ There are also some Karasu specific changes:
 - 8B(B) has slightly more lift
 - 8BB(B) hitbox appears one frame sooner
 - 8BB(A)
+    - Damage increased from 4+4+4+4 to 7+7+7+7
+    - Guard damage increased from 60+60+60+60 to 105+105+105+105
+    - Has increased block stun
     - Has slightly more lift
     - String added for Ukon
     - Hits 3 times instead of 4
-    - More damage, stun, and guard damage
 - 8A
+    - Sakon damage increased from 14+10+10+10 to 7+10+10+19
+    - Ukon damage decreased from 24+12+12+12 to 10+12+12+27
     - Hitbox appears one frame sooner
     - First and middle hits hit higher
     - "lands" two frames sooner
-    - Damages adjusted:
-          - Sak: 14,10,10,10 > 7,10,10,19
-          - Uko: 20,10,10,10 > 9,10,10,23
 - JA
+    - Hits 3 times instead of 4
+    - Damage modified from 5+5+5+10 to 7+7+10
+    - Guard damage modifed from 75+75+75+150 to 105+105+150
+    - Has increased block stun
     - Landing hitbox added that will only hit if the aerial final hit does not
     - If blocking the landing hitbox it does not lift on block
     - If blocking the aering hitbox it does lift on block
-    - Hits 3 times instead of 4
-    - More damage, stun, and guard damage
 - 5X starts moving 4 frames sooner
 - 6X
     - Swaps Sakon to Ukon the first active frame of the hitbox and swaps Ukon to Sakon on frame 2 of the activator
     - Goes into 5X on activation
-- 4X
-    - Requires and costs 25%
+- 4X requires and costs 25%
 - 2X now a mid instead of a high
 - RB
     - Hitbox appears one frame earlier
@@ -3457,9 +3455,9 @@ And for Sakon only:
     - More ring combos are notated in strings
 - 5A, Act4A, JA, and 2X all stop projectiles while the hitboxes are active
 - 5B
+    - Damage increased from 8 to 11
     - Given more stun on hit and block
     - Elbow hitbox appears on the second active frame
-    - Damage increase: 8 > 11
 - 5B(B)
     - Less disadvantage on block
     - Move ends sooner
@@ -3473,32 +3471,28 @@ And for Sakon only:
     - Forces block if the opponent jumps back
 - 5BBB(B) made into 6BB(B)
 - 5BBBB(B)
+    - Damage increased from 15 to 17
     - High crush on frame 7 and stand on 14 instead of high crush 14 to the end
     - Foot down GFX 14 frames later and the other foot down 4 frames after that
-    - +2 damage
-- 5BBA(B)
-    - Does 3 more damage
-    - Ends sooner
-    - Hard knockdown
+- 5BBA(B) removed
 - 5A
-    - 0C damage increased from 13 damage total to 20 (4+5+5+5+5, from 5+5+3+2+2)
-    - 1C damage increased from 26 damage total to 30 (5+5+5+5+6+7+7, from 6+5+5+5+4+4+3)
-    - Slightly extra guard damage on final 3 hits
+    - 0C damage increased from 13 to 20 (5+5+3+2+2 to 4+5+5+5+5)
+    - 1C damage increased from 17 to 30 (3+4+4+3+3+3+3 to 5+5+5+5+6+7+7)
+    - Guard damage slightly increased on final 3 hits
     - Charge changed from 19 to 9 frames
     - More lift
     - Last hit staggers
     - Better on block
     - Doesn't hit as far away (uncharged too)
     - Increased duration by one frame
-- 5A1C
-    - Does more damage
-    - Has slightly more endlag
-    - Extra recovery on hit only
+    - 1C has slightly more endlag
+    - 1C has extra recovery on hit only
 - 2B
     - Damage increased from 9 to 14
     - Has more lift with adjusted hitbox times to better match the animation
     - Recovers 10 frames faster
 - 2B(B)
+    - Damage increased from 9+15 to 9+16
     - Lifts on block
     - Ends sooner
     - Adjusted frames and knockbacks
@@ -3510,8 +3504,8 @@ And for Sakon only:
 - 6B high crushes
 - 6B(B) has four more frames blockstun
 - 6BB(B)
+    - Damage increased from 11 to 12
     - Has 2 more frames of hitstun
-    - +1 damage
     - Hitbox comes out and disappears one frame sooner
     - Hitboxes made slightly smaller
 - 6BBB(B) damage increased from 13 to 16
@@ -3522,7 +3516,7 @@ And for Sakon only:
     - Combo version has less stun
 - 6A(B)
     - Is now a modified 5BBB(B)
-    - 16 damage
+    - Does 16 damage
     - Staggers on hit
     - -23 on block
 - 6A(A) has 10 less recovery frames
@@ -3530,7 +3524,7 @@ And for Sakon only:
 - 6AA(A) has 10 less recovery frames
 - 6AA(2A) is vanilla 2A
 - 4B
-    - Damage increase: 14 > 16 (TODO: still true?)
+    - Damage increased from 14 to 16
     - Stagger removed (TODO: still true?)
     - Does small bounce (TODO: still true?)
     - Hits closer to Tayuya (TODO: still true?)
@@ -3547,17 +3541,18 @@ And for Sakon only:
 - Act4A
     - Is unblockable
 - 8B
+    - Damage increased from 6+7 to 9+16
     - Has the 2B(B) changes
     - Ends one frame sooner
-    - Damage adjustment: 9+16 (TODO: is this vanilla?) (TODO: Also 2B(B)?)
     - Faster recovery on hit or block only
     - Second hit does not lift on block
     - "lands" three frames sooner
     - Low crushes
 - 8B(B)
+    - Damage increased from 15 to 17
+    - Guard damage increased from 225 to 360
     - Transition window ends two frames sooner
     - Set the launch angle to default
-    - Does extra guard damage (24 up from 17)
     - Pushes on block
     - Strong power from medium
     - Adjusted blockstun to be similar to previous value (-25 on block, was -24)
@@ -3566,24 +3561,23 @@ And for Sakon only:
     - Staggers on hit
 - 8A(A)
     - Outside of combos is a back handspring (TODO: maybe rewrite these?) (TODO: is this even in vanilla?)
+    - In ring damage increased from 18 to 23
     - In ring is strong power from medium
-    - In ring is 23 damage from 18
 - 8A(2A) removed (TODO: in vanilla?)
 - JB
+    - Damage increased from 8 to 18
     - Travels at a more horizontal angle
     - Shin hitbox removed and put on waist
     - Slightly bigger
-    - Damage increase 8 > 18
 - JA
-    - Damage increased from 13 damage total to 18 (4+4+4+5+6, from 4+4+3+3+3)
+    - Damage increased from 13 to 18 (4+4+3+3+3 to 4+4+4+5+6)
     - Staggers on the last hit
     - Last hit is medium power instead of strong, making it -6 on block for an instant jA (was 0 on block for instant jA)
     - Slightly more gravity for Tayuya
     - First four hits don't move the opponent
 - 5X
-    - Requires 100% meter (TODO: vanilla?)
+    - Damage increased from 49 from 59
     - Has one more frame duration
-    - Damage increased to 50 from 40
 - 2X
     - Doesn't push on hit
     - Duration increased to 17 frames
@@ -3592,7 +3586,7 @@ And for Sakon only:
     - Is grabbable for the first 26 frames after super freeze (hitbox appears on 29)
     - Has 2 less active frames, making the window to escape with R sub 5 frames (was 3) (TODO: resolve with above)
 - RB
-    - Does 18 damage up from 12, to match ring 8A(B)
+    - Damage increased from 12 to 18, to match ring 8A(B)
     - Starts up 2 frames faster
     - Range reduced by 15%
     - Hitbox active for an extra frame
@@ -3601,14 +3595,14 @@ And for Sakon only:
     - Strong power from medium
     - -16 on block from -20
 - RA
+    - Damage increased from 10 to 14
     - Has defense frames and can be grabbed during airborne frames
-    - Damage increased to 14
     - Air guard frames cannot be pushed back
 - GRKnJ
     - Summons a 6A monster that hits for a small bounce
     - Tayuya teleports a bit further back
     - Monster has intangibility up until around the hitbox appears
-
+damage
 And for Tayuya's doki demons:
 
 - 2A made strong
@@ -3650,11 +3644,11 @@ And for Tayuya's doki demons:
 - 6BB(B) replaced with 4B
 - 6BAA(A) added as 6AAA(A)
 - 6A
+    - Damage decreased from 18 to 16
     - Made a high
-    - +2 damage
 - 6A(A)
+    - Damage increased from 13 to 15
     - Non point hitboxes appear two frames later
-    - Three less damage
     - Less stun/blockstun
 - 6AA(A)
     - Lifts on block
@@ -3675,7 +3669,10 @@ And for Tayuya's doki demons:
 - 6AA(A)
     - Made a strong hit
     - Launches
-- 6AAA(A) does one more damage on each hit with less lift and better connection in the air
+- 6AAA(A)
+    - Damage increased from 3 to 4 on each hit
+    - Has less lift
+    - Has better connection in the air
 - 4A DEF from frames 11-35, animation ends frame 51
 - 4B blockstun adjusted (TODO: in what way?)
 - Act4A
@@ -3693,7 +3690,7 @@ And for Tayuya's doki demons:
     - Comes out one frame later
     - Hand hitbox removed
     - 6 frames less super freeze
-- 2X bones that did 6 damage now do 5 damage
+- 2X damage on bones decreased from 6 to 5
 - ARKnJ intangibility removed
 - GRKnJ intangibility removed
 - GRKnJ made a mid from a high
@@ -3730,7 +3727,6 @@ And for Tayuya's doki demons:
     - DEF ends when Itachi leaves the ground
     - Itachi is airborne two frames sooner
     - Hitboxes adjusted
-    - Made strong on block (TODO: still true?)
 - 8A hitbox disappears one frame sooner
 - JB hitbox improved
 - JA
@@ -3740,7 +3736,7 @@ And for Tayuya's doki demons:
     - Less blockstun
     - Is air throwable
 - 5X
-    - Damage reduced from 85 to 70
+    - Damage decreased from 95 to 80
     - Starts moving 2 frames sooner in super freeze
     - Damage is applied on the stab
     - Drains 50% meter on the damage frame
@@ -3757,7 +3753,6 @@ And for Tayuya's doki demons:
 - GRKnJ
     - Appears further back
     - First hit has slightly more lift
-    - Damages changed from 5+5 to 3+3
     - Always bounces
 - ARKnJ
     - Has 12 frames less endlag to match the others
@@ -3773,15 +3768,18 @@ And for Tayuya's doki demons:
 - All non-sword attacks do -2 damage (except 5B and 5B(B) which are -1 damage)
 - 5B elbow hitbox appears on active frame 2
 - 5BBB(B) can be delayed
-- 5A +5 damage and block damage, more lift
+- 5A
+    - Damage increased from 20 to 25
+    - Block damage increased from 298 to 373
+    - Has more lift
 - 5A(A) has more lift
 - 5AA(A)
+    - Damage decreased on all hits from 5 to 4
     - First hit lifts off the ground
-    - All hits -1 damage
     - Last hit made weak from medium
 - 2B
-    - Faster recovery on hit
     - Damage reduction on second active frame
+    - Faster recovery on hit
 - 2B(A) changed to be 6A
 - 6B
     - More lift
@@ -3791,7 +3789,7 @@ And for Tayuya's doki demons:
     - Hilt hitbox is larger
     - Lift adjusted
     - 0C juggles better
-    - 0C damage reduced from 5x5 to 5x4
+    - 0C damage decreased from 5+5+5+5+5 to 5+5+5+5
     - 0C last hit is a stagger
     - 1C last hit is a mid sweep
     - 2C last hit is an untechable sweep
@@ -3816,8 +3814,8 @@ And for Tayuya's doki demons:
     - First two hits lift increased
     - Final hit changed to spinning knockdown with increased lift
 - JB
+    - Damage outside of a string increased from 22 to 25
     - Shockwave hitbox is now -1 on hit (was -8)
-    - When performed outside of a string, does +3 damage
 - JA
     - Phantom sword glitch applies to both players
     - Hitbox is active for one more frame
@@ -3828,8 +3826,9 @@ And for Tayuya's doki demons:
     - Drains 50% meter (vanilla is 47.8%)
 - 2X
     - Requires and costs 75%
+    - Shark is a single hit projectile
+    - Damage increased from 12+12+12+12 to 60
     - Shark juggles better
-    - Shark is a single hit projectile that does 60 damage
     - Can be grabbed the entire duration
 - RB
     - Hitbox on shoulder blades to arm pit
