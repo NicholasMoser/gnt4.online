@@ -738,7 +738,7 @@ And for Sasuke's sharingan transformation:
 - 5X
     - 0C damage increased from 60 to 70
     - Full charge damage increased from 100 to 115
-    - Full charge time reduced from 100 to 76 frames (TODO: is this 77 frames now?)
+    - Full charge time reduced from 100 to 76 frames
     - Duration improved from 1 frame to 7
     - Fully charged from frame 1 to 8
     - Damage adjusted to the cinematic portion of the attack
@@ -1081,8 +1081,6 @@ And in Sharingan mode:
 - 2B
     - Hitbox duration increased by 1 frame
     - Launches
-    - Lift adjusted
-    - (TODO: Says this was reverted, was it all reverted?)
 - 2A
     - Duration increased by 7 frames
     - Has less endlag
@@ -1128,7 +1126,6 @@ And in Sharingan mode:
     - Doesn't float as high in the startup
     - Has slightly more height and launch angle change
     - Hitboxes made slightly bigger
-- 5Y works on both sides (TODO: huh)
 - 2Y is a higher damage hard knockdown throw
 - 5X
     - 0G damage decreased from 75 to 72
@@ -1278,9 +1275,9 @@ And in Sharingan mode:
     - 2: 6A, Act4A, RA, JA
     - 4: 5X, 2X, 4X
 - 2A
-    - Maxes out strength (1.5x) at 6 chips from 13
-    - Builds 1/16th of a bar of meter
-TODO: Resolve above two 2A entries
+    - Chips to max out strength (1.5x) decreased from 13 to 6
+    - Chakra gain increased from 600 to 960
+        - Chips needed for full chakra decreased from 26 to 16
 - 6B
     - Damage increased from 17 to 20
     - Stun increased
@@ -1739,15 +1736,13 @@ TODO: Resolve above two 2A entries
 - 2B(B)
     - Changed to be 5BB(B) with A follow up intact
     - Change of hit angle to assist back turn combos
-- 2BB(A) cannot be done on whiff anymore (TODO: vanilla?)
 - 2A(A) added as 6A(A)
 - 6B has additional startup momentum
 - 6B(B)
-    - Adjusted to use a modified RB animation (TODO: is the below still relevant now?)
-    - Has one more frame blockstun
+    - Adjusted to use a modified RB animation
     - Is super cancellable
     - HC (TODO: Heavy crush?) is four frames sooner
-- 6BB(B) cannot be done on whiff anymore (TODO: vanilla?)
+- 6BB(B) cannot be done on whiff anymore
 - 6BBB(B) and 6BBB(6B) added
 - 6A
     - Stagger added
@@ -1788,10 +1783,7 @@ TODO: Resolve above two 2A entries
     - Fixed unsubbable, opponent is invulnerable until they hit the ground (TODO: huh)
     - Is not avoided by “landing” during the activation (prevents an issue where Temari could activate 2X with her jB, but not get hit by the counter)
     - Chakra is taken the first frame of the capture state instead of on activation of super freeze
-    - Wallbounce removed (TODO: vanilla?)
-- Act2X
-    - Opponent intangibility adjusted as well as flight path
-    - Gives meter to the opponent (TODO: vanilla?)
+- Act2X opponent intangibility adjusted as well as flight path
 - RB
     - Damage increased from 18 to 19
     - Is the 5BB6B / 2B6B extension
@@ -1804,7 +1796,6 @@ TODO: Resolve above two 2A entries
     - Made into RB (TODO: vanilla?)
     - Appears closer to the opponent
     - Lift reduced slightly
-- 9B does not do instant RB anymore (TODO: is this in vanilla?)
 
 ### Awakened Hinata
 
@@ -3108,7 +3099,7 @@ There are also some Karasu specific changes:
 - JB
     - Launches instead of staggers
     - Hitboxes slightly bigger
-- JY High and Mid crush during air throw (TODO: was this in vanilla?)
+- JY high and mid crush during air throw (TODO: was this in vanilla?)
 - 5X
     - Activator has the hitbox appear 4 frames sooner
     - Begins moving 3 frames sooner
@@ -3196,9 +3187,7 @@ There are also some Karasu specific changes:
     - Reduced from 25 to 10 on behind (same for front)
 - 6B
     - Changed to be an elbow attack
-    - Always launches (TODO: vanilla?)
-    - More lift
-    - Turns around back turned (TODO: still relevant with launch?)
+    - Turns around back turned
     - Crushes frame 7 - 53
     - Hitboxes slightly bigger
     - Sped up by 4 frames in startup (2B(B) is not changed)
@@ -3338,7 +3327,7 @@ There are also some Karasu specific changes:
     - Sheds gold skin
 - 8B(R) added
 - JB hitbox appears a frame earlier
-- JA effect changed from stagger to feet trapped (TODO: vanilla?)
+- JA effect changed from stagger to feet trapped
 - JY added
 - 5X
     - Transfers into the activated animation quicker
@@ -3552,8 +3541,7 @@ And for Sakon only:
 - 6AA(2A) is vanilla 2A
 - 4B
     - Damage increased from 14 to 16
-    - Stagger removed (TODO: still true?)
-    - Does small bounce (TODO: still true?)
+    - Stagger replaced with techable bounce
     - Hits closer to Tayuya (TODO: still true?)
     - Can be grabbed (TODO: still true?)
     - Guard frames adjusted (TODO: get all frames)
@@ -3590,7 +3578,6 @@ And for Sakon only:
     - Outside of combos is a back handspring (TODO: maybe rewrite these?) (TODO: is this even in vanilla?)
     - In ring damage increased from 18 to 23
     - In ring is strong power from medium
-- 8A(2A) removed (TODO: in vanilla?)
 - JB
     - Damage increased from 8 to 18
     - Travels at a more horizontal angle
