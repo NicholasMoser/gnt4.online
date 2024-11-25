@@ -30,10 +30,10 @@ with open('patches.csv', 'w') as out:
 
 output = f'''
     patches:
-      - name: '{version_name}'
+      - name: 'SCON4-{version_name}'
         file: previous.xdelta
         crc: {hash_display}
-      - name: '{version_name}'
+      - name: 'SCON4{version_name}'
         file: vanilla.xdelta
         crc: 0x55ee8b1a
 '''

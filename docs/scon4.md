@@ -6,10 +6,22 @@ hide:
   - prev
   - search
   - tabs
-latest: v2.0.0-beta
+latest: v2.0.1
 patcher_errors:
   mismatch: Mismatch. Use the vanilla ROM.
 patches:
+  v2.0.1:
+    name: SCON4 2.0.1
+    file: https://github.com/NicholasMoser/SCON4-Releases/releases/download/2.0.1/patches.zip
+    site: https://github.com/NicholasMoser/SCON4-Releases/releases/tag/2.0.1
+    size: 0x57058000
+    patches:
+      - name: 'SCON4-2.0.1'
+        file: previous.xdelta
+        crc: 0x166d7190
+      - name: 'SCON4-2.0.1'
+        file: vanilla.xdelta
+        crc: 0x55ee8b1a
   v2.0.0-beta:
     name: SCON4 2.0.0-beta
     file: https://github.com/NicholasMoser/SCON4-Releases/releases/download/2.0.0-beta/patches.zip

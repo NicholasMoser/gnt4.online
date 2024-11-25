@@ -1,5 +1,9 @@
 # .gitignore
 site/
+patches.csv
+patches.zip
+previous.xdelta
+vanilla.xdelta
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
