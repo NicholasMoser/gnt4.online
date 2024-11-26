@@ -38,3 +38,5 @@ output = f'''
         crc: 0x55ee8b1a
 '''
 print(output)
+
+subprocess.call(['7z', 'a', '-mx=9', 'patches.zip', 'vanilla.xdelta', 'previous.xdelta', 'patches.csv'])
