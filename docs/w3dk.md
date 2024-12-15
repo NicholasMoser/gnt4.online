@@ -12,8 +12,8 @@ patcher_errors:
 patches:
   v1.0.1:
     name: Worms 3D Kerfuffle 1.0.1
-    file: https://github.com/NicholasMoser/Worms3DKerfuffle/releases/download/1.0.0/patches.zip
-    site: https://github.com/NicholasMoser/Worms3DKerfuffle/releases/tag/1.0.0
+    file: https://github.com/NicholasMoser/Worms3DKerfuffle/releases/download/1.0.1/patches.zip
+    site: https://github.com/NicholasMoser/Worms3DKerfuffle/releases/tag/1.0.1
     size: 0x45E08000
     patches:
       - name: 'Worms3D-Kerfuffle-1.0.1'
