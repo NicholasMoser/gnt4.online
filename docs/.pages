@@ -4,6 +4,8 @@ nav:
     - index.md
     - Super Clash of Ninja 4:
       - Download: scon4.md
+    - Worms 3D Kerfuffle:
+      - Download: w3dk.md
     - Documents:
       - Modding Info: https://github.com/NicholasMoser/Naruto-GNT-Modding#naruto-gnt-modding
       - SEQ Disassembly Reports: seq/seqs.html
