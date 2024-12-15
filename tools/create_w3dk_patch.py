@@ -30,10 +30,10 @@ with open('patches.csv', 'w') as out:
 
 output = f'''
     patches:
-      - name: 'W3DK-{version_name}'
+      - name: 'Worms3D-Kerfuffle-{version_name}'
         file: previous.xdelta
         crc: {hash_display}
-      - name: 'W3DK-{version_name}'
+      - name: 'Worms3D-Kerfuffle-{version_name}'
         file: vanilla.xdelta
         crc: 0x9562468b
 '''
