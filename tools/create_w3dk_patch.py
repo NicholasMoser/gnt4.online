@@ -4,7 +4,7 @@ import subprocess
 import zlib
 
 DEFAULT_XDELTA3_PATH = 'G:/GNT/xdelta3.exe'
-DEFAULT_VANILLA_PATH = 'D:/Roms/Gamecube&Wii/Worms 3D (USA) (En,Fr).ciso'
+DEFAULT_VANILLA_PATH = 'D:/Roms/GamecubeWii/Worms 3D (USA).ciso'
 
 prev_scon4 = input('Path to previous W3DK: ')
 if not os.path.isfile(prev_scon4):
