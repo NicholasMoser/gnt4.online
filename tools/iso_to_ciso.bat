@@ -5,3 +5,4 @@
 :: Requires https://wit.wiimm.de/
 :: wit copy --ciso %1 %2
 nkit -task convert -in %1 -convert ciso
+:: note to self: this is no longer really necessary, the ISO and CISO aren't different really at all at this point

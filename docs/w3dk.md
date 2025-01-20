@@ -6,10 +6,22 @@ hide:
   - prev
   - search
   - tabs
-latest: v1.2.0
+latest: v1.3.0
 patcher_errors:
   mismatch: Mismatch. Use the vanilla ROM.
 patches:
+  v1.3.0:
+    name: Worms 3D Kerfuffle 1.3.0
+    file: https://github.com/NicholasMoser/Worms3DKerfuffle/releases/download/1.3.0/patches.zip
+    site: https://github.com/NicholasMoser/Worms3DKerfuffle/releases/tag/1.3.0
+    size: 0x45E08000
+    patches:
+      - name: 'Worms3D-Kerfuffle-1.3.0'
+        file: previous.xdelta
+        crc: 0x41510a8f
+      - name: 'Worms3D-Kerfuffle-1.3.0'
+        file: vanilla.xdelta
+        crc: 0x9562468b
   v1.2.0:
     name: Worms 3D Kerfuffle 1.2.0
     file: https://github.com/NicholasMoser/Worms3DKerfuffle/releases/download/1.2.0/patches.zip

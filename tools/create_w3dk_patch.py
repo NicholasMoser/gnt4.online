@@ -6,11 +6,15 @@ import zlib
 DEFAULT_XDELTA3_PATH = 'G:/GNT/xdelta3.exe'
 DEFAULT_VANILLA_PATH = 'D:/Roms/GamecubeWii/Worms 3D (USA).ciso'
 
-prev_scon4 = input('Path to previous W3DK: ')
+if len(sys.argv) != 3:
+    print('Please provide path to the previous release and the path to this release')
+    sys.exit(1)
+prev_scon4 = sys.argv[1]
+new_scon4 = sys.argv[2]
+
 if not os.path.isfile(prev_scon4):
     print(f'{prev_scon4} is not a valid file')
     sys.exit(1)
-new_scon4 = input('Path to new W3DK: ')
 if not os.path.isfile(new_scon4):
     print(f'{new_scon4} is not a valid file')
     sys.exit(1)
