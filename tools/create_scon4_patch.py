@@ -6,6 +6,16 @@ import zlib
 DEFAULT_XDELTA3_PATH = 'G:/GNT/xdelta3.exe'
 DEFAULT_VANILLA_PATH = 'G:/GNT/GNT4.iso'
 
+
+if os.path.exists('patches.csv'):
+    os.remove('patches.csv')
+if os.path.exists('patches.zip'):
+    os.remove('patches.zip')
+if os.path.exists('previous.xdelta'):
+    os.remove('previous.xdelta')
+if os.path.exists('vanilla.xdelta'):
+    os.remove('vanilla.xdelta')
+
 prev_scon4 = input('Path to previous SCON4: ')
 if not os.path.isfile(prev_scon4):
     print(f'{prev_scon4} is not a valid file')
@@ -33,7 +43,7 @@ output = f'''
       - name: 'SCON4-{version_name}'
         file: previous.xdelta
         crc: {hash_display}
-      - name: 'SCON4{version_name}'
+      - name: 'SCON4-{version_name}'
         file: vanilla.xdelta
         crc: 0x55ee8b1a
 '''
