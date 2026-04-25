@@ -16,6 +16,124 @@
 
 ## Creatures
 
+### Kellan, the Kid
+
+![alt text](image-63.png)
+
+### Kiba
+
+![alt text](<4 - 076-05.jpg>)
+
+![alt text](<14 - 282-15.jpg>)
+
+### Glarb, Calamity's Augur
+
+![alt text](image-62.png)
+
+### Jiraiya
+
+![alt text](<17 - 090-18.jpg>)
+
+![alt text](<2 - 091-03.jpg>)
+
+![alt text](<11 - 124-12.jpg>)
+
+![alt text](<1 - 376-02.jpg>)
+
+![alt text](<9 - 377-10.jpg>)
+
+### Delighted Halfling
+
+![alt text](image-61.png)
+
+### Hinata
+
+![alt text](<18 - 282-19.jpg>)
+
+![alt text](<11 - 437-12.jpg>)
+
+![alt text](<8 - 009.jpg>)
+
+### Samut, Voice of Dissent
+
+![alt text](image-60.png)
+
+### Raikage
+
+![alt text](<7 - 454-08.jpg>)
+
+![alt text](<16 - 460-17.jpg>)
+
+![alt text](<15 - 462-16.jpg>)
+
+![alt text](<3 - 04-05.jpg>)
+
+![alt text](<14 - 16-17.jpg>)
+
+### Kethis, the Hidden Hand
+
+![alt text](image-59.png)
+
+### Sasori
+
+![alt text](<22 - 266-23.jpg>)
+
+![alt text](<8 - 271-09.jpg>)
+
+### Gold-Forged Thopteryx
+
+![alt text](image-58.png)
+
+### Konan
+
+![alt text](<15 - 509-16.jpg>)
+
+### Basim Ibn Ishaq
+
+![alt text](image-57.png)
+
+### Kisame
+
+![alt text](<17 - 255-18.jpg>)
+
+![alt text](<18 - 257-19.jpg>)
+
+![alt text](<9 - 380-10.jpg>)
+
+![alt text](<16 - 17-1.jpg>)
+
+### Toski, Bearer of Secrets
+
+![alt text](image-56.png)
+
+### Lee
+
+![alt text](<10 - 083-11.jpg>)
+
+![alt text](<11 - 085-12.jpg>)
+
+![alt text](<12 - 085-13.jpg>)
+
+![alt text](<16 - 209-17.jpg>)
+
+### Kenrith, the Returned King
+
+![alt text](image-55.png)
+
+### Council of the Five Kage
+
+![alt text](<15 - 562-16.jpg>)
+
+### Vega, the Watcher
+
+![alt text](image-54.png)
+
+### Sai
+
+![alt text](<10 - 517-11.jpg>)
+
+![alt text](<11 - 518-12.jpg>)
+
 ### Raff Capashen, Ship's Mage
 
 ![alt text](image-30.png)
@@ -614,16 +732,6 @@
 
 ![alt text](<9 - 134-10.jpg>)
 
-### Lee
-
-![alt text](<10 - 083-11.jpg>)
-
-![alt text](<11 - 085-12.jpg>)
-
-![alt text](<12 - 085-13.jpg>)
-
-![alt text](<16 - 209-17.jpg>)
-
 ### Choji
 
 ![alt text](<13 - 087-14.jpg>)
@@ -634,17 +742,7 @@
 
 ![alt text](<1 - 534-02.jpg>)
 
-### Jiraiya
 
-![alt text](<17 - 090-18.jpg>)
-
-![alt text](<2 - 091-03.jpg>)
-
-![alt text](<11 - 124-12.jpg>)
-
-![alt text](<1 - 376-02.jpg>)
-
-![alt text](<9 - 377-10.jpg>)
 
 ### Shikamaru
 
@@ -666,19 +764,7 @@
 
 ![alt text](<15 - 394-16.jpg>)
 
-### Hinata
 
-![alt text](<18 - 282-19.jpg>)
-
-![alt text](<11 - 437-12.jpg>)
-
-![alt text](<8 - 009.jpg>)
-
-### Kiba
-
-![alt text](<4 - 076-05.jpg>)
-
-![alt text](<14 - 282-15.jpg>)
 
 ### Kankuro
 
@@ -748,15 +834,7 @@
 
 ![alt text](<7 - 362-08.jpg>)
 
-### Kisame
 
-![alt text](<17 - 255-18.jpg>)
-
-![alt text](<18 - 257-19.jpg>)
-
-![alt text](<9 - 380-10.jpg>)
-
-![alt text](<16 - 17-1.jpg>)
 
 ### Gai
 
@@ -769,12 +847,6 @@
 ![alt text](<0 - 507-01.jpg>)
 
 ![alt text](<15 - 016 (2).jpg>)
-
-### Sasori
-
-![alt text](<22 - 266-23.jpg>)
-
-![alt text](<8 - 271-09.jpg>)
 
 ### Asuma
 
@@ -806,35 +878,13 @@
 
 ![alt text](<14 - 570-15.jpg>)
 
-### Raikage
 
-![alt text](<7 - 454-08.jpg>)
 
-![alt text](<16 - 460-17.jpg>)
 
-![alt text](<15 - 462-16.jpg>)
-
-![alt text](<3 - 04-05.jpg>)
-
-![alt text](<14 - 16-17.jpg>)
-
-### Konan
-
-![alt text](<15 - 509-16.jpg>)
 
 ### Onoki
 
 ![alt text](<15 - 513-16.jpg>)
-
-### Sai
-
-![alt text](<10 - 517-11.jpg>)
-
-![alt text](<11 - 518-12.jpg>)
-
-### All Kage
-
-![alt text](<15 - 562-16.jpg>)
 
 ### Hagoromo
 
