@@ -1,6 +1,8 @@
-# Commander
+# Naruto Matters Commander Deck
 
-## Jodah, the Unifier
+## Commander
+
+### Jodah, the Unifier
 
 ![alt text](image-14.png)
 
@@ -12,9 +14,9 @@
 
 ![alt text](<3 - 544-04.jpg>)
 
-# Creatures
+## Creatures
 
-## Raff Capashen, Ship's Mage
+### Raff Capashen, Ship's Mage
 
 ![alt text](image-30.png)
 
@@ -26,7 +28,7 @@
 
 ![alt text](<15 - 519-16.jpg>)
 
-## Shalai, Voice of Plenty
+### Shalai, Voice of Plenty
 
 ![alt text](image-39.png)
 
@@ -40,7 +42,7 @@
 
 ![alt text](<9 - 469-10.jpg>)
 
-## Bloom Tender
+### Bloom Tender
 
 ![alt text](image-33.png)
 
@@ -48,7 +50,7 @@
 
 ![alt text](<11 - 12.jpg>)
 
-## Etali, Primal Storm
+### Etali, Primal Storm
 
 ![alt text](image-35.png)
 
@@ -80,7 +82,7 @@
 
 ![alt text](<8 - 692 - 009.jpg>)
 
-## Aragorn, the Uniter
+### Aragorn, the Uniter
 
 ![alt text](image-34.png)
 
@@ -94,7 +96,7 @@
 
 ![alt text](<5 - 429-06.jpg>)
 
-## Atraxa, Grand Unifier
+### Atraxa, Grand Unifier
 
 ![alt text](image-36.png)
 
@@ -106,7 +108,7 @@
 
 ![alt text](<10 - 011.jpg>)
 
-## Lightning, Army of One
+### Lightning, Army of One
 
 ![alt text](image-37.png)
 
@@ -120,7 +122,7 @@
 
 ![alt text](<17 - 032-18.jpg>)
 
-## Ratadrabik of Urborg
+### Ratadrabik of Urborg
 
 ![alt text](image-24.png)
 
@@ -138,7 +140,7 @@
 
 ![alt text](<18 - 356-19.jpg>)
 
-## Grazilaxx, Illithid Scholar
+### Grazilaxx, Illithid Scholar
 
 ![alt text](image-26.png)
 
@@ -148,7 +150,7 @@
 
 ![alt text](<18 - 144-19.jpg>)
 
-## Deadpool, Trading Card
+### Deadpool, Trading Card
 
 ![alt text](image-25.png)
 
@@ -158,7 +160,7 @@
 
 ![alt text](<9 - 336-10.jpg>)
 
-## Marchesa, the Black Rose
+### Marchesa, the Black Rose
 
 ![alt text](image-27.png)
 
@@ -174,7 +176,7 @@
 
 ![alt text](<15 - 289-16.jpg>)
 
-## Chulane, Teller of Tales
+### Chulane, Teller of Tales
 
 ![alt text](image-22.png)
 
@@ -186,7 +188,7 @@
 
 ![alt text](<5 - 026-06.jpg>)
 
-## Hajar, Loyal Bodyguard
+### Hajar, Loyal Bodyguard
 
 ![alt text](image-12.png)
 
@@ -194,7 +196,7 @@
 
 ![alt text](<15 - 030-16.jpg>)
 
-## Surrak Dragonclaw
+### Surrak Dragonclaw
 
 ![alt text](image-10.png)
 
@@ -210,9 +212,9 @@
 
 ![alt text](<1 - 471-02.jpg>)
 
-# Instants
+## Instants
 
-## Heroic Intervention
+### Heroic Intervention
 
 ![alt text](image-38.png)
 
@@ -220,7 +222,7 @@
 
 ![alt text](<10 - 194-11.jpg>)
 
-## Anguished Unmaking
+### Anguished Unmaking
 
 ![alt text](image-18.png)
 
@@ -236,7 +238,7 @@
 
 ![alt text](<11 - 146-12.jpg>)
 
-## Desynchronization
+### Desynchronization
 
 ![alt text](image-8.png)
 
@@ -246,7 +248,7 @@
 
 ![alt text](<10 - 429-11.jpg>)
 
-## Counterspell
+### Counterspell
 
 ![alt text](image-7.png)
 
@@ -256,7 +258,7 @@
 
 ![alt text](<7 - 510-08.jpg>)
 
-## Swords to Plowshares
+### Swords to Plowshares
 
 ![alt text](image-6.png)
 
@@ -264,9 +266,9 @@
 
 ![alt text](<17 - naruto-4536593.jpg>)
 
-# Sorceries
+## Sorceries
 
-## Kodama's Reach
+### Kodama's Reach
 
 ![alt text](image-28.png)
 
@@ -274,7 +276,7 @@
 
 ![alt text](<15 - 387-16.jpg>)
 
-## Blasphemous Act
+### Blasphemous Act
 
 ![alt text](image-20.png)
 
@@ -282,7 +284,7 @@
 
 ![alt text](<15 - 258-16.jpg>)
 
-## Farseek
+### Farseek
 
 ![alt text](image-11.png)
 
@@ -290,7 +292,7 @@
 
 ![alt text](<4 - 245-05.jpg>)
 
-## Urza's Ruinous Blast
+### Urza's Ruinous Blast
 
 ![alt text](image.png)
 
@@ -298,7 +300,7 @@
 
 ![alt text](<17 - 676 - 018.jpg>)
 
-## Eerie Ultimatum
+### Eerie Ultimatum
 
 ![alt text](image-5.png)
 
@@ -308,9 +310,9 @@
 
 ![alt text](<18 - 489-19.jpg>)
 
-# Utility Artifacts
+## Utility Artifacts
 
-## Avacyn's Memorial
+### Avacyn's Memorial
 
 ![alt text](image-29.png)
 
@@ -318,7 +320,7 @@
 
 ![alt text](<7 - 295-08.jpg>)
 
-## Swiftfoot Boots
+### Swiftfoot Boots
 
 ![alt text](image-41.png)
 
@@ -326,7 +328,7 @@
 
 ![alt text](<15 - 317-16.jpg>)
 
-## Excalibur, Sword of Eden
+### Excalibur, Sword of Eden
 
 ![alt text](image-19.png)
 
@@ -336,7 +338,7 @@
 
 ![alt text](<16 - 347-17.jpg>)
 
-## Mithril Coat
+### Mithril Coat
 
 ![alt text](image-17.png)
 
@@ -344,7 +346,7 @@
 
 ![alt text](<15 - 228-16.jpg>)
 
-## Shadowspear
+### Shadowspear
 
 ![alt text](image-9.png)
 
@@ -352,7 +354,7 @@
 
 ![alt text](<15 - 601-16.jpg>)
 
-## Lightning Greaves
+### Lightning Greaves
 
 ![alt text](image-3.png)
 
@@ -360,11 +362,11 @@
 
 ![alt text](<8 - 239-09.jpg>)
 
-# Enchantments
+## Enchantments
 
-# Planeswalkers
+## Planeswalkers
 
-## Dihada, Binder of Wills
+### Dihada, Binder of Wills
 
 ![alt text](image-1.png)
 
@@ -378,11 +380,11 @@
 
 ![alt text](<14 - 559-15.jpg>)
 
-# Utility Lands
+## Utility Lands
 
-# Mana Artifacts
+## Mana Artifacts
 
-## Arcane Signet
+### Arcane Signet
 
 ![alt text](image-42.png)
 
@@ -392,7 +394,7 @@
 
 ![alt text](<5 - 450-06.jpg>)
 
-## Sol Ring
+### Sol Ring
 
 ![alt text](image-23.png)
 
@@ -402,7 +404,7 @@
 
 ![alt text](<11 - 308-12.jpg>)
 
-## Relic of Legends
+### Relic of Legends
 
 ![alt text](image-52.png)
 
@@ -410,7 +412,7 @@
 
 ![alt text](<15 - 369-16.jpg>)
 
-## Heroes Podium
+### Heroes Podium
 
 ![alt text](image-13.png)
 
@@ -418,9 +420,9 @@
 
 ![alt text](<3 - 098-04.jpg>)
 
-# Lands
+## Lands
 
-## Plaza of Heroes
+### Plaza of Heroes
 
 ![alt text](image-15.png)
 
@@ -428,7 +430,7 @@
 
 ![alt text](<7 - 422-08.jpg>)
 
-## Path of Ancestry
+### Path of Ancestry
 
 ![alt text](image-16.png)
 
@@ -440,7 +442,7 @@
 
 ![alt text](<16 - 694 - 017.jpg>)
 
-## Forest
+### Forest
 
 ![alt text](image-44.png)
 
@@ -452,11 +454,11 @@
 
 ![alt text](<0 - 034-01-1.jpg>)
 
-## Island
+### Island
 
 ![alt text](image-21.png)
 
-## Village Hidden in the Rain
+### Village Hidden in the Rain
 
 ![alt text](<19 - 327-20.jpg>)
 
@@ -464,7 +466,7 @@
 
 ![alt text](<4 - 368-05.jpg>)
 
-## Plains
+### Plains
 
 ![alt text](image-31.png)
 
@@ -474,7 +476,7 @@
 
 ![alt text](<12 - 417-13.jpg>)
 
-## Swamp
+### Swamp
 
 ![alt text](image-45.png)
 
@@ -484,7 +486,7 @@
 
 ![alt text](<7 - 247-082.jpg>)
 
-## Mountain
+### Mountain
 
 ![alt text](image-47.png)
 
@@ -492,7 +494,7 @@
 
 ![alt text](<0 - 454-01.jpg>)
 
-## Windswept Heath
+### Windswept Heath
 
 ![alt text](image-46.png)
 
@@ -500,7 +502,7 @@
 
 ![alt text](<12 - 418-13.jpg>)
 
-## Hallowed Fountain
+### Hallowed Fountain
 
 ![alt text](image-48.png)
 
@@ -508,7 +510,7 @@
 
 ![alt text](<1 - 031-02-1.jpg>)
 
-## Breeding Pool
+### Breeding Pool
 
 ![alt text](image-50.png)
 
@@ -518,7 +520,7 @@
 
 ![alt text](<8 - 033-09-1.jpg>)
 
-## Steam Vents
+### Steam Vents
 
 ![alt text](image-51.png)
 
@@ -526,7 +528,7 @@
 
 ![alt text](<17 - 018-18-1.jpg>)
 
-## Watery Grave
+### Watery Grave
 
 ![alt text](image-49.png)
 
@@ -538,7 +540,7 @@
 
 ![alt text](<15 - 346-16.jpg>)
 
-## Overgrown Tomb
+### Overgrown Tomb
 
 ![alt text](image-32.png)
 
@@ -546,7 +548,7 @@
 
 ![alt text](<17 - 044-18.jpg>)
 
-## Nomad Outpost
+### Nomad Outpost
 
 ![alt text](image-53.png)
 
@@ -554,7 +556,7 @@
 
 ![alt text](<13 - 380-14-1.jpg>)
 
-## Command Tower
+### Command Tower
 
 ![alt text](image-40.png)
 
@@ -564,7 +566,7 @@
 
 ![alt text](<15 - 256-16.jpg>)
 
-## The World Tree
+### The World Tree
 
 ![alt text](image-43.png)
 
@@ -576,7 +578,7 @@
 
 ![alt text](<15 - naruto-4446415.jpg>)
 
-# To Do (Currently Need a Card)
+## To Do (Currently Need a Card)
 
 ### Neji
 
