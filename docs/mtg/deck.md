@@ -16,6 +16,100 @@
 
 ## Creatures
 
+### Samwise Gamgee
+
+![alt text](image-70.png)
+
+### Choji
+
+![alt text](<13 - 087-14.jpg>)
+
+![alt text](<15 - 190-16.jpg>)
+
+![alt text](<15 - 533-16.jpg>)
+
+![alt text](<1 - 534-02.jpg>)
+
+### Sisay, Weatherlight Captain
+
+![alt text](image-69.png)
+
+### Tsunade
+
+![alt text](<5 - 156-06.jpg>)
+
+![alt text](<6 - 156-07.jpg>)
+
+![alt text](<7 - 169-08.jpg>)
+
+![alt text](<13 - 169-14.jpg>)
+
+### Shanid, Sleepers' Scourge
+
+![alt text](image-68.png)
+
+### Kimimaro
+
+![alt text](<3 - 201-04.jpg>)
+
+![alt text](<4 - 202-05.jpg>)
+
+![alt text](<6 - 206-07.jpg>)
+
+![alt text](<15 - 211-16.jpg>)
+
+![alt text](<19 - 211-20.jpg>)
+
+![alt text](<10 - 216-11.jpg>)
+
+### Ertai Resurrected
+
+![alt text](image-67.png)
+
+### Neji
+
+![alt text](<15 - 041-16.jpg>)
+
+![alt text](<4 - 070-05.jpg>)
+
+![alt text](<13 - 078-14.jpg>)
+
+### Kamiz, Obscura Oculus
+
+![alt text](image-66.png)
+
+### Obito
+
+![alt text](<16 - 364-17.jpg>)
+
+![alt text](<16 - 511-17.jpg>)
+
+![alt text](<9 - 010.jpg>)
+
+### Irma, Part-Time Mutant
+
+![alt text](image-65.png)
+
+### Shikamaru
+
+![alt text](<13 - 107-14.jpg>)
+
+![alt text](<11 - 172-12.jpg>)
+
+![alt text](<2 - 339-03.jpg>)
+
+![alt text](<2 - 342-03.jpg>)
+
+### Reki, the History of Kamigawa
+
+![alt text](image-64.png)
+
+### Hagoromo
+
+![alt text](<3 - 003.jpg>)
+
+![alt text](<14 - 014.jpg>)
+
 ### Kellan, the Kid
 
 ![alt text](image-63.png)
@@ -698,13 +792,7 @@
 
 ## To Do (Currently Need a Card)
 
-### Neji
 
-![alt text](<15 - 041-16.jpg>)
-
-![alt text](<4 - 070-05.jpg>)
-
-![alt text](<13 - 078-14.jpg>)
 
 ### Gaara
 
@@ -732,27 +820,9 @@
 
 ![alt text](<9 - 134-10.jpg>)
 
-### Choji
-
-![alt text](<13 - 087-14.jpg>)
-
-![alt text](<15 - 190-16.jpg>)
-
-![alt text](<15 - 533-16.jpg>)
-
-![alt text](<1 - 534-02.jpg>)
 
 
 
-### Shikamaru
-
-![alt text](<13 - 107-14.jpg>)
-
-![alt text](<11 - 172-12.jpg>)
-
-![alt text](<2 - 339-03.jpg>)
-
-![alt text](<2 - 342-03.jpg>)
 
 ### Shino
 
@@ -774,29 +844,9 @@
 
 ![alt text](<10 - 250-11.jpg>)
 
-### Tsunade
 
-![alt text](<5 - 156-06.jpg>)
 
-![alt text](<6 - 156-07.jpg>)
 
-![alt text](<7 - 169-08.jpg>)
-
-![alt text](<13 - 169-14.jpg>)
-
-### Kimimaro
-
-![alt text](<3 - 201-04.jpg>)
-
-![alt text](<4 - 202-05.jpg>)
-
-![alt text](<6 - 206-07.jpg>)
-
-![alt text](<15 - 211-16.jpg>)
-
-![alt text](<19 - 211-20.jpg>)
-
-![alt text](<10 - 216-11.jpg>)
 
 ### Kyuubi Naruto
 
@@ -852,14 +902,6 @@
 
 ![alt text](<11 - 317-12.jpg>)
 
-### Obito
-
-![alt text](<16 - 364-17.jpg>)
-
-![alt text](<16 - 511-17.jpg>)
-
-![alt text](<9 - 010.jpg>)
-
 ### Other Narutos
 
 ![alt text](<15 - 043-16.jpg>)
@@ -886,11 +928,7 @@
 
 ![alt text](<15 - 513-16.jpg>)
 
-### Hagoromo
 
-![alt text](<3 - 003.jpg>)
-
-![alt text](<14 - 014.jpg>)
 
 ### Naruto and Sasuke
 
