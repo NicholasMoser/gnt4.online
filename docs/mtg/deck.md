@@ -188,18 +188,6 @@
 
 ![alt text](<15 - 258-16.jpg>)
 
-# Island
-
-![alt text](image-21.png)
-
-# Village Hidden in the Rain
-
-![alt text](<19 - 327-20.jpg>)
-
-![alt text](<14 - 329-15.jpg>)
-
-![alt text](<4 - 368-05.jpg>)
-
 # Chulane, Teller of Tales
 
 ![alt text](image-22.png)
@@ -284,6 +272,30 @@
 
 ![alt text](<15 - 387-16.jpg>)
 
+# Forest
+
+![alt text](image-44.png)
+
+## Village Hidden in the Leaf
+
+![alt text](<3 - 001-04.jpg>)
+
+![alt text](<9 - 10.jpg>)
+
+![alt text](<0 - 034-01-1.jpg>)
+
+# Island
+
+![alt text](image-21.png)
+
+# Village Hidden in the Rain
+
+![alt text](<19 - 327-20.jpg>)
+
+![alt text](<14 - 329-15.jpg>)
+
+![alt text](<4 - 368-05.jpg>)
+
 # Plains
 
 ![alt text](image-31.png)
@@ -293,6 +305,100 @@
 ![alt text](<6 - 408-07.jpg>)
 
 ![alt text](<12 - 417-13.jpg>)
+
+# Swamp
+
+![alt text](image-45.png)
+
+## Village Hidden in the Sand
+
+![alt text](<2 - 248-03.jpg>)
+
+![alt text](<7 - 247-082.jpg>)
+
+# Mountain
+
+![alt text](image-47.png)
+
+## Village Hidden in the Stone
+
+![alt text](<0 - 454-01.jpg>)
+
+# Windswept Heath
+
+Green White
+
+![alt text](image-46.png)
+
+## Mount Myōboku
+
+![alt text](<12 - 418-13.jpg>)
+
+# Hallowed Fountain
+
+Blue White
+
+![alt text](image-48.png)
+
+## Land of Waves
+
+![alt text](<1 - 031-02-1.jpg>)
+
+# Breeding Pool
+
+Blue Green
+
+![alt text](image-50.png)
+
+## Great Naruto Bridge
+
+![alt text](<4 - 011-05-1.jpg>)
+
+![alt text](<8 - 033-09-1.jpg>)
+
+# Steam Vents
+
+Blue Red
+
+![alt text](image-51.png)
+
+## Gatou's Headquarters
+
+![alt text](<17 - 018-18-1.jpg>)
+
+# Watery Grave
+
+Black Blue
+
+![alt text](image-49.png)
+
+## Orochimaru's Lair
+
+![alt text](<14 - 584-15.jpg>)
+
+![alt text](<12 - 345-13.jpg>)
+
+![alt text](<15 - 346-16.jpg>)
+
+# Overgrown Tomb
+
+Black Green
+
+![alt text](image-32.png)
+
+## Forest of Death
+
+![alt text](<17 - 044-18.jpg>)
+
+# Command Tower
+
+![alt text](image-40.png)
+
+## Gedo Statue
+
+![alt text](<15 - 254-16.jpg>)
+
+![alt text](<15 - 256-16.jpg>)
 
 # Lightning, Army of One
 
@@ -329,22 +435,6 @@
 ![alt text](<18 - 269-19.jpg>)
 
 ![alt text](<9 - 469-10.jpg>)
-
-# Forest
-
-## Village Hidden in the Leaf
-
-![alt text](<3 - 001-04.jpg>)
-
-![alt text](<9 - 10.jpg>)
-
-# Overgrown Tomb
-
-![alt text](image-32.png)
-
-## Forest of Death
-
-![alt text](<17 - 044-18.jpg>)
 
 # Avacyn's Memorial
 
@@ -431,16 +521,6 @@
 ## Madara, Jinchuriki of the Ten-Tails
 
 ![alt text](<10 - 011.jpg>)
-
-# Command Tower
-
-![alt text](image-40.png)
-
-## Gedo Statue
-
-![alt text](<15 - 254-16.jpg>)
-
-![alt text](<15 - 256-16.jpg>)
 
 # Swiftfoot Boots
 
