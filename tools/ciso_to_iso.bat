@@ -1,0 +1,1 @@
+nkit -task convert -in %1 -convert iso
