@@ -118,6 +118,14 @@
 
 ![alt text](<15 - 030-16.jpg>)
 
+# Relic of Legends
+
+![alt text](image-52.png)
+
+## Six Paths Chamber
+
+![alt text](<15 - 369-16.jpg>)
+
 # Plaza of Heroes
 
 ![alt text](image-15.png)
@@ -390,6 +398,16 @@ Black Green
 
 ![alt text](<17 - 044-18.jpg>)
 
+# Nomad Outpost
+
+![alt text](image-53.png)
+
+Red White Black
+
+## Uchiha Hideout
+
+![alt text](<13 - 380-14-1.jpg>)
+
 # Command Tower
 
 ![alt text](image-40.png)
@@ -535,6 +553,8 @@ Black Green
 ![alt text](image-42.png)
 
 ## Naruto's Swingset
+
+![alt text](<15 - 001-16.jpg>)
 
 ![alt text](<5 - 450-06.jpg>)
 
