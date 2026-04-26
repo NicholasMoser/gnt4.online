@@ -16,6 +16,66 @@
 
 ## Creatures
 
+### Bumi, Unleashed
+
+![alt text](image-76.png)
+
+### Gaara
+
+![alt text](<11 - 035-12.jpg>)
+
+![alt text](<17 - 058-18.jpg>)
+
+![alt text](<4 - 083-05.jpg>)
+
+![alt text](<17 - 125-18.jpg>)
+
+### Sandman, Shifting Scoundrel
+
+![alt text](image-75.png)
+
+### Kazekage Gaara
+
+![alt text](<8 - 248-09.jpg>)
+
+![alt text](<3 - 04.jpg>)
+
+![alt text](<16 - 524-17.jpg>)
+
+![alt text](<12 - 556-13.jpg>)
+
+### Roxanne, Starfall Savant
+
+![alt text](image-73.png)
+
+### Deidara
+
+![alt text](<6 - 248-07.jpg>)
+
+![alt text](<3 - 360-04.jpg>)
+
+![alt text](<6 - 360-07.jpg>)
+
+![alt text](<0 - 362-01-1.jpg>)
+
+![alt text](<7 - 362-08.jpg>)
+
+### Faeburrow Elder
+
+![alt text](image-72.png)
+
+### Hashirama
+
+![alt text](<7 - 08.jpg>)
+
+![alt text](<10 - 12-13.jpg>)
+
+![alt text](<18 - naruto-4492359.jpg>)
+
+![alt text](<3 - naruto-4504445.jpg>)
+
+![alt text](<11 - naruto-4461157.jpg>)
+
 ### Samwise Gamgee
 
 ![alt text](image-70.png)
@@ -426,6 +486,22 @@
 
 ## Instants
 
+### Beast Within
+
+![alt text](image-74.png)
+
+### Kyuubi Naruto
+
+![alt text](<17 - 230-18.jpg>)
+
+![alt text](<12 - 232-13.jpg>)
+
+![alt text](<15 - 291-16.jpg>)
+
+![alt text](<16 - 293-17.jpg>)
+
+![alt text](<16 - 294-17.jpg>)
+
 ### Heroic Intervention
 
 ![alt text](image-38.png)
@@ -438,17 +514,9 @@
 
 ![alt text](image-18.png)
 
-### Chidori
+### Anguished Unmaking
 
-![alt text](<7 - 113-08.jpg>)
-
-![alt text](<14 - 127-15.jpg>)
-
-![alt text](<13 - 128-14.jpg>)
-
-![alt text](<15 - 128-16.jpg>)
-
-![alt text](<11 - 146-12.jpg>)
+![alt text](<18 - 604-19.jpg>)
 
 ### Desynchronization
 
@@ -554,7 +622,7 @@
 
 ![alt text](image-17.png)
 
-### Kyuubi
+### Mantle of the Jinchūriki
 
 ![alt text](<15 - 228-16.jpg>)
 
@@ -575,6 +643,18 @@
 ![alt text](<8 - 239-09.jpg>)
 
 ## Enchantments
+
+### Annie Joins Up
+
+![alt text](image-71.png)
+
+### Sasuke Retrieval Team
+
+![alt text](<17 - 182-18.jpg>)
+
+![alt text](<0 - 183-01.jpg>)
+
+![alt text](<7 - 183-08.jpg>)
 
 ## Planeswalkers
 
@@ -610,7 +690,7 @@
 
 ![alt text](image-23.png)
 
-### Kyuubi
+### Borrowed Nine-Tails Chakra
 
 ![alt text](<9 - 496-10.jpg>)
 
@@ -641,6 +721,8 @@
 ### Hokage Rock
 
 ![alt text](<7 - 422-08.jpg>)
+
+![alt text](<3 - 182-04.jpg>)
 
 ### Path of Ancestry
 
@@ -792,38 +874,6 @@
 
 ## To Do (Currently Need a Card)
 
-
-
-### Gaara
-
-![alt text](<11 - 035-12.jpg>)
-
-![alt text](<17 - 058-18.jpg>)
-
-![alt text](<4 - 083-05.jpg>)
-
-![alt text](<17 - 125-18.jpg>)
-
-### Kazekage Gaara
-
-![alt text](<8 - 248-09.jpg>)
-
-![alt text](<3 - 04.jpg>)
-
-![alt text](<16 - 524-17.jpg>)
-
-![alt text](<12 - 556-13.jpg>)
-
-### Shukaku
-
-![alt text](<5 - 132-06.jpg>)
-
-![alt text](<9 - 134-10.jpg>)
-
-
-
-
-
 ### Shino
 
 ![alt text](<3 - 125-04.jpg>)
@@ -834,8 +884,6 @@
 
 ![alt text](<15 - 394-16.jpg>)
 
-
-
 ### Kankuro
 
 ![alt text](<5 - 125-06.jpg>)
@@ -844,47 +892,11 @@
 
 ![alt text](<10 - 250-11.jpg>)
 
-
-
-
-
-### Kyuubi Naruto
-
-![alt text](<17 - 230-18.jpg>)
-
-![alt text](<12 - 232-13.jpg>)
-
-![alt text](<15 - 291-16.jpg>)
-
-![alt text](<16 - 293-17.jpg>)
-
-![alt text](<16 - 294-17.jpg>)
-
-![alt text](<15 - 437-16.jpg>)
-
 ### CS2 Sasuke
 
 ![alt text](<16 - 231-17.jpg>)
 
 ![alt text](<13 - 232-14.jpg>)
-
-### Kid Kakashi
-
-![alt text](<18 - 239-19.jpg>)
-
-### Deidara
-
-![alt text](<6 - 248-07.jpg>)
-
-![alt text](<3 - 360-04.jpg>)
-
-![alt text](<6 - 360-07.jpg>)
-
-![alt text](<0 - 362-01-1.jpg>)
-
-![alt text](<7 - 362-08.jpg>)
-
-
 
 ### Gai
 
@@ -920,15 +932,11 @@
 
 ![alt text](<14 - 570-15.jpg>)
 
+### Shukaku
 
+![alt text](<5 - 132-06.jpg>)
 
-
-
-### Onoki
-
-![alt text](<15 - 513-16.jpg>)
-
-
+![alt text](<9 - 134-10.jpg>)
 
 ### Naruto and Sasuke
 
@@ -941,3 +949,15 @@
 ### Temari
 
 ![alt text](<14 - 106-15.jpg>)
+
+### Chidori
+
+![alt text](<7 - 113-08.jpg>)
+
+![alt text](<14 - 127-15.jpg>)
+
+![alt text](<13 - 128-14.jpg>)
+
+![alt text](<15 - 128-16.jpg>)
+
+![alt text](<11 - 146-12.jpg>)
