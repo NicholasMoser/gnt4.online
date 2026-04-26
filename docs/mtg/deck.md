@@ -16,6 +16,68 @@
 
 ## Creatures
 
+### Alesha, Who Laughs at Fate
+
+![alt text](image-95.png)
+
+### Kankuro
+
+![alt text](<5 - 125-06.jpg>)
+
+![alt text](<9 - 250-10.jpg>)
+
+![alt text](<10 - 250-11.jpg>)
+
+### The Locust God
+
+![alt text](image-94.png)
+
+### Shino
+
+![alt text](<3 - 125-04.jpg>)
+
+![alt text](<7 - 125-08.jpg>)
+
+![alt text](<12 - 282-13.jpg>)
+
+![alt text](<15 - 394-16.jpg>)
+
+### Esior, Wardwing Familiar
+
+![alt text](image-92.png)
+
+### Temari
+
+![alt text](<14 - 106-15.jpg>)
+
+### Pippin, Guard of the Citadel
+
+![alt text](image-90.png)
+
+### Neji
+
+![alt text](<15 - 041-16.jpg>)
+
+![alt text](<4 - 070-05.jpg>)
+
+![alt text](<13 - 078-14.jpg>)
+
+### Gandalf the White
+
+![alt text](image-89.png)
+
+### Gai
+
+![alt text](<2 - 258-03.jpg>)
+
+![alt text](<10 - 258-11.jpg>)
+
+![alt text](<6 - 506-07.jpg>)
+
+![alt text](<0 - 507-01.jpg>)
+
+![alt text](<15 - 016 (2).jpg>)
+
 ### Bumi, Unleashed
 
 ![alt text](image-76.png)
@@ -158,15 +220,23 @@
 
 ![alt text](<14 - 014.jpg>)
 
-### Kellan, the Kid
+### Rinoa Heartilly
 
-![alt text](image-63.png)
+![alt text](image-93.png)
 
 ### Kiba
 
 ![alt text](<4 - 076-05.jpg>)
 
 ![alt text](<14 - 282-15.jpg>)
+
+### Splinter, Aging Champion
+
+![alt text](image-96.png)
+
+### Asuma
+
+![alt text](<11 - 317-12.jpg>)
 
 ### Helga, Skittish Seer
 
@@ -474,6 +544,24 @@
 
 ## Instants
 
+### Deflecting Swat
+
+![alt text](image-98.png)
+
+### Enough!
+
+![alt text](<3 - 176-04.jpg>)
+
+### Flawless Maneuver
+
+![alt text](image-97.png)
+
+### Susanoo
+
+![alt text](<3 - 392-04.jpg>)
+
+![alt text](<9 - 574-10.jpg>)
+
 ### Beast Within
 
 ![alt text](image-74.png)
@@ -568,9 +656,9 @@
 
 ![alt text](<17 - 676 - 018.jpg>)
 
-### Eerie Ultimatum
+### Primevals' Glorious Rebirth
 
-![alt text](image-5.png)
+![alt text](image-91.png)
 
 ### Edo Tensei
 
@@ -736,6 +824,8 @@
 
 ![alt text](<0 - 034-01-1.jpg>)
 
+![alt text](<5 - 618-06.jpg>)
+
 ### Island
 
 ![alt text](image-21.png)
@@ -848,7 +938,7 @@
 
 ### Konoha Hospital Rooftop
 
-![alt text](<3 - 176-04.jpg>)
+![alt text](<3 - 175-04.jpg>)
 
 ### Watery Grave
 
@@ -926,53 +1016,11 @@
 
 ## To Do (Currently Need a Card)
 
-### Neji
-
-![alt text](<15 - 041-16.jpg>)
-
-![alt text](<4 - 070-05.jpg>)
-
-![alt text](<13 - 078-14.jpg>)
-
-### Shino
-
-![alt text](<3 - 125-04.jpg>)
-
-![alt text](<7 - 125-08.jpg>)
-
-![alt text](<12 - 282-13.jpg>)
-
-![alt text](<15 - 394-16.jpg>)
-
-### Kankuro
-
-![alt text](<5 - 125-06.jpg>)
-
-![alt text](<9 - 250-10.jpg>)
-
-![alt text](<10 - 250-11.jpg>)
-
 ### CS2 Sasuke
 
 ![alt text](<16 - 231-17.jpg>)
 
 ![alt text](<13 - 232-14.jpg>)
-
-### Gai
-
-![alt text](<2 - 258-03.jpg>)
-
-![alt text](<10 - 258-11.jpg>)
-
-![alt text](<6 - 506-07.jpg>)
-
-![alt text](<0 - 507-01.jpg>)
-
-![alt text](<15 - 016 (2).jpg>)
-
-### Asuma
-
-![alt text](<11 - 317-12.jpg>)
 
 ### Other Narutos
 
@@ -1005,10 +1053,6 @@
 ### Ninja Headband
 
 ![alt text](<19 - 699 - 020.jpg>)
-
-### Temari
-
-![alt text](<14 - 106-15.jpg>)
 
 ### Chidori
 
