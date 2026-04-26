@@ -122,18 +122,6 @@
 
 ![alt text](<10 - 216-11.jpg>)
 
-### Ertai Resurrected
-
-![alt text](image-67.png)
-
-### Neji
-
-![alt text](<15 - 041-16.jpg>)
-
-![alt text](<4 - 070-05.jpg>)
-
-![alt text](<13 - 078-14.jpg>)
-
 ### Kamiz, Obscura Oculus
 
 ![alt text](image-66.png)
@@ -148,7 +136,7 @@
 
 ### Irma, Part-Time Mutant
 
-![alt text](image-65.png)
+![alt text](image-77.png)
 
 ### Shikamaru
 
@@ -180,9 +168,9 @@
 
 ![alt text](<14 - 282-15.jpg>)
 
-### Glarb, Calamity's Augur
+### Helga, Skittish Seer
 
-![alt text](image-62.png)
+![alt text](image-78.png)
 
 ### Jiraiya
 
@@ -208,9 +196,9 @@
 
 ![alt text](<8 - 009.jpg>)
 
-### Samut, Voice of Dissent
+### Zurgo Helmsmasher
 
-![alt text](image-60.png)
+![alt text](image-79.png)
 
 ### Raikage
 
@@ -448,9 +436,9 @@
 
 ![alt text](<15 - 289-16.jpg>)
 
-### Chulane, Teller of Tales
+### Ertai Resurrected
 
-![alt text](image-22.png)
+![alt text](image-67.png)
 
 ### Kakashi
 
@@ -788,21 +776,13 @@
 
 ![alt text](<0 - 454-01.jpg>)
 
-### Windswept Heath
+### Temple Garden
 
-![alt text](image-46.png)
+![alt text](image-81.png)
 
 ### Mount Myōboku
 
 ![alt text](<12 - 418-13.jpg>)
-
-### Hallowed Fountain
-
-![alt text](image-48.png)
-
-### Land of Waves
-
-![alt text](<1 - 031-02-1.jpg>)
 
 ### Breeding Pool
 
@@ -814,13 +794,61 @@
 
 ![alt text](<8 - 033-09-1.jpg>)
 
-### Steam Vents
+### Stomping Group
 
-![alt text](image-51.png)
+![alt text](image-85.png)
 
-### Gatou's Headquarters
+### Uchiha Compound
 
-![alt text](<17 - 018-18-1.jpg>)
+![alt text](<8 - 402-09.jpg>)
+
+![alt text](<11 - 224-12.jpg>)
+
+![alt text](<10 - 224-11.jpg>)
+
+![alt text](<6 - 225-07.jpg>)
+
+### Overgrown Tomb
+
+![alt text](image-32.png)
+
+### Forest of Death
+
+![alt text](<17 - 044-18.jpg>)
+
+### Hallowed Fountain
+
+![alt text](image-48.png)
+
+### Land of Waves
+
+![alt text](<1 - 031-02-1.jpg>)
+
+### Godless Shrine
+
+![alt text](image-83.png)
+
+### Chunin Exam Preliminaries
+
+![alt text](<7 - 065-08.jpg>)
+
+![alt text](<1 - 065-02.jpg>)
+
+### Sacred Foundry
+
+![alt text](image-86.png)
+
+### Uchiha Hideout
+
+![alt text](<13 - 380-14-1.jpg>)
+
+### Windswept Heath
+
+![alt text](image-87.png)
+
+### Konoha Hospital Rooftop
+
+![alt text](<3 - 176-04.jpg>)
 
 ### Watery Grave
 
@@ -834,21 +862,45 @@
 
 ![alt text](<15 - 346-16.jpg>)
 
-### Overgrown Tomb
+### Misty Rainforest
 
-![alt text](image-32.png)
+![alt text](image-84.png)
 
-### Forest of Death
+### Konoha Ninja Academy
 
-![alt text](<17 - 044-18.jpg>)
+![alt text](<2 - 221-03.jpg>)
 
-### Nomad Outpost
+### Steam Vents
 
-![alt text](image-53.png)
+![alt text](image-51.png)
 
-### Uchiha Hideout
+### Gatou's Headquarters
 
-![alt text](<13 - 380-14-1.jpg>)
+![alt text](<17 - 018-18-1.jpg>)
+
+### Verdant Catacombs
+
+![alt text](image-88.png)
+
+### Konoha Training Grounds
+
+![alt text](<2 - 246-03.jpg>)
+
+### Ziatora's Proving Ground
+
+![alt text](image-82.png)
+
+### Three Way Deadlock
+
+![alt text](<1 - 170-02.jpg>)
+
+### Sandsteppe Citadel
+
+![alt text](image-80.png)
+
+### Deep Forest Emergence
+
+![alt text](<17 - 136-18.jpg>)
 
 ### Command Tower
 
@@ -873,6 +925,14 @@
 ![alt text](<15 - naruto-4446415.jpg>)
 
 ## To Do (Currently Need a Card)
+
+### Neji
+
+![alt text](<15 - 041-16.jpg>)
+
+![alt text](<4 - 070-05.jpg>)
+
+![alt text](<13 - 078-14.jpg>)
 
 ### Shino
 
