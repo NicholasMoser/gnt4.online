@@ -28,20 +28,6 @@
 
 ![alt text](<10 - 250-11.jpg>)
 
-### The Locust God
-
-![alt text](image-94.png)
-
-### Shino
-
-![alt text](<3 - 125-04.jpg>)
-
-![alt text](<7 - 125-08.jpg>)
-
-![alt text](<12 - 282-13.jpg>)
-
-![alt text](<15 - 394-16.jpg>)
-
 ### Esior, Wardwing Familiar
 
 ![alt text](image-92.png)
@@ -62,31 +48,11 @@
 
 ![alt text](<13 - 078-14.jpg>)
 
-### Gandalf the White
+### Alexios, Deimos of Kosmos
 
-![alt text](image-89.png)
+![alt text](image-99.png)
 
-### Gai
-
-![alt text](<2 - 258-03.jpg>)
-
-![alt text](<10 - 258-11.jpg>)
-
-![alt text](<6 - 506-07.jpg>)
-
-![alt text](<0 - 507-01.jpg>)
-
-![alt text](<15 - 016 (2).jpg>)
-
-### Bumi, Unleashed
-
-![alt text](image-76.png)
-
-### Gaara
-
-![alt text](<11 - 035-12.jpg>)
-
-![alt text](<17 - 058-18.jpg>)
+### Gaara of the Bloody Sand
 
 ![alt text](<4 - 083-05.jpg>)
 
@@ -152,20 +118,6 @@
 
 ![alt text](<1 - 534-02.jpg>)
 
-### Sisay, Weatherlight Captain
-
-![alt text](image-69.png)
-
-### Tsunade
-
-![alt text](<5 - 156-06.jpg>)
-
-![alt text](<6 - 156-07.jpg>)
-
-![alt text](<7 - 169-08.jpg>)
-
-![alt text](<13 - 169-14.jpg>)
-
 ### Shanid, Sleepers' Scourge
 
 ![alt text](image-68.png)
@@ -219,16 +171,6 @@
 ![alt text](<3 - 003.jpg>)
 
 ![alt text](<14 - 014.jpg>)
-
-### Rinoa Heartilly
-
-![alt text](image-93.png)
-
-### Kiba
-
-![alt text](<4 - 076-05.jpg>)
-
-![alt text](<14 - 282-15.jpg>)
 
 ### Splinter, Aging Champion
 
@@ -1015,6 +957,48 @@
 ![alt text](<15 - naruto-4446415.jpg>)
 
 ## To Do (Currently Need a Card)
+
+### Gai
+
+![alt text](<2 - 258-03.jpg>)
+
+![alt text](<10 - 258-11.jpg>)
+
+![alt text](<6 - 506-07.jpg>)
+
+![alt text](<0 - 507-01.jpg>)
+
+![alt text](<15 - 016 (2).jpg>)
+
+### Tsunade
+
+![alt text](<5 - 156-06.jpg>)
+
+![alt text](<6 - 156-07.jpg>)
+
+![alt text](<7 - 169-08.jpg>)
+
+![alt text](<13 - 169-14.jpg>)
+
+### The Locust God
+
+![alt text](image-94.png)
+
+### Shino
+
+![alt text](<3 - 125-04.jpg>)
+
+![alt text](<7 - 125-08.jpg>)
+
+![alt text](<12 - 282-13.jpg>)
+
+![alt text](<15 - 394-16.jpg>)
+
+### Kiba
+
+![alt text](<4 - 076-05.jpg>)
+
+![alt text](<14 - 282-15.jpg>)
 
 ### CS2 Sasuke
 
