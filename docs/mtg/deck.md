@@ -58,20 +58,6 @@
 
 ![alt text](<17 - 125-18.jpg>)
 
-### Sandman, Shifting Scoundrel
-
-![alt text](image-75.png)
-
-### Kazekage Gaara
-
-![alt text](<8 - 248-09.jpg>)
-
-![alt text](<3 - 04.jpg>)
-
-![alt text](<16 - 524-17.jpg>)
-
-![alt text](<12 - 556-13.jpg>)
-
 ### Roxanne, Starfall Savant
 
 ![alt text](image-73.png)
@@ -957,6 +943,16 @@
 ![alt text](<15 - naruto-4446415.jpg>)
 
 ## To Do (Currently Need a Card)
+
+### Kazekage Gaara
+
+![alt text](<8 - 248-09.jpg>)
+
+![alt text](<3 - 04.jpg>)
+
+![alt text](<16 - 524-17.jpg>)
+
+![alt text](<12 - 556-13.jpg>)
 
 ### Gai
 
