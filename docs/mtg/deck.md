@@ -24,15 +24,11 @@
 
 ### Sasuke
 
-![alt text](<7 - 025-08.jpg>)
-
 ![alt text](<10 - 049-11.jpg>)
 
 ![alt text](<15 - 306-16.jpg>)
 
 ![alt text](<6 - 365-07.jpg>)
-
-![alt text](<17 - 342-18.jpg>)
 
 ![alt text](<4 - 343-05.jpg>)
 
@@ -40,15 +36,9 @@
 
 ![alt text](<15 - 402-16.jpg>)
 
-![alt text](<7 - 478-08.jpg>)
-
 ![alt text](<13 - 480-14.jpg>)
 
-![alt text](<13 - 483-14.jpg>)
-
 ![alt text](<13 - 574-14.jpg>)
-
-![alt text](<8 - 692 - 009.jpg>)
 
 ### Shalai, Voice of Plenty
 
@@ -487,6 +477,8 @@
 ![alt text](<3 - 392-04.jpg>)
 
 ![alt text](<9 - 574-10.jpg>)
+
+![alt text](<7 - 478-08.jpg>)
 
 ### Beast Within
 
@@ -1021,6 +1013,16 @@
 ![alt text](<11 - 555-12.jpg>)
 
 ![alt text](<14 - 570-15.jpg>)
+
+### Other Sasukes
+
+![alt text](<17 - 342-18.jpg>)
+
+![alt text](<8 - 692 - 009.jpg>)
+
+![alt text](<7 - 025-08.jpg>)
+
+![alt text](<13 - 483-14.jpg>)
 
 ### Shukaku
 
