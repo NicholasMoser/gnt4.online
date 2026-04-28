@@ -18,298 +18,6 @@
 
 ## Creatures
 
-### Alesha, Who Laughs at Fate
-
-![alt text](image-95.png)
-
-### Kankuro
-
-![alt text](<5 - 125-06.jpg>)
-
-![alt text](<9 - 250-10.jpg>)
-
-![alt text](<10 - 250-11.jpg>)
-
-### Esior, Wardwing Familiar
-
-![alt text](image-92.png)
-
-### Temari
-
-![alt text](<14 - 106-15.jpg>)
-
-### Pippin, Guard of the Citadel
-
-![alt text](image-90.png)
-
-### Neji
-
-![alt text](<15 - 041-16.jpg>)
-
-![alt text](<4 - 070-05.jpg>)
-
-![alt text](<13 - 078-14.jpg>)
-
-### Alexios, Deimos of Kosmos
-
-![alt text](image-99.png)
-
-### Gaara of the Bloody Sand
-
-![alt text](<4 - 083-05.jpg>)
-
-![alt text](<17 - 125-18.jpg>)
-
-### Roxanne, Starfall Savant
-
-![alt text](image-73.png)
-
-### Deidara
-
-![alt text](<6 - 248-07.jpg>)
-
-![alt text](<3 - 360-04.jpg>)
-
-![alt text](<6 - 360-07.jpg>)
-
-![alt text](<0 - 362-01-1.jpg>)
-
-![alt text](<7 - 362-08.jpg>)
-
-### Faeburrow Elder
-
-![alt text](image-72.png)
-
-### Hashirama
-
-![alt text](<7 - 08.jpg>)
-
-![alt text](<10 - 12-13.jpg>)
-
-![alt text](<18 - naruto-4492359.jpg>)
-
-![alt text](<3 - naruto-4504445.jpg>)
-
-![alt text](<11 - naruto-4461157.jpg>)
-
-### Samwise Gamgee
-
-![alt text](image-70.png)
-
-### Choji
-
-![alt text](<13 - 087-14.jpg>)
-
-![alt text](<15 - 190-16.jpg>)
-
-![alt text](<15 - 533-16.jpg>)
-
-![alt text](<1 - 534-02.jpg>)
-
-### Shanid, Sleepers' Scourge
-
-![alt text](image-68.png)
-
-### Kimimaro
-
-![alt text](<3 - 201-04.jpg>)
-
-![alt text](<4 - 202-05.jpg>)
-
-![alt text](<6 - 206-07.jpg>)
-
-![alt text](<15 - 211-16.jpg>)
-
-![alt text](<19 - 211-20.jpg>)
-
-![alt text](<10 - 216-11.jpg>)
-
-### Kamiz, Obscura Oculus
-
-![alt text](image-66.png)
-
-### Obito
-
-![alt text](<16 - 364-17.jpg>)
-
-![alt text](<16 - 511-17.jpg>)
-
-![alt text](<9 - 010.jpg>)
-
-### Irma, Part-Time Mutant
-
-![alt text](image-77.png)
-
-### Shikamaru
-
-![alt text](<13 - 107-14.jpg>)
-
-![alt text](<11 - 172-12.jpg>)
-
-![alt text](<2 - 339-03.jpg>)
-
-![alt text](<2 - 342-03.jpg>)
-
-### Reki, the History of Kamigawa
-
-![alt text](image-64.png)
-
-### Hagoromo
-
-![alt text](<3 - 003.jpg>)
-
-![alt text](<14 - 014.jpg>)
-
-### Splinter, Aging Champion
-
-![alt text](image-96.png)
-
-### Asuma
-
-![alt text](<11 - 317-12.jpg>)
-
-### Helga, Skittish Seer
-
-![alt text](image-78.png)
-
-### Jiraiya
-
-![alt text](<17 - 090-18.jpg>)
-
-![alt text](<2 - 091-03.jpg>)
-
-![alt text](<11 - 124-12.jpg>)
-
-![alt text](<1 - 376-02.jpg>)
-
-![alt text](<9 - 377-10.jpg>)
-
-### Delighted Halfling
-
-![alt text](image-61.png)
-
-### Hinata
-
-![alt text](<18 - 282-19.jpg>)
-
-![alt text](<11 - 437-12.jpg>)
-
-![alt text](<8 - 009.jpg>)
-
-### Zurgo Helmsmasher
-
-![alt text](image-79.png)
-
-### Raikage
-
-![alt text](<7 - 454-08.jpg>)
-
-![alt text](<16 - 460-17.jpg>)
-
-![alt text](<15 - 462-16.jpg>)
-
-![alt text](<3 - 04-05.jpg>)
-
-![alt text](<14 - 16-17.jpg>)
-
-### Kethis, the Hidden Hand
-
-![alt text](image-59.png)
-
-### Sasori
-
-![alt text](<22 - 266-23.jpg>)
-
-![alt text](<8 - 271-09.jpg>)
-
-### Gold-Forged Thopteryx
-
-![alt text](image-58.png)
-
-### Konan
-
-![alt text](<15 - 509-16.jpg>)
-
-### Basim Ibn Ishaq
-
-![alt text](image-57.png)
-
-### Kisame
-
-![alt text](<17 - 255-18.jpg>)
-
-![alt text](<18 - 257-19.jpg>)
-
-![alt text](<9 - 380-10.jpg>)
-
-![alt text](<16 - 17-1.jpg>)
-
-### Toski, Bearer of Secrets
-
-![alt text](image-56.png)
-
-### Lee
-
-![alt text](<10 - 083-11.jpg>)
-
-![alt text](<11 - 085-12.jpg>)
-
-![alt text](<12 - 085-13.jpg>)
-
-![alt text](<16 - 209-17.jpg>)
-
-### Kenrith, the Returned King
-
-![alt text](image-55.png)
-
-### Council of the Five Kage
-
-![alt text](<15 - 562-16.jpg>)
-
-### Vega, the Watcher
-
-![alt text](image-54.png)
-
-### Sai
-
-![alt text](<10 - 517-11.jpg>)
-
-![alt text](<11 - 518-12.jpg>)
-
-### Raff Capashen, Ship's Mage
-
-![alt text](image-30.png)
-
-### Minato
-
-![alt text](<17 - 18.jpg>)
-
-![alt text](<15 - 501-16.jpg>)
-
-![alt text](<15 - 519-16.jpg>)
-
-### Shalai, Voice of Plenty
-
-![alt text](image-39.png)
-
-### Sakura
-
-![alt text](<16 - 17.jpg>)
-
-![alt text](<11 - 263-12.jpg>)
-
-![alt text](<18 - 269-19.jpg>)
-
-![alt text](<9 - 469-10.jpg>)
-
-### Bloom Tender
-
-![alt text](image-33.png)
-
-### Ino
-
-![alt text](<11 - 12.jpg>)
-
 ### Etali, Primal Storm
 
 ![alt text](image-35.png)
@@ -342,31 +50,175 @@
 
 ![alt text](<8 - 692 - 009.jpg>)
 
-### Aragorn, the Uniter
+### Shalai, Voice of Plenty
 
-![alt text](image-34.png)
+![alt text](image-39.png)
 
-### Pain
+### Sakura
 
-![alt text](<0 - 436-01.jpg>)
+![alt text](<16 - 17.jpg>)
 
-![alt text](<18 - 418-19.jpg>)
+![alt text](<11 - 263-12.jpg>)
 
-![alt text](<16 - 407-17.jpg>)
+![alt text](<18 - 269-19.jpg>)
 
-![alt text](<5 - 429-06.jpg>)
+![alt text](<9 - 469-10.jpg>)
 
-### Atraxa, Grand Unifier
+### Ertai Resurrected
 
-![alt text](image-36.png)
+![alt text](image-67.png)
 
-### Kaguya
+### Kakashi
 
-![alt text](<11 - 679 - 012.jpg>)
+![alt text](<3 - 005-04.jpg>)
 
-### Madara, Jinchuriki of the Ten-Tails
+![alt text](<11 - 012-12.jpg>)
 
-![alt text](<10 - 011.jpg>)
+![alt text](<5 - 026-06.jpg>)
+
+### Delighted Halfling
+
+![alt text](image-61.png)
+
+### Hinata
+
+![alt text](<18 - 282-19.jpg>)
+
+![alt text](<11 - 437-12.jpg>)
+
+![alt text](<8 - 009.jpg>)
+
+### Bloom Tender
+
+![alt text](image-33.png)
+
+### Ino
+
+![alt text](<11 - 12.jpg>)
+
+### Irma, Part-Time Mutant
+
+![alt text](image-77.png)
+
+### Shikamaru
+
+![alt text](<13 - 107-14.jpg>)
+
+![alt text](<11 - 172-12.jpg>)
+
+![alt text](<2 - 339-03.jpg>)
+
+![alt text](<2 - 342-03.jpg>)
+
+### Samwise Gamgee
+
+![alt text](image-70.png)
+
+### Choji
+
+![alt text](<13 - 087-14.jpg>)
+
+![alt text](<15 - 190-16.jpg>)
+
+![alt text](<15 - 533-16.jpg>)
+
+![alt text](<1 - 534-02.jpg>)
+
+### Toski, Bearer of Secrets
+
+![alt text](image-56.png)
+
+### Lee
+
+![alt text](<10 - 083-11.jpg>)
+
+![alt text](<11 - 085-12.jpg>)
+
+![alt text](<12 - 085-13.jpg>)
+
+![alt text](<16 - 209-17.jpg>)
+
+### Pippin, Guard of the Citadel
+
+![alt text](image-90.png)
+
+### Neji
+
+![alt text](<15 - 041-16.jpg>)
+
+![alt text](<4 - 070-05.jpg>)
+
+![alt text](<13 - 078-14.jpg>)
+
+### Helga, Skittish Seer
+
+![alt text](image-78.png)
+
+### Jiraiya
+
+![alt text](<17 - 090-18.jpg>)
+
+![alt text](<2 - 091-03.jpg>)
+
+![alt text](<11 - 124-12.jpg>)
+
+![alt text](<1 - 376-02.jpg>)
+
+![alt text](<9 - 377-10.jpg>)
+
+### Marchesa, the Black Rose
+
+![alt text](image-27.png)
+
+### Orochimaru
+
+![alt text](<14 - 050-15.jpg>)
+
+![alt text](<3 - 154-04.jpg>)
+
+![alt text](<9 - 156-10.jpg>)
+
+![alt text](<9 - 161-10.jpg>)
+
+![alt text](<15 - 289-16.jpg>)
+
+### Alexios, Deimos of Kosmos
+
+![alt text](image-99.png)
+
+### Gaara of the Bloody Sand
+
+![alt text](<4 - 083-05.jpg>)
+
+![alt text](<17 - 125-18.jpg>)
+
+### Esior, Wardwing Familiar
+
+![alt text](image-92.png)
+
+### Temari
+
+![alt text](<14 - 106-15.jpg>)
+
+### Alesha, Who Laughs at Fate
+
+![alt text](image-95.png)
+
+### Kankuro
+
+![alt text](<5 - 125-06.jpg>)
+
+![alt text](<9 - 250-10.jpg>)
+
+![alt text](<10 - 250-11.jpg>)
+
+### Hajar, Loyal Bodyguard
+
+![alt text](image-12.png)
+
+### Haku
+
+![alt text](<15 - 030-16.jpg>)
 
 ### Lightning, Army of One
 
@@ -381,6 +233,48 @@
 ![alt text](<13 - 032-14.jpg>)
 
 ![alt text](<17 - 032-18.jpg>)
+
+### Grazilaxx, Illithid Scholar
+
+![alt text](image-26.png)
+
+### Itachi
+
+![alt text](<13 - 380-14.jpg>)
+
+![alt text](<18 - 144-19.jpg>)
+
+### Basim Ibn Ishaq
+
+![alt text](image-57.png)
+
+### Kisame
+
+![alt text](<17 - 255-18.jpg>)
+
+![alt text](<18 - 257-19.jpg>)
+
+![alt text](<9 - 380-10.jpg>)
+
+![alt text](<16 - 17-1.jpg>)
+
+### Shanid, Sleepers' Scourge
+
+![alt text](image-68.png)
+
+### Kimimaro
+
+![alt text](<3 - 201-04.jpg>)
+
+![alt text](<4 - 202-05.jpg>)
+
+![alt text](<6 - 206-07.jpg>)
+
+![alt text](<15 - 211-16.jpg>)
+
+![alt text](<19 - 211-20.jpg>)
+
+![alt text](<10 - 216-11.jpg>)
 
 ### Ratadrabik of Urborg
 
@@ -400,61 +294,39 @@
 
 ![alt text](<18 - 356-19.jpg>)
 
-### Grazilaxx, Illithid Scholar
+### Vega, the Watcher
 
-![alt text](image-26.png)
+![alt text](image-54.png)
 
-### Itachi
+### Sai
 
-![alt text](<13 - 380-14.jpg>)
+![alt text](<10 - 517-11.jpg>)
 
-![alt text](<18 - 144-19.jpg>)
+![alt text](<11 - 518-12.jpg>)
 
-### Deadpool, Trading Card
+### Raff Capashen, Ship's Mage
 
-![alt text](image-25.png)
+![alt text](image-30.png)
 
-### Hidan
+### Minato
 
-![alt text](<3 - 324-04.jpg>)
+![alt text](<17 - 18.jpg>)
 
-![alt text](<9 - 336-10.jpg>)
+![alt text](<15 - 501-16.jpg>)
 
-### Marchesa, the Black Rose
+![alt text](<15 - 519-16.jpg>)
 
-![alt text](image-27.png)
+### Splinter, Aging Champion
 
-### Orochimaru
+![alt text](image-96.png)
 
-![alt text](<14 - 050-15.jpg>)
+### Asuma
 
-![alt text](<3 - 154-04.jpg>)
+![alt text](<11 - 317-12.jpg>)
 
-![alt text](<9 - 156-10.jpg>)
+### Roxanne, Starfall Savant
 
-![alt text](<9 - 161-10.jpg>)
-
-![alt text](<15 - 289-16.jpg>)
-
-### Ertai Resurrected
-
-![alt text](image-67.png)
-
-### Kakashi
-
-![alt text](<3 - 005-04.jpg>)
-
-![alt text](<11 - 012-12.jpg>)
-
-![alt text](<5 - 026-06.jpg>)
-
-### Hajar, Loyal Bodyguard
-
-![alt text](image-12.png)
-
-### Haku
-
-![alt text](<15 - 030-16.jpg>)
+![alt text](image-73.png)
 
 ### Surrak Dragonclaw
 
@@ -471,6 +343,130 @@
 ![alt text](<16 - 412-17.jpg>)
 
 ![alt text](<1 - 471-02.jpg>)
+
+### Zurgo Helmsmasher
+
+![alt text](image-79.png)
+
+### Raikage
+
+![alt text](<7 - 454-08.jpg>)
+
+![alt text](<16 - 460-17.jpg>)
+
+![alt text](<15 - 462-16.jpg>)
+
+![alt text](<3 - 04-05.jpg>)
+
+![alt text](<14 - 16-17.jpg>)
+
+### Kenrith, the Returned King
+
+![alt text](image-55.png)
+
+### Council of the Five Kage
+
+![alt text](<15 - 562-16.jpg>)
+
+### Deidara
+
+![alt text](<6 - 248-07.jpg>)
+
+![alt text](<3 - 360-04.jpg>)
+
+![alt text](<6 - 360-07.jpg>)
+
+![alt text](<0 - 362-01-1.jpg>)
+
+![alt text](<7 - 362-08.jpg>)
+
+### Kethis, the Hidden Hand
+
+![alt text](image-59.png)
+
+### Sasori
+
+![alt text](<22 - 266-23.jpg>)
+
+![alt text](<8 - 271-09.jpg>)
+
+### Gold-Forged Thopteryx
+
+![alt text](image-58.png)
+
+### Konan
+
+![alt text](<15 - 509-16.jpg>)
+
+### Aragorn, the Uniter
+
+![alt text](image-34.png)
+
+### Pain
+
+![alt text](<0 - 436-01.jpg>)
+
+![alt text](<18 - 418-19.jpg>)
+
+![alt text](<16 - 407-17.jpg>)
+
+![alt text](<5 - 429-06.jpg>)
+
+### Deadpool, Trading Card
+
+![alt text](image-25.png)
+
+### Hidan
+
+![alt text](<3 - 324-04.jpg>)
+
+![alt text](<9 - 336-10.jpg>)
+
+### Kamiz, Obscura Oculus
+
+![alt text](image-66.png)
+
+### Obito
+
+![alt text](<16 - 364-17.jpg>)
+
+![alt text](<16 - 511-17.jpg>)
+
+![alt text](<9 - 010.jpg>)
+
+### Faeburrow Elder
+
+![alt text](image-72.png)
+
+### Hashirama
+
+![alt text](<7 - 08.jpg>)
+
+![alt text](<10 - 12-13.jpg>)
+
+![alt text](<18 - naruto-4492359.jpg>)
+
+![alt text](<3 - naruto-4504445.jpg>)
+
+![alt text](<11 - naruto-4461157.jpg>)
+
+### Reki, the History of Kamigawa
+
+![alt text](image-64.png)
+
+### Hagoromo
+
+![alt text](<3 - 003.jpg>)
+
+![alt text](<14 - 014.jpg>)
+
+### Atraxa, Grand Unifier
+
+![alt text](image-36.png)
+
+### Kaguya
+
+![alt text](<11 - 679 - 012.jpg>)
 
 ## Instants
 
@@ -1003,6 +999,10 @@
 ![alt text](<16 - 231-17.jpg>)
 
 ![alt text](<13 - 232-14.jpg>)
+
+### Madara, Jinchuriki of the Ten-Tails
+
+![alt text](<10 - 011.jpg>)
 
 ### Other Narutos
 
