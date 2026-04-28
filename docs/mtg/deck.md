@@ -1,5 +1,7 @@
 # Naruto Matters Commander Deck
 
+[Archidekt Deck](https://archidekt.com/decks/22082779/naruto_matters)
+
 ## Commander
 
 ### Jodah, the Unifier
