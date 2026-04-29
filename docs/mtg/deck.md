@@ -538,9 +538,9 @@
 
 ![alt text](<5 - 429-06.jpg>)
 
-### Counterspell
+### Arcane Denial
 
-![alt text](image-7.png)
+![alt text](image-116.png)
 
 ### Izanagi
 
