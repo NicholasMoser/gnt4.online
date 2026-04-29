@@ -128,18 +128,6 @@
 
 ![alt text](<16 - 209-17.jpg>)
 
-### Pippin, Guard of the Citadel
-
-![alt text](image-90.png)
-
-### Neji
-
-![alt text](<15 - 041-16.jpg>)
-
-![alt text](<4 - 070-05.jpg>)
-
-![alt text](<13 - 078-14.jpg>)
-
 ### Glissa Sunslayer
 
 ![alt text](image-105.png)
@@ -939,6 +927,14 @@
 ![alt text](<15 - naruto-4446415.jpg>)
 
 ## To Do (Currently Need a Card)
+
+### Neji
+
+![alt text](<15 - 041-16.jpg>)
+
+![alt text](<4 - 070-05.jpg>)
+
+![alt text](<13 - 078-14.jpg>)
 
 ### Gaara of the Bloody Sand
 
