@@ -18,9 +18,9 @@
 
 ## Creatures
 
-### Etali, Primal Storm
+### Alexios, Deimos of Kosmos
 
-![alt text](image-35.png)
+![alt text](image-99.png)
 
 ### Sasuke
 
@@ -86,9 +86,9 @@
 
 ![alt text](<11 - 12.jpg>)
 
-### Irma, Part-Time Mutant
+### Kutzil, Malamet Exemplar
 
-![alt text](image-77.png)
+![alt text](image-106.png)
 
 ### Shikamaru
 
@@ -140,6 +140,22 @@
 
 ![alt text](<13 - 078-14.jpg>)
 
+### Glissa Sunslayer
+
+![alt text](image-105.png)
+
+### Gai
+
+![alt text](<2 - 258-03.jpg>)
+
+![alt text](<10 - 258-11.jpg>)
+
+![alt text](<6 - 506-07.jpg>)
+
+![alt text](<0 - 507-01.jpg>)
+
+![alt text](<15 - 016 (2).jpg>)
+
 ### Helga, Skittish Seer
 
 ![alt text](image-78.png)
@@ -155,6 +171,20 @@
 ![alt text](<1 - 376-02.jpg>)
 
 ![alt text](<9 - 377-10.jpg>)
+
+### Chulane, Teller of Tales
+
+![alt text](image-104.png)
+
+### Tsunade
+
+![alt text](<5 - 156-06.jpg>)
+
+![alt text](<6 - 156-07.jpg>)
+
+![alt text](<7 - 169-08.jpg>)
+
+![alt text](<13 - 169-14.jpg>)
 
 ### Marchesa, the Black Rose
 
@@ -172,23 +202,19 @@
 
 ![alt text](<15 - 289-16.jpg>)
 
-### Alexios, Deimos of Kosmos
+### Shanid, Sleepers' Scourge
 
-![alt text](image-99.png)
+![alt text](image-68.png)
 
-### Gaara of the Bloody Sand
+### Kazekage Gaara
 
-![alt text](<4 - 083-05.jpg>)
+![alt text](<8 - 248-09.jpg>)
 
-![alt text](<17 - 125-18.jpg>)
+![alt text](<3 - 04.jpg>)
 
-### Esior, Wardwing Familiar
+![alt text](<16 - 524-17.jpg>)
 
-![alt text](image-92.png)
-
-### Temari
-
-![alt text](<14 - 106-15.jpg>)
+![alt text](<12 - 556-13.jpg>)
 
 ### Alesha, Who Laughs at Fate
 
@@ -202,9 +228,9 @@
 
 ![alt text](<10 - 250-11.jpg>)
 
-### Hajar, Loyal Bodyguard
+### Spectacular Spider-Man
 
-![alt text](image-12.png)
+![alt text](image-103.png)
 
 ### Haku
 
@@ -248,9 +274,9 @@
 
 ![alt text](<16 - 17-1.jpg>)
 
-### Shanid, Sleepers' Scourge
+### Samut, Voice of Dissent
 
-![alt text](image-68.png)
+![alt text](image-107.png)
 
 ### Kimimaro
 
@@ -284,9 +310,9 @@
 
 ![alt text](<18 - 356-19.jpg>)
 
-### Vega, the Watcher
+### K-9, Mark I
 
-![alt text](image-54.png)
+![alt text](image-102.png)
 
 ### Sai
 
@@ -306,9 +332,9 @@
 
 ![alt text](<15 - 519-16.jpg>)
 
-### Splinter, Aging Champion
+### Hajar, Loyal Bodyguard
 
-![alt text](image-96.png)
+![alt text](image-12.png)
 
 ### Asuma
 
@@ -357,18 +383,6 @@
 ### Council of the Five Kage
 
 ![alt text](<15 - 562-16.jpg>)
-
-### Deidara
-
-![alt text](<6 - 248-07.jpg>)
-
-![alt text](<3 - 360-04.jpg>)
-
-![alt text](<6 - 360-07.jpg>)
-
-![alt text](<0 - 362-01-1.jpg>)
-
-![alt text](<7 - 362-08.jpg>)
 
 ### Kethis, the Hidden Hand
 
@@ -484,7 +498,7 @@
 
 ![alt text](image-74.png)
 
-### Kyuubi Naruto
+### Beast Within
 
 ![alt text](<17 - 230-18.jpg>)
 
@@ -585,14 +599,6 @@
 ![alt text](<18 - 489-19.jpg>)
 
 ## Utility Artifacts
-
-### Avacyn's Memorial
-
-![alt text](image-29.png)
-
-### Rashomon
-
-![alt text](<7 - 295-08.jpg>)
 
 ### Swiftfoot Boots
 
@@ -934,41 +940,15 @@
 
 ## To Do (Currently Need a Card)
 
-### Kazekage Gaara
+### Gaara of the Bloody Sand
 
-![alt text](<8 - 248-09.jpg>)
+![alt text](<4 - 083-05.jpg>)
 
-![alt text](<3 - 04.jpg>)
+![alt text](<17 - 125-18.jpg>)
 
-![alt text](<16 - 524-17.jpg>)
+### Temari
 
-![alt text](<12 - 556-13.jpg>)
-
-### Gai
-
-![alt text](<2 - 258-03.jpg>)
-
-![alt text](<10 - 258-11.jpg>)
-
-![alt text](<6 - 506-07.jpg>)
-
-![alt text](<0 - 507-01.jpg>)
-
-![alt text](<15 - 016 (2).jpg>)
-
-### Tsunade
-
-![alt text](<5 - 156-06.jpg>)
-
-![alt text](<6 - 156-07.jpg>)
-
-![alt text](<7 - 169-08.jpg>)
-
-![alt text](<13 - 169-14.jpg>)
-
-### The Locust God
-
-![alt text](image-94.png)
+![alt text](<14 - 106-15.jpg>)
 
 ### Shino
 
@@ -985,6 +965,18 @@
 ![alt text](<4 - 076-05.jpg>)
 
 ![alt text](<14 - 282-15.jpg>)
+
+### Deidara
+
+![alt text](<6 - 248-07.jpg>)
+
+![alt text](<3 - 360-04.jpg>)
+
+![alt text](<6 - 360-07.jpg>)
+
+![alt text](<0 - 362-01-1.jpg>)
+
+![alt text](<7 - 362-08.jpg>)
 
 ### CS2 Sasuke
 
@@ -1049,3 +1041,7 @@
 ![alt text](<15 - 128-16.jpg>)
 
 ![alt text](<11 - 146-12.jpg>)
+
+### Rashomon
+
+![alt text](<7 - 295-08.jpg>)
