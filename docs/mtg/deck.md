@@ -40,9 +40,9 @@
 
 ![alt text](<13 - 574-14.jpg>)
 
-### Shalai, Voice of Plenty
+### Tegan Jovanka
 
-![alt text](image-39.png)
+![alt text](image-111.png)
 
 ### Sakura
 
@@ -66,9 +66,9 @@
 
 ![alt text](<5 - 026-06.jpg>)
 
-### Delighted Halfling
+### Gwenna, Eyes of Gaea
 
-![alt text](image-61.png)
+![alt text](image-108.png)
 
 ### Hinata
 
@@ -114,6 +114,16 @@
 
 ![alt text](<1 - 534-02.jpg>)
 
+### Torgal, A Fine Hound
+
+![alt text](image-113.png)
+
+### Kiba
+
+![alt text](<4 - 076-05.jpg>)
+
+![alt text](<14 - 282-15.jpg>)
+
 ### Toski, Bearer of Secrets
 
 ![alt text](image-56.png)
@@ -127,6 +137,18 @@
 ![alt text](<12 - 085-13.jpg>)
 
 ![alt text](<16 - 209-17.jpg>)
+
+### April O'Neil, Kunoichi Trainee
+
+![alt text](image-115.png)
+
+### Neji
+
+![alt text](<15 - 041-16.jpg>)
+
+![alt text](<4 - 070-05.jpg>)
+
+![alt text](<13 - 078-14.jpg>)
 
 ### Glissa Sunslayer
 
@@ -332,6 +354,18 @@
 
 ![alt text](image-73.png)
 
+### Deidara
+
+![alt text](<6 - 248-07.jpg>)
+
+![alt text](<3 - 360-04.jpg>)
+
+![alt text](<6 - 360-07.jpg>)
+
+![alt text](<0 - 362-01-1.jpg>)
+
+![alt text](<7 - 362-08.jpg>)
+
 ### Surrak Dragonclaw
 
 ![alt text](image-10.png)
@@ -401,8 +435,6 @@
 ![alt text](<18 - 418-19.jpg>)
 
 ![alt text](<16 - 407-17.jpg>)
-
-![alt text](<5 - 429-06.jpg>)
 
 ### Deadpool, Trading Card
 
@@ -482,22 +514,6 @@
 
 ![alt text](<7 - 478-08.jpg>)
 
-### Beast Within
-
-![alt text](image-74.png)
-
-### Beast Within
-
-![alt text](<17 - 230-18.jpg>)
-
-![alt text](<12 - 232-13.jpg>)
-
-![alt text](<15 - 291-16.jpg>)
-
-![alt text](<16 - 293-17.jpg>)
-
-![alt text](<16 - 294-17.jpg>)
-
 ### Heroic Intervention
 
 ![alt text](image-38.png)
@@ -520,9 +536,7 @@
 
 ###  Shinra Tensei
 
-![alt text](<3 - 434-04.jpg>)
-
-![alt text](<10 - 429-11.jpg>)
+![alt text](<5 - 429-06.jpg>)
 
 ### Counterspell
 
@@ -552,13 +566,21 @@
 
 ![alt text](<15 - 387-16.jpg>)
 
-### Blasphemous Act
+### Cloud's Limit Break
 
-![alt text](image-20.png)
+![alt text](image-112.png)
 
-### Morning Peacock
+### Chidori
 
-![alt text](<15 - 258-16.jpg>)
+![alt text](<7 - 113-08.jpg>)
+
+![alt text](<14 - 127-15.jpg>)
+
+![alt text](<13 - 128-14.jpg>)
+
+![alt text](<15 - 128-16.jpg>)
+
+![alt text](<11 - 146-12.jpg>)
 
 ### Farseek
 
@@ -928,14 +950,6 @@
 
 ## To Do (Currently Need a Card)
 
-### Neji
-
-![alt text](<15 - 041-16.jpg>)
-
-![alt text](<4 - 070-05.jpg>)
-
-![alt text](<13 - 078-14.jpg>)
-
 ### Gaara of the Bloody Sand
 
 ![alt text](<4 - 083-05.jpg>)
@@ -956,23 +970,7 @@
 
 ![alt text](<15 - 394-16.jpg>)
 
-### Kiba
 
-![alt text](<4 - 076-05.jpg>)
-
-![alt text](<14 - 282-15.jpg>)
-
-### Deidara
-
-![alt text](<6 - 248-07.jpg>)
-
-![alt text](<3 - 360-04.jpg>)
-
-![alt text](<6 - 360-07.jpg>)
-
-![alt text](<0 - 362-01-1.jpg>)
-
-![alt text](<7 - 362-08.jpg>)
 
 ### CS2 Sasuke
 
@@ -1026,18 +1024,22 @@
 
 ![alt text](<19 - 699 - 020.jpg>)
 
-### Chidori
-
-![alt text](<7 - 113-08.jpg>)
-
-![alt text](<14 - 127-15.jpg>)
-
-![alt text](<13 - 128-14.jpg>)
-
-![alt text](<15 - 128-16.jpg>)
-
-![alt text](<11 - 146-12.jpg>)
-
 ### Rashomon
 
 ![alt text](<7 - 295-08.jpg>)
+
+### Morning Peacock
+
+![alt text](<15 - 258-16.jpg>)
+
+### Kyuubi
+
+![alt text](<17 - 230-18.jpg>)
+
+![alt text](<12 - 232-13.jpg>)
+
+![alt text](<15 - 291-16.jpg>)
+
+![alt text](<16 - 293-17.jpg>)
+
+![alt text](<16 - 294-17.jpg>)
