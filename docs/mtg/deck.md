@@ -718,7 +718,7 @@
 
 ![alt text](image-13.png)
 
-### Chunin Exam Arena
+### Chunin Exam Stadium
 
 ![alt text](<3 - 098-04.jpg>)
 
@@ -864,6 +864,8 @@
 
 ### Uchiha Hideout
 
+![alt text](<13 - 384-14.jpg>)
+
 ![alt text](<13 - 380-14-1.jpg>)
 
 ### Sacred Foundry
@@ -922,6 +924,8 @@
 
 ![alt text](<17 - 217-18.jpg>)
 
+![alt text](<17 - 202-18.jpg>)
+
 ![alt text](<10 - 217-11.jpg>)
 
 ![alt text](<8 - 217-09.jpg>)
@@ -949,6 +953,58 @@
 ### Konoha Training Grounds
 
 ![alt text](<2 - 246-03.jpg>)
+
+### Raffine's Tower
+
+![alt text](image-127.png)
+
+### Great Ninja War Battlefield
+
+![alt text](<19 - 20.png>)
+
+![alt text](<1 - 530-02.jpg>)
+
+![alt text](<1 - 562-02.jpg>)
+
+### Minas Tirith
+
+![alt text](image-129.png)
+
+### Hokage Mission Control
+
+![alt text](<12 - 182-13.jpg>)
+
+![alt text](<9 - 182-10.jpg>)
+
+![alt text](<3 - 182-04-1.jpg>)
+
+![alt text](<10 - 182-11.jpg>)
+
+### Eiganjo, Seat of the Empire
+
+![alt text](image-130.png)
+
+### Gates of Konoha
+
+![alt text](<1 - 183-02.jpg>)
+
+### Clive's Hideaway
+
+![alt text](image-128.png)
+
+### Kamui Dimension
+
+![alt text](<7 - 08-1.jpg>)
+
+![alt text](<13 - 14.jpg>)
+
+### Great Hall of the Citadel
+
+![alt text](image-126.png)
+
+### Great Ninja War Command Center
+
+![alt text](<14 - 520-15.jpg>)
 
 ### Command Tower
 
