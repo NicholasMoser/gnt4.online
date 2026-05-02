@@ -610,6 +610,14 @@
 
 ## Utility Artifacts
 
+### Helm of the Host
+
+![alt text](image-132.png)
+
+### Shadow Clone Jutsu
+
+![alt text](<48 - 001-49.jpg>)
+
 ### Swiftfoot Boots
 
 ![alt text](image-41.png)
@@ -685,6 +693,14 @@
 ## Utility Lands
 
 ## Mana Artifacts
+
+### Mox Amber
+
+![alt text](image-131.png)
+
+### Sharingan
+
+![alt text](<16 - 041-17.jpg>)
 
 ### Arcane Signet
 
