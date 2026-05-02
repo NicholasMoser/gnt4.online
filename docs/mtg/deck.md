@@ -800,9 +800,9 @@
 
 ![alt text](<0 - 454-01.jpg>)
 
-### Temple Garden
+### Bountiful Promenade
 
-![alt text](image-81.png)
+![alt text](image-123.png)
 
 ### Mount Myōboku
 
@@ -818,9 +818,9 @@
 
 ![alt text](<8 - 033-09-1.jpg>)
 
-### Stomping Group
+### Spire Garden
 
-![alt text](image-85.png)
+![alt text](image-122.png)
 
 ### Uchiha Compound
 
@@ -840,9 +840,9 @@
 
 ![alt text](<17 - 044-18.jpg>)
 
-### Hallowed Fountain
+### Sea of Clouds
 
-![alt text](image-48.png)
+![alt text](image-121.png)
 
 ### Land of Waves
 
@@ -858,13 +858,25 @@
 
 ![alt text](<1 - 065-02.jpg>)
 
-### Sacred Foundry
+### Luxury Suite
 
-![alt text](image-86.png)
+![alt text](image-125.png)
 
 ### Uchiha Hideout
 
 ![alt text](<13 - 380-14-1.jpg>)
+
+### Sacred Foundry
+
+![alt text](image-86.png)
+
+### Land of Iron
+
+![alt text](<16 - 456-17.jpg>)
+
+![alt text](<15 - 456-16.jpg>)
+
+![alt text](<14 - 456-15.jpg>)
 
 ### Windswept Heath
 
@@ -874,9 +886,9 @@
 
 ![alt text](<3 - 175-04.jpg>)
 
-### Watery Grave
+### Morphic Pool
 
-![alt text](image-49.png)
+![alt text](image-120.png)
 
 ### Orochimaru's Lair
 
@@ -906,25 +918,37 @@
 
 ![alt text](image-88.png)
 
-### Konoha Training Grounds
+### Cursed Bone Grove
 
-![alt text](<2 - 246-03.jpg>)
+![alt text](<17 - 217-18.jpg>)
 
-### Ziatora's Proving Ground
+![alt text](<10 - 217-11.jpg>)
 
-![alt text](image-82.png)
+![alt text](<8 - 217-09.jpg>)
+
+### Indatha Triome
+
+![alt text](image-117.png)
 
 ### Three Way Deadlock
 
 ![alt text](<1 - 170-02.jpg>)
 
-### Sandsteppe Citadel
+### Zagoth Triome
 
-![alt text](image-80.png)
+![alt text](image-118.png)
 
 ### Deep Forest Emergence
 
 ![alt text](<17 - 136-18.jpg>)
+
+### Ketria Triome
+
+![alt text](image-119.png)
+
+### Konoha Training Grounds
+
+![alt text](<2 - 246-03.jpg>)
 
 ### Command Tower
 
@@ -969,8 +993,6 @@
 ![alt text](<12 - 282-13.jpg>)
 
 ![alt text](<15 - 394-16.jpg>)
-
-
 
 ### CS2 Sasuke
 
