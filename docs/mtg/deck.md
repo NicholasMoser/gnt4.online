@@ -24,8 +24,6 @@
 
 ### Sasuke
 
-![alt text](<10 - 049-11.jpg>)
-
 ![alt text](<15 - 306-16.jpg>)
 
 ![alt text](<6 - 365-07.jpg>)
@@ -100,19 +98,19 @@
 
 ![alt text](<2 - 342-03.jpg>)
 
-### Samwise Gamgee
+### Arvad the Cursed
 
-![alt text](image-70.png)
+![alt text](image-143.png)
 
-### Choji
+### Shino
 
-![alt text](<13 - 087-14.jpg>)
+![alt text](<3 - 125-04.jpg>)
 
-![alt text](<15 - 190-16.jpg>)
+![alt text](<7 - 125-08.jpg>)
 
-![alt text](<15 - 533-16.jpg>)
+![alt text](<12 - 282-13.jpg>)
 
-![alt text](<1 - 534-02.jpg>)
+![alt text](<15 - 394-16.jpg>)
 
 ### Torgal, A Fine Hound
 
@@ -123,20 +121,6 @@
 ![alt text](<4 - 076-05.jpg>)
 
 ![alt text](<14 - 282-15.jpg>)
-
-### Toski, Bearer of Secrets
-
-![alt text](image-56.png)
-
-### Lee
-
-![alt text](<10 - 083-11.jpg>)
-
-![alt text](<11 - 085-12.jpg>)
-
-![alt text](<12 - 085-13.jpg>)
-
-![alt text](<16 - 209-17.jpg>)
 
 ### April O'Neil, Kunoichi Trainee
 
@@ -150,9 +134,23 @@
 
 ![alt text](<13 - 078-14.jpg>)
 
-### Glissa Sunslayer
+### Halana and Alena, Partners
 
-![alt text](image-105.png)
+![alt text](image-146.png)
+
+### Lee
+
+![alt text](<10 - 083-11.jpg>)
+
+![alt text](<11 - 085-12.jpg>)
+
+![alt text](<12 - 085-13.jpg>)
+
+![alt text](<16 - 209-17.jpg>)
+
+### Samut, Voice of Dissent
+
+![alt text](image-107.png)
 
 ### Gai
 
@@ -226,6 +224,14 @@
 
 ![alt text](<12 - 556-13.jpg>)
 
+### Raffine, Scheming Seer
+
+![alt text](image-144.png)
+
+### Temari
+
+![alt text](<14 - 106-15.jpg>)
+
 ### Alesha, Who Laughs at Fate
 
 ![alt text](image-95.png)
@@ -284,9 +290,9 @@
 
 ![alt text](<16 - 17-1.jpg>)
 
-### Samut, Voice of Dissent
+### Glissa Sunslayer
 
-![alt text](image-107.png)
+![alt text](image-105.png)
 
 ### Kimimaro
 
@@ -350,22 +356,6 @@
 
 ![alt text](<11 - 317-12.jpg>)
 
-### Roxanne, Starfall Savant
-
-![alt text](image-73.png)
-
-### Deidara
-
-![alt text](<6 - 248-07.jpg>)
-
-![alt text](<3 - 360-04.jpg>)
-
-![alt text](<6 - 360-07.jpg>)
-
-![alt text](<0 - 362-01-1.jpg>)
-
-![alt text](<7 - 362-08.jpg>)
-
 ### Surrak Dragonclaw
 
 ![alt text](image-10.png)
@@ -382,9 +372,9 @@
 
 ![alt text](<1 - 471-02.jpg>)
 
-### Zurgo Helmsmasher
+### Maarika, Brutal Gladiator
 
-![alt text](image-79.png)
+![alt text](image-136.png)
 
 ### Raikage
 
@@ -406,6 +396,42 @@
 
 ![alt text](<15 - 562-16.jpg>)
 
+### Queen Marchesa
+
+![alt text](image-139.png)
+
+### Danzo
+
+![alt text](<4 - 476-05.jpg>)
+
+![alt text](<16 - 475-17.jpg>)
+
+### General Ferrous Rokiric
+
+![alt text](image-138.png)
+
+### Deidara
+
+![alt text](<6 - 248-07.jpg>)
+
+![alt text](<3 - 360-04.jpg>)
+
+![alt text](<6 - 360-07.jpg>)
+
+![alt text](<0 - 362-01-1.jpg>)
+
+![alt text](<7 - 362-08.jpg>)
+
+### Tymna the Weaver
+
+![alt text](image-141.png)
+
+### Hidan
+
+![alt text](<3 - 324-04.jpg>)
+
+![alt text](<9 - 336-10.jpg>)
+
 ### Kethis, the Hidden Hand
 
 ![alt text](image-59.png)
@@ -424,9 +450,13 @@
 
 ![alt text](<15 - 509-16.jpg>)
 
-### Aragorn, the Uniter
+### Kamiz, Obscura Oculus
 
-![alt text](image-34.png)
+![alt text](image-66.png)
+
+### O-Kagachi, Vengeful Kami
+
+![alt text](image-142.png)
 
 ### Pain
 
@@ -436,20 +466,6 @@
 
 ![alt text](<16 - 407-17.jpg>)
 
-### Deadpool, Trading Card
-
-![alt text](image-25.png)
-
-### Hidan
-
-![alt text](<3 - 324-04.jpg>)
-
-![alt text](<9 - 336-10.jpg>)
-
-### Kamiz, Obscura Oculus
-
-![alt text](image-66.png)
-
 ### Obito
 
 ![alt text](<16 - 364-17.jpg>)
@@ -457,6 +473,14 @@
 ![alt text](<16 - 511-17.jpg>)
 
 ![alt text](<9 - 010.jpg>)
+
+### Kamahl, Heart of Krosa
+
+![alt text](image-145.png)
+
+### Madara, Jinchuriki of the Ten-Tails
+
+![alt text](<10 - 011.jpg>)
 
 ### Faeburrow Elder
 
@@ -494,6 +518,16 @@
 
 ## Instants
 
+### Chaos Warp
+
+![alt text](image-140.png)
+
+### Kamui
+
+![alt text](<11 - 502-12.jpg>)
+
+![alt text](<14 - 502-15.jpg>)
+
 ### Deflecting Swat
 
 ![alt text](image-98.png)
@@ -514,14 +548,6 @@
 
 ![alt text](<7 - 478-08.jpg>)
 
-### Heroic Intervention
-
-![alt text](image-38.png)
-
-### Hakkeshō Kaiten, Eight Trigrams Palms Revolving Heaven
-
-![alt text](<10 - 194-11.jpg>)
-
 ### Anguished Unmaking
 
 ![alt text](image-18.png)
@@ -538,16 +564,6 @@
 
 ![alt text](<5 - 429-06.jpg>)
 
-### Arcane Denial
-
-![alt text](image-116.png)
-
-### Izanagi
-
-![alt text](<16 - 475-17.jpg>)
-
-![alt text](<7 - 510-08.jpg>)
-
 ### Swords to Plowshares
 
 ![alt text](image-6.png)
@@ -557,14 +573,6 @@
 ![alt text](<17 - naruto-4536593.jpg>)
 
 ## Sorceries
-
-### Kodama's Reach
-
-![alt text](image-28.png)
-
-### Itachi's Reach
-
-![alt text](<15 - 387-16.jpg>)
 
 ### Cloud's Limit Break
 
@@ -582,14 +590,6 @@
 
 ![alt text](<11 - 146-12.jpg>)
 
-### Farseek
-
-![alt text](image-11.png)
-
-### Return of the Wandering Shinobi
-
-![alt text](<4 - 245-05.jpg>)
-
 ### Urza's Ruinous Blast
 
 ![alt text](image.png)
@@ -598,25 +598,7 @@
 
 ![alt text](<17 - 676 - 018.jpg>)
 
-### Primevals' Glorious Rebirth
-
-![alt text](image-91.png)
-
-### Edo Tensei
-
-![alt text](<1 - 118-02.jpg>)
-
-![alt text](<18 - 489-19.jpg>)
-
 ## Utility Artifacts
-
-### Helm of the Host
-
-![alt text](image-132.png)
-
-### Shadow Clone Jutsu
-
-![alt text](<48 - 001-49.jpg>)
 
 ### Swiftfoot Boots
 
@@ -693,6 +675,14 @@
 ## Utility Lands
 
 ## Mana Artifacts
+
+### Honor-Worn Shaku
+
+![alt text](image-137.png)
+
+### Ninja Tools
+
+![alt text](<10 - 049-11.jpg>)
 
 ### Mox Amber
 
@@ -1044,7 +1034,88 @@
 
 ![alt text](<15 - naruto-4446415.jpg>)
 
-## To Do (Currently Need a Card)
+### Mana Confluence
+
+![alt text](image-133.png)
+
+### Kaguya's Dimensions
+
+![alt text](<12 - 682 - 013.jpg>)
+
+![alt text](<16 - 682 - 017.jpg>)
+
+### Exotic Orchard
+
+![alt text](image-134.png)
+
+### Root (Anbu Headquarters)
+
+![alt text](<1 - 424-02.jpg>)
+
+## Maybeboard and Ideas
+
+### Kodama's Reach
+
+![alt text](image-28.png)
+
+### Itachi's Reach
+
+![alt text](<15 - 387-16.jpg>)
+
+### Farseek
+
+![alt text](image-11.png)
+
+### Return of the Wandering Shinobi
+
+![alt text](<4 - 245-05.jpg>)
+
+### Heroic Intervention
+
+![alt text](image-38.png)
+
+### Hakkeshō Kaiten, Eight Trigrams Palms Revolving Heaven
+
+![alt text](<10 - 194-11.jpg>)
+
+### Arcane Denial
+
+![alt text](image-116.png)
+
+### Primevals' Glorious Rebirth
+
+![alt text](image-91.png)
+
+### Edo Tensei
+
+![alt text](<1 - 118-02.jpg>)
+
+![alt text](<18 - 489-19.jpg>)
+
+### Helm of the Host
+
+![alt text](image-132.png)
+
+### Shadow Clone Jutsu
+
+![alt text](<48 - 001-49.jpg>)
+### Choji
+
+![alt text](<13 - 087-14.jpg>)
+
+![alt text](<15 - 190-16.jpg>)
+
+![alt text](<15 - 533-16.jpg>)
+
+![alt text](<1 - 534-02.jpg>)
+
+### The Walls of Ba Sing Se
+
+The Walls of Ba Sing Se
+
+### Rashomon
+
+![alt text](<7 - 295-08.jpg>)
 
 ### Gaara of the Bloody Sand
 
@@ -1052,29 +1123,11 @@
 
 ![alt text](<17 - 125-18.jpg>)
 
-### Temari
-
-![alt text](<14 - 106-15.jpg>)
-
-### Shino
-
-![alt text](<3 - 125-04.jpg>)
-
-![alt text](<7 - 125-08.jpg>)
-
-![alt text](<12 - 282-13.jpg>)
-
-![alt text](<15 - 394-16.jpg>)
-
 ### CS2 Sasuke
 
 ![alt text](<16 - 231-17.jpg>)
 
 ![alt text](<13 - 232-14.jpg>)
-
-### Madara, Jinchuriki of the Ten-Tails
-
-![alt text](<10 - 011.jpg>)
 
 ### Other Narutos
 
@@ -1117,10 +1170,6 @@
 ### Ninja Headband
 
 ![alt text](<19 - 699 - 020.jpg>)
-
-### Rashomon
-
-![alt text](<7 - 295-08.jpg>)
 
 ### Morning Peacock
 
