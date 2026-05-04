@@ -12,8 +12,6 @@
 
 ![alt text](<17 - 611-18.jpg>)
 
-![alt text](<18 - 597-19.jpg>)
-
 ![alt text](<3 - 544-04.jpg>)
 
 ## Creatures
@@ -58,8 +56,6 @@
 
 ### Kakashi
 
-![alt text](<3 - 005-04.jpg>)
-
 ![alt text](<11 - 012-12.jpg>)
 
 ![alt text](<5 - 026-06.jpg>)
@@ -103,8 +99,6 @@
 ![alt text](image-143.png)
 
 ### Shino
-
-![alt text](<3 - 125-04.jpg>)
 
 ![alt text](<7 - 125-08.jpg>)
 
@@ -200,8 +194,6 @@
 
 ### Orochimaru
 
-![alt text](<14 - 050-15.jpg>)
-
 ![alt text](<3 - 154-04.jpg>)
 
 ![alt text](<9 - 156-10.jpg>)
@@ -229,6 +221,10 @@
 ![alt text](image-144.png)
 
 ### Temari
+
+![alt text](<10 - 213-11.jpg>)
+
+![alt text](<19 - 214-20.jpg>)
 
 ![alt text](<14 - 106-15.jpg>)
 
@@ -450,13 +446,9 @@
 
 ![alt text](<15 - 509-16.jpg>)
 
-### Kamiz, Obscura Oculus
+### Niv-Mizzet Reborn
 
-![alt text](image-66.png)
-
-### O-Kagachi, Vengeful Kami
-
-![alt text](image-142.png)
+![alt text](image-147.png)
 
 ### Pain
 
@@ -465,6 +457,10 @@
 ![alt text](<18 - 418-19.jpg>)
 
 ![alt text](<16 - 407-17.jpg>)
+
+### Kamiz, Obscura Oculus
+
+![alt text](image-66.png)
 
 ### Obito
 
@@ -600,6 +596,14 @@
 
 ## Utility Artifacts
 
+### Lightning Greaves
+
+![alt text](image-3.png)
+
+### Flying Thunder God Kunai
+
+![alt text](<8 - 239-09.jpg>)
+
 ### Swiftfoot Boots
 
 ![alt text](image-41.png)
@@ -622,9 +626,9 @@
 
 ![alt text](image-17.png)
 
-### Mantle of the Jinchūriki
+### Rashomon
 
-![alt text](<15 - 228-16.jpg>)
+![alt text](<7 - 295-08.jpg>)
 
 ### Shadowspear
 
@@ -633,14 +637,6 @@
 ### Gunbai
 
 ![alt text](<15 - 601-16.jpg>)
-
-### Lightning Greaves
-
-![alt text](image-3.png)
-
-### Flying Thunder God Kunai
-
-![alt text](<8 - 239-09.jpg>)
 
 ## Enchantments
 
@@ -684,6 +680,8 @@
 
 ![alt text](<10 - 049-11.jpg>)
 
+![alt text](<13 - 014-14.jpg>)
+
 ### Mox Amber
 
 ![alt text](image-131.png)
@@ -706,11 +704,13 @@
 
 ![alt text](image-23.png)
 
-### Borrowed Nine-Tails Chakra
+### Kyuubi
 
 ![alt text](<9 - 496-10.jpg>)
 
 ![alt text](<11 - 308-12.jpg>)
+
+![alt text](<15 - 228-16.jpg>)
 
 ### Relic of Legends
 
@@ -1099,6 +1099,7 @@
 ### Shadow Clone Jutsu
 
 ![alt text](<48 - 001-49.jpg>)
+
 ### Choji
 
 ![alt text](<13 - 087-14.jpg>)
@@ -1108,14 +1109,6 @@
 ![alt text](<15 - 533-16.jpg>)
 
 ![alt text](<1 - 534-02.jpg>)
-
-### The Walls of Ba Sing Se
-
-The Walls of Ba Sing Se
-
-### Rashomon
-
-![alt text](<7 - 295-08.jpg>)
 
 ### Gaara of the Bloody Sand
 
