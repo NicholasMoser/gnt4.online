@@ -28,7 +28,7 @@
 
 ### Sakura
 
-![alt text](image-178.png)
+![alt text](image-185.png)
 
 ### Kimahri, Valiant Guardian
 
@@ -44,7 +44,7 @@
 
 ### Hinata
 
-![alt text](<8 - 009.jpg>)
+![alt text](image-180.png)
 
 ### Bloom Tender
 
@@ -52,7 +52,7 @@
 
 ### Ino
 
-![alt text](<11 - 12.jpg>)
+![alt text](image-201.png)
 
 ### Inquisitor Greyfax
 
@@ -132,7 +132,7 @@
 
 ### Kazekage Gaara
 
-![alt text](<3 - 04.jpg>)
+![alt text](image-153.png)
 
 ### Raffine, Scheming Seer
 
@@ -310,9 +310,11 @@
 
 ![alt text](image-145.png)
 
-### Madara, Jinchuriki of the Ten-Tails
+### Madara, Six Paths Sage Mode
 
-![alt text](<10 - 011.jpg>)
+![alt text](image-183.png)
+
+![alt text](image-184.png)
 
 ### Faeburrow Elder
 
@@ -320,7 +322,7 @@
 
 ### Hashirama
 
-![alt text](<7 - 08.jpg>)
+![alt text](image-200.png)
 
 ### Reki, the History of Kamigawa
 
@@ -328,7 +330,7 @@
 
 ### Hagoromo
 
-![alt text](<3 - 003.jpg>)
+![alt text](image-154.png)
 
 ### Atraxa, Grand Unifier
 
@@ -466,7 +468,7 @@
 
 ### Madara
 
-![alt text](<6 - 08.jpg>)
+![alt text](image-175.png)
 
 ## Utility Lands
 
@@ -552,7 +554,7 @@
 
 ### Village Hidden in the Rain
 
-![alt text](<14 - 329-15.jpg>)
+![alt text](image-202.png)
 
 ### Plains
 
@@ -560,7 +562,7 @@
 
 ### Village Hidden in the Clouds
 
-![alt text](<12 - 417-13.jpg>)
+![alt text](image-202.png)
 
 ### Swamp
 
@@ -584,7 +586,7 @@
 
 ### Mount Myōboku
 
-![alt text](<12 - 418-13.jpg>)
+![alt text](image-201.png)
 
 ### Breeding Pool
 
@@ -592,7 +594,7 @@
 
 ### Great Naruto Bridge
 
-![alt text](<8 - 033-09-1.jpg>)
+![alt text](image-200.png)
 
 ### Spire Garden
 
@@ -608,7 +610,7 @@
 
 ### Forest of Death
 
-![alt text](<17 - 044-18.jpg>)
+![alt text](image-199.png)
 
 ### Sea of Clouds
 
@@ -632,7 +634,7 @@
 
 ### Uchiha Hideout
 
-![alt text](<13 - 380-14-1.jpg>)
+![alt text](image-198.png)
 
 ### Sacred Foundry
 
@@ -648,7 +650,11 @@
 
 ### Konoha Hospital Rooftop
 
-![alt text](<3 - 175-04.jpg>)
+![alt text](image-195.png)
+
+![alt text](image-196.png)
+
+![alt text](image-197.png)
 
 ### Morphic Pool
 
@@ -656,7 +662,7 @@
 
 ### Orochimaru's Lair
 
-![alt text](<15 - 346-16.jpg>)
+![alt text](image-194.png)
 
 ### Misty Rainforest
 
@@ -672,7 +678,7 @@
 
 ### Gatou's Headquarters
 
-![alt text](<17 - 018-18-1.jpg>)
+![alt text](image-193.png)
 
 ### Verdant Catacombs
 
@@ -680,7 +686,7 @@
 
 ### Cursed Bone Grove
 
-![alt text](<10 - 217-11.jpg>)
+![alt text](image-192.png)
 
 ### Indatha Triome
 
@@ -696,7 +702,7 @@
 
 ### Deep Forest Emergence
 
-![alt text](<17 - 136-18.jpg>)
+![alt text](image-191.png)
 
 ### Ketria Triome
 
@@ -714,7 +720,7 @@
 
 ### Great Ninja War Battlefield
 
-![alt text](<19 - 20.png>)
+![alt text](image-182.png)
 
 ### Minas Tirith
 
@@ -722,7 +728,9 @@
 
 ### Hokage Mission Control
 
-![alt text](<10 - 182-11.jpg>)
+![alt text](image-189.png)
+
+![alt text](image-190.png)
 
 ### Eiganjo, Seat of the Empire
 
@@ -738,7 +746,7 @@
 
 ### Kamui Dimension
 
-![alt text](<7 - 08-1.jpg>)
+![alt text](image-178.png)
 
 ### Great Hall of the Citadel
 
@@ -746,7 +754,7 @@
 
 ### Great Ninja War Command Center
 
-![alt text](<14 - 520-15.jpg>)
+![alt text](image-188.png)
 
 ### Command Tower
 
@@ -754,7 +762,7 @@
 
 ### Gedo Statue
 
-![alt text](<15 - 254-16.jpg>)
+![alt text](image-203.png)
 
 ### The World Tree
 
@@ -762,9 +770,9 @@
 
 ### The God Tree
 
-![alt text](<9 - naruto-4446403.jpg>)
+![alt text](image-181.png)
 
-![alt text](<15 - naruto-4446415.jpg>)
+![alt text](image-186.png)
 
 ### Mana Confluence
 
@@ -772,7 +780,7 @@
 
 ### Kaguya's Dimensions
 
-![alt text](<16 - 682 - 017.jpg>)
+![alt text](image-187.png)
 
 ### Exotic Orchard
 
