@@ -17,9 +17,12 @@ with open('deck.md', 'r', encoding='utf-8') as deck:
             curr = curr.replace(')', '')
             used_images.append(curr)
 
+removed = 0
 for image in all_images:
     if image in used_images:
         print(f'Used {image}')
     else:
         print(f'Unused {image}')
         os.remove(image)
+        removed += 1
+print(f'Removed {removed}')

@@ -458,7 +458,7 @@
 
 ### Sasuke Retrieval Team
 
-![alt text](<0 - 183-01.jpg>)
+![alt text](image-4.png)
 
 ## Planeswalkers
 
@@ -578,7 +578,7 @@
 
 ### Village Hidden in the Stone
 
-![alt text](<0 - 454-01.jpg>)
+![alt text](image-5.png)
 
 ### Bountiful Promenade
 
@@ -618,7 +618,7 @@
 
 ### Land of Waves
 
-![alt text](<1 - 031-02-1.jpg>)
+![alt text](image-7.png)
 
 ### Godless Shrine
 
@@ -626,7 +626,7 @@
 
 ### Chunin Exam Preliminaries
 
-![alt text](<1 - 065-02.jpg>)
+![alt text](image-20.png)
 
 ### Luxury Suite
 
@@ -690,7 +690,7 @@
 
 ### Three Way Deadlock
 
-![alt text](<1 - 170-02.jpg>)
+![alt text](image-22.png)
 
 ### Zagoth Triome
 
@@ -820,19 +820,13 @@
 
 ![alt text](<10 - 194-11.jpg>)
 
-### Arcane Denial
-
-![alt text](image-116.png)
-
 ### Primevals' Glorious Rebirth
 
 ![alt text](image-91.png)
 
 ### Edo Tensei
 
-![alt text](<1 - 118-02.jpg>)
-
-![alt text](<18 - 489-19.jpg>)
+![alt text](image-2.png)
 
 ### Helm of the Host
 
@@ -844,17 +838,9 @@
 
 ### Choji
 
-![alt text](<13 - 087-14.jpg>)
-
-![alt text](<15 - 190-16.jpg>)
-
 ![alt text](<15 - 533-16.jpg>)
 
-![alt text](<1 - 534-02.jpg>)
-
 ### CS2 Sasuke
-
-![alt text](<16 - 231-17.jpg>)
 
 ![alt text](<13 - 232-14.jpg>)
 
@@ -878,17 +864,11 @@
 
 ### Other Sasukes
 
-![alt text](<17 - 342-18.jpg>)
-
-![alt text](<8 - 692 - 009.jpg>)
-
 ![alt text](<7 - 025-08.jpg>)
 
 ![alt text](<13 - 483-14.jpg>)
 
 ### Shukaku
-
-![alt text](<5 - 132-06.jpg>)
 
 ![alt text](<9 - 134-10.jpg>)
 
