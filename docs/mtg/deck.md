@@ -12,8 +12,6 @@
 
 ![alt text](<17 - 611-18.jpg>)
 
-![alt text](<3 - 544-04.jpg>)
-
 ## Creatures
 
 ### Alexios, Deimos of Kosmos
@@ -22,19 +20,7 @@
 
 ### Sasuke
 
-![alt text](<15 - 306-16.jpg>)
-
 ![alt text](<6 - 365-07.jpg>)
-
-![alt text](<4 - 343-05.jpg>)
-
-![alt text](<15 - 343-16.jpg>)
-
-![alt text](<15 - 402-16.jpg>)
-
-![alt text](<13 - 480-14.jpg>)
-
-![alt text](<13 - 574-14.jpg>)
 
 ### Tegan Jovanka
 
@@ -42,21 +28,13 @@
 
 ### Sakura
 
-![alt text](<16 - 17.jpg>)
-
 ![alt text](<11 - 263-12.jpg>)
 
-![alt text](<18 - 269-19.jpg>)
+### Kimahri, Valiant Guardian
 
-![alt text](<9 - 469-10.jpg>)
-
-### Ertai Resurrected
-
-![alt text](image-67.png)
+![alt text](image-149.png)
 
 ### Kakashi
-
-![alt text](<11 - 012-12.jpg>)
 
 ![alt text](<5 - 026-06.jpg>)
 
@@ -65,10 +43,6 @@
 ![alt text](image-108.png)
 
 ### Hinata
-
-![alt text](<18 - 282-19.jpg>)
-
-![alt text](<11 - 437-12.jpg>)
 
 ![alt text](<8 - 009.jpg>)
 
@@ -80,17 +54,11 @@
 
 ![alt text](<11 - 12.jpg>)
 
-### Kutzil, Malamet Exemplar
+### Inquisitor Greyfax
 
-![alt text](image-106.png)
+![alt text](image-150.png)
 
 ### Shikamaru
-
-![alt text](<13 - 107-14.jpg>)
-
-![alt text](<11 - 172-12.jpg>)
-
-![alt text](<2 - 339-03.jpg>)
 
 ![alt text](<2 - 342-03.jpg>)
 
@@ -102,17 +70,11 @@
 
 ![alt text](<7 - 125-08.jpg>)
 
-![alt text](<12 - 282-13.jpg>)
-
-![alt text](<15 - 394-16.jpg>)
-
 ### Torgal, A Fine Hound
 
 ![alt text](image-113.png)
 
 ### Kiba
-
-![alt text](<4 - 076-05.jpg>)
 
 ![alt text](<14 - 282-15.jpg>)
 
@@ -122,39 +84,23 @@
 
 ### Neji
 
-![alt text](<15 - 041-16.jpg>)
+![alt text](image-153.png)
 
-![alt text](<4 - 070-05.jpg>)
+### ???
 
-![alt text](<13 - 078-14.jpg>)
+![alt text](image-154.png)
 
-### Halana and Alena, Partners
-
-![alt text](image-146.png)
+![alt text](image-155.png)
 
 ### Lee
 
-![alt text](<10 - 083-11.jpg>)
-
 ![alt text](<11 - 085-12.jpg>)
-
-![alt text](<12 - 085-13.jpg>)
-
-![alt text](<16 - 209-17.jpg>)
 
 ### Samut, Voice of Dissent
 
 ![alt text](image-107.png)
 
 ### Gai
-
-![alt text](<2 - 258-03.jpg>)
-
-![alt text](<10 - 258-11.jpg>)
-
-![alt text](<6 - 506-07.jpg>)
-
-![alt text](<0 - 507-01.jpg>)
 
 ![alt text](<15 - 016 (2).jpg>)
 
@@ -164,29 +110,15 @@
 
 ### Jiraiya
 
-![alt text](<17 - 090-18.jpg>)
-
 ![alt text](<2 - 091-03.jpg>)
 
-![alt text](<11 - 124-12.jpg>)
+### Sisay, Weatherlight Captain
 
-![alt text](<1 - 376-02.jpg>)
-
-![alt text](<9 - 377-10.jpg>)
-
-### Chulane, Teller of Tales
-
-![alt text](image-104.png)
+![alt text](image-156.png)
 
 ### Tsunade
 
-![alt text](<5 - 156-06.jpg>)
-
-![alt text](<6 - 156-07.jpg>)
-
-![alt text](<7 - 169-08.jpg>)
-
-![alt text](<13 - 169-14.jpg>)
+![alt text](<12 - 182-13-1.jpg>)
 
 ### Marchesa, the Black Rose
 
@@ -194,13 +126,7 @@
 
 ### Orochimaru
 
-![alt text](<3 - 154-04.jpg>)
-
-![alt text](<9 - 156-10.jpg>)
-
-![alt text](<9 - 161-10.jpg>)
-
-![alt text](<15 - 289-16.jpg>)
+![alt text](<17 - 115-18.jpg>)
 
 ### Shanid, Sleepers' Scourge
 
@@ -208,23 +134,13 @@
 
 ### Kazekage Gaara
 
-![alt text](<8 - 248-09.jpg>)
-
 ![alt text](<3 - 04.jpg>)
-
-![alt text](<16 - 524-17.jpg>)
-
-![alt text](<12 - 556-13.jpg>)
 
 ### Raffine, Scheming Seer
 
 ![alt text](image-144.png)
 
 ### Temari
-
-![alt text](<10 - 213-11.jpg>)
-
-![alt text](<19 - 214-20.jpg>)
 
 ![alt text](<14 - 106-15.jpg>)
 
@@ -234,11 +150,7 @@
 
 ### Kankuro
 
-![alt text](<5 - 125-06.jpg>)
-
 ![alt text](<9 - 250-10.jpg>)
-
-![alt text](<10 - 250-11.jpg>)
 
 ### Spectacular Spider-Man
 
@@ -246,7 +158,7 @@
 
 ### Haku
 
-![alt text](<15 - 030-16.jpg>)
+![alt text](image-158.png)
 
 ### Lightning, Army of One
 
@@ -254,23 +166,15 @@
 
 ### Zabuza
 
-![alt text](<0 - 521-01.jpg>)
-
-![alt text](<17 - 011-18.jpg>)
-
 ![alt text](<13 - 032-14.jpg>)
 
-![alt text](<17 - 032-18.jpg>)
+### Satoru Umezawa
 
-### Grazilaxx, Illithid Scholar
-
-![alt text](image-26.png)
+![alt text](image-159.png)
 
 ### Itachi
 
 ![alt text](<13 - 380-14.jpg>)
-
-![alt text](<18 - 144-19.jpg>)
 
 ### Basim Ibn Ishaq
 
@@ -280,29 +184,13 @@
 
 ![alt text](<17 - 255-18.jpg>)
 
-![alt text](<18 - 257-19.jpg>)
-
-![alt text](<9 - 380-10.jpg>)
-
-![alt text](<16 - 17-1.jpg>)
-
 ### Glissa Sunslayer
 
 ![alt text](image-105.png)
 
 ### Kimimaro
 
-![alt text](<3 - 201-04.jpg>)
-
-![alt text](<4 - 202-05.jpg>)
-
-![alt text](<6 - 206-07.jpg>)
-
 ![alt text](<15 - 211-16.jpg>)
-
-![alt text](<19 - 211-20.jpg>)
-
-![alt text](<10 - 216-11.jpg>)
 
 ### Ratadrabik of Urborg
 
@@ -310,17 +198,7 @@
 
 ### Kabuto
 
-![alt text](<16 - 487-17.jpg>)
-
-![alt text](<1 - 490-02.jpg>)
-
 ![alt text](<15 - 578-16.jpg>)
-
-![alt text](<16 - 579-17.jpg>)
-
-![alt text](<17 - 579-18.jpg>)
-
-![alt text](<18 - 356-19.jpg>)
 
 ### K-9, Mark I
 
@@ -328,25 +206,13 @@
 
 ### Sai
 
-![alt text](<13 - 283-14.jpg>)
-
-![alt text](<11 - 283-12.jpg>)
-
 ![alt text](<20 - 281-21.jpg>)
-
-![alt text](<10 - 517-11.jpg>)
-
-![alt text](<11 - 518-12.jpg>)
 
 ### Raff Capashen, Ship's Mage
 
 ![alt text](image-30.png)
 
 ### Minato
-
-![alt text](<17 - 18.jpg>)
-
-![alt text](<15 - 501-16.jpg>)
 
 ![alt text](<15 - 519-16.jpg>)
 
@@ -364,31 +230,15 @@
 
 ### Killer Bee
 
-![alt text](<16 - 408-17.jpg>)
-
-![alt text](<3 - 411-04.jpg>)
-
 ![alt text](<14 - 411-15.jpg>)
 
-![alt text](<16 - 412-17.jpg>)
+### Zurgo Helmsmasher
 
-![alt text](<1 - 471-02.jpg>)
-
-### Maarika, Brutal Gladiator
-
-![alt text](image-136.png)
+![alt text](image-160.png)
 
 ### Raikage
 
-![alt text](<7 - 454-08.jpg>)
-
 ![alt text](<16 - 460-17.jpg>)
-
-![alt text](<15 - 462-16.jpg>)
-
-![alt text](<3 - 04-05.jpg>)
-
-![alt text](<14 - 16-17.jpg>)
 
 ### Kenrith, the Returned King
 
@@ -406,23 +256,13 @@
 
 ![alt text](<4 - 476-05.jpg>)
 
-![alt text](<16 - 475-17.jpg>)
-
 ### General Ferrous Rokiric
 
 ![alt text](image-138.png)
 
 ### Deidara
 
-![alt text](<6 - 248-07.jpg>)
-
-![alt text](<3 - 360-04.jpg>)
-
 ![alt text](<6 - 360-07.jpg>)
-
-![alt text](<0 - 362-01-1.jpg>)
-
-![alt text](<7 - 362-08.jpg>)
 
 ### Tymna the Weaver
 
@@ -430,17 +270,15 @@
 
 ### Hidan
 
-![alt text](<3 - 324-04.jpg>)
+![alt text](image-163.png)
 
-![alt text](<9 - 336-10.jpg>)
+![alt text](image-164.png)
 
 ### Kethis, the Hidden Hand
 
 ![alt text](image-59.png)
 
 ### Sasori
-
-![alt text](<22 - 266-23.jpg>)
 
 ![alt text](<8 - 271-09.jpg>)
 
@@ -450,7 +288,7 @@
 
 ### Konan
 
-![alt text](<15 - 509-16.jpg>)
+![alt text](<4 - 372-05.jpg>)
 
 ### Niv-Mizzet Reborn
 
@@ -458,11 +296,7 @@
 
 ### Pain
 
-![alt text](<0 - 436-01.jpg>)
-
 ![alt text](<18 - 418-19.jpg>)
-
-![alt text](<16 - 407-17.jpg>)
 
 ### Kamiz, Obscura Oculus
 
@@ -470,11 +304,9 @@
 
 ### Obito
 
-![alt text](<16 - 364-17.jpg>)
+![alt text](<14 - 599-15.jpg>)
 
-![alt text](<16 - 511-17.jpg>)
-
-![alt text](<9 - 010.jpg>)
+![alt text](<11 - 600-12.jpg>)
 
 ### Kamahl, Heart of Krosa
 
@@ -492,14 +324,6 @@
 
 ![alt text](<7 - 08.jpg>)
 
-![alt text](<10 - 12-13.jpg>)
-
-![alt text](<18 - naruto-4492359.jpg>)
-
-![alt text](<3 - naruto-4504445.jpg>)
-
-![alt text](<11 - naruto-4461157.jpg>)
-
 ### Reki, the History of Kamigawa
 
 ![alt text](image-64.png)
@@ -507,8 +331,6 @@
 ### Hagoromo
 
 ![alt text](<3 - 003.jpg>)
-
-![alt text](<14 - 014.jpg>)
 
 ### Atraxa, Grand Unifier
 
@@ -528,8 +350,6 @@
 
 ![alt text](<11 - 502-12.jpg>)
 
-![alt text](<14 - 502-15.jpg>)
-
 ### Deflecting Swat
 
 ![alt text](image-98.png)
@@ -543,10 +363,6 @@
 ![alt text](image-97.png)
 
 ### Susanoo
-
-![alt text](<3 - 392-04.jpg>)
-
-![alt text](<9 - 574-10.jpg>)
 
 ![alt text](<7 - 478-08.jpg>)
 
@@ -582,15 +398,7 @@
 
 ### Chidori
 
-![alt text](<7 - 113-08.jpg>)
-
-![alt text](<14 - 127-15.jpg>)
-
-![alt text](<13 - 128-14.jpg>)
-
 ![alt text](<15 - 128-16.jpg>)
-
-![alt text](<11 - 146-12.jpg>)
 
 ### Urza's Ruinous Blast
 
@@ -614,17 +422,15 @@
 
 ![alt text](image-41.png)
 
-### Chakra Blades
+### Substitution Jutsu
 
-![alt text](<15 - 317-16.jpg>)
+![alt text](image-165.png)
 
 ### Excalibur, Sword of Eden
 
 ![alt text](image-19.png)
 
 ### Kubikiribōchō
-
-![alt text](<15 - 347-16.jpg>)
 
 ![alt text](<16 - 347-17.jpg>)
 
@@ -652,11 +458,7 @@
 
 ### Sasuke Retrieval Team
 
-![alt text](<17 - 182-18.jpg>)
-
 ![alt text](<0 - 183-01.jpg>)
-
-![alt text](<7 - 183-08.jpg>)
 
 ## Planeswalkers
 
@@ -668,12 +470,6 @@
 
 ![alt text](<6 - 08.jpg>)
 
-![alt text](<12 - 14.jpg>)
-
-![alt text](<16 - 600-17.jpg>)
-
-![alt text](<14 - 559-15.jpg>)
-
 ## Utility Lands
 
 ## Mana Artifacts
@@ -682,11 +478,9 @@
 
 ![alt text](image-137.png)
 
-### Ninja Tools
+### Samehada
 
-![alt text](<10 - 049-11.jpg>)
-
-![alt text](<13 - 014-14.jpg>)
+![alt text](<15 - 470-16.jpg>)
 
 ### Mox Amber
 
@@ -704,17 +498,11 @@
 
 ![alt text](<15 - 001-16.jpg>)
 
-![alt text](<5 - 450-06.jpg>)
-
 ### Sol Ring
 
 ![alt text](image-23.png)
 
 ### Kyuubi
-
-![alt text](<9 - 496-10.jpg>)
-
-![alt text](<11 - 308-12.jpg>)
 
 ![alt text](<15 - 228-16.jpg>)
 
@@ -744,19 +532,13 @@
 
 ![alt text](<7 - 422-08.jpg>)
 
-![alt text](<3 - 182-04.jpg>)
-
 ### Path of Ancestry
 
 ![alt text](image-16.png)
 
 ### Valley of the End
 
-![alt text](<18 - 217-19.jpg>)
-
 ![alt text](<13 - 693 - 014.jpg>)
-
-![alt text](<16 - 694 - 017.jpg>)
 
 ### Forest
 
@@ -766,31 +548,19 @@
 
 ![alt text](<3 - 001-04.jpg>)
 
-![alt text](<9 - 10.jpg>)
-
-![alt text](<0 - 034-01-1.jpg>)
-
-![alt text](<5 - 618-06.jpg>)
-
 ### Island
 
 ![alt text](image-21.png)
 
 ### Village Hidden in the Rain
 
-![alt text](<19 - 327-20.jpg>)
-
 ![alt text](<14 - 329-15.jpg>)
-
-![alt text](<4 - 368-05.jpg>)
 
 ### Plains
 
 ![alt text](image-31.png)
 
 ### Village Hidden in the Clouds
-
-![alt text](<6 - 408-07.jpg>)
 
 ![alt text](<12 - 417-13.jpg>)
 
@@ -801,8 +571,6 @@
 ### Village Hidden in the Sand
 
 ![alt text](<2 - 248-03.jpg>)
-
-![alt text](<7 - 247-082.jpg>)
 
 ### Mountain
 
@@ -826,8 +594,6 @@
 
 ### Great Naruto Bridge
 
-![alt text](<4 - 011-05-1.jpg>)
-
 ![alt text](<8 - 033-09-1.jpg>)
 
 ### Spire Garden
@@ -835,12 +601,6 @@
 ![alt text](image-122.png)
 
 ### Uchiha Compound
-
-![alt text](<8 - 402-09.jpg>)
-
-![alt text](<11 - 224-12.jpg>)
-
-![alt text](<10 - 224-11.jpg>)
 
 ![alt text](<6 - 225-07.jpg>)
 
@@ -866,8 +626,6 @@
 
 ### Chunin Exam Preliminaries
 
-![alt text](<7 - 065-08.jpg>)
-
 ![alt text](<1 - 065-02.jpg>)
 
 ### Luxury Suite
@@ -875,8 +633,6 @@
 ![alt text](image-125.png)
 
 ### Uchiha Hideout
-
-![alt text](<13 - 384-14.jpg>)
 
 ![alt text](<13 - 380-14-1.jpg>)
 
@@ -886,11 +642,7 @@
 
 ### Land of Iron
 
-![alt text](<16 - 456-17.jpg>)
-
-![alt text](<15 - 456-16.jpg>)
-
-![alt text](<14 - 456-15.jpg>)
+![alt text](image-161.png)
 
 ### Windswept Heath
 
@@ -905,10 +657,6 @@
 ![alt text](image-120.png)
 
 ### Orochimaru's Lair
-
-![alt text](<14 - 584-15.jpg>)
-
-![alt text](<12 - 345-13.jpg>)
 
 ![alt text](<15 - 346-16.jpg>)
 
@@ -934,13 +682,7 @@
 
 ### Cursed Bone Grove
 
-![alt text](<17 - 217-18.jpg>)
-
-![alt text](<17 - 202-18.jpg>)
-
 ![alt text](<10 - 217-11.jpg>)
-
-![alt text](<8 - 217-09.jpg>)
 
 ### Indatha Triome
 
@@ -974,21 +716,11 @@
 
 ![alt text](<19 - 20.png>)
 
-![alt text](<1 - 530-02.jpg>)
-
-![alt text](<1 - 562-02.jpg>)
-
 ### Minas Tirith
 
 ![alt text](image-129.png)
 
 ### Hokage Mission Control
-
-![alt text](<12 - 182-13.jpg>)
-
-![alt text](<9 - 182-10.jpg>)
-
-![alt text](<3 - 182-04-1.jpg>)
 
 ![alt text](<10 - 182-11.jpg>)
 
@@ -1008,8 +740,6 @@
 
 ![alt text](<7 - 08-1.jpg>)
 
-![alt text](<13 - 14.jpg>)
-
 ### Great Hall of the Citadel
 
 ![alt text](image-126.png)
@@ -1026,15 +756,11 @@
 
 ![alt text](<15 - 254-16.jpg>)
 
-![alt text](<15 - 256-16.jpg>)
-
 ### The World Tree
 
 ![alt text](image-43.png)
 
 ### The God Tree
-
-![alt text](<6 - naruto-4393107.jpg>)
 
 ![alt text](<9 - naruto-4446403.jpg>)
 
@@ -1046,8 +772,6 @@
 
 ### Kaguya's Dimensions
 
-![alt text](<12 - 682 - 013.jpg>)
-
 ![alt text](<16 - 682 - 017.jpg>)
 
 ### Exotic Orchard
@@ -1057,6 +781,18 @@
 ### Root (Anbu Headquarters)
 
 ![alt text](<1 - 424-02.jpg>)
+
+## Sidedeck
+
+### Sandman Shifting Scoundrel
+
+![alt text](image-157.png)
+
+### Gaara of the Bloody Sand
+
+![alt text](<4 - 083-05.jpg>)
+
+![alt text](<17 - 125-18.jpg>)
 
 ## Maybeboard and Ideas
 
@@ -1115,12 +851,6 @@
 ![alt text](<15 - 533-16.jpg>)
 
 ![alt text](<1 - 534-02.jpg>)
-
-### Gaara of the Bloody Sand
-
-![alt text](<4 - 083-05.jpg>)
-
-![alt text](<17 - 125-18.jpg>)
 
 ### CS2 Sasuke
 
