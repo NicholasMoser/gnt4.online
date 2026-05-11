@@ -19,9 +19,7 @@ with open('deck.md', 'r', encoding='utf-8') as deck:
 
 removed = 0
 for image in all_images:
-    if image in used_images:
-        print(f'Used {image}')
-    else:
+    if not(image in used_images):
         print(f'Unused {image}')
         os.remove(image)
         removed += 1

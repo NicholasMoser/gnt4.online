@@ -118,6 +118,8 @@
 
 ![alt text](image-172.png)
 
+![alt text](image-207.png)
+
 ### Marchesa, the Black Rose
 
 ![alt text](image-27.png)
@@ -562,7 +564,7 @@
 
 ### Village Hidden in the Clouds
 
-![alt text](image-202.png)
+![alt text](image-203.png)
 
 ### Swamp
 
@@ -586,7 +588,7 @@
 
 ### Mount Myōboku
 
-![alt text](image-201.png)
+![alt text](image-204.png)
 
 ### Breeding Pool
 
@@ -594,7 +596,7 @@
 
 ### Great Naruto Bridge
 
-![alt text](image-200.png)
+![alt text](image-205.png)
 
 ### Spire Garden
 
@@ -634,7 +636,7 @@
 
 ### Uchiha Hideout
 
-![alt text](image-198.png)
+![alt text](image-206.png)
 
 ### Sacred Foundry
 
