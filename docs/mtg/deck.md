@@ -132,9 +132,9 @@
 
 ![alt text](image-68.png)
 
-### Kazekage Gaara
+### Gaara of the Bloody Sand
 
-![alt text](image-153.png)
+![alt text](image-56.png)
 
 ### Raffine, Scheming Seer
 
@@ -392,8 +392,6 @@
 
 ![alt text](image-104.png)
 
-## Sorceries
-
 ### Cloud's Limit Break
 
 ![alt text](image-112.png)
@@ -401,6 +399,8 @@
 ### Chidori
 
 ![alt text](image-101.png)
+
+## Sorceries
 
 ### Urza's Ruinous Blast
 
@@ -476,9 +476,17 @@
 
 ## Mana Artifacts
 
-### Honor-Worn Shaku
+### Chromatic Lantern
 
-![alt text](image-137.png)
+![alt text](image-198.png)
+
+### Ninja Headband
+
+![alt text](image-208.png)
+
+### Relic of Legends
+
+![alt text](image-52.png)
 
 ### Samehada
 
@@ -507,14 +515,6 @@
 ### Kyuubi
 
 ![alt text](image-81.png)
-
-### Relic of Legends
-
-![alt text](image-52.png)
-
-### Six Paths Chamber
-
-![alt text](image-80.png)
 
 ### Heroes Podium
 
@@ -798,9 +798,9 @@
 
 ![alt text](image-157.png)
 
-### Gaara of the Bloody Sand
+### Kazekage Gaara
 
-![alt text](image-56.png)
+![alt text](image-153.png)
 
 ## Maybeboard and Ideas
 
@@ -884,13 +884,13 @@
 
 ![alt text](<19 - Naruto 698 Naruto & Sasuke 005 - 020.jpg>)
 
-### Ninja Headband
-
-![alt text](<19 - 699 - 020.jpg>)
-
 ### Morning Peacock
 
 ![alt text](<15 - 258-16.jpg>)
+
+### Six Paths Chamber
+
+![alt text](image-80.png)
 
 ### Kyuubi
 
