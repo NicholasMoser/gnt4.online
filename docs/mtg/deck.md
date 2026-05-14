@@ -152,6 +152,8 @@
 
 ![alt text](image-169.png)
 
+![alt text](image-211.png)
+
 ### Spectacular Spider-Man
 
 ![alt text](image-103.png)
@@ -167,6 +169,10 @@
 ### Zabuza
 
 ![alt text](image-168.png)
+
+![alt text](image-209.png)
+
+![alt text](image-210.png)
 
 ### Satoru Umezawa
 
@@ -399,6 +405,10 @@
 ### Chidori
 
 ![alt text](image-101.png)
+
+![alt text](image-212.png)
+
+![alt text](image-213.png)
 
 ## Sorceries
 
